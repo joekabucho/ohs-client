@@ -93,7 +93,7 @@ signIn() {
           }
       } 
     }, error => {
-      this.toast.error("Please confirm if you used the right credentials.", "Login Error!")
+      this.toast.warning("Please confirm if you used the right credentials.", "Login Error!")
      });
   }
 
@@ -124,10 +124,15 @@ verify() {
 
     this.http.post<any>(this.url + '/api/user/verify', payload).subscribe(data => {
       if (data) {
+          this.toast.success("Use the code sent to your email to finalize the account creation", "Registration Message!");
           (document.getElementById('code') as HTMLElement).style.display = 'block';
           (document.getElementById('verify') as HTMLElement).style.display = 'none';
           (document.getElementById('signup') as HTMLElement).style.display = 'block';
+
       }
+    },
+      error => {
+        this.toast.warning("This user already exists", "Registration Error!")
     });
   }
 }
@@ -161,7 +166,8 @@ signUp() {
       if (data) {
         console.log(data);
         container.classList.remove('right-panel-active');
-      }
+      } 
+
     });
   }
 }
