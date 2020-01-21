@@ -3,7 +3,10 @@ import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { dev } from '../../config/dev';
 import { RestApiService } from '../../shared/rest-api.service';
+import { NotificationService } from '../../shared/notification';
 import { ToastrService } from 'ngx-toastr';
+
+
 
 
 @Component({
@@ -16,6 +19,7 @@ export class RegisterpageComponent implements  OnInit, OnDestroy {
   focus2;
   focus3;
   focus4;
+  focus5;
 
   email: String;
   password: String;
@@ -26,7 +30,7 @@ export class RegisterpageComponent implements  OnInit, OnDestroy {
 
   semail: String;
   spassword: String;
-  srole: String = 'User';
+  srole: String ;
   sdepartment: String = 'User';
   sname: String;
   serror: String;
@@ -36,10 +40,13 @@ export class RegisterpageComponent implements  OnInit, OnDestroy {
 
   url = dev.connect;
 
-constructor(private http: HttpClient, private router: Router, private toast: ToastrService) {}
+constructor(private http: HttpClient, private router: Router,
+            private notificationservice: NotificationService,
+            private toast: ToastrService
+  ) {}
 
 ngOnInit() {
-    let body = document.getElementsByTagName('body')[0];
+    const body = document.getElementsByTagName('body')[0];
     body.classList.add('register-page');
 
     const signUpButton = document.getElementById('signUp');
@@ -47,15 +54,18 @@ ngOnInit() {
     const container = document.getElementById('container');
 
     signUpButton.addEventListener('click', () => {
+      console.log('Clicked signup');
       container.classList.add('right-panel-active');
     });
 
     signInButton.addEventListener('click', () => {
+      console.log('Clicked signin');
       container.classList.remove('right-panel-active');
     });
   }
+
 ngOnDestroy() {
-    let body = document.getElementsByTagName('body')[0];
+    const body = document.getElementsByTagName('body')[0];
     body.classList.remove('register-page');
   }
 signIn() {
@@ -81,24 +91,33 @@ signIn() {
     };
 
     this.http.post<any>(this.url + '/api/user/login', payload).subscribe(data => {
-      //console.log(data);
       if (data) {
-        
         this.saveUserDetails(data);
-          if (data.role == 'User'){
-              this.router.navigateByUrl('ecommerce');
+          // tslint:disable-next-line:triple-equals
+        if (data.role === 'job_author') {
+              this.router.navigateByUrl('list-jobcard');
           }
-          if (data.role == 'Admin'){
+        if (data.role === 'technician') {
               this.router.navigateByUrl('landing-page');
           }
-      } 
+        if (data.role === 'pm_hod') {
+              this.router.navigateByUrl('landing-page');
+          }
+        if (data.role === 'ohs_officer') {
+              this.router.navigateByUrl('landing-page');
+          }
+        if (data.role === 'noc_officer') {
+              this.router.navigateByUrl('landing-page');
+          }
+      }
     }, error => {
-      this.toast.warning("Please confirm if you used the right credentials.", "Login Error!")
-     });
+     // console.log("An error occured");
+     alert('Login error, you sure you used the right credentials?');
+    }
+    );
   }
+}
 
-
-  }
 verify() {
   const container = document.getElementById('container');
 
@@ -124,23 +143,23 @@ verify() {
 
     this.http.post<any>(this.url + '/api/user/verify', payload).subscribe(data => {
       if (data) {
-          this.toast.success("Use the code sent to your email to finalize the account creation", "Registration Message!");
+          // this.toast.success("Use the code sent to your email to finalize the account creation", "Registration Message!");
           (document.getElementById('code') as HTMLElement).style.display = 'block';
           (document.getElementById('verify') as HTMLElement).style.display = 'none';
           (document.getElementById('signup') as HTMLElement).style.display = 'block';
 
+          alert('Use the code sent to your email to finalize the account creation');
       }
-    },
-      error => {
-        this.toast.warning("This user already exists", "Registration Error!")
-    });
+    }, error => {
+      alert('An error occured.');
+    //  (document.getElementById('sger') as HTMLElement).style.display = 'block';
+    }
+    );
   }
 }
 
 signUp() {
   const container = document.getElementById('container');
-
-
   if (this.semail === undefined || this.spassword === undefined || this.sname === undefined) {
     this.snotification = true;
   } else if (!this.semail.includes('@')) {
@@ -166,13 +185,13 @@ signUp() {
       if (data) {
         console.log(data);
         container.classList.remove('right-panel-active');
-      } 
+      }
 
     });
   }
 }
 
-saveUserDetails(user){
+saveUserDetails(user) {
   localStorage.setItem('profile', user._id.toString());
 }
 }

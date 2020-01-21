@@ -1,0 +1,113 @@
+<div class="container-fliud">
+
+    <!-- Show it when there is no jobcard created -->
+    <div class="no-data text-center" *ngIf="Jobcard.length == 0">
+        <p>There is no employee added yet!</p>
+        <button class="btn btn-outline-primary" routerLink="/create-employee">Add Jobcard</button>
+    </div>
+
+    <!-- Jobcard list table, it hides when there is no employee -->
+    <div *ngIf="Jobcard.length !== 0">
+        <h3 class="mb-3 text-center">Jobcard List</h3>
+
+        <div>
+            <table class="table mb-3" >
+                <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Created At</th>
+                    <th scope="col">Resource Plan</th>
+                    <th scope="col">Necessary Procedure</th>
+                    <th scope="col">Government Monitor</th>
+                    <th scope="col">H2S Training</th>
+                    <th scope="col">Hard Hat</th>
+                    <th scope="col">Boots</th>
+                    <th scope="col">Cover Walls</th>
+                    <th scope="col">Hearing Protection</th>
+                    <th scope="col">Other PPE</th>
+                    <th scope="col">Scope</th>
+                    <th scope="col">Material</th>
+                    <th scope="col">Traffic Control</th>
+                    <th scope="col">Mobile Phones</th>
+                    <th scope="col">Incident Reporting</th>
+                    <th scope="col">Smoking</th>
+                    <th scope="col">Speed Limits</th>
+                    <th scope="col">First Aid Kits</th>
+                    <th scope="col">Emergency</th>
+                    <th scope="col">Regulatory Requests</th>
+                    <th scope="col">Fire Permit</th>
+                    <th scope="col">Task Hazard</th>
+                    <th scope="col">Site Work Permit</th>
+                    <th scope="col">Ground Disturbance</th>
+                    <th scope="col">Other Permit Forms</th>
+                    <th scope="col">Fire Extinguishers</th>
+                    <th scope="col">Pre-stat Checks</th>
+                    <th scope="col">Back Up Alarm</th>
+                    <th scope="col">Positive Air Shafts</th>
+                    <th scope="col">People Onboard</th>
+                    <th scope="col">Wall Heads</th>
+                    <th scope="col">Others On Site</th>
+                    <th scope="col">Third Party Support</th>
+                    <th scope="col">Sign</th>
+                    <th scope="col" class="text-right">Actions</th>
+
+                </tr>
+                </thead>
+                <tbody>
+                <tr *ngFor="let jobcard of Jobcard">
+                    <td>{{jobcard._id}}</td>
+                    <td>{{jobcard.createdAt}}</td>
+                    <td>{{jobcard.resource_plan}}</td>
+                    <td>{{jobcard.necessary_proc}}</td>
+                    <td>{{jobcard.gov_monitor}}</td>
+                    <td>{{jobcard.h2s_training}}</td>
+                    <td>{{jobcard.hard_hat}}</td>
+                    <td>{{jobcard.boots}}</td>
+                    <td>{{jobcard.coverwalls}}</td>
+                    <td>{{jobcard.hearing_protection}}</td>
+                    <td>{{jobcard.other_ppe}}</td>
+                    <td>{{jobcard.scope}}</td>
+                    <td>{{jobcard.material}}</td>
+                    <td>{{jobcard.traffic_control}}</td>
+                    <td>{{jobcard.mobile_phones}}</td>
+                    <td>{{jobcard.incident_reporting}}</td>
+                    <td>{{jobcard.smoking}}</td>
+                    <td>{{jobcard.speed_limits}}</td>
+                    <td>{{jobcard.first_aid_kit}}</td>
+                    <td>{{jobcard.emergency}}</td>
+                    <td>{{jobcard.regulatory_requests}}</td>
+                    <td>{{jobcard.fire_permit}}</td>
+                    <td>{{jobcard.task_hazard}}</td>
+                    <td>{{jobcard.site_work_permit}}</td>
+                    <td>{{jobcard.ground_disturbance}}</td>
+                    <td>{{jobcard.other_permit_forms}}</td>
+                    <td>{{jobcard.fire_extinguishers}}</td>
+                    <td>{{jobcard.prestat_check}}</td>
+                    <td>{{jobcard.back_up_alarm}}</td>
+                    <td>{{jobcard.positive_air_shafts}}</td>
+                    <td>{{jobcard.people_onboard}}</td>
+                    <td>{{jobcard.wall_heads}}</td>
+                    <td>{{jobcard.others_on_site}}</td>
+                    <td>{{jobcard.third_party_support}}</td>
+                    <td>{{jobcard.signs}}</td>
+
+
+
+
+                    <td>
+
+                        <button type="button" rel="tooltip" class="btn btn-success btn-icon btn-sm " data-original-title="" title="">
+                            <span class="edit" routerLink="/edit-jobcard/{{jobcard.id}}">Edit</span>
+                        </button>
+                        <button type="button" rel="tooltip" class="btn btn-danger btn-icon btn-sm " data-original-title="" title="">
+                            <span class="delete" (click)="deleteJobcard(jobcard.id)">Delete</span>
+                        </button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+</div>

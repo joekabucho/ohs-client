@@ -14,14 +14,14 @@ export class AppComponent implements OnInit {
 
   ngOnInit(){
     
-    var headroom = new Headroom(document.querySelector("#navbar-main"), {
-      offset: 300,
-      tolerance: {
-        up: 30,
-        down: 30
-      },
-    });
-    headroom.init();
+    // var headroom = new Headroom(document.querySelector("#navbar-main"), {
+    //   offset: 300,
+    //   tolerance: {
+    //     up: 30,
+    //     down: 30
+    //   },
+    // });
+    // headroom.init();
   }
 
 }

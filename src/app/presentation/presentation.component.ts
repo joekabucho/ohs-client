@@ -1,34 +1,42 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, OnInit, TemplateRef } from '@angular/core';
 
-import Glide from "@glidejs/glide";
+
+import Glide from '@glidejs/glide';
+import {BsModalRef, BsModalService} from 'ngx-bootstrap';
 
 @Component({
-  selector: "app-presentation",
-  templateUrl: "presentation.component.html"
+  selector: 'app-presentation',
+  templateUrl: 'presentation.component.html'
 })
 export class PresentationComponent implements OnInit {
-  constructor() {}
+  modalRef: BsModalRef;
+  constructor(private modalService: BsModalService) {}
+
+  openModal(template: TemplateRef<any>) {
+    this.modalRef = this.modalService.show(template);
+  }
+
   scrollToDownload(element: any) {
-    element.scrollIntoView({ behavior: "smooth" });
+    element.scrollIntoView({ behavior: 'smooth' });
   }
   ngOnInit() {
-    new Glide(".presentation-cards", {
-      type: "carousel",
+    new Glide('.presentation-cards', {
+      type: 'carousel',
       startAt: 0,
       focusAt: 2,
       perTouch: 1,
       perView: 5
     }).mount();
-    var body = document.getElementsByTagName("body")[0];
-    body.classList.add("presentation-page");
-    var navbar = document.getElementById("navbar-main");
-    navbar.classList.add("bg-primary");
+    const body = document.getElementsByTagName('body')[0];
+    body.classList.add('presentation-page');
+    const navbar = document.getElementById('navbar-main');
+    navbar.classList.add('bg-primary');
   }
 
   ngOnDestroy() {
-    var body = document.getElementsByTagName("body")[0];
-    body.classList.remove("presentation-page");
-    var navbar = document.getElementById("navbar-main");
-    navbar.classList.remove("bg-primary");
+    const body = document.getElementsByTagName('body')[0];
+    body.classList.remove('presentation-page');
+    const navbar = document.getElementById('navbar-main');
+    navbar.classList.remove('bg-primary');
   }
 }

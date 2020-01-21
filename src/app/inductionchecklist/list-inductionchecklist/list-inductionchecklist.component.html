@@ -1,0 +1,75 @@
+<div class="container-fliud">
+
+    <!-- Show it when there is no jobcard created -->
+    <div class="no-data text-center" *ngIf="Jobcard.length == 0">
+        <p>There is no employee added yet!</p>
+        <button class="btn btn-outline-primary" routerLink="/create-employee">Add Jobcard</button>
+    </div>
+
+    <!-- Jobcard list table, it hides when there is no employee -->
+    <div *ngIf="Jobcard.length !== 0">
+        <h3 class="mb-3 text-center">Jobcard List</h3>
+
+        <div>
+            <table class="table mb-3" >
+                <thead>
+                <tr>
+                    <th scope="col">Checklist Id</th>
+                    <th scope="col">Location</th>
+                    <th scope="col">Manager</th>
+                    <th scope="col">Position</th>
+                    <th scope="col">Workplace</th>
+                    <th scope="col">Competencies</th>
+                    <th scope="col">Permits</th>
+                    <th scope="col">Reporting Incidents</th>
+                    <th scope="col">Workplace Safety</th>
+                    <th scope="col">Safety Work Method</th>
+                    <th scope="col">Specialised Equipment</th>
+                    <th scope="col">PPE equipment</th>
+                    <th scope="col">Assembly Points</th>
+                    <th scope="col">Medical Facility</th>
+                    <th scope="col" class="text-right">Emergency Services</th>
+                    <th scope="col" class="text-right">Emergency Communication</th>
+                    <th scope="col" class="text-right">Fire Fighting</th>
+                    <th scope="col" class="text-right">Actions</th>
+
+                </tr>
+                </thead>
+                <tbody>
+                <tr *ngFor="let jobcard of Jobcard">
+                    <td>{{jobcard._id}}</td>
+                    <td>{{jobcard.createdAt}}</td>
+                    <td>{{jobcard.location}}</td>
+                    <td>{{jobcard.manager}}</td>
+                    <td>{{jobcard.position}}</td>
+                    <td>{{jobcard.workplace}}</td>
+                    <td>{{jobcard.permits}}</td>
+                    <td>{{jobcard.reporting_incidents}}</td>
+                    <td>{{jobcard.workplace_safety}}</td>
+                    <td>{{jobcard.safe_work_method}}</td>
+                    <td>{{jobcard.specialised_equipment}}</td>
+                    <td>{{jobcard.ppe_equipment}}</td>
+                    <td>{{jobcard.assembly_points}}</td>
+                    <td>{{jobcard.medical_facility}}</td>
+                    <td>{{jobcard.emergency_services}}</td>
+                    <td>{{jobcard.emergency_communication}}</td>
+                    <td>{{jobcard.firefighting}}</td>
+
+
+                    <td>
+
+                        <button type="button" rel="tooltip" class="btn btn-success btn-icon btn-sm " data-original-title="" title="">
+                            <span class="edit" routerLink="/edit-jobcard/{{jobcard.id}}">Edit</span>
+                        </button>
+                        <button type="button" rel="tooltip" class="btn btn-danger btn-icon btn-sm " data-original-title="" title="">
+                            <span class="delete" (click)="deleteJobcard(jobcard.id)">Delete</span>
+                        </button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+</div>

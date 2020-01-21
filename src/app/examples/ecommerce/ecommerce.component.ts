@@ -1,11 +1,10 @@
-import { Component, OnInit, OnDestroy } from "@angular/core";
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { dev } from '../../config/dev';
-import { Router } from '@angular/router';
 
 @Component({
-  selector: "app-ecommerce",
-  templateUrl: "ecommerce.component.html"
+  selector: 'app-ecommerce',
+  templateUrl: 'ecommerce.component.html'
 })
 export class EcommerceComponent implements OnInit, OnDestroy {
 
@@ -16,7 +15,7 @@ export class EcommerceComponent implements OnInit, OnDestroy {
   cart: any = [];
    
   
-  constructor(private http: HttpClient, private router: Router) {
+  constructor(private http: HttpClient) {
      this.getUser();
   }
 
@@ -46,8 +45,8 @@ export class EcommerceComponent implements OnInit, OnDestroy {
     const payload ={
       userid: this.profile
     }
-    return this.http.post(this.url+ '/api/files/user', payload).subscribe((data)=>{
-      this.products = data
+    return this.http.post(this.url + '/api/files/user', payload).subscribe((data)=>{
+      this.products = data;
     });
   }
   getUser(){
@@ -64,9 +63,9 @@ export class EcommerceComponent implements OnInit, OnDestroy {
     const userDet ={
       userid: userID
     }
-    this.http.post(this.url+'/api/cart/user', userDet).subscribe((cart)=>{
+    this.http.post(this.url +'/api/cart/user', userDet).subscribe((cart)=>{
       this.cart = cart;
-      if(this.cart.length>0){
+      if(this.cart.length >0) {
        const items = this.cart[0].items
        var amountc = this.cart[0].amount
        amountc = amountc + amount
@@ -74,9 +73,9 @@ export class EcommerceComponent implements OnInit, OnDestroy {
        this.cart[0].items = items;
        this.cart[0].amount = amountc;
 
-       this.http.post(this.url+'/api/cart/add', this.cart[0]).subscribe((response)=>{
+       this.http.post(this.url + '/api/cart/add', this.cart[0]).subscribe((response)=>{
         //console.log(response);
-        alert("Added item to cart")
+        alert('Added item to cart')
       })
 
       }
@@ -86,18 +85,14 @@ export class EcommerceComponent implements OnInit, OnDestroy {
         items.push(item);
         const payload ={
           user: userID,
-          items: items,
-          amount: amount,
+          items,
+          amount,
           status: 'Pending'
         }
-        this.http.post(this.url+'/api/cart', payload).subscribe((response)=>{
-          alert("Added item to cart")
-        })
+        this.http.post(this.url + '/api/cart', payload).subscribe((response)=>{
+          alert('Added item to cart');
+        });
       }
-    })
-  }
-
-  checkout(){
-    this.router.navigateByUrl('checkout-page');
+    });
   }
 }

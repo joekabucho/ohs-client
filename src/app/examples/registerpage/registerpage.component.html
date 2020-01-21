@@ -45,6 +45,24 @@
                (focus)="focus = true" />
             </div>
           </div>
+          <div class="form-group mb-3" [ngClass]="{ 'focused': focus3 === true }">
+            <div class="input-group input-group-alternative">
+              <div class="input-group-prepend">
+                <span class="input-group-text">
+                  <i class="ni ni-email-83"> </i>
+                </span>
+              </div>
+          <select [(ngModel)]="srole"  [ngModelOptions]="{standalone: true}" class="form-control" id="exampleFormControlSelect1">
+            <option value="">--Please Select an Option--</option>
+            <option  value="job_author">Job Author</option>
+            <option  value="technician">Technician</option>
+            <option  value="pm_hod">Project Manager / HOD</option>
+            <option  value="ohs_officer">OHS officer</option>
+            <option  value="noc_officer">NOC officer</option>
+          </select>
+            </div>
+          </div>
+
           <div class="form-group mb-3"  [ngClass]="{ 'focused': focus1 === true }">
             <div class="input-group input-group-alternative">
               <div class="input-group-prepend">
@@ -79,9 +97,19 @@
               </label>
             </div>
           </div>
-
-          <div class="form-group" [ngClass]="{'focused': focus2 === true }"
+          <!-- <input
+          [ngClass]="{'focused': focus5 === true }"
+          style="display: none;"
           id="code"
+          [(ngModel)]="scode"
+          [ngModelOptions]="{standalone: true}"
+          class="form-control"
+          placeholder="Code" (blur)="focus2 = false" (focus)="focus2 = true"
+          type="number"
+        /> -->
+          <div class="form-group"
+          id="code"
+          [ngClass]="{'focused': focus5 === true }"
           style="display: none;">
             <div class="input-group input-group-alternative">
               <div class="input-group-prepend">
@@ -93,17 +121,24 @@
                 [(ngModel)]="scode"
                 [ngModelOptions]="{standalone: true}"
                 class="form-control"
-                placeholder="Code" (blur)="focus2 = false" (focus)="focus2 = true"
+                placeholder="Code" (blur)="focus5 = false" (focus)="focus5 = true"
                 type="number"
               />
             </div>
           </div>
+           <div style="display: none;" id="sger">
+             <span style="color: red;">
+                The user already exists.
+             </span>
+           </div>
            <ng-template [ngIf]="snotification"><p style="color: red;">Ensure you dont have empty fields.</p></ng-template>
            <ng-template [ngIf]="swrongdetails"><p style="color: orange;">Enter a valid email</p></ng-template>
+
           <button class="btn btn-primary" id="verify" (click)="verify()">Verify</button>
           <button class="btn btn-primary" id="signup" style="display: none;" (click)="signUp()">Sign Up</button>
         </form>
       </div>
+
       <div class="form-container sign-in-container">
         <form action="#" role="form">
           <h2>Sign in</h2>
@@ -160,9 +195,15 @@
           <a href="javascript:;"> Forgot your password? </a>
           <ng-template [ngIf]="notification && !wrongdetails"><p style="color: red;">Enter email and password</p></ng-template>
           <ng-template [ngIf]="wrongdetails && !notification"><p style="color: orange;">Enter a valid email</p></ng-template>
+          <div style="display: none;" id="lger">
+            <span style="color: red;">
+               Wrong credentials, can't login.
+            </span>
+          </div>
           <button class="btn btn-primary mt-3" (click)="signIn()">Sign In</button>
         </form>
       </div>
+
       <div class="overlay-container">
         <div class="overlay">
           <div class="overlay-panel overlay-left">
@@ -188,6 +229,7 @@
           </div>
         </div>
       </div>
+      
     </div>
   </div>
 </div>

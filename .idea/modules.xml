@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/OHS.iml" filepath="$PROJECT_DIR$/.idea/OHS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ady-client.iml" filepath="$PROJECT_DIR$/.idea/ady-client.iml" />
     </modules>
   </component>
 </project>

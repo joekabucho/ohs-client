@@ -1,7 +1,7 @@
 import { TagInputModule } from 'ngx-chips';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; // this is needed!
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
@@ -46,8 +46,24 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PictureUploadComponent } from './components/picture-upload/picture-upload.component';
 import { HttpClientModule } from '@angular/common/http';
-
 import { ToastrModule } from 'ngx-toastr';
+import {NotificationService} from '../app/shared/notification';
+import { JobcardService } from '../app/shared/jobcard.service';
+import { WorkPermitService } from '../app/shared/work-permit.service';
+import { InductionChecklistService } from '../app/shared/induction-checklist.service';
+import { ToolboxTalkService} from '../app/shared/toolbox-talk.service';
+import { AddJobcardComponent } from './jobcard/add-jobcard/add-jobcard.component';
+import { ListJobcardComponent } from './jobcard/list-jobcard/list-jobcard.component';
+import { EditJobcardComponent } from './jobcard/edit-jobcard/edit-jobcard.component';
+import { AddWorkpermitComponent } from './workpermit/add-workpermit/add-workpermit.component';
+import { ListWorkpermitComponent } from './workpermit/list-workpermit/list-workpermit.component';
+import { EditWorkpermitComponent } from './workpermit/edit-workpermit/edit-workpermit.component';
+import { AddInductionchecklistComponent } from './inductionchecklist/add-inductionchecklist/add-inductionchecklist.component';
+import { EditInductionchecklistComponent } from './inductionchecklist/edit-inductionchecklist/edit-inductionchecklist.component';
+import { ListInductionchecklistComponent } from './inductionchecklist/list-inductionchecklist/list-inductionchecklist.component';
+import { AddToolboxtalkComponent } from './toolboxtalk/add-toolboxtalk/add-toolboxtalk.component';
+import { ListToolboxtalkComponent } from './toolboxtalk/list-toolboxtalk/list-toolboxtalk.component';
+import { EditToolboxtalkComponent } from './toolboxtalk/edit-toolboxtalk/edit-toolboxtalk.component';
 
 
 @NgModule({
@@ -75,7 +91,19 @@ import { ToastrModule } from 'ngx-toastr';
     ResetpageComponent,
     NavbarComponent,
     FooterComponent,
-    PictureUploadComponent
+    PictureUploadComponent,
+    AddJobcardComponent,
+    ListJobcardComponent,
+    EditJobcardComponent,
+    AddWorkpermitComponent,
+    ListWorkpermitComponent,
+    EditWorkpermitComponent,
+    AddInductionchecklistComponent,
+    EditInductionchecklistComponent,
+    ListInductionchecklistComponent,
+    AddToolboxtalkComponent,
+    ListToolboxtalkComponent,
+    EditToolboxtalkComponent
   ],
   imports: [
     CommonModule,
@@ -84,6 +112,7 @@ import { ToastrModule } from 'ngx-toastr';
     RouterModule,
     BrowserAnimationsModule,
     AppRoutingModule,
+    //NotificationService,
     BsDropdownModule.forRoot(),
     ProgressbarModule.forRoot(),
     TooltipModule.forRoot(),
@@ -98,15 +127,14 @@ import { ToastrModule } from 'ngx-toastr';
     BsDatepickerModule.forRoot(),
     CarouselModule.forRoot(),
     ModalModule.forRoot(),
-    
     ToastrModule.forRoot({
-      timeOut: 5000,
-      positionClass: 'toast-bottom-right',
-      preventDuplicates: false,
+      timeOut: 1000,
+      positionClass: 'toast-top-right',
+      preventDuplicates: true,
     }),
-
+    ReactiveFormsModule,
   ],
-  providers: [],
+  providers: [ToolboxTalkService, InductionChecklistService, JobcardService, WorkPermitService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

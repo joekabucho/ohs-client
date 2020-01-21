@@ -1,0 +1,73 @@
+<div class="container-fliud">
+
+    <!-- Show it when there is no jobcard created -->
+    <div class="no-data text-center" *ngIf="Jobcard.length == 0">
+        <p>There is no employee added yet!</p>
+        <button class="btn btn-outline-primary" routerLink="/create-employee">Add Jobcard</button>
+    </div>
+
+    <!-- Jobcard list table, it hides when there is no employee -->
+    <div *ngIf="Jobcard.length !== 0">
+        <h3 class="mb-3 text-center">Jobcard List</h3>
+
+        <div>
+            <table class="table mb-3" >
+                <thead>
+                <tr>
+                    <th scope="col">Jobcard Id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Created At</th>
+                    <th scope="col">Customer</th>
+                    <th scope="col">Starting Date</th>
+                    <th scope="col">End Date</th>
+                    <th scope="col">Work Order Number</th>
+                    <th scope="col">Location Name</th>
+                    <th scope="col">Job Description</th>
+                    <th scope="col">Job Steps</th>
+                    <th scope="col">Hazards</th>
+                    <th scope="col">Uncontainable Risks</th>
+                    <th scope="col">Control Measures</th>
+                    <th scope="col">Controlled Risk Levels</th>
+                    <th scope="col" class="text-right">Status</th>
+                    <th scope="col" class="text-right">Amount Invoiced</th>
+                    <th scope="col" class="text-right">Actions</th>
+
+                </tr>
+                </thead>
+                <tbody>
+                <tr *ngFor="let jobcard of Jobcard">
+                    <td>{{jobcard._id}}</td>
+                    <td>{{jobcard.name}}</td>
+                    <td>{{jobcard.createdAt}}</td>
+                    <td>{{jobcard.customer}}</td>
+                    <td>{{jobcard.starting_date}}</td>
+                    <td>{{jobcard.end_date}}</td>
+                    <td>{{jobcard.workorder_number}}</td>
+                    <td>{{jobcard.location_name}}</td>
+                    <td>{{jobcard.job_description}}</td>
+                    <td>{{jobcard.job_steps}}</td>
+                    <td>{{jobcard.hazards}}</td>
+                    <td>{{jobcard.uncontainable_risks}}</td>
+                    <td>{{jobcard.control_measures}}</td>
+                    <td>{{jobcard.controlled_risk_levels}}</td>
+                    <td>{{jobcard.status}}</td>
+                    <td>{{jobcard.amount_invoiced}}</td>
+
+
+                    <td>
+
+                        <button type="button" rel="tooltip" class="btn btn-success btn-icon btn-sm " data-original-title="" title="">
+                            <span class="edit" routerLink="/edit-jobcard/{{jobcard.id}}">Edit</span>
+                        </button>
+                        <button type="button" rel="tooltip" class="btn btn-danger btn-icon btn-sm " data-original-title="" title="">
+                        <span class="delete" (click)="deleteJobcard(jobcard.id)">Delete</span>
+                        </button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+</div>

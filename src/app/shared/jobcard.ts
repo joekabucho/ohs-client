@@ -1,0 +1,29 @@
+export class Jobcard {
+    name: string;
+    createdAt: Date;
+    customer: string;
+    // tslint:disable-next-line:variable-name
+    starting_date: Date;
+    // tslint:disable-next-line:variable-name
+    end_date: Date;
+    // tslint:disable-next-line:variable-name
+    workorder_number: string;
+    // tslint:disable-next-line:variable-name
+    location_name: string;
+    // tslint:disable-next-line:variable-name
+    job_description: string;
+    // tslint:disable-next-line:variable-name
+    job_steps: string;
+    // tslint:disable-next-line:variable-name
+    hazards: string;
+    // tslint:disable-next-line:variable-name
+    uncontainable_risks: string;
+    // tslint:disable-next-line:variable-name
+    control_measures: string;
+    // tslint:disable-next-line:variable-name
+    controlled_risk_levels: string;
+    // tslint:disable-next-line:variable-name
+    status: string;
+    // tslint:disable-next-line:variable-name
+    amount_invoiced: number;
+}
