@@ -16,6 +16,8 @@ export class Jobcard {
     job_steps: string;
     // tslint:disable-next-line:variable-name
     hazards: string;
+     // tslint:disable-next-line:variable-name
+     issue_to: string;
     // tslint:disable-next-line:variable-name
     uncontainable_risks: string;
     // tslint:disable-next-line:variable-name

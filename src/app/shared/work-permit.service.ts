@@ -11,7 +11,7 @@ import { retry, catchError } from 'rxjs/operators';
 export class WorkPermitService {
 
     // Base url
-    baseurl = 'http://localhost:8000';
+    baseurl = '';
 
     constructor(private http: HttpClient) { }
 
@@ -24,7 +24,7 @@ export class WorkPermitService {
 
     // POST
     CreateWorkPermit(data): Observable<WorkPermit> {
-        return this.http.post<WorkPermit>(this.baseurl + '/api/toolbox_talk/', JSON.stringify(data), this.httpOptions)
+        return this.http.post<WorkPermit>(this.baseurl + '/api/work_permit/', JSON.stringify(data), this.httpOptions)
             .pipe(
                 retry(1),
                 catchError(this.errorHandl)
@@ -32,8 +32,9 @@ export class WorkPermitService {
     }
 
     // GET
-    GetWorkPermits(id): Observable<WorkPermit> {
-        return this.http.get<WorkPermit>(this.baseurl + '/api/work_permit/' + id)
+    // tslint:disable-next-line:variable-name
+    GetWorkPermits(_id): Observable<WorkPermit> {
+        return this.http.get<WorkPermit>(this.baseurl + '/api/work_permit/' + _id)
             .pipe(
                 retry(1),
                 catchError(this.errorHandl)
@@ -50,8 +51,9 @@ export class WorkPermitService {
     }
 
     // PUT
-    UpdateWorkPermit(id, data): Observable<WorkPermit> {
-        return this.http.put<WorkPermit>(this.baseurl + '/api/work_permit/' + id, JSON.stringify(data), this.httpOptions)
+    // tslint:disable-next-line:variable-name
+    UpdateWorkPermit(_id, data): Observable<WorkPermit> {
+        return this.http.put<WorkPermit>(this.baseurl + '/api/work_permit/' + _id, JSON.stringify(data), this.httpOptions)
             .pipe(
                 retry(1),
                 catchError(this.errorHandl)
@@ -59,8 +61,9 @@ export class WorkPermitService {
     }
 
     // DELETE
-    DeleteWorkPermit(id) {
-        return this.http.delete<WorkPermit>(this.baseurl + '/api/work_permit/' + id, this.httpOptions)
+    // tslint:disable-next-line:variable-name
+    DeleteWorkPermit(_id) {
+        return this.http.delete<WorkPermit>(this.baseurl + '/api/work_permit/' + _id, this.httpOptions)
             .pipe(
                 retry(1),
                 catchError(this.errorHandl)

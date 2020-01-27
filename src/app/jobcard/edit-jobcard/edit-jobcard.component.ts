@@ -9,7 +9,8 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class EditJobcardComponent implements OnInit {
 
-  id = this.actRoute.snapshot.params['id'];
+  // tslint:disable-next-line:variable-name
+  _id = this.actRoute.snapshot.params['_id'];
   jobcardData: any = {};
 
   constructor(public jobcardRestApi: JobcardService,
@@ -19,15 +20,17 @@ export class EditJobcardComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.jobcardRestApi.getJobcards(this.id).subscribe((data: {}) => {
+    this.jobcardRestApi.getJobcards(this._id).subscribe((data: {}) => {
       this.jobcardData = data;
+      const navbar = document.getElementById('navbar-main');
+      navbar.classList.add('bg-primary');
     });
 
   }
   // Update employee data
   updateJobcard() {
-    if(window.confirm('Are you sure, you want to update?')) {
-      this.jobcardRestApi.updateJobcard(this.id, this.jobcardData).subscribe(data => {
+    if (window.confirm('Are you sure, you want to update?')) {
+      this.jobcardRestApi.updateJobcard(this._id, this.jobcardData).subscribe(data => {
         this.router.navigate(['/list-jobcard']);
       });
     }

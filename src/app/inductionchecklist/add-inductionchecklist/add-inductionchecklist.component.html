@@ -3,77 +3,82 @@
 
         <!-- Form -->
         <div class="col-md-12">
-            <h3>Add Jobcard</h3>
+            <h3>Add Induction Checklist</h3>
+            <h3>Add Induction Checklist</h3>
+            <h3>Add Induction Checklist</h3>
             <form>
 
                 <div class="form-group">
                     <label  class="form-control-label">Location</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.location"  type="text" [ngModelOptions]="{standalone: true}">
+                    <input class="form-control form-control-alternative" [(ngModel)]="inductionDetails.location"  type="text" [ngModelOptions]="{standalone: true}">
                 </div>
                 <div class="form-group" >
                     <label  class="form-control-label">Manager</label>
-                    <input class="form-control form-control-alternative" type="text" [(ngModel)]="jobcardDetails.manager"  [ngModelOptions]="{standalone: true}">
+                    <input class="form-control form-control-alternative" type="text" [(ngModel)]="inductionDetails.manager"  [ngModelOptions]="{standalone: true}">
                 </div>
                 <div class="form-group">
                     <label class="form-control-label">Position</label>
-                    <input class="form-control form-control-alternative" type="date" [(ngModel)]="jobcardDetails.position" [ngModelOptions]="{standalone: true}">
+                    <input class="form-control form-control-alternative" type="text" [(ngModel)]="inductionDetails.position" [ngModelOptions]="{standalone: true}">
                 </div>
                 <div class="form-group">
                     <label class="form-control-label">Work Place</label>
-                    <input class="form-control form-control-alternative" type="date" [(ngModel)]="jobcardDetails.workplace" [ngModelOptions]="{standalone: true}">
+                    <input class="form-control form-control-alternative" type="text" [(ngModel)]="inductionDetails.workplace" [ngModelOptions]="{standalone: true}">
                 </div>
-                <div class="form-group">
-                    <label class="form-control-label">Competencies</label>
-                    <input class="form-control form-control-alternative" type="date" [(ngModel)]="jobcardDetails.competencies" [ngModelOptions]="{standalone: true}">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1" [(ngModel)]="inductionDetails.competencies" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck1">Competencies</label>
                 </div>
-                <div class="form-group">
-                    <label class="form-control-label">Permits</label>
-                    <input class="form-control form-control-alternative" type="date" [(ngModel)]="jobcardDetails.permits" [ngModelOptions]="{standalone: true}">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck2" [(ngModel)]="inductionDetails.permits" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck2">Permits</label>
                 </div>
-                <div class="form-group">
-                    <label class="form-control-label">Reporting Incidents</label>
-                    <input class="form-control form-control-alternative" type="date" [(ngModel)]="jobcardDetails.reporting_incidents" [ngModelOptions]="{standalone: true}">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck3" [(ngModel)]="inductionDetails.reporting_incidents" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck3">Reporting Incidents</label>
                 </div>
-                <div class="form-group">
-                    <label class="form-control-label">Workplace Safety</label>
-                    <input class="form-control form-control-alternative" type="date" [(ngModel)]="jobcardDetails.workplace_safety" [ngModelOptions]="{standalone: true}">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck4" [(ngModel)]="inductionDetails.workplace_safety" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck4">Workplace Safety</label>
                 </div>
-                <div class="form-group">
-                    <label class="form-control-label">Safe Work Methods</label>
-                    <input class="form-control form-control-alternative" type="date" [(ngModel)]="jobcardDetails.safe_work_method" [ngModelOptions]="{standalone: true}">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck5" [(ngModel)]="inductionDetails.safe_work_method" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck5">Safe Work Methods</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck6" [(ngModel)]="inductionDetails.specialised_equipment" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck6">Specilised Equipment</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck7" [(ngModel)]="inductionDetails.ppe_equipment" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck7">PPE Equipment</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck8" [(ngModel)]="inductionDetails.assembly_points" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck8">Assembly Points</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck9" [(ngModel)]="inductionDetails.medical_facility" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck9">Medical Facility</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck10" [(ngModel)]="inductionDetails.emergency_services" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck10">Emergency Services</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck11" [(ngModel)]="inductionDetails.emergency_communication" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck11">Emergency Communication<</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck12" [(ngModel)]="inductionDetails.firefighting" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck12">Firefighting</label>
                 </div>
 
-                <div class="form-group">
-                    <label class="form-control-label">Specilised Equipment</label>
-                    <input class="form-control form-control-alternative" type="date" [(ngModel)]="jobcardDetails.specialised_equipment" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label class="form-control-label">PPE equipment</label>
-                    <input class="form-control form-control-alternative" type="date" [(ngModel)]="jobcardDetails.ppe_equipment" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label class="form-control-label">Assembly Points</label>
-                    <input class="form-control form-control-alternative" type="date" [(ngModel)]="jobcardDetails.assembly_points" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label class="form-control-label">Medical Facility</label>
-                    <input class="form-control form-control-alternative" type="date" [(ngModel)]="jobcardDetails.medical_facility" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label class="form-control-label">Emergency Services</label>
-                    <input class="form-control form-control-alternative" type="date" [(ngModel)]="jobcardDetails.emergency_services" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label class="form-control-label">Emergency Communication</label>
-                    <input class="form-control form-control-alternative" type="date" [(ngModel)]="jobcardDetails.emergency_communication" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label class="form-control-label">Firefighting</label>
-                    <input class="form-control form-control-alternative" type="date" [(ngModel)]="jobcardDetails.firefighting" [ngModelOptions]="{standalone: true}">
-                </div>
+
+
+
 
                 <div class="form-group">
-                    <button class="btn btn-success btn-lg btn-block" (click)="addJobcard()">Create Jobcard</button>
+                    <button class="btn btn-success btn-lg btn-block" (click)="addInduction()">Create Induction Checklist</button>
                 </div>
             </form>
         </div>

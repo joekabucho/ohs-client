@@ -1,8 +1,53 @@
+
+<div class="wrapper">
+    <div class="section section-hero section-shaped">
+        <div class="page-header">
+            <div
+                    class="page-header-image"
+                    style="background-image: url('assets/img/ill/presentation_bg.png');"
+            ></div>
+            <div
+                    class="container-fluid shape-container d-flex align-items-center py-lg"
+            >
+                <div class="col px-0">
+                    <div class="row">
+                        <div class="col-lg-4 ml-5">
+                            <p class="lead">
+                                welcome to the OHS job author platform<br />
+
+
+                            </p>
+                            <div class="btn-wrapper mt-5">
+                                <a
+                                        class="btn btn-white btn-icon mb-3 mb-sm-0"
+
+                                >
+                  <span class="btn-inner--icon">
+                    <i class="fas fa-building"> </i>
+                  </span>
+                                    <span class="btn-inner--text"  [routerLink]="['/add-jobcard']">new jobcard</span>
+                                    <!--                  <span class="btn-inner&#45;&#45;text"  (click)="openModal(template)" >new jobcard</span>-->
+                                </a>
+                            </div>
+                            <div class="mt-5">
+                                <small class="font-weight-bold mb-0 mr-2">
+                                    *proudly coded by joe kabucho
+                                </small>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 <div class="container-fliud">
 
     <!-- Show it when there is no jobcard created -->
     <div class="no-data text-center" *ngIf="Jobcard.length == 0">
-        <p>There is no employee added yet!</p>
+        <p>There is no job card added yet!</p>
         <button class="btn btn-outline-primary" routerLink="/create-employee">Add Jobcard</button>
     </div>
 
@@ -30,6 +75,7 @@
                     <th scope="col">Controlled Risk Levels</th>
                     <th scope="col" class="text-right">Status</th>
                     <th scope="col" class="text-right">Amount Invoiced</th>
+                    <th scope="col" class="text-right">Send To</th>
                     <th scope="col" class="text-right">Actions</th>
 
                 </tr>
@@ -52,15 +98,16 @@
                     <td>{{jobcard.controlled_risk_levels}}</td>
                     <td>{{jobcard.status}}</td>
                     <td>{{jobcard.amount_invoiced}}</td>
+                    <td>{{jobcard.issue_to}}</td>
 
 
                     <td>
 
                         <button type="button" rel="tooltip" class="btn btn-success btn-icon btn-sm " data-original-title="" title="">
-                            <span class="edit" routerLink="/edit-jobcard/{{jobcard.id}}">Edit</span>
+                            <span class="edit" routerLink="/edit-jobcard/{{jobcard._id}}">Edit</span>
                         </button>
                         <button type="button" rel="tooltip" class="btn btn-danger btn-icon btn-sm " data-original-title="" title="">
-                        <span class="delete" (click)="deleteJobcard(jobcard.id)">Delete</span>
+                        <span class="delete" (click)="deleteJobcard(jobcard._id)">Delete</span>
                         </button>
                     </td>
                 </tr>
@@ -70,4 +117,147 @@
 
     </div>
 
+</div>
+    <section class="section-cards mb-5">
+        <div class="content-center">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-md-12 col-md-6">
+                        <div class="presentation-cards">
+                            <div class="glide__track" data-glide-el="track">
+                                <ul class="glide__slides">
+                                    <div>
+                                    <li class="glide__slide">
+<!--                                        <div class="card card-blog" data-header="pattern">-->
+<!--                                            <a href="javascript:;">-->
+<!--                                                <img class="img pattern rounded" src="assets/img/ill/p2.svg" />-->
+<!--                                            </a>-->
+<!--                                            <div class="card-body">-->
+<!--                                                <h6 class="card-category text-danger">-->
+<!--                                                    <i class="ni ni-badge"></i> Features-->
+<!--                                                </h6>-->
+<!--                                                <h5 class="card-title">-->
+<!--                                                    <a href="javascript:;">FiftyThree Files For Paper</a>-->
+<!--                                                </h5>-->
+<!--                                                <p class="card-description">-->
+<!--                                                    Yesterday, as Facebook launched its news reader app Paper, design-focused startup FiftyThree called out Facebook...-->
+<!--                                                </p>-->
+<!--                                            </div>-->
+<!--                                            <div class="card-footer">-->
+<!--                                                <div class="author">-->
+<!--                                                    <img src="assets/img/faces/team-3.jpg" alt="..." class="avatar img-raised" />-->
+<!--                                                    <span>Johana Doe</span>-->
+<!--                                                </div>-->
+<!--                                                <div class="stats stats-right">-->
+<!--                                                    <i class="ni ni-favourite-28"></i> 10.4K ·-->
+<!--                                                    <i class="ni ni-archive-2"></i> 425-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+                                    </li>
+<!--                                        <li class="glide__slide">-->
+<!--                                            <div class="card card-blog bg-primary" data-image="path">-->
+<!--                                                <div class="card-image">-->
+<!--                                                    <img class="img rounded" src="assets/img/ill/p22.png" />-->
+<!--                                                </div>-->
+<!--                                                <div class="card-body pt-0">-->
+<!--                                                    <h6 class="category text-white">-->
+<!--                                                        <i class="ni ni-atom"></i>-->
+<!--                                                        Focus-->
+<!--                                                    </h6>-->
+<!--                                                    <h5 class="card-title">-->
+<!--                                                        <a class="text-white" href="javascript:;">Stay focused</a>-->
+<!--                                                    </h5>-->
+<!--                                                    <p class="card-description text-white">-->
+<!--                                                        Our brains are finely attuned to distraction, so today's digital environment makes it especially hard to focus...-->
+<!--                                                    </p>-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                        </li>-->
+                                    </div>
+                                </ul>
+                            </div>
+                            <div class="glide__arrows" data-glide-el="controls">
+<!--                                <button-->
+<!--                                        class="glide__arrow glide__arrow&#45;&#45;left text-default"-->
+<!--                                        aria-label="Previous"-->
+<!--                                        data-glide-dir="<"-->
+<!--                                >-->
+<!--                                    <i class="ni ni-bold-left"> </i>-->
+<!--                                </button>-->
+<!--                                <button-->
+<!--                                        class="glide__arrow glide__arrow&#45;&#45;right text-default"-->
+<!--                                        aria-label="Next"-->
+<!--                                        data-glide-dir=">"-->
+<!--                                >-->
+<!--                                    <i class="ni ni-bold-right"> </i>-->
+<!--                                </button>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="row">
+        <div class="col-md-2" *ngFor="let card of Jobcard">
+            <div class="card card-blog" data-header="pattern">
+                <a href="javascript:;">
+                    <img class="img pattern rounded" src="assets/img/ill/p2.svg" />
+                </a>
+                <div class="card-body">
+                    <h6 class="card-category text-danger">
+                        <i class="ni ni-badge"></i>
+                    </h6>
+                    <h5 class="card-title">
+                        <a href="javascript:;">{{card.name}}</a>
+                    </h5>
+                    <p class="card-description">
+                        {{card.name}}<br>
+                        {{card.customer}}<br>
+                        {{card.location_name}}<br>
+                        {{card.job_description}}<br>
+                        {{card.status}}<br>
+                        {{card.amount_invoiced}}<br>
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <button (click)="openModal(template)" type="button" id="users" class="btn btn-primary">Send To User</button>
+                </div>
+                <ng-template #template>
+                    <div class="modal-header">
+                        <h1 class="modal-title pull-right">Send To</h1>
+                        <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group mb-3"  [ngClass]="{ 'focused': focus === true }">
+                            <div class="input-group input-group-alternative">
+                                <div class="input-group-prepend">
+                <span class="input-group-text">
+                  <i class="ni ni-circle-08"> </i>
+                </span>
+                                </div>
+
+                                <label style="padding-top: 10px">Send To: </label >
+                                <select class="form-control" id="category"  [(ngModel)]="user"
+                                        [ngModelOptions]="{standalone: true}"
+                                        type="text" (blur)="focus = false"
+                                        (focus)="focus = true"
+                                >
+                                    <option *ngFor="let user of users" [value]="user._id">{{user.name}} who is a {{user.role}}</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </ng-template>
+
+            </div>
+
+        </div>
+
+
+    </div>
 </div>

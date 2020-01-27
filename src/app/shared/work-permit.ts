@@ -11,6 +11,8 @@ export class WorkPermit {
     site_name: string;
     project: string;
     technician: string;
+     // tslint:disable-next-line:variable-name
+     control_measures: string;
     comments: string;
     // tslint:disable-next-line:variable-name
     valid_from: Date;

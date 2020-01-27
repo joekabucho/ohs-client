@@ -75,8 +75,8 @@ export class EcommerceComponent implements OnInit, OnDestroy {
 
        this.http.post(this.url + '/api/cart/add', this.cart[0]).subscribe((response)=>{
         //console.log(response);
-        alert('Added item to cart')
-      })
+        alert('Added item to cart');
+      });
 
       }
       else{

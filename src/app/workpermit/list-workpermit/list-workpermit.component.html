@@ -1,14 +1,16 @@
 <div class="container-fliud">
 
     <!-- Show it when there is no jobcard created -->
-    <div class="no-data text-center" *ngIf="Jobcard.length == 0">
-        <p>There is no employee added yet!</p>
-        <button class="btn btn-outline-primary" routerLink="/create-employee">Add Jobcard</button>
+    <div class="no-data text-center" *ngIf="Workpermit.length == 0">
+        <p>There is no work permit added yet!</p>
+        <button class="btn btn-outline-primary" routerLink="/add-workpermit">Add Workpermit</button>
     </div>
 
     <!-- Jobcard list table, it hides when there is no employee -->
-    <div *ngIf="Jobcard.length !== 0">
-        <h3 class="mb-3 text-center">Jobcard List</h3>
+    <div *ngIf="Workpermit.length !== 0">
+        <h3>Add WorkafPermit</h3>
+        <h3>Add WorkafPermit</h3>
+        <h3 class="mb-3 text-center">Work Permit List</h3>
 
         <div>
             <table class="table mb-3" >
@@ -26,6 +28,7 @@
                     <th scope="col">Comments</th>
                     <th scope="col">Valid From</th>
                     <th scope="col">Valid To</th>
+                    <th scope="col">Sent  To</th>
 
 
                     <th scope="col" class="text-right">Actions</th>
@@ -33,19 +36,20 @@
                 </tr>
                 </thead>
                 <tbody>
-                <tr *ngFor="let jobcard of Jobcard">
-                    <td>{{jobcard._id}}</td>
-                    <td>{{jobcard.createdAt}}</td>
-                    <td>{{jobcard.created_by}}</td>
-                    <td>{{jobcard.approver_by}}</td>
-                    <td>{{jobcard.ammendments}}</td>
-                    <td>{{jobcard.issued_by}}</td>
-                    <td>{{jobcard.site_name}}</td>
-                    <td>{{jobcard.project}}</td>
-                    <td>{{jobcard.Technician}}</td>
-                    <td>{{jobcard.comments}}</td>
-                    <td>{{jobcard.valid_from}}</td>
-                    <td>{{jobcard.valid_to}}</td>
+                <tr *ngFor="let workpermit of Workpermit">
+                    <td>{{workpermit._id}}</td>
+                    <td>{{workpermit.createdAt}}</td>
+                    <td>{{workpermit.created_by}}</td>
+                    <td>{{workpermit.approver_by}}</td>
+                    <td>{{workpermit.ammendments}}</td>
+                    <td>{{workpermit.issued_by}}</td>
+                    <td>{{workpermit.site_name}}</td>
+                    <td>{{workpermit.project}}</td>
+                    <td>{{workpermit.Technician}}</td>
+                    <td>{{workpermit.comments}}</td>
+                    <td>{{workpermit.valid_from}}</td>
+                    <td>{{workpermit.valid_to}}</td>
+                    <td>{{workpermit.issue_to}}</td>
 
 
 
@@ -53,10 +57,10 @@
                     <td>
 
                         <button type="button" rel="tooltip" class="btn btn-success btn-icon btn-sm " data-original-title="" title="">
-                            <span class="edit" routerLink="/edit-jobcard/{{jobcard.id}}">Edit</span>
+                            <span class="edit" routerLink="/edit-workpermit/{{workpermit._id}}">Edit</span>
                         </button>
                         <button type="button" rel="tooltip" class="btn btn-danger btn-icon btn-sm " data-original-title="" title="">
-                            <span class="delete" (click)="deleteJobcard(jobcard.id)">Delete</span>
+                            <span class="delete" (click)="deleteWorkPermit(workpermit._id)">Delete</span>
                         </button>
                     </td>
                 </tr>

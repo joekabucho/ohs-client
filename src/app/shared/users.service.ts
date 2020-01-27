@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { AccessControl } from './access-control';
+import { Users } from './users';
 import { Observable, throwError } from 'rxjs';
 import { retry, catchError } from 'rxjs/operators';
 
@@ -8,7 +8,7 @@ import { retry, catchError } from 'rxjs/operators';
   providedIn: 'root'
 })
 
-export class RestApiService {
+export class UsersService {
 
   // Define API
   apiURL = '';
@@ -26,27 +26,19 @@ export class RestApiService {
     })
   };
 
-  // HttpClient API get() method => Fetch users list
-  getUsers(): Observable<AccessControl> {
-    return this.http.get<AccessControl>(this.apiURL + '/api/user/register')
+
+
+  // HttpClient API get() method => Fetch employee
+  // tslint:disable-next-line:variable-name
+  // HttpClient API get() method => Fetch employees list
+  getUsers(): Observable<Users> {
+    return this.http.get<Users>(this.apiURL + '/api/user')
         .pipe(
             retry(1),
             catchError(this.handleError)
         );
   }
 
-  // HttpClient API get() method => Fetch users
-  getUser(id): Observable<AccessControl> {
-    return this.http.get<AccessControl>(this.apiURL + '/api/user/register' + id)
-        .pipe(
-            retry(1),
-            catchError(this.handleError)
-        );
-  }
-
-  getUsersDesigns(payload) {
-    return this.http.get(this.apiURL+ '/api/files/user', payload);
-  }
 
 
   // Error handling

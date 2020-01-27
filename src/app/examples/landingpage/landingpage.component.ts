@@ -14,14 +14,14 @@ export class LandingpageComponent implements OnInit, OnDestroy {
   focus3;
   focus4;
 
-  
+
   isCollapsed = true;
   fileToUpload: File = null;
   user: String;
   filename: String;
   amount: String;
   file: any;
-  users : any;
+  users: any;
   profile: any;
 
   url = dev.connect;
@@ -43,15 +43,15 @@ export class LandingpageComponent implements OnInit, OnDestroy {
     this.fileToUpload = files.item(0);
   }
   upload(){
-    this.postFile(this.fileToUpload, ("/"+this.fileToUpload.name)).subscribe(data=>{
+    this.postFile(this.fileToUpload, ('/' + this.fileToUpload.name)).subscribe(data => {
       console.log(data);
-       alert("Template was uploaded successfully");
-       this.user = "";
-       this.amount = "";
-       this.filename = "";
+       alert('Template was uploaded successfully');
+       this.user = '';
+       this.amount = '';
+       this.filename = '';
        this.fileToUpload = null;
-       this.file = "";
-    })
+       this.file = '';
+    });
   }
   postFile(fileToUpload: File, filename) {
 
@@ -67,11 +67,11 @@ export class LandingpageComponent implements OnInit, OnDestroy {
   }
 
   getAllUsers(){
-    this.http.get(this.url +'/api/user/getAll').subscribe((data)=>{
+    this.http.get(this.url + '/api/user/getAll').subscribe((data) => {
        this.users = data;
-    })
+    });
   }
   getUser(){
-   this.profile = localStorage.getItem('profile')
+   this.profile = localStorage.getItem('profile');
   }
 }

@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { InductionChecklistService } from '../../shared/induction-checklist.service';
-import {JobcardService} from '../../shared/jobcard.service';
 
 @Component({
   selector: 'app-list-inductionchecklist',
@@ -15,19 +14,22 @@ export class ListInductionchecklistComponent implements OnInit {
 
     ngOnInit() {
         this.loadInductionchecklists();
+        const navbar = document.getElementById('navbar-main');
+        navbar.classList.add('bg-primary');
 
     }
     // Get employees list
     loadInductionchecklists() {
-        return this.InductionchecklistRestApi.getInductionchecklists().subscribe((data: {}) => {
+        return this.InductionchecklistRestApi.GetInductionChecklist().subscribe((data: {}) => {
             this.Inductionchecklist = data;
         });
     }
 
     // Delete induction checklist
-    DeleteInductionChecklist(id) {
+    // tslint:disable-next-line:variable-name
+    DeleteInductionChecklist(_id) {
         if (window.confirm('Are you sure, you want to delete?')) {
-            this.InductionchecklistRestApi.DeleteInductionChecklist(id).subscribe(data => {
+            this.InductionchecklistRestApi.DeleteInductionChecklist(_id).subscribe(data => {
                 this.loadInductionchecklists();
             });
         }

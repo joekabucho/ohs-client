@@ -11,7 +11,7 @@ import { retry, catchError } from 'rxjs/operators';
 export class ToolboxTalkService {
 
     // Base url
-    baseurl = 'http://localhost:8000';
+    baseurl = '';
 
     constructor(private http: HttpClient) { }
 

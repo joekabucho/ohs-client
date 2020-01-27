@@ -24,7 +24,7 @@ export class InductionChecklistService {
 
   // POST
   CreateInductionChecklist(data): Observable<InductionChecklist> {
-    return this.http.post<InductionChecklist>(this.baseurl + '/api/induction_checklist/', JSON.stringify(data), this.httpOptions)
+    return this.http.post<InductionChecklist>(this.baseurl + '/api/induction_checklist', JSON.stringify(data), this.httpOptions)
         .pipe(
             retry(1),
             catchError(this.errorHandl)
@@ -32,8 +32,9 @@ export class InductionChecklistService {
   }
 
   // GET
-  GetInductionChecklists(id): Observable<InductionChecklist> {
-    return this.http.get<InductionChecklist>(this.baseurl + '/api/induction_checklist/' + id)
+  // tslint:disable-next-line:variable-name
+  GetInductionChecklists(_id): Observable<InductionChecklist> {
+    return this.http.get<InductionChecklist>(this.baseurl + '/api/induction_checklist/' + _id)
         .pipe(
             retry(1),
             catchError(this.errorHandl)
@@ -50,8 +51,9 @@ export class InductionChecklistService {
   }
 
   // PUT
-  UpdateInductionChecklist(id, data): Observable<InductionChecklist> {
-    return this.http.put<InductionChecklist>(this.baseurl + '/api/induction_checklist/' + id, JSON.stringify(data), this.httpOptions)
+  // tslint:disable-next-line:variable-name
+  UpdateInductionChecklist(_id, data): Observable<InductionChecklist> {
+    return this.http.put<InductionChecklist>(this.baseurl + '/api/induction_checklist/' + _id, JSON.stringify(data), this.httpOptions)
         .pipe(
             retry(1),
             catchError(this.errorHandl)
@@ -59,8 +61,9 @@ export class InductionChecklistService {
   }
 
   // DELETE
-  DeleteInductionChecklist(id) {
-    return this.http.delete<InductionChecklist>(this.baseurl + '/api/induction_checklist/' + id, this.httpOptions)
+  // tslint:disable-next-line:variable-name
+  DeleteInductionChecklist(_id) {
+    return this.http.delete<InductionChecklist>(this.baseurl + '/api/induction_checklist/' + _id, this.httpOptions)
         .pipe(
             retry(1),
             catchError(this.errorHandl)

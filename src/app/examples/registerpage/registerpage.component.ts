@@ -98,13 +98,13 @@ signIn() {
               this.router.navigateByUrl('list-jobcard');
           }
         if (data.role === 'technician') {
-              this.router.navigateByUrl('landing-page');
+              this.router.navigateByUrl('contact-us');
           }
         if (data.role === 'pm_hod') {
-              this.router.navigateByUrl('landing-page');
+              this.router.navigateByUrl('list-induction-checklist');
           }
         if (data.role === 'ohs_officer') {
-              this.router.navigateByUrl('landing-page');
+              this.router.navigateByUrl('list-toolbox-talk');
           }
         if (data.role === 'noc_officer') {
               this.router.navigateByUrl('landing-page');

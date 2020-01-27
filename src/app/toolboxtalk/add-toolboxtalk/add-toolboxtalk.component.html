@@ -3,144 +3,148 @@
 
         <!-- Form -->
         <div class="col-md-12">
-            <h3>Add Jobcard</h3>
+            <h3>Add Toolbox Talks</h3>
+            <h3>Add Toolbox Talks</h3>
+            <h3>Add Toolbox Talks</h3>
             <form>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1" [(ngModel)]="toolboxDetails.resource_plan" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck1">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck2" [(ngModel)]="toolboxDetails.necessary_proc" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck2">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck3" [(ngModel)]="toolboxDetails.gov_monitor" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck3">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck4" [(ngModel)]="toolboxDetails.h2s_training" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck4">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck5" [(ngModel)]="toolboxDetails.hard_hat" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck5">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck6" [(ngModel)]="toolboxDetails.boots" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck6">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck7" [(ngModel)]="toolboxDetails.coverwalls" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck7">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck8" [(ngModel)]="toolboxDetails.hearing_protection" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck8">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck9" [(ngModel)]="toolboxDetails.other_ppe" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck9">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck10" [(ngModel)]="toolboxDetails.scope" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck10">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck11" [(ngModel)]="toolboxDetails.material" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck11">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck12" [(ngModel)]="toolboxDetails.traffic_control" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck12">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck13" [(ngModel)]="toolboxDetails.mobile_phones" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck13">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck14" [(ngModel)]="toolboxDetails.incident_reporting" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck14">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck15" [(ngModel)]="toolboxDetails.smoking" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck15">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck16" [(ngModel)]="toolboxDetails.speed_limits" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck16">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck17" [(ngModel)]="toolboxDetails.first_aid_kit" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck17">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck18" [(ngModel)]="toolboxDetails.emergency" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck18">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck19" [(ngModel)]="toolboxDetails.regulatory_requests" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck19">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck20" [(ngModel)]="toolboxDetails.fire_permit" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck20">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck21" [(ngModel)]="toolboxDetails.task_hazard" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck21">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck22" [(ngModel)]="toolboxDetails.site_work_permit" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck22">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck23" [(ngModel)]="toolboxDetails.ground_disturbance" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck23">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck24" [(ngModel)]="toolboxDetails.other_permit_forms" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck1">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck25" [(ngModel)]="toolboxDetails.fire_extinguishers" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck25">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck26" [(ngModel)]="toolboxDetails.prestat_check" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck26">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck27" [(ngModel)]="toolboxDetails.back_up_alarm" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck1">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck28" [(ngModel)]="toolboxDetails.positive_air_shafts" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck1">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck29" [(ngModel)]="toolboxDetails.people_onboard" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck29">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck30" [(ngModel)]="toolboxDetails.wall_heads" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck30">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck31" [(ngModel)]="toolboxDetails.others_on_site" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck31">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck32" [(ngModel)]="toolboxDetails.third_party_support" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck32">Competencies</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck33" [(ngModel)]="toolboxDetails.signs" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck33">Competencies</label>
+                </div>
+
+
+
 
                 <div class="form-group">
-                    <label  class="form-control-label">Resource Plan</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.resource_plan"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">Necessary Procedure</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.necessary_proc"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">Government Monitor</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.gov_monitor"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">H2S Training</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.h2s_training"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">Hard Hat</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.hard_hat"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">Boots</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.boots"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">Cover Walls</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.coverwalls"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">Hearing Protection</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.hearing_protection"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">Other PPE</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.other_ppe"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">Scope</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.scope"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">Material</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.material"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">Traffic Control</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.traffic_control"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">Mobile Phones</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.mobile_phones"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">Incident Reporting</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.incident_reporting"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">Smoking</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.smoking"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">Speed Limits</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.speed_limits"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">First Aid Kits</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.first_aid_kit"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">Emergency</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.emergency"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">Regulatory Requests</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.regulatory_requests"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">Fire Permit</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.fire_permit"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">Task Hazard</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.task_hazard"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">Site Work Permit</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.site_work_permit"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">Ground Disturbance</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.ground_disturbance"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">Other Permit Forms</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.other_permit_forms"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">Fire Extinguishers</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.fire_extinguishers"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">Pre-stat Checks</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.prestat_check"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">Back Up Alarm</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.back_up_alarm"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">Positive Air Shafts</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.positive_air_shafts"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">People Onboard</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.people_onboard"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">Wall Heads</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.wall_heads"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">Others On Site</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.others_on_site"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">Third Party Support</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.third_party_support"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-                <div class="form-group">
-                    <label  class="form-control-label">Sign</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.signs"  type="text" [ngModelOptions]="{standalone: true}">
-                </div>
-
-                <div class="form-group">
-                    <button class="btn btn-success btn-lg btn-block" (click)="addJobcard()">Create Toolbox Talk</button>
+                    <button class="btn btn-success btn-lg btn-block" (click)="addToolboxTalk()">Create Toolbox Talk</button>
                 </div>
             </form>
         </div>

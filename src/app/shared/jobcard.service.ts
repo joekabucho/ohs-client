@@ -36,8 +36,9 @@ export class JobcardService {
   }
 
   // HttpClient API get() method => Fetch employee
-  getJobcards(id): Observable<Jobcard> {
-    return this.http.get<Jobcard>(this.apiURL + '/api/jobcard/' + id)
+  // tslint:disable-next-line:variable-name
+  getJobcards(_id): Observable<Jobcard> {
+    return this.http.get<Jobcard>(this.apiURL + '/api/jobcard/' + _id)
         .pipe(
             retry(1),
             catchError(this.handleError)
@@ -54,8 +55,9 @@ export class JobcardService {
   }
 
   // HttpClient API put() method => Update employee
-  updateJobcard(id, jobcard): Observable<Jobcard> {
-    return this.http.put<Jobcard>(this.apiURL + '/api/jobcard/' + id, JSON.stringify(jobcard), this.httpOptions)
+  // tslint:disable-next-line:variable-name
+  updateJobcard(_id, jobcard): Observable<Jobcard> {
+    return this.http.put<Jobcard>(this.apiURL + '/api/jobcard/' + _id, JSON.stringify(jobcard), this.httpOptions)
         .pipe(
             retry(1),
             catchError(this.handleError)
@@ -63,8 +65,9 @@ export class JobcardService {
   }
 
   // HttpClient API delete() method => Delete employee
-  deleteJobcard(id) {
-    return this.http.delete<Jobcard>(this.apiURL + '/api/jobcard/' + id, this.httpOptions)
+  // tslint:disable-next-line:variable-name
+  deleteJobcard(_id) {
+    return this.http.delete<Jobcard>(this.apiURL + '/api/jobcard/' + _id, this.httpOptions)
         .pipe(
             retry(1),
             catchError(this.handleError)
