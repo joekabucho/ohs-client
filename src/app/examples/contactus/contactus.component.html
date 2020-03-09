@@ -30,105 +30,189 @@
 
     </div>
   </div>
+
   <div class="row">
-    <div class="col-md-4">
-      <div class="card card-blog" data-header="pattern">
-        <a href="javascript:;">
-          <img class="img pattern rounded" src="assets/img/ill/p2.svg" />
-        </a>
-        <div class="card-body">
-          <h6 class="card-category text-danger">
-            <i class="ni ni-badge"></i> Features
-          </h6>
-          <h5 class="card-title">
-            <a href="javascript:;">FiftyThree Files For Paper</a>
-          </h5>
-          <p class="card-description">
-            Yesterday, as Facebook launched its news reader app Paper, design-focused startup FiftyThree called out Facebook...
-          </p>
-        </div>
-        <div class="card-footer">
-          <div class="author">
-            <img src="assets/img/faces/team-3.jpg" alt="..." class="avatar img-raised" />
-            <span>Johana Doe</span>
-          </div>
-          <div class="stats stats-right">
-            <i class="ni ni-favourite-28"></i> 10.4K ·
-            <i class="ni ni-archive-2"></i> 425
-          </div>
-        </div>
-      </div>
-      <div class="card bg-gradient-danger">
-        <div class="card-body pb-0">
-          <h6 class="category-social text-white text-uppercase">
-            <i class="fa fa-fire"></i> Focus
-          </h6>
-          <p class="lead text-white my-0">
-            Our brains are finely attuned to distraction
-          </p>
-        </div>
-        <a href="javascript:;">
-          <img class="img pattern rounded" src="assets/img/ill/p51.svg" />
-        </a>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card card-blog" data-header="skew">
-        <div class="card-header bg-yellow">
-          <div class="card-image">
-            <img class="card-img-top" src="assets/img/ill/inn.svg" />
-          </div>
-        </div>
-        <div class="card-body">
-          <h6 class="card-category">
-            <i class="ni ni-paper-diploma"></i>
-            Business
-          </h6>
-          <h5 class="card-title">
-            <a href="javascript:;">Springer Spends $343M To Buy Business Insider</a>
-          </h5>
-          <p class="card-description">
-            German media giant Axel Springer has announced it’s acquiring online business news publication Business Inside...
-          </p>
-        </div>
-      </div>
+    <div class="col-md-2" *ngFor="let card of Jobcard">
+
       <div class="card text-white bg-default">
         <img class="card-img" src="assets/img/ill/inn.svg" alt="Card image" />
         <div class="card-img-overlay d-flex align-items-center">
           <div class="content">
-            <h5 class="h2 card-title text-white mb-2">Card Title</h5>
-            <p class="card-description">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text text-sm font-weight-bold">Last updated 3 mins ago</p>
+            <h5 class="h2 card-title text-white mb-2">{{card.name}}</h5>
+            <p class="card-description">{{card.customer}}</p>
+              <p class="card-description">{{card.location_name}}</p>
+              <p class="card-description">{{card.job_description}}</p>
+              <p class="card-description">{{card.status}}</p>
+            <p class="card-text text-sm font-weight-bold">{{card.amount_invoiced}}</p>
+              <button (click)="openModal(template)" type="button" id="users" class="btn btn-white btn-icon mb-3 mb-sm-0">View More</button>
           </div>
         </div>
       </div>
     </div>
-    <div class="col-md-4">
-      <div class="card card-blog bg-info">
-        <img class="img pattern rounded" src="assets/img/ill/p7.svg" />
-        <div class="card-body">
-          <h4 class="display-4 text-white">Here Be Dragons</h4>
-          <p class="lead text-white mt-0">Our brains are finely attuned to distraction, so today's digital environment makes it especially hard to focus...</p>
-        </div>
-      </div>
-      <div class="card card-blog bg-primary" data-image="path">
-        <div class="card-image">
-          <img class="img rounded" src="assets/img/ill/p22.png" />
-        </div>
-        <div class="card-body pt-0">
-          <h6 class="category text-white">
-            <i class="ni ni-atom"></i>
-            Focus
-          </h6>
-          <h5 class="card-title">
-            <a class="text-white" href="javascript:;">Stay focused</a>
-          </h5>
-          <p class="card-description text-white">
-            Our brains are finely attuned to distraction, so today's digital environment makes it especially hard to focus...
-          </p>
-        </div>
-      </div>
-    </div>
+      <ng-template #template>
+          <div class="modal-header">
+              <h1 class="modal-title pull-right">Job cards</h1>
+              <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <div class="form-group mb-3"  [ngClass]="{ 'focused': focus === true }">
+                  <div class="input-group input-group-alternative">
+                      <div class="input-group-prepend">
+                <span class="input-group-text">
+                  <i class="ni ni-circle-08"> </i>
+                </span>
+                      </div>
+
+                      <div *ngIf="Jobcard.length !== 0">
+                          <h3 class="mb-3 text-center">Jobcard List</h3>
+
+                          <div *ngFor="let jobcard of Jobcard">
+                              <div class="row py-3 align-items-center">
+                                  <small class="text-uppercase text-muted font-weight-bold">id</small>
+                              <div class="col-sm-3">
+                                  <blockquote class="blockquote">
+                                      <p class="mb-0">{{jobcard._id}}</p>
+                                  </blockquote>
+                              </div>
+                              </div>
+
+                              <div class="row py-3 align-items-center">
+                                  <small class="text-uppercase text-muted font-weight-bold">Name</small>
+                                  <div class="col-sm-3">
+                                      <blockquote class="blockquote">
+                                          <p class="mb-0">{{jobcard.name}}</p>
+                                      </blockquote>
+                                  </div>
+                              </div>
+                              <div class="row py-3 align-items-center">
+                                  <small class="text-uppercase text-muted font-weight-bold">Created At</small>
+                                  <div class="col-sm-3">
+                                      <blockquote class="blockquote">
+                                          <p class="mb-0">{{jobcard.createdAt}}</p>
+                                      </blockquote>
+                                  </div>
+                              </div>
+                              <div class="row py-3 align-items-center">
+                                  <small class="text-uppercase text-muted font-weight-bold">Customer</small>
+                                  <div class="col-sm-3">
+                                      <blockquote class="blockquote">
+                                          <p class="mb-0">{{jobcard.customer}}</p>
+                                      </blockquote>
+                                  </div>
+                              </div>
+                              <div class="row py-3 align-items-center">
+                                  <small class="text-uppercase text-muted font-weight-bold">Starting Date</small>
+                                  <div class="col-sm-3">
+                                      <blockquote class="blockquote">
+                                          <p class="mb-0">{{jobcard.starting_date}}</p>
+                                      </blockquote>
+                                  </div>
+                              </div>
+                              <div class="row py-3 align-items-center">
+                                  <small class="text-uppercase text-muted font-weight-bold">End Date</small>
+                                  <div class="col-sm-3">
+                                      <blockquote class="blockquote">
+                                          <p class="mb-0">{{jobcard.end_date}}</p>
+                                      </blockquote>
+                                  </div>
+                              </div>
+                              <div class="row py-3 align-items-center">
+                                  <small class="text-uppercase text-muted font-weight-bold">id</small>
+                                  <div class="col-sm-3">
+                                      <blockquote class="blockquote">
+                                          <p class="mb-0">{{jobcard.workorder_number}}</p>
+                                      </blockquote>
+                                  </div>
+                              </div>
+                              <div class="row py-3 align-items-center">
+                                  <small class="text-uppercase text-muted font-weight-bold">Location Name</small>
+                                  <div class="col-sm-3">
+                                      <blockquote class="blockquote">
+                                          <p class="mb-0">{{jobcard.location_name}}</p>
+                                      </blockquote>
+                                  </div>
+                              </div>
+                              <div class="row py-3 align-items-center">
+                                  <small class="text-uppercase text-muted font-weight-bold">Job Description</small>
+                                  <div class="col-sm-3">
+                                      <blockquote class="blockquote">
+                                          <p class="mb-0">{{jobcard.job_description}}</p>
+                                      </blockquote>
+                                  </div>
+                              </div>
+                              <div class="row py-3 align-items-center">
+                                  <small class="text-uppercase text-muted font-weight-bold">Job Steps</small>
+                                  <div class="col-sm-3">
+                                      <blockquote class="blockquote">
+                                          <p class="mb-0">{{jobcard.job_steps}}</p>
+                                      </blockquote>
+                                  </div>
+                              </div>
+                              <div class="row py-3 align-items-center">
+                                  <small class="text-uppercase text-muted font-weight-bold">Hazards</small>
+                                  <div class="col-sm-3">
+                                      <blockquote class="blockquote">
+                                          <p class="mb-0">{{jobcard.hazards}}</p>
+                                      </blockquote>
+                                  </div>
+                              </div>
+                              <div class="row py-3 align-items-center">
+                                  <small class="text-uppercase text-muted font-weight-bold">Uncontainable Risks</small>
+                                  <div class="col-sm-3">
+                                      <blockquote class="blockquote">
+                                          <p class="mb-0">{{jobcard.uncontainable_risks}}</p>
+                                      </blockquote>
+                                  </div>
+                              </div>
+                              <div class="row py-3 align-items-center">
+                                  <small class="text-uppercase text-muted font-weight-bold">Control Measures</small>
+                                  <div class="col-sm-3">
+                                      <blockquote class="blockquote">
+                                          <p class="mb-0">{{jobcard.control_measures}}</p>
+                                      </blockquote>
+                                  </div>
+                              </div>
+                              <div class="row py-3 align-items-center">
+                                  <small class="text-uppercase text-muted font-weight-bold">Controlled Risk Levels</small>
+                                  <div class="col-sm-3">
+                                      <blockquote class="blockquote">
+                                          <p class="mb-0">{{jobcard.controlled_risk_levels}}</p>
+                                      </blockquote>
+                                  </div>
+                              </div>
+                              <div class="row py-3 align-items-center">
+                                  <small class="text-uppercase text-muted font-weight-bold">Status</small>
+                                  <div class="col-sm-3">
+                                      <blockquote class="blockquote">
+                                          <p class="mb-0">{{jobcard.status}}</p>
+                                      </blockquote>
+                                  </div>
+                              </div>
+                              <div class="row py-3 align-items-center">
+                                  <small class="text-uppercase text-muted font-weight-bold">Amount Invoiced</small>
+                                  <div class="col-sm-3">
+                                      <blockquote class="blockquote">
+                                          <p class="mb-0">{{jobcard.amount_invoiced}}</p>
+                                      </blockquote>
+                                  </div>
+                              </div>
+
+
+
+
+
+
+                          </div>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+      </ng-template>
+
   </div>
 
 </div>

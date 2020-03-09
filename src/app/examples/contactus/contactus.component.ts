@@ -2,27 +2,39 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import {dev} from '../../config/dev';
 import {HttpClient} from '@angular/common/http';
 declare const google: any;
+import { JobcardService } from '../../shared/jobcard.service';
+import {BsModalRef, BsModalService} from 'ngx-bootstrap';
+import {TemplateRef} from '@angular/core';
 
 @Component({
   selector: 'app-contactus',
-  templateUrl: 'contactus.component.html'
+  templateUrl: './contactus.component.html'
 })
 export class ContactusComponent implements OnInit, OnDestroy {
+  user: String;
+  users: any;
   focus;
   focus1;
   focus2;
   focus3;
-  jobcard: String;
-  jobcards: any;
+
   profile: any;
   url = dev.connect;
+  modalRef: BsModalRef;
 
-  constructor(private http: HttpClient) {
-    // this.getAlljobcards();
-    // this.getjobcard();
+  Jobcard: any = [];
+
+  constructor( public JobcardRespApi: JobcardService , private http: HttpClient, private modalService: BsModalService) {
+
+    this.getAllUsers();
+    this.getUser();
+  }
+  openModal(template: TemplateRef<any>) {
+    this.modalRef = this.modalService.show(template);
   }
 
   ngOnInit() {
+    this.loadJobcards();
     let body = document.getElementsByTagName('body')[0];
     body.classList.add('contact-page');
 
@@ -114,12 +126,17 @@ export class ContactusComponent implements OnInit, OnDestroy {
     const navbar = document.getElementById('navbar-main');
     navbar.classList.remove('bg-default');
   }
-  // getAlljobcard() {
-  //   this.http.get(this.url + '/api/jobcard/getAll').subscribe((data) => {
-  //     this.jobcards = data;
-  //   });
-  // }
-  // getJobcard()
-  //   this.profile = localStorage.getItem('profile');
-  // }
+  loadJobcards() {
+    return this.JobcardRespApi.getJobcard().subscribe(data => {
+      this.Jobcard = data;
+    });
+  }
+  getAllUsers() {
+    this.http.get(this.url + '/api/user/getAll').subscribe((data) => {
+        this.users = data;
+    });
+}
+getUser() {
+    this.profile = localStorage.getItem('profile');
+}
 }

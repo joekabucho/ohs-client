@@ -13,15 +13,15 @@ export class EcommerceComponent implements OnInit, OnDestroy {
   profile: any;
   userDetails: any;
   cart: any = [];
-   
-  
+
+
   constructor(private http: HttpClient) {
      this.getUser();
   }
 
   ngOnInit() {
-    var body = document.getElementsByTagName("body")[0];
-    body.classList.add("ecommerce-page");
+    const body = document.getElementsByTagName('body')[0];
+    body.classList.add('ecommerce-page');
     this.getUsersDesigns();
 
     //  const length = (this.products.length/3).toFixed(0);
@@ -29,8 +29,8 @@ export class EcommerceComponent implements OnInit, OnDestroy {
 
   }
   ngOnDestroy(){
-    var body = document.getElementsByTagName("body")[0];
-    body.classList.remove("ecommerce-page");
+    var body = document.getElementsByTagName('body')[0];
+    body.classList.remove('ecommerce-page');
   }
 
   loadmore(){

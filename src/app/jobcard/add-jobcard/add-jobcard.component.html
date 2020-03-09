@@ -7,9 +7,9 @@
             <h3>Add Jobcard</h3>
             <h3>Add Jobcard</h3>
             <form>
-
+                <h3>Site Jobcard</h3>
                 <div class="form-group">
-                    <label  class="form-control-label">Name</label>
+                    <label  class="form-control-label"> Site Name</label>
                     <input class="form-control form-control-alternative" [(ngModel)]="jobcardDetails.name"  type="text" [ngModelOptions]="{standalone: true}">
                 </div>
                 <div class="form-group" >
@@ -45,7 +45,7 @@
                     <input class="form-control form-control-alternative" type="text"  [(ngModel)]="jobcardDetails.hazards" [ngModelOptions]="{standalone: true}">
                 </div>
                 <div class="form-group">
-                    <label  class="form-control-label">uncontrollable risks</label>
+                    <label  class="form-control-label">uncontrollable risk level</label>
                     <input class="form-control form-control-alternative" type="text"  [(ngModel)]="jobcardDetails.uncontainable_risks" [ngModelOptions]="{standalone: true}">
                 </div>
                 <div class="form-group">
@@ -79,7 +79,7 @@
                                 (focus)="focus = true"
                                 [(ngModel)]="jobcardDetails.issue_to"
                         >
-                            <option   *ngFor="let user of users" [value]="user.name">{{user.name}} who is a {{user.role}}</option>
+                            <option   *ngFor="let user of users" [value]="user._id">{{user.name}} who is a {{user.role}}</option>
                         </select>
                     </div>
                 </div>

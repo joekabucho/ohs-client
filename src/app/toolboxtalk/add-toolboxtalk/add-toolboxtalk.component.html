@@ -8,136 +8,149 @@
             <h3>Add Toolbox Talks</h3>
             <form>
                 <div class="custom-control custom-checkbox">
+                    <h3>Critical H2S Areas</h3>
                     <input type="checkbox" class="custom-control-input" id="customCheck1" [(ngModel)]="toolboxDetails.resource_plan" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck1">Competencies</label>
+                    <label class="custom-control-label" for="customCheck1">Is there a resource Plan</label>
                 </div>
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck2" [(ngModel)]="toolboxDetails.necessary_proc" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck2">Competencies</label>
+                    <label class="custom-control-label" for="customCheck2">have you taken necessary Precautions</label>
                 </div>
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck3" [(ngModel)]="toolboxDetails.gov_monitor" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck3">Competencies</label>
+                    <label class="custom-control-label" for="customCheck3">Is the presence Gas monitor</label>
                 </div>
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck4" [(ngModel)]="toolboxDetails.h2s_training" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck4">Competencies</label>
+                    <label class="custom-control-label" for="customCheck4">have you undergone H2S training</label>
                 </div>
                 <div class="custom-control custom-checkbox">
+                    <h3>PPE</h3>
+                    <p>Tick if these equipment is there ignore if not</p>
                     <input type="checkbox" class="custom-control-input" id="customCheck5" [(ngModel)]="toolboxDetails.hard_hat" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck5">Competencies</label>
+                    <label class="custom-control-label" for="customCheck5">Hard hat and safety glasses</label>
                 </div>
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck6" [(ngModel)]="toolboxDetails.boots" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck6">Competencies</label>
+                    <label class="custom-control-label" for="customCheck6">CSA approved boots</label>
                 </div>
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck7" [(ngModel)]="toolboxDetails.coverwalls" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck7">Competencies</label>
+                    <label class="custom-control-label" for="customCheck7">Coverwalls</label>
                 </div>
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck8" [(ngModel)]="toolboxDetails.hearing_protection" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck8">Competencies</label>
+                    <label class="custom-control-label" for="customCheck8">Hearing protection,Dusk masks</label>
                 </div>
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck9" [(ngModel)]="toolboxDetails.other_ppe" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck9">Competencies</label>
+                    <label class="custom-control-label" for="customCheck9">Other PPE</label>
                 </div>
                 <div class="custom-control custom-checkbox">
+                    <h3>Communication</h3>
+                    <p>Tick if you have information on the following</p>
                     <input type="checkbox" class="custom-control-input" id="customCheck10" [(ngModel)]="toolboxDetails.scope" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck10">Competencies</label>
+                    <label class="custom-control-label" for="customCheck10">Scope of work</label>
                 </div>
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck11" [(ngModel)]="toolboxDetails.material" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck11">Competencies</label>
+                    <label class="custom-control-label" for="customCheck11">Material Storage and Handling</label>
                 </div>
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck12" [(ngModel)]="toolboxDetails.traffic_control" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck12">Competencies</label>
+                    <label class="custom-control-label" for="customCheck12">Traffic Control</label>
                 </div>
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck13" [(ngModel)]="toolboxDetails.mobile_phones" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck13">Competencies</label>
+                    <label class="custom-control-label" for="customCheck13">Mobile phones</label>
                 </div>
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck14" [(ngModel)]="toolboxDetails.incident_reporting" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck14">Competencies</label>
+                    <label class="custom-control-label" for="customCheck14">Incident reporting</label>
                 </div>
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck15" [(ngModel)]="toolboxDetails.smoking" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck15">Competencies</label>
+                    <label class="custom-control-label" for="customCheck15">Smoking policy</label>
                 </div>
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck16" [(ngModel)]="toolboxDetails.speed_limits" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck16">Competencies</label>
+                    <label class="custom-control-label" for="customCheck16">Speed Limits</label>
                 </div>
                 <div class="custom-control custom-checkbox">
+                    <h3>First Aid Kits</h3>
+                    <p>Tick if the site has the following equipment</p>
                     <input type="checkbox" class="custom-control-input" id="customCheck17" [(ngModel)]="toolboxDetails.first_aid_kit" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck17">Competencies</label>
+                    <label class="custom-control-label" for="customCheck17">First aid kit</label>
                 </div>
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck18" [(ngModel)]="toolboxDetails.emergency" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck18">Competencies</label>
+                    <label class="custom-control-label" for="customCheck18">Emergency</label>
                 </div>
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck19" [(ngModel)]="toolboxDetails.regulatory_requests" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck19">Competencies</label>
+                    <label class="custom-control-label" for="customCheck19">Regulatory requests</label>
                 </div>
                 <div class="custom-control custom-checkbox">
+                    <h3>FORM/PERMITS</h3>
+                    <p>Tick if you have all these permits</p>
                     <input type="checkbox" class="custom-control-input" id="customCheck20" [(ngModel)]="toolboxDetails.fire_permit" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck20">Competencies</label>
+                    <label class="custom-control-label" for="customCheck20">Fire Permit</label>
                 </div>
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck21" [(ngModel)]="toolboxDetails.task_hazard" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck21">Competencies</label>
+                    <label class="custom-control-label" for="customCheck21">task hazard</label>
                 </div>
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck22" [(ngModel)]="toolboxDetails.site_work_permit" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck22">Competencies</label>
+                    <label class="custom-control-label" for="customCheck22">Site work permit</label>
                 </div>
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck23" [(ngModel)]="toolboxDetails.ground_disturbance" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck23">Competencies</label>
+                    <label class="custom-control-label" for="customCheck23">Ground Clearance</label>
                 </div>
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck24" [(ngModel)]="toolboxDetails.other_permit_forms" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck1">Competencies</label>
+                    <label class="custom-control-label" for="customCheck1">Other permit forms</label>
                 </div>
                 <div class="custom-control custom-checkbox">
+                    <h3>MOBILE EQUIPMENT</h3>
+                    <p>Tick if you have these equipment</p>
                     <input type="checkbox" class="custom-control-input" id="customCheck25" [(ngModel)]="toolboxDetails.fire_extinguishers" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck25">Competencies</label>
+                    <label class="custom-control-label" for="customCheck25">Fire extinguisher</label>
                 </div>
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck26" [(ngModel)]="toolboxDetails.prestat_check" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck26">Competencies</label>
+                    <label class="custom-control-label" for="customCheck26">Pre stat checks</label>
                 </div>
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck27" [(ngModel)]="toolboxDetails.back_up_alarm" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck1">Competencies</label>
+                    <label class="custom-control-label" for="customCheck1">Back up alarms</label>
                 </div>
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck28" [(ngModel)]="toolboxDetails.positive_air_shafts" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck1">Competencies</label>
+                    <label class="custom-control-label" for="customCheck1">Positive air shafts</label>
                 </div>
                 <div class="custom-control custom-checkbox">
+                    <h3>EXISTING WORK SITE</h3>
+                    <p>Tick if you have these conditions met</p>
                     <input type="checkbox" class="custom-control-input" id="customCheck29" [(ngModel)]="toolboxDetails.people_onboard" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck29">Competencies</label>
+                    <label class="custom-control-label" for="customCheck29">Minimum of  2 people</label>
                 </div>
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck30" [(ngModel)]="toolboxDetails.wall_heads" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck30">Competencies</label>
+                    <label class="custom-control-label" for="customCheck30">Wall heads</label>
                 </div>
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck31" [(ngModel)]="toolboxDetails.others_on_site" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck31">Competencies</label>
+                    <label class="custom-control-label" for="customCheck31">Others on site</label>
                 </div>
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck32" [(ngModel)]="toolboxDetails.third_party_support" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck32">Competencies</label>
+                    <label class="custom-control-label" for="customCheck32">Third party support</label>
                 </div>
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck33" [(ngModel)]="toolboxDetails.signs" [ngModelOptions]="{standalone: true}">
-                    <label class="custom-control-label" for="customCheck33">Competencies</label>
+                    <label class="custom-control-label" for="customCheck33">verification</label>
                 </div>
 
 

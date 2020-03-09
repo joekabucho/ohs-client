@@ -31,14 +31,56 @@
                   </div>
                   <input
                     class="form-control"
-                    placeholder="Email" (blur)="focus = false" (focus)="focus = true"
+                    [(ngModel)]="email"
+                    [ngModelOptions]="{standalone: true}"
+                    placeholder="Email"
+                     (blur)="focus = false" 
+                     (focus)="focus = true"
                     type="email"
                   />
                 </div>
               </div>
+
+              <div id="code" style="display: none;" class="form-group mb-3" [ngClass]="{ 'focused': focus1 === true }">
+                <div class="input-group input-group-alternative">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">
+                      <i class="ni ni-email-83"> </i>
+                    </span>
+                  </div>
+                  <input
+                    class="form-control"
+                    [(ngModel)]="code"
+                    [ngModelOptions]="{standalone: true}"
+                    placeholder="Reset Code" (blur)="focus = false" (focus)="focus2 = true"
+                    type="number"
+                  />
+                </div>
+              </div>
+
+              <div id="pass" style="display: none;" class="form-group mb-3" [ngClass]="{ 'focused': focus === true }">
+                <div class="input-group input-group-alternative">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">
+                      <i class="ni ni-email-83"> </i>
+                    </span>
+                  </div>
+                  <input
+                    class="form-control"
+                    [(ngModel)]="password"
+                    [ngModelOptions]="{standalone: true}"
+                    placeholder="Password" (blur)="focus = false" (focus)="focus = true"
+                    type="password"
+                  />
+                </div>
+              </div>
+
               <div class="text-center">
-                <button class="btn btn-primary my-4" type="button">
-                  Send
+                <button id='resetcodebtn' class="btn btn-primary my-4" (click)="getCode()" type="button">
+                  Get Code
+                </button>
+                <button id="resetbtn" style="display: none;" (click)="resetPassword()" class="btn btn-primary my-4" type="button">
+                  Reset
                 </button>
               </div>
             </form>
