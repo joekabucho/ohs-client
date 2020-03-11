@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { InductionChecklistService } from '../../shared/induction-checklist.service';
+import { JobcardService } from '../../shared/jobcard.service';
 
 @Component({
   selector: 'app-list-inductionchecklist',
@@ -7,12 +8,17 @@ import { InductionChecklistService } from '../../shared/induction-checklist.serv
 })
 export class ListInductionchecklistComponent implements OnInit {
 
+    isCollapsed = false;
+
+    Jobcard: any = [];
+
     Inductionchecklist: any = [];
 
-    constructor(    public InductionchecklistRestApi: InductionChecklistService
+    constructor(    public InductionchecklistRestApi: InductionChecklistService, public JobcardRestApi: JobcardService
     ) { }
 
     ngOnInit() {
+        this.loadJobcards();
         this.loadInductionchecklists();
         const navbar = document.getElementById('navbar-main');
         navbar.classList.add('bg-primary');
@@ -33,6 +39,11 @@ export class ListInductionchecklistComponent implements OnInit {
                 this.loadInductionchecklists();
             });
         }
+    }
+    loadJobcards() {
+        return this.JobcardRestApi.getJobcard().subscribe((data: {}) => {
+            this.Jobcard = data;
+        });
     }
 
 }

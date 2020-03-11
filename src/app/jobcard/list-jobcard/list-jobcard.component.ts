@@ -1,15 +1,33 @@
-import { Component, OnInit} from '@angular/core';
+import {Component, NgModule, OnInit} from '@angular/core';
 import { JobcardService } from '../../shared/jobcard.service';
 import Glide from '@glidejs/glide';
 import {BsModalRef, BsModalService} from 'ngx-bootstrap';
 import {TemplateRef} from '@angular/core';
 import { dev } from '../../config/dev';
 import {HttpClient} from '@angular/common/http';
+import { DataTablesModule } from 'angular-datatables';
+import {BrowserModule} from '@angular/platform-browser';
+import {AppComponent} from '../../app.component';
+
 
 @Component({
   selector: 'app-list-jobcard',
   templateUrl: './list-jobcard.component.html'
 })
+
+@NgModule({
+    declarations: [
+        AppComponent
+    ],
+    imports: [
+        BrowserModule,
+
+        DataTablesModule
+    ],
+    providers: [],
+    bootstrap: [ AppComponent ]
+})
+
 export class ListJobcardComponent implements OnInit {
 
     focus;
@@ -18,7 +36,7 @@ export class ListJobcardComponent implements OnInit {
     focus3;
     focus4;
 
-
+    dtOptions: DataTables.Settings = {};
     isCollapsed = true;
 
     user: String;
@@ -52,6 +70,9 @@ export class ListJobcardComponent implements OnInit {
     body.classList.add('presentation-page');
     const navbar = document.getElementById('navbar-main');
     navbar.classList.add('bg-primary');
+    this.dtOptions = {
+          pagingType: 'full_numbers'
+      };
 
   }
   ngOnDestroy() {

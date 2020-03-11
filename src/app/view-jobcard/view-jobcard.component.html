@@ -1,0 +1,59 @@
+<div *ngIf="Jobcard.length !== 0">
+    <h3 class="mb-3 text-center">Jobcard List</h3>
+
+    <div>
+        <table class="table mb-3" >
+            <thead>
+            <tr>
+                <th scope="col">Jobcard Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Created At</th>
+                <th scope="col">Customer</th>
+                <th scope="col">Starting Date</th>
+                <th scope="col">End Date</th>
+                <th scope="col">Work Order Number</th>
+                <th scope="col">Location Name</th>
+                <th scope="col">Job Description</th>
+                <th scope="col">Job Steps</th>
+                <th scope="col">Hazards</th>
+                <th scope="col">Uncontainable Risks</th>
+                <th scope="col">Control Measures</th>
+                <th scope="col">Controlled Risk Levels</th>
+                <th scope="col" class="text-right">Status</th>
+                <th scope="col" class="text-right">Amount Invoiced</th>
+                <th scope="col" class="text-right">Issued To</th>
+
+
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let jobcard of Jobcard">
+                <td>{{jobcard._id}}</td>
+                <td>{{jobcard.name}}</td>
+                <td>{{jobcard.createdAt}}</td>
+                <td>{{jobcard.customer}}</td>
+                <td>{{jobcard.starting_date}}</td>
+                <td>{{jobcard.end_date}}</td>
+                <td>{{jobcard.workorder_number}}</td>
+                <td>{{jobcard.location_name}}</td>
+                <td>{{jobcard.job_description}}</td>
+                <td>{{jobcard.job_steps}}</td>
+                <td>{{jobcard.hazards}}</td>
+                <td>{{jobcard.uncontainable_risks}}</td>
+                <td>{{jobcard.control_measures}}</td>
+                <td>{{jobcard.controlled_risk_levels}}</td>
+                <td>{{jobcard.status}}</td>
+                <td>{{jobcard.amount_invoiced}}</td>
+                <td>{{jobcard.issue_to}}</td>
+
+
+                <td>
+
+
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>

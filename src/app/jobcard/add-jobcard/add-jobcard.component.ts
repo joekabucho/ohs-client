@@ -42,9 +42,12 @@ export class AddJobcardComponent implements OnInit {
     }
 
     addJobcard() {
+        const formData: FormData = new FormData();
         this.restApi.createJobcard(this.jobcardDetails).subscribe((data: {}) => {
             this.router.navigate(['/list-jobcard']);
         });
+        return this.http
+            .post(this.url + '/api/files', formData);
     }
     getAllUsers() {
         this.http.get(this.url + '/api/user/getAll').subscribe((data) => {

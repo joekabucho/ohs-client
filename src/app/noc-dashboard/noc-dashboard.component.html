@@ -1,0 +1,225 @@
+<header class="header-2 skew-separator">
+    <nav class="navbar navbar-expand-lg bg-white navbar-absolute">
+        <div class="container">
+            <div class="navbar-translate">
+                <a class="navbar-brand" href="javascript:;">OHS </a>
+                <button
+                        aria-controls="navbarSupportedContent"
+                        aria-label="Toggle navigation"
+                        class="navbar-toggler"
+                        [attr.aria-expanded]="!isCollapsed"
+                        (click)="isCollapsed = !isCollapsed"
+                        id="example-header-2"
+                        type="button"
+                >
+                    <span class="navbar-toggler-icon"> </span>
+                </button>
+            </div>
+            <div
+                    class="navbar-collapse"
+                    [isAnimated]="true"
+                    [collapse]="isCollapsed"
+                    id="example-header-2"
+            >
+                <div class="navbar-collapse-header">
+                    <div class="row">
+                        <div class="col-6 collapse-brand">
+                            <a> Argon <span> PRO </span> </a>
+                        </div>
+                        <div class="col-6 collapse-close text-right">
+                            <button
+                                    aria-controls="navigation-index"
+                                    aria-label="Toggle navigation"
+                                    class="navbar-toggler"
+                                    [attr.aria-expanded]="!isCollapsed"
+                                    (click)="isCollapsed = !isCollapsed"
+                                    id="example-header-2"
+                                    type="button"
+                            >
+                                <span> </span> <span> </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:;"> Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:;"> About Us </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:;"> Products </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:;"> Contact Us </a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://twitter.com/CreativeTim">
+                            <i class="fab fa-twitter"> </i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a
+                                class="nav-link"
+                                href="https://www.facebook.com/CreativeTim"
+                        >
+                            <i class="fab fa-facebook-square"> </i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a
+                                class="nav-link"
+                                href="https://www.instagram.com/CreativeTimOfficial"
+                        >
+                            <i class="fab fa-instagram"> </i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="page-header">
+        <div
+                class="page-header-image"
+                style="background-image: url('assets/img/ill/p8.svg')"
+        ></div>
+        <div class="container pt-300">
+            <div class="row">
+                <div class="col-md-8 mx-auto text-center">
+                    <h2 class="display-2">Welcome NOC officer to your OHS dashboard</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="floating-box bg-default">
+                    <div class="box text-center">
+                        <div
+                                class="icon icon-shape bg-success icon-xl rounded-circle text-white"
+                        >
+                            <i class="ni ni-spaceship"> </i>
+                        </div>
+                    </div>
+                    <h2 class="lead text-white p-5">
+                        Here you will find all job cards created and all induction checklists created that will allow you to approve or decline a work site
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+<div class="row"  *ngIf="Inductionchecklist.length !== 0">
+<div class="col-lg-3 col-md-3"   *ngFor="let induction of Inductionchecklist">
+    <div class="card card-project"  >
+        <a href="javascript:;">
+            <div
+                    class="icon icon-lg icon-shape icon-shape-primary shadow rounded-circle mx-auto"
+            >
+                <i class="ni ni-favourite-28"> </i>
+            </div>
+        </a>
+        <div class="card-body">
+            <h4 class="card-title mt-3">Induction checklist</h4>
+            <p class="card-description">
+               Location: {{induction.location}}
+            </p>
+            <p class="card-description">
+                incident:{{induction.reporting_incidents}}
+            </p>
+            <p class="card-description">
+              equipment: {{induction.specialised_equipment}}
+            </p>
+            <p class="card-description">
+           ppe equip: {{induction.ppe_equipment}}
+            </p>
+            <p class="card-description">
+              firefighting: {{induction.firefighting}}
+            </p>
+            <div class="card-footer">
+                <button class="btn btn-link text-primary" type="button" [routerLink]="['/view-induction']" >
+                    <i class="ni ni-glasses-2"> </i> Check more
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="row" *ngIf="Jobcard.length !== 0">
+<div class="col-lg-3 col-md-3" *ngFor="let jobcard of Jobcard">
+    <div class="card card-project">
+        <a href="javascript:;">
+            <div
+                    class="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mx-auto"
+            >
+                <i class="ni ni-books"> </i>
+            </div>
+        </a>
+        <div class="card-body">
+            <h4 class="card-title mt-3">Job cards</h4>
+            <p class="card-description">
+              {{jobcard.name}}
+            </p>
+            <p class="card-description">
+              {{jobcard.customer}}
+            </p>
+            <p class="card-description">
+              {{jobcard.location_name}}
+            </p>
+            <p class="card-description">
+              {{jobcard.job_description}}
+            </p>
+            <p class="card-description">
+              {{jobcard.hazards}}
+            </p>
+            <div class="card-footer">
+                <button class="btn btn-link text-success" type="button" [routerLink]="['/view-jobcard']">
+                    <i class="ni ni-key-25"> </i> View more
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="row" *ngIf="Toolboxtalk.length !== 0">
+<div class="col-lg-3 col-md-3" *ngFor="let toolbox of Toolboxtalk">
+    <div class="card card-project">
+        <a href="javascript:;">
+            <div
+                    class="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mx-auto"
+            >
+                <i class="ni ni-trophy"> </i>
+            </div>
+        </a>
+        <div class="card-body">
+            <h4 class="card-title mt-3">Toolbox talks</h4>
+            <p class="card-description">
+                {{toolbox.resource_plan}}
+            </p>
+            <p class="card-description">
+               {{toolbox.necessary_proc}}
+            </p>
+            <p class="card-description">
+               {{toolbox.gov_monitor}}
+            </p>
+            <p class="card-description">
+               {{toolbox.h2s_training}}
+            </p>
+            <p class="card-description">
+               {{toolbox.hard_hat}}
+            </p>
+
+            <div class="card-footer">
+                <button class="btn btn-link text-warning" type="button" [routerLink]="['/view-toolbox']" >
+                    <i class="ni ni-notification-70"> </i> Check more
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+

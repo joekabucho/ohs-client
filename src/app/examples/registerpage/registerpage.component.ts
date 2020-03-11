@@ -102,13 +102,13 @@ export class RegisterpageComponent implements  OnInit, OnDestroy {
                         this.router.navigateByUrl('contact-us');
                     }
                   if (data.role === 'pm_hod') {
-                        this.router.navigateByUrl('list-induction-checklist');
+                        this.router.navigateByUrl( 'pm-dashboard');
                     }
                   if (data.role === 'ohs_officer') {
-                        this.router.navigateByUrl('list-toolbox-talk');
+                        this.router.navigateByUrl('ohs');
                     }
                   if (data.role === 'noc_officer') {
-                        this.router.navigateByUrl('landing-page');
+                        this.router.navigateByUrl('noc-dashboard');
                     }
                 }
               }, error => {

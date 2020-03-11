@@ -1,0 +1,115 @@
+<div class="container-fliud">
+<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- Show it when there is no jobcard created -->
+    <div class="no-data text-center" *ngIf="Toolboxtalk.length == 0">
+        <h3>Add Toolbox Talks</h3>
+        <h3>Add Toolbox Talks</h3>
+        <p>There is no toolbox talk added yet!</p>
+        <button class="btn btn-outline-primary" routerLink="/add-toolbox-talk">Add Toolbox Talk</button>
+    </div>
+
+    <!-- Jobcard list table, it hides when there is no employee -->
+    <div *ngIf="Toolboxtalk.length !== 0">
+        <h3>Add Toolbox Talks</h3>
+        <h3>Add Toolbox Talks</h3>
+        <h3 class="mb-3 text-center">Toolbox Talks List</h3>
+
+        <div>
+            <table class="table mb-3" >
+                <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Created At</th>
+                    <th scope="col">Resource Plan</th>
+                    <th scope="col">Necessary Procedure</th>
+                    <th scope="col">Government Monitor</th>
+                    <th scope="col">H2S Training</th>
+                    <th scope="col">Hard Hat</th>
+                    <th scope="col">Boots</th>
+                    <th scope="col">Cover Walls</th>
+                    <th scope="col">Hearing Protection</th>
+                    <th scope="col">Other PPE</th>
+                    <th scope="col">Scope</th>
+                    <th scope="col">Material</th>
+                    <th scope="col">Traffic Control</th>
+                    <th scope="col">Mobile Phones</th>
+                    <th scope="col">Incident Reporting</th>
+                    <th scope="col">Smoking</th>
+                    <th scope="col">Speed Limits</th>
+                    <th scope="col">First Aid Kits</th>
+                    <th scope="col">Emergency</th>
+                    <th scope="col">Regulatory Requests</th>
+                    <th scope="col">Fire Permit</th>
+                    <th scope="col">Task Hazard</th>
+                    <th scope="col">Site Work Permit</th>
+                    <th scope="col">Ground Disturbance</th>
+                    <th scope="col">Other Permit Forms</th>
+                    <th scope="col">Fire Extinguishers</th>
+                    <th scope="col">Pre-stat Checks</th>
+                    <th scope="col">Back Up Alarm</th>
+                    <th scope="col">Positive Air Shafts</th>
+                    <th scope="col">People Onboard</th>
+                    <th scope="col">Wall Heads</th>
+                    <th scope="col">Others On Site</th>
+                    <th scope="col">Third Party Support</th>
+                    <th scope="col">Sign</th>
+
+                </tr>
+                </thead>
+                <tbody>
+                <tr *ngFor="let toolbox of Toolboxtalk">
+                    <td>{{toolbox._id}}</td>
+                    <td>{{toolbox.createdAt}}</td>
+                    <td>{{toolbox.resource_plan}}</td>
+                    <td>{{toolbox.necessary_proc}}</td>
+                    <td>{{toolbox.gov_monitor}}</td>
+                    <td>{{toolbox.h2s_training}}</td>
+                    <td>{{toolbox.hard_hat}}</td>
+                    <td>{{toolbox.boots}}</td>
+                    <td>{{toolbox.coverwalls}}</td>
+                    <td>{{toolbox.hearing_protection}}</td>
+                    <td>{{toolbox.other_ppe}}</td>
+                    <td>{{toolbox.scope}}</td>
+                    <td>{{toolbox.material}}</td>
+                    <td>{{toolbox.traffic_control}}</td>
+                    <td>{{toolbox.mobile_phones}}</td>
+                    <td>{{toolbox.incident_reporting}}</td>
+                    <td>{{toolbox.smoking}}</td>
+                    <td>{{toolbox.speed_limits}}</td>
+                    <td>{{toolbox.first_aid_kit}}</td>
+                    <td>{{toolbox.emergency}}</td>
+                    <td>{{toolbox.regulatory_requests}}</td>
+                    <td>{{toolbox.fire_permit}}</td>
+                    <td>{{toolbox.task_hazard}}</td>
+                    <td>{{toolbox.site_work_permit}}</td>
+                    <td>{{toolbox.ground_disturbance}}</td>
+                    <td>{{toolbox.other_permit_forms}}</td>
+                    <td>{{toolbox.fire_extinguishers}}</td>
+                    <td>{{toolbox.prestat_check}}</td>
+                    <td>{{toolbox.back_up_alarm}}</td>
+                    <td>{{toolbox.positive_air_shafts}}</td>
+                    <td>{{toolbox.people_onboard}}</td>
+                    <td>{{toolbox.wall_heads}}</td>
+                    <td>{{toolbox.others_on_site}}</td>
+                    <td>{{toolbox.third_party_support}}</td>
+                    <td>{{toolbox.signs}}</td>
+
+
+
+
+                    <td>
+
+
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+</div>

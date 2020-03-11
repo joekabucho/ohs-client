@@ -34,6 +34,13 @@ import {ListInductionchecklistComponent} from './inductionchecklist/list-inducti
 import {AddToolboxtalkComponent} from './toolboxtalk/add-toolboxtalk/add-toolboxtalk.component';
 import {EditToolboxtalkComponent} from './toolboxtalk/edit-toolboxtalk/edit-toolboxtalk.component';
 import {ListToolboxtalkComponent} from './toolboxtalk/list-toolboxtalk/list-toolboxtalk.component';
+import {PmDashboardComponent} from './pm-dashboard/pm-dashboard.component';
+import {OhsOfficerDashboardComponent} from './ohs-officer-dashboard/ohs-officer-dashboard.component';
+import {ViewJobcardComponent} from './view-jobcard/view-jobcard.component';
+import {ViewInductionComponent} from './view-induction/view-induction.component';
+import {ViewToolboxComponent} from './view-toolbox/view-toolbox.component';
+import {ViewWorkpermitsComponent} from './view-workpermits/view-workpermits.component';
+import {NocDashboardComponent} from './noc-dashboard/noc-dashboard.component';
 const routes: Routes = [
   { path: '', redirectTo: '/register-page', pathMatch: 'full' },
   { path: 'index', component: IndexComponent },
@@ -70,6 +77,13 @@ const routes: Routes = [
   { path: 'add-jobcard', component: AddJobcardComponent },
   { path: 'edit-jobcard', component: EditJobcardComponent },
   { path: 'list-jobcard', component: ListJobcardComponent },
+  { path: 'pm-dashboard', component: PmDashboardComponent },
+  { path: 'ohs-dashboard', component: OhsOfficerDashboardComponent },
+  { path: 'view-jobcard', component: ViewJobcardComponent },
+  { path: 'view-induction', component: ViewInductionComponent },
+  { path: 'view-toolbox', component: ViewToolboxComponent },
+  { path: 'noc-dashboard', component: NocDashboardComponent },
+  { path: 'view-workpermit', component: ViewWorkpermitsComponent },
 ];
 
 @NgModule({

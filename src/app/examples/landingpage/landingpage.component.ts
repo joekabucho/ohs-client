@@ -55,7 +55,7 @@ export class LandingpageComponent implements OnInit, OnDestroy {
   }
   postFile(fileToUpload: File, filename) {
 
-    const formData: FormData = new FormData();
+    const formData: FormData = new FormData()
     formData.append('sampleFile', fileToUpload, filename);
     formData.append('user', this.user.toString());
     formData.append('uploadedby', this.profile);

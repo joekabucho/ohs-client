@@ -64,6 +64,20 @@ import { ListInductionchecklistComponent } from './inductionchecklist/list-induc
 import { AddToolboxtalkComponent } from './toolboxtalk/add-toolboxtalk/add-toolboxtalk.component';
 import { ListToolboxtalkComponent } from './toolboxtalk/list-toolboxtalk/list-toolboxtalk.component';
 import { EditToolboxtalkComponent } from './toolboxtalk/edit-toolboxtalk/edit-toolboxtalk.component';
+import { PmDashboardComponent } from './pm-dashboard/pm-dashboard.component';
+import { OhsOfficerDashboardComponent } from './ohs-officer-dashboard/ohs-officer-dashboard.component';
+import { ViewJobcardComponent } from './view-jobcard/view-jobcard.component';
+import { ViewInductionComponent } from './view-induction/view-induction.component';
+import { ViewWorkpermitsComponent } from './view-workpermits/view-workpermits.component';
+import { NocDashboardComponent } from './noc-dashboard/noc-dashboard.component';
+import { ViewToolboxComponent } from './view-toolbox/view-toolbox.component';
+import {DataTablesModule} from 'angular-datatables';
+import { AddJobanalysisComponent } from './job-analysis/add-jobanalysis/add-jobanalysis.component';
+import { EditJobanalysisComponent } from './job-analysis/edit-jobanalysis/edit-jobanalysis.component';
+import { ListJobanalysisComponent } from './job-analysis/list-jobanalysis/list-jobanalysis.component';
+import { AddIncidentComponent } from './incident/add-incident/add-incident.component';
+import { ListIncidentComponent } from './incident/list-incident/list-incident.component';
+import { EditIncidentComponent } from './incident/edit-incident/edit-incident.component';
 
 
 @NgModule({
@@ -103,37 +117,51 @@ import { EditToolboxtalkComponent } from './toolboxtalk/edit-toolboxtalk/edit-to
     ListInductionchecklistComponent,
     AddToolboxtalkComponent,
     ListToolboxtalkComponent,
-    EditToolboxtalkComponent
+    EditToolboxtalkComponent,
+    PmDashboardComponent,
+    OhsOfficerDashboardComponent,
+    ViewJobcardComponent,
+    ViewInductionComponent,
+    ViewWorkpermitsComponent,
+    NocDashboardComponent,
+    ViewToolboxComponent,
+    AddJobanalysisComponent,
+    EditJobanalysisComponent,
+    ListJobanalysisComponent,
+    AddIncidentComponent,
+    ListIncidentComponent,
+    EditIncidentComponent
   ],
-  imports: [
-    CommonModule,
-    FormsModule,
-    HttpClientModule,
-    RouterModule,
-    BrowserAnimationsModule,
-    AppRoutingModule,
-    //NotificationService,
-    BsDropdownModule.forRoot(),
-    ProgressbarModule.forRoot(),
-    TooltipModule.forRoot(),
-    TimepickerModule.forRoot(),
-    PopoverModule.forRoot(),
-    CollapseModule.forRoot(),
-    TagInputModule,
-    PresentationModule,
-    TabsModule.forRoot(),
-    PaginationModule.forRoot(),
-    AlertModule.forRoot(),
-    BsDatepickerModule.forRoot(),
-    CarouselModule.forRoot(),
-    ModalModule.forRoot(),
-    ToastrModule.forRoot({
-      timeOut: 1000,
-      positionClass: 'toast-top-right',
-      preventDuplicates: true,
-    }),
-    ReactiveFormsModule,
-  ],
+    imports: [
+        CommonModule,
+        FormsModule,
+        HttpClientModule,
+        RouterModule,
+        BrowserAnimationsModule,
+        AppRoutingModule,
+        //NotificationService,
+        BsDropdownModule.forRoot(),
+        ProgressbarModule.forRoot(),
+        TooltipModule.forRoot(),
+        TimepickerModule.forRoot(),
+        PopoverModule.forRoot(),
+        CollapseModule.forRoot(),
+        TagInputModule,
+        PresentationModule,
+        TabsModule.forRoot(),
+        PaginationModule.forRoot(),
+        AlertModule.forRoot(),
+        BsDatepickerModule.forRoot(),
+        CarouselModule.forRoot(),
+        ModalModule.forRoot(),
+        ToastrModule.forRoot({
+            timeOut: 1000,
+            positionClass: 'toast-top-right',
+            preventDuplicates: true,
+        }),
+        ReactiveFormsModule,
+        DataTablesModule,
+    ],
   providers: [ToolboxTalkService, InductionChecklistService, JobcardService, WorkPermitService],
   bootstrap: [AppComponent]
 })

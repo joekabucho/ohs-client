@@ -32,8 +32,8 @@
   </div>
 
   <div class="row">
-    <div class="col-md-2" *ngFor="let card of Jobcard">
-
+      <ng-container class="row" *ngFor="let card of Jobcard">
+          <div class="col-md-2" *ngIf="jobs==card.issue_to">
       <div class="card text-white bg-default">
         <img class="card-img" src="assets/img/ill/inn.svg" alt="Card image" />
         <div class="card-img-overlay d-flex align-items-center">
@@ -44,11 +44,10 @@
               <p class="card-description">{{card.job_description}}</p>
               <p class="card-description">{{card.status}}</p>
             <p class="card-text text-sm font-weight-bold">{{card.amount_invoiced}}</p>
-              <button (click)="openModal(template)" type="button" id="users" class="btn btn-white btn-icon mb-3 mb-sm-0">View More</button>
+              <button (click)="openModal(template)" type="button" id="{{card._id}}" class="btn btn-white btn-icon mb-3 mb-sm-0">View More</button>
           </div>
         </div>
       </div>
-    </div>
       <ng-template #template>
           <div class="modal-header">
               <h1 class="modal-title pull-right">Job cards</h1>
@@ -213,6 +212,8 @@
           </div>
       </ng-template>
 
+
   </div>
+      </ng-container>
 
 </div>

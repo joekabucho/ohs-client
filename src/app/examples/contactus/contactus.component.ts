@@ -17,6 +17,7 @@ export class ContactusComponent implements OnInit, OnDestroy {
   focus1;
   focus2;
   focus3;
+  jobs: any;
 
   profile: any;
   url = dev.connect;
@@ -35,6 +36,7 @@ export class ContactusComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.loadJobcards();
+    this.getUsersJobcards();
     let body = document.getElementsByTagName('body')[0];
     body.classList.add('contact-page');
 
@@ -139,4 +141,13 @@ export class ContactusComponent implements OnInit, OnDestroy {
 getUser() {
     this.profile = localStorage.getItem('profile');
 }
+
+  getUsersJobcards() {
+    const payload ={
+      userid: this.profile
+    }
+    return this.http.post(this.url + '/api/files/user', payload).subscribe((data) => {
+      this.jobs = data;
+    });
+  }
 }
