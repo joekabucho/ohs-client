@@ -25,8 +25,8 @@ export class IncidentService {
   }
 
   // POST
-  CreateIncident(data): Observable<Incident> {
-    return this.http.post<Incident>(this.baseurl + '/api/incident', JSON.stringify(data), this.httpOptions)
+  createIncident(data): Observable<Incident> {
+    return this.http.post<Incident>(this.baseurl + '/api/incident/', JSON.stringify(data), this.httpOptions)
         .pipe(
             retry(1),
             catchError(this.errorHandl)

@@ -223,3 +223,33 @@
       </ng-container>
 
 </div>
+<div class="row" *ngIf="Workpermit.length !== 0">
+    <div class="col-md-3" *ngFor="let workpermit of Workpermit">
+        <div
+                class="card card-pricing bg-info card-background"
+                data-background="image"
+                style="background-image: url('assets/img/ill/pricing_bg.svg"
+        >
+            <div class="card-body">
+
+                <h1 class="card-title">
+                    Work permits
+                </h1>
+                <ul>
+                    <li><b> 1 </b> {{workpermit.created_by}}</li>
+                    <li><b> 2 </b> {{workpermit.ammendments}}</li>
+                    <li><b> 3</b> {{workpermit.site_name}}</li>
+                    <li><b>4 </b>{{workpermit.project}} </li>
+                    <li><b>5 </b> {{workpermit.ammendments}}</li>
+                    <li><b>6 </b> {{workpermit.valid_from}}</li>
+                    <li><b>7 </b> {{workpermit.valid_to}}</li>
+
+                </ul>
+                <a class="btn btn-white btn-sm mt-3" [routerLink]="['/view-workpermit']">
+                    view more
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

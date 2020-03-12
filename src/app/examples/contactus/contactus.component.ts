@@ -5,6 +5,7 @@ declare const google: any;
 import { JobcardService } from '../../shared/jobcard.service';
 import {BsModalRef, BsModalService} from 'ngx-bootstrap';
 import {TemplateRef} from '@angular/core';
+import { WorkPermitService } from '../../shared/work-permit.service';
 
 @Component({
   selector: 'app-contactus',
@@ -24,8 +25,10 @@ export class ContactusComponent implements OnInit, OnDestroy {
   modalRef: BsModalRef;
 
   Jobcard: any = [];
+  Workpermit: any = [];
 
-  constructor( public JobcardRespApi: JobcardService , private http: HttpClient, private modalService: BsModalService) {
+  // tslint:disable-next-line:max-line-length
+  constructor( public JobcardRespApi: JobcardService , private http: HttpClient, private modalService: BsModalService, public WorkpermitRestApi: WorkPermitService) {
 
     this.getAllUsers();
     this.getUser();
@@ -37,6 +40,7 @@ export class ContactusComponent implements OnInit, OnDestroy {
   ngOnInit() {
     this.loadJobcards();
     this.getUsersJobcards();
+    this.loadWorkPermit();
     let body = document.getElementsByTagName('body')[0];
     body.classList.add('contact-page');
 
@@ -131,6 +135,11 @@ export class ContactusComponent implements OnInit, OnDestroy {
   loadJobcards() {
     return this.JobcardRespApi.getJobcard().subscribe(data => {
       this.Jobcard = data;
+    });
+  }
+  loadWorkPermit() {
+    return this.WorkpermitRestApi.GetWorkPermit().subscribe((data: {}) => {
+      this.Workpermit = data;
     });
   }
   getAllUsers() {

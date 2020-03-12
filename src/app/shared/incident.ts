@@ -16,11 +16,11 @@ export class Incident {
     // tslint:disable-next-line:variable-name
     production_loss: boolean ;
     // tslint:disable-next-line:variable-name
-    date_time_reported: Date ;
+    date_time_reported: string;
     // tslint:disable-next-line:variable-name
     worker_job_title: string ;
     // tslint:disable-next-line:variable-name
-    date_of_incident: Date ;
+    date_of_incident: string ;
     // tslint:disable-next-line:variable-name
     first_aider: boolean ;
     // tslint:disable-next-line:variable-name
@@ -37,5 +37,4 @@ export class Incident {
     prime_contractor: boolean ;
     // tslint:disable-next-line:variable-name
     other_person: boolean ;
-    // tslint:disable-next-line:variable-name
 }

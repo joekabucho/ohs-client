@@ -22,9 +22,10 @@ export class AddIncidentComponent implements OnInit {
 
   isCollapsed = true;
 
+  // tslint:disable-next-line:ban-types
   user: String;
   users: any;
-  profile: any
+  profile: any;
   url = dev.connect;
 
   // tslint:disable-next-line:max-line-length
@@ -46,7 +47,7 @@ export class AddIncidentComponent implements OnInit {
 
   addIncident() {
     const formData: FormData = new FormData();
-    this.restApi.CreateIncident(this.incidentDetails).subscribe((data: {}) => {
+    this.restApi.createIncident(this.incidentDetails).subscribe((data: {}) => {
       this.router.navigate(['/list-incident']);
     });
     return this.http

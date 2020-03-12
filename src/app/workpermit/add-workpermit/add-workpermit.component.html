@@ -63,7 +63,7 @@
                                 (focus)="focus = true"
                                 [(ngModel)]="workpermitDetails.issue_to"
                         >
-                            <option *ngFor="let user of users" [value]="user.name">{{user.name}} who is a {{user.role}}</option>
+                            <option *ngFor="let user of users" [value]="user._id">{{user.name}} who is a {{user.role}}</option>
                         </select>
                     </div>
                 </div>

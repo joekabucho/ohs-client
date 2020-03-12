@@ -45,7 +45,7 @@ export class LandingpageComponent implements OnInit, OnDestroy {
   upload(){
     this.postFile(this.fileToUpload, ('/' + this.fileToUpload.name)).subscribe(data => {
       console.log(data);
-       alert('Template was uploaded successfully');
+       alert('Image was uploaded successfully for verification');
        this.user = '';
        this.amount = '';
        this.filename = '';
