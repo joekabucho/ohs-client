@@ -2,7 +2,7 @@ export class JobAnalysis {
     id: string;
     createdAt: Date;
     // tslint:disable-next-line:variable-name
-    job_title : string ;
+    job_title: string ;
     // tslint:disable-next-line:variable-name
     location: string ;
     // tslint:disable-next-line:variable-name

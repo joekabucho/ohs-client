@@ -41,6 +41,12 @@ import {ViewInductionComponent} from './view-induction/view-induction.component'
 import {ViewToolboxComponent} from './view-toolbox/view-toolbox.component';
 import {ViewWorkpermitsComponent} from './view-workpermits/view-workpermits.component';
 import {NocDashboardComponent} from './noc-dashboard/noc-dashboard.component';
+import {AddIncidentComponent} from './incident/add-incident/add-incident.component';
+import {EditIncidentComponent} from './incident/edit-incident/edit-incident.component';
+import {ListIncidentComponent} from './incident/list-incident/list-incident.component';
+import {AddJobanalysisComponent} from './job-analysis/add-jobanalysis/add-jobanalysis.component';
+import {ListJobanalysisComponent} from './job-analysis/list-jobanalysis/list-jobanalysis.component';
+import {EditJobanalysisComponent} from './job-analysis/edit-jobanalysis/edit-jobanalysis.component';
 const routes: Routes = [
   { path: '', redirectTo: '/register-page', pathMatch: 'full' },
   { path: 'index', component: IndexComponent },
@@ -84,6 +90,13 @@ const routes: Routes = [
   { path: 'view-toolbox', component: ViewToolboxComponent },
   { path: 'noc-dashboard', component: NocDashboardComponent },
   { path: 'view-workpermit', component: ViewWorkpermitsComponent },
+  { path: 'add-jobanalysis', component: AddJobanalysisComponent },
+  { path: 'add-incident', component: AddIncidentComponent },
+  { path: 'list-jobanalysis', component: ListJobanalysisComponent },
+  { path: 'list-incident', component:  ListIncidentComponent},
+  { path: 'edit-jobanalysis\'', component:  EditJobanalysisComponent},
+  { path: 'list-incident', component:  EditIncidentComponent},
+
 ];
 
 @NgModule({

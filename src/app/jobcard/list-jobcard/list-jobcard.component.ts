@@ -1,5 +1,6 @@
 import {Component, NgModule, OnInit} from '@angular/core';
 import { JobcardService } from '../../shared/jobcard.service';
+import { JobAnalysisService } from '../../shared/job-analysis.service';
 import Glide from '@glidejs/glide';
 import {BsModalRef, BsModalService} from 'ngx-bootstrap';
 import {TemplateRef} from '@angular/core';
@@ -8,6 +9,7 @@ import {HttpClient} from '@angular/common/http';
 import { DataTablesModule } from 'angular-datatables';
 import {BrowserModule} from '@angular/platform-browser';
 import {AppComponent} from '../../app.component';
+import {IncidentService} from '../../shared/incident.service';
 
 
 @Component({
@@ -46,8 +48,9 @@ export class ListJobcardComponent implements OnInit {
   modalRef: BsModalRef;
 
   Jobcard: any = [];
-
-  constructor(    public JobcardRestApi: JobcardService  , private modalService: BsModalService, private http: HttpClient
+    Jobanalysis: any = [];
+    // tslint:disable-next-line:max-line-length
+  constructor(    public JobcardRestApi: JobcardService  , private modalService: BsModalService, private http: HttpClient,  public JobanalysisRestApi: JobAnalysisService
   ) {
       this.getAllUsers();
       this.getUser();
@@ -59,6 +62,7 @@ export class ListJobcardComponent implements OnInit {
 
   ngOnInit() {
     this.loadJobcards();
+    this.loadJobanalysis();
     new Glide('.presentation-cards', {
       type: 'carousel',
       startAt: 0,
@@ -87,7 +91,12 @@ export class ListJobcardComponent implements OnInit {
       this.Jobcard = data;
     });
   }
-
+    // Get employees list
+    loadJobanalysis() {
+        return this.JobanalysisRestApi.GetJobAnalysiss().subscribe((data: {}) => {
+            this.Jobanalysis = data;
+        });
+    }
 
   // Delete employee
     // tslint:disable-next-line:variable-name

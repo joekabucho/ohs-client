@@ -1,28 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/app/jobcard/list-jobcard/list-jobcard.component.ts" line="30" />
+    <bookmark url="file://$PROJECT_DIR$/src/app/jobcard/list-jobcard/list-jobcard.component.ts" line="32" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d1bc401-3ab1-46a6-acd1-753773b17850" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/examples/contactus/contactus.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/examples/contactus/contactus.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/examples/contactus/contactus.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/examples/contactus/contactus.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/examples/landingpage/landingpage.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/examples/landingpage/landingpage.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/examples/landingpage/landingpage.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/examples/landingpage/landingpage.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/examples/registerpage/registerpage.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/examples/registerpage/registerpage.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/inductionchecklist/list-inductionchecklist/list-inductionchecklist.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/inductionchecklist/list-inductionchecklist/list-inductionchecklist.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/inductionchecklist/list-inductionchecklist/list-inductionchecklist.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/inductionchecklist/list-inductionchecklist/list-inductionchecklist.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/jobcard/add-jobcard/add-jobcard.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/jobcard/add-jobcard/add-jobcard.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/incident/add-incident/add-incident.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/incident/add-incident/add-incident.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/incident/add-incident/add-incident.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/incident/add-incident/add-incident.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/incident/edit-incident/edit-incident.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/incident/edit-incident/edit-incident.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/incident/edit-incident/edit-incident.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/incident/edit-incident/edit-incident.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/incident/list-incident/list-incident.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/incident/list-incident/list-incident.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/incident/list-incident/list-incident.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/incident/list-incident/list-incident.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/job-analysis/add-jobanalysis/add-jobanalysis.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/job-analysis/add-jobanalysis/add-jobanalysis.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/job-analysis/add-jobanalysis/add-jobanalysis.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/job-analysis/add-jobanalysis/add-jobanalysis.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/job-analysis/edit-jobanalysis/edit-jobanalysis.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/job-analysis/edit-jobanalysis/edit-jobanalysis.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/job-analysis/edit-jobanalysis/edit-jobanalysis.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/job-analysis/edit-jobanalysis/edit-jobanalysis.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/job-analysis/list-jobanalysis/list-jobanalysis.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/job-analysis/list-jobanalysis/list-jobanalysis.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/job-analysis/list-jobanalysis/list-jobanalysis.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/job-analysis/list-jobanalysis/list-jobanalysis.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/jobcard/list-jobcard/list-jobcard.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/jobcard/list-jobcard/list-jobcard.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/jobcard/list-jobcard/list-jobcard.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/jobcard/list-jobcard/list-jobcard.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/users.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/users.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ohs-officer-dashboard/ohs-officer-dashboard.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ohs-officer-dashboard/ohs-officer-dashboard.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ohs-officer-dashboard/ohs-officer-dashboard.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ohs-officer-dashboard/ohs-officer-dashboard.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shared/job-analysis.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/job-analysis.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shared/job-analysis.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/job-analysis.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/toolboxtalk/list-toolboxtalk/list-toolboxtalk.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/toolboxtalk/list-toolboxtalk/list-toolboxtalk.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/view-induction/view-induction.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/view-induction/view-induction.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/view-jobcard/view-jobcard.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/view-jobcard/view-jobcard.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/view-toolbox/view-toolbox.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/view-toolbox/view-toolbox.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/view-workpermits/view-workpermits.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/view-workpermits/view-workpermits.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/workpermit/list-workpermit/list-workpermit.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/workpermit/list-workpermit/list-workpermit.component.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -36,23 +45,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app/job-analysis/add-jobanalysis/add-jobanalysis.component.ts">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/jobcard/list-jobcard/list-jobcard.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="180">
+              <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/jobcard/add-jobcard/add-jobcard.component.ts">
+        <entry file="file://$PROJECT_DIR$/src/app/job-analysis/list-jobanalysis/list-jobanalysis.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="300">
+              <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/jobcard/list-jobcard/list-jobcard.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2550">
+              <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
               <folding>
-                <element signature="e#0#63#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#div#1;n#ng-template#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/examples/registerpage/registerpage.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="115" column="78" lean-forward="true" selection-start-line="115" selection-start-column="78" selection-end-line="115" selection-end-column="78" />
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/examples/contactus/contactus.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -73,57 +116,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/app/shared/messanging.service.ts" />
-        <option value="$PROJECT_DIR$/src/app/shared/jobcard.service.ts" />
-        <option value="$PROJECT_DIR$/src/app/shared/users.ts" />
-        <option value="$PROJECT_DIR$/src/app/presentation/presentation.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/presentation/presentation.component.html" />
-        <option value="$PROJECT_DIR$/src/app/shared/users.service.ts" />
-        <option value="$PROJECT_DIR$/src/app/workpermit/add-workpermit/add-workpermit.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/workpermit/list-workpermit/list-workpermit.component.html" />
-        <option value="$PROJECT_DIR$/src/app/workpermit/add-workpermit/add-workpermit.component.html" />
-        <option value="$PROJECT_DIR$/src/app/toolboxtalk/add-toolboxtalk/add-toolboxtalk.component.html" />
-        <option value="$PROJECT_DIR$/src/app/examples/registerpage/registerpage.component.html" />
-        <option value="$PROJECT_DIR$/src/app/jobcard/add-jobcard/add-jobcard.component.html" />
-        <option value="$PROJECT_DIR$/src/app/examples/ecommerce/ecommerce.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/examples/ecommerce/ecommerce.component.html" />
-        <option value="$PROJECT_DIR$/src/app/examples/landingpage/landingpage.component.ts" />
         <option value="$PROJECT_DIR$/src/app/examples/contactus/contactus.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/examples/contactus/contactus.component.html" />
         <option value="$PROJECT_DIR$/src/app/sections/sections.component.ts" />
         <option value="$PROJECT_DIR$/src/app/pm-dashboard/pm-dashboard.component.ts" />
         <option value="$PROJECT_DIR$/src/app/examples/landingpage/landingpage.component.html" />
-        <option value="$PROJECT_DIR$/src/app/view-jobcard/view-jobcard.component.html" />
         <option value="$PROJECT_DIR$/src/app/view-jobcard/view-jobcard.component.ts" />
         <option value="$PROJECT_DIR$/src/app/sections/sections.component.html" />
         <option value="$PROJECT_DIR$/src/app/pm-dashboard/pm-dashboard.component.html" />
         <option value="$PROJECT_DIR$/src/app/examples/registerpage/registerpage.component.ts" />
         <option value="$PROJECT_DIR$/src/app/noc-dashboard/noc-dashboard.component.ts" />
         <option value="$PROJECT_DIR$/src/app/inductionchecklist/list-inductionchecklist/list-inductionchecklist.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/inductionchecklist/list-inductionchecklist/list-inductionchecklist.component.html" />
         <option value="$PROJECT_DIR$/src/app/view-toolbox/view-toolbox.component.ts" />
         <option value="$PROJECT_DIR$/src/app/noc-dashboard/noc-dashboard.component.html" />
-        <option value="$PROJECT_DIR$/src/app/view-induction/view-induction.component.html" />
-        <option value="$PROJECT_DIR$/src/app/view-toolbox/view-toolbox.component.html" />
         <option value="$PROJECT_DIR$/angular.json" />
-        <option value="$PROJECT_DIR$/src/app/jobcard/list-jobcard/list-jobcard.component.html" />
-        <option value="$PROJECT_DIR$/src/app/jobcard/list-jobcard/list-jobcard.component.ts" />
         <option value="$PROJECT_DIR$/src/app/workpermit/list-workpermit/list-workpermit.component.ts" />
         <option value="$PROJECT_DIR$/src/app/toolboxtalk/list-toolboxtalk/list-toolboxtalk.component.ts" />
         <option value="$PROJECT_DIR$/src/app/view-induction/view-induction.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/ohs-officer-dashboard/ohs-officer-dashboard.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/view-workpermits/view-workpermits.component.html" />
         <option value="$PROJECT_DIR$/src/app/view-workpermits/view-workpermits.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/app-routing.module.ts" />
-        <option value="$PROJECT_DIR$/src/app/ohs-officer-dashboard/ohs-officer-dashboard.component.html" />
         <option value="$PROJECT_DIR$/src/app/shared/induction-checklist.ts" />
-        <option value="$PROJECT_DIR$/src/app/shared/incident.ts" />
-        <option value="$PROJECT_DIR$/src/app/shared/job-analysis.ts" />
         <option value="$PROJECT_DIR$/src/app/shared/induction-checklist.service.ts" />
-        <option value="$PROJECT_DIR$/src/app/shared/incident.service.ts" />
-        <option value="$PROJECT_DIR$/src/app/shared/job-analysis.service.ts" />
         <option value="$PROJECT_DIR$/src/app/jobcard/add-jobcard/add-jobcard.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/shared/job-analysis.ts" />
+        <option value="$PROJECT_DIR$/src/app/shared/incident.ts" />
+        <option value="$PROJECT_DIR$/src/app/jobcard/edit-jobcard/edit-jobcard.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/inductionchecklist/add-inductionchecklist/add-inductionchecklist.component.html" />
+        <option value="$PROJECT_DIR$/src/app/inductionchecklist/list-inductionchecklist/list-inductionchecklist.component.html" />
+        <option value="$PROJECT_DIR$/src/app/app-routing.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/incident/edit-incident/edit-incident.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/job-analysis/edit-jobanalysis/edit-jobanalysis.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/job-analysis/add-jobanalysis/add-jobanalysis.component.html" />
+        <option value="$PROJECT_DIR$/src/app/job-analysis/edit-jobanalysis/edit-jobanalysis.component.html" />
+        <option value="$PROJECT_DIR$/src/app/incident/edit-incident/edit-incident.component.html" />
+        <option value="$PROJECT_DIR$/src/app/shared/job-analysis.service.ts" />
+        <option value="$PROJECT_DIR$/src/app/job-analysis/list-jobanalysis/list-jobanalysis.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/shared/incident.service.ts" />
+        <option value="$PROJECT_DIR$/src/app/incident/add-incident/add-incident.component.html" />
+        <option value="$PROJECT_DIR$/src/app/incident/add-incident/add-incident.component.ts" />
         <option value="$PROJECT_DIR$/src/app/job-analysis/add-jobanalysis/add-jobanalysis.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/incident/list-incident/list-incident.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/incident/list-incident/list-incident.component.html" />
+        <option value="$PROJECT_DIR$/src/app/ohs-officer-dashboard/ohs-officer-dashboard.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/ohs-officer-dashboard/ohs-officer-dashboard.component.html" />
+        <option value="$PROJECT_DIR$/src/app/job-analysis/list-jobanalysis/list-jobanalysis.component.html" />
+        <option value="$PROJECT_DIR$/src/app/toolboxtalk/list-toolboxtalk/list-toolboxtalk.component.html" />
+        <option value="$PROJECT_DIR$/src/app/view-induction/view-induction.component.html" />
+        <option value="$PROJECT_DIR$/src/app/view-jobcard/view-jobcard.component.html" />
+        <option value="$PROJECT_DIR$/src/app/view-toolbox/view-toolbox.component.html" />
+        <option value="$PROJECT_DIR$/src/app/view-workpermits/view-workpermits.component.html" />
+        <option value="$PROJECT_DIR$/src/app/workpermit/list-workpermit/list-workpermit.component.html" />
+        <option value="$PROJECT_DIR$/src/app/jobcard/list-jobcard/list-jobcard.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/jobcard/list-jobcard/list-jobcard.component.html" />
+        <option value="$PROJECT_DIR$/src/app/examples/contactus/contactus.component.html" />
       </list>
     </option>
   </component>
@@ -162,30 +205,15 @@
               <item name="ohs-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="job-analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ohs-client" type="b2602c69:ProjectViewProjectNode" />
               <item name="ohs-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="job-analysis" type="462c0819:PsiDirectoryNode" />
-              <item name="add-jobanalysis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ohs-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ohs-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="jobcard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ohs-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ohs-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="jobcard" type="462c0819:PsiDirectoryNode" />
-              <item name="add-jobcard" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="contactus" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -290,17 +318,19 @@
       <workItem from="1583836194535" duration="54000" />
       <workItem from="1583851377889" duration="6570000" />
       <workItem from="1583911585187" duration="15742000" />
-      <workItem from="1583948367942" duration="2447000" />
+      <workItem from="1583948367942" duration="2704000" />
+      <workItem from="1583989499369" duration="13682000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133050000" />
+    <option name="totallyTimeSpent" value="146989000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -316,18 +346,18 @@
       <window_info anchor="bottom" id="GraphQL" order="9" />
       <window_info anchor="bottom" id="TypeScript" order="10" weight="0.3294702" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.21192053" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.21192053" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3294702" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3294702" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3985375" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -338,7 +368,7 @@
       <window_info anchor="bottom" id="GraphQL" order="9" />
       <window_info anchor="bottom" id="TypeScript" order="10" weight="0.3294702" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.26324505" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.21192053" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -364,153 +394,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/app/shared/toolbox-talk.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="7" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/inductionchecklist/add-inductionchecklist/add-inductionchecklist.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="597" column="16" selection-start-line="597" selection-start-column="16" selection-end-line="597" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/toolboxtalk/add-toolboxtalk/add-toolboxtalk.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="156" selection-start-line="156" selection-end-line="156" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/examples/registerpage/registerpage.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="214" column="58" lean-forward="true" selection-start-line="214" selection-start-column="58" selection-end-line="214" selection-end-column="58" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#ng-template#0;n#form#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#ng-template#1;n#form#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/shared/jobcard.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/jobcard/add-jobcard/add-jobcard.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="81" column="82" selection-start-line="81" selection-start-column="82" selection-end-line="81" selection-end-column="82" />
-          <folding>
-            <element signature="n#style#0;n#label#0;n#div#0;n#div#14;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/examples/ecommerce/ecommerce.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1875">
-          <caret line="125" column="8" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/examples/contactus/contactus.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/navbar/navbar.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6870">
-          <caret line="458" column="76" selection-start-line="458" selection-start-column="76" selection-end-line="458" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/examples/ecommerce/ecommerce.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/examples/contactus/contactus.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="148" column="64" selection-start-line="148" selection-start-column="64" selection-end-line="148" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-            <element signature="e#176#238#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/examples/landingpage/landingpage.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="59" column="3" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/shared/jobcard.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/sections/sections.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="19" selection-start-line="21" selection-end-line="25" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/pm-dashboard/pm-dashboard.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-645">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/sections/sections.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46980">
-          <caret line="3264" column="27" lean-forward="true" selection-start-line="3264" selection-start-column="27" selection-end-line="3264" selection-end-column="27" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#3;n#div#3;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/examples/landingpage/landingpage.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -533,23 +416,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/view-jobcard/view-jobcard.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/examples/registerpage/registerpage.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="115" column="78" lean-forward="true" selection-start-line="115" selection-start-column="78" selection-end-line="115" selection-end-column="78" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/noc-dashboard/noc-dashboard.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -567,13 +433,6 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#header#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/inductionchecklist/list-inductionchecklist/list-inductionchecklist.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="128" column="20" selection-start-line="128" selection-start-column="20" selection-end-line="128" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -603,27 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/jobcard/list-jobcard/list-jobcard.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/jobcard/list-jobcard/list-jobcard.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="60" column="20" lean-forward="true" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#div#1;n#ng-template#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/view-induction/view-induction.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -644,37 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/toolboxtalk/list-toolboxtalk/list-toolboxtalk.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/view-induction/view-induction.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/view-toolbox/view-toolbox.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/ohs-officer-dashboard/ohs-officer-dashboard.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="88" column="3" selection-start-line="88" selection-start-column="3" selection-end-line="88" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/noc-dashboard/noc-dashboard.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -689,20 +496,6 @@
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/view-workpermits/view-workpermits.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/ohs-officer-dashboard/ohs-officer-dashboard.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="237" column="35" selection-start-line="237" selection-start-column="35" selection-end-line="237" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -725,57 +518,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="90" column="33" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/workpermit/list-workpermit/list-workpermit.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/shared/incident.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/shared/induction-checklist.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-99">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/shared/job-analysis.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/shared/incident.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
-          <folding>
-            <element signature="e#138#181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/shared/job-analysis.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
-          <folding>
-            <element signature="e#142#185#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -790,18 +536,302 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/jobcard/add-jobcard/add-jobcard.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        <state>
           <folding>
             <element signature="e#0#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/shared/job-analysis.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="12" />
+          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="14" />
+          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="18" />
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="11" />
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="16" />
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="14" />
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="21" />
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="11" />
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="12" />
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="13" />
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="13" />
+          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/jobcard/edit-jobcard/edit-jobcard.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/shared/incident.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/inductionchecklist/add-inductionchecklist/add-inductionchecklist.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/inductionchecklist/list-inductionchecklist/list-inductionchecklist.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="90" column="25" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/inductionchecklist/edit-inductionchecklist/edit-inductionchecklist.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/jobcard/edit-jobcard/edit-jobcard.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/incident/edit-incident/edit-incident.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/job-analysis/add-jobanalysis/add-jobanalysis.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/job-analysis/edit-jobanalysis/edit-jobanalysis.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="50" column="44" lean-forward="true" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/job-analysis/edit-jobanalysis/edit-jobanalysis.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/incident/edit-incident/edit-incident.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="56" column="126" lean-forward="true" selection-start-line="56" selection-start-column="126" selection-end-line="56" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/shared/incident.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/shared/job-analysis.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="48" column="71" selection-start-line="48" selection-start-column="71" selection-end-line="48" selection-end-column="71" />
+          <folding>
+            <element signature="e#3#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/incident/add-incident/add-incident.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="69" column="74" lean-forward="true" selection-start-line="69" selection-start-column="74" selection-end-line="69" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/incident/add-incident/add-incident.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="30" column="418" selection-start-line="30" selection-start-column="418" selection-end-line="30" selection-end-column="418" />
+          <folding>
+            <element signature="e#2#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/job-analysis/add-jobanalysis/add-jobanalysis.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="45">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding>
+            <element signature="e#3#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/incident/list-incident/list-incident.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/ohs-officer-dashboard/ohs-officer-dashboard.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/workpermit/list-workpermit/list-workpermit.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="50" lean-forward="true" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/view-workpermits/view-workpermits.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/view-toolbox/view-toolbox.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/view-jobcard/view-jobcard.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/view-induction/view-induction.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/toolboxtalk/list-toolboxtalk/list-toolboxtalk.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/incident/list-incident/list-incident.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/ohs-officer-dashboard/ohs-officer-dashboard.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="290" column="90" selection-start-line="290" selection-start-column="90" selection-end-line="290" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/job-analysis/list-jobanalysis/list-jobanalysis.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+          <folding>
+            <element signature="e#2#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/sections/sections.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="3986" column="18" selection-start-line="3986" selection-start-column="18" selection-end-line="3986" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#3;n#div#3;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/job-analysis/list-jobanalysis/list-jobanalysis.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/jobcard/list-jobcard/list-jobcard.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/jobcard/list-jobcard/list-jobcard.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2550">
+          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#div#1;n#ng-template#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/examples/registerpage/registerpage.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="115" column="78" lean-forward="true" selection-start-line="115" selection-start-column="78" selection-end-line="115" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/examples/contactus/contactus.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
         </state>
       </provider>
     </entry>

@@ -1,1 +1,96 @@
-<p>add-incident works!</p>
+<div class="container wrapper wrapper2">
+    <div class="row">
+
+        <!-- Form -->
+        <div class="col-md-12">
+            <h3>Add Incident</h3>
+            <h3>Add incident</h3>
+            <h3>Add Incident </h3>
+            <form>
+
+
+
+                <div class="custom-control custom-checkbox">
+                    <h3>Type of incident</h3>
+                    <input type="checkbox" class="custom-control-input" id="customCheck1" [(ngModel)]="incidentDetails.serious_injury" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck1">Serious injury</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck2" [(ngModel)]="incidentDetails.serious_incident" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck2">Serious incident</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck3" [(ngModel)]="incidentDetails.first_aid" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck3">first aid</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck4" [(ngModel)]="incidentDetails.medical_aid" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck4">medical aid</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck5" [(ngModel)]="incidentDetails.potential_serious" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck5">potentially serious incident</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck6" [(ngModel)]="incidentDetails.production_loss" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck6">production loss</label>
+                </div>
+                <div class="form-group">
+                    <label  class="form-control-label">date reported</label>
+                    <input class="form-control form-control-alternative" [(ngModel)]="incidentDetails.date_time_reported"  type="date" [ngModelOptions]="{standalone: true}">
+                </div>
+                <div class="form-group">
+                    <label  class="form-control-label">worker job title</label>
+                    <input class="form-control form-control-alternative" [(ngModel)]="incidentDetails.worker_job_title"  type="text" [ngModelOptions]="{standalone: true}">
+                </div>
+                <div class="form-group">
+                    <label  class="form-control-label">Date of incident</label>
+                    <input class="form-control form-control-alternative" [(ngModel)]="incidentDetails.date_of_incident"  type="date" [ngModelOptions]="{standalone: true}">
+                </div>
+                <h3>Incident reported to</h3>
+
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck8" [(ngModel)]="incidentDetails.first_aider" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck8">first aider</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck9" [(ngModel)]="incidentDetails.supervisor" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck9">Supervisor</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck10" [(ngModel)]="incidentDetails.another_worker" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck10">Another Worker</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck11" [(ngModel)]="incidentDetails.ohs_committee_member" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck11">OHS committee member</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck12" [(ngModel)]="incidentDetails.ohs_representative" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck12">OHS representative</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck13" [(ngModel)]="incidentDetails.employer" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck13">Employer</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck14" [(ngModel)]="incidentDetails.prime_contractor" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck14">Prime contractor</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck15" [(ngModel)]="incidentDetails.other_person" [ngModelOptions]="{standalone: true}">
+                    <label class="custom-control-label" for="customCheck15">Any other person</label>
+                </div>
+
+
+
+
+
+                <div class="form-group">
+                    <button class="btn btn-success btn-lg btn-block" (click)="addIncident()">Report Incident</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>

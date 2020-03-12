@@ -1,1 +1,86 @@
-<p>list-incident works!</p>
+
+<div class="container-fliud">
+
+    <!-- Show it when there is no induction checklist created -->
+    <div class="no-data text-center" *ngIf="Incidents.length == 0">
+        <p>There are no incidents added yet!</p>
+        <button class="btn btn-outline-primary" routerLink="/add-induction-checklist">Add Inidents</button>
+    </div>
+
+    <!-- Jobcard list table, it hides when there is no employee -->
+    <div *ngIf="Incidents.length !== 0">
+
+
+        <h3 class="mb-3 text-center">Incidents</h3>
+
+        <div>
+            <table class="table mb-3" datatable >
+                <thead>
+                <tr>
+                    <th scope="col">Incident Id</th>
+                    <th scope="col">Created at</th>
+                    <th scope="col">serious injury</th>
+                    <th scope="col">serious incident</th>
+                    <th scope="col">first aid</th>
+                    <th scope="col">medical aid</th>
+                    <th scope="col">potential serious</th>
+                    <th scope="col">property damage</th>
+                    <th scope="col">production_ oss</th>
+                    <th scope="col">date_ ime reported</th>
+                    <th scope="col">worker job title</th>
+                    <th scope="col">first aider</th>
+                    <th scope="col">supervisor</th>
+                    <th scope="col">another_ orker</th>
+                    <th scope="col">ohs committee member</th>
+                    <th scope="col">ohs representative</th>
+                    <th scope="col">employer</th>
+                    <th scope="col">prime contractor</th>
+                    <th scope="col">other person</th>
+
+                    <th scope="col" class="text-right">Actions</th>
+
+                </tr>
+                </thead>
+                <tbody>
+                <tr *ngFor="let incident of Incidents">
+                    <td>{{incident._id}}</td>
+                    <td>{{incident.createdAt}}</td>
+                    <td>{{incident.serious_injury}}</td>
+                    <td>{{incident.serious_incident}}</td>
+                    <td>{{incident.first_aid}}</td>
+                    <td>{{incident.medical_aid}}</td>
+                    <td>{{incident.potential_serious}}</td>
+                    <td>{{incident.property_damage}}</td>
+                    <td>{{incident.production_loss}}</td>
+                    <td>{{incident.date_time_reported}}</td>
+                    <td>{{incident.worker_job_title}}</td>
+                    <td>{{incident.first_aider}}</td>
+                    <td>{{incident.supervisor}}</td>
+                    <td>{{incident.another_worker}}</td>
+                    <td>{{incident.ohs_committee_member}}</td>
+                    <td>{{incident.ohs_representative}}</td>
+                    <td>{{incident.employer}}</td>
+                    <td>{{incident.prime_contractor}}</td>
+                    <td>{{incident.other_person}}</td>
+
+
+
+                    <td>
+
+                        <button type="button" rel="tooltip" class="btn btn-success btn-icon btn-sm " data-original-title="" title="">
+                            <span class="edit" routerLink="/edit-incident/{{incident._id}}">Edit</span>
+                        </button>
+                        <button type="button" rel="tooltip" class="btn btn-danger btn-icon btn-sm " data-original-title="" title="">
+                            <span class="delete" (click)="deleteIncidents(incident._id)">Delete</span>
+                        </button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+</div>
+
+

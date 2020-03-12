@@ -29,6 +29,19 @@
                                     <!--                  <span class="btn-inner&#45;&#45;text"  (click)="openModal(template)" >new jobcard</span>-->
                                 </a>
                             </div>
+
+                            <div class="btn-wrapper mt-5">
+                                <a
+                                        class="btn btn-white btn-icon mb-3 mb-sm-0"
+
+                                >
+                  <span class="btn-inner--icon">
+                    <i class="fas fa-chart-area"> </i>
+                  </span>
+                                    <span class="btn-inner--text"  [routerLink]="['/add-jobanalysis']">new job analysis</span>
+                                    <!--                  <span class="btn-inner&#45;&#45;text"  (click)="openModal(template)" >new jobcard</span>-->
+                                </a>
+                            </div>
                             <div class="mt-5">
                                 <small class="font-weight-bold mb-0 mr-2">
                                     *proudly coded by joe kabucho
@@ -259,5 +272,38 @@
         </div>
 
 
+    </div>
+</div>
+<div class="row" *ngIf="Jobanalysis.length !== 0">
+    <div class="col-lg-4 col-md-3" *ngFor="let job of Jobanalysis">
+        <div class="card card-project">
+            <a href="javascript:;">
+                <div
+                        class="icon icon-lg icon-shape icon-shape-primary shadow rounded-circle mx-auto"
+                >
+                    <i class="ni ni-favourite-28"> </i>
+                </div>
+            </a>
+            <div class="card-body">
+                <h4 class="card-title mt-3">Job Analysis</h4>
+                <p class="card-description">
+                    {{job.job_title}}
+                </p>
+                <p class="card-description">
+                    {{job.location}}
+                </p>
+                <p class="card-description">
+                    {{job.working_condition}}
+                </p>
+                <p class="card-description">
+                    {{job.hazards}}
+                </p>
+                <div class="card-footer">
+                    <button class="btn btn-link text-primary" type="button" [routerLink]="['/list=jobanalysis']">
+                        <i class="ni ni-glasses-2"> </i> Check more
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

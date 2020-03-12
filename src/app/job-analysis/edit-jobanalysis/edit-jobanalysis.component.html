@@ -1,1 +1,72 @@
-<p>edit-jobanalysis works!</p>
+<div class="container wrapper wrapper2">
+    <div class="row">
+
+        <!-- Form -->
+        <div class="col-md-12">
+            <h3>Edit Job Analysis</h3>
+            <h3>Edit Job Analysis</h3>
+            <h3>Edit Job Analysis </h3>
+            <form>
+
+
+
+                <div class="custom-control custom-checkbox">
+                    <h3>Edit Job Analysis</h3>
+                    <div class="form-group">
+                        <label  class="form-control-label">job title</label>
+                        <input class="form-control form-control-alternative" [(ngModel)]="jobanalysisData.job_title"  type="text" [ngModelOptions]="{standalone: true}">
+                    </div>
+                    <div class="form-group">
+                        <label  class="form-control-label">location</label>
+                        <input class="form-control form-control-alternative" [(ngModel)]="jobanalysisData.location"  type="text" [ngModelOptions]="{standalone: true}">
+                    </div>
+                    <div class="form-group">
+                        <label  class="form-control-label">summary</label>
+                        <input class="form-control form-control-alternative" [(ngModel)]="jobanalysisData.summary"  type="text" [ngModelOptions]="{standalone: true}">
+                    </div>
+                    <div class="form-group">
+                        <label  class="form-control-label">working condition</label>
+                        <input class="form-control form-control-alternative" [(ngModel)]="jobanalysisData.working_condition"  type="text" [ngModelOptions]="{standalone: true}">
+                    </div>
+                    <div class="form-group">
+                        <label  class="form-control-label">job duties</label>
+                        <input class="form-control form-control-alternative" [(ngModel)]="jobanalysisData.job_duties"  type="text" [ngModelOptions]="{standalone: true}">
+                    </div>
+                    <div class="form-group">
+                        <label  class="form-control-label">machine used</label>
+                        <input class="form-control form-control-alternative" [(ngModel)]="jobanalysisData.machine_used"  type="text" [ngModelOptions]="{standalone: true}">
+                    </div>
+                    <div class="form-group">
+                        <label  class="form-control-label">hazards</label>
+                        <input class="form-control form-control-alternative" [(ngModel)]="jobanalysisData.hazards"  type="text" [ngModelOptions]="{standalone: true}">
+                    </div>
+                    <div class="form-group">
+                        <label  class="form-control-label">qualifications</label>
+                        <input class="form-control form-control-alternative" [(ngModel)]="jobanalysisData.qualifications"  type="text" [ngModelOptions]="{standalone: true}">
+                    </div>
+                    <div class="form-group">
+                        <label  class="form-control-label">experience</label>
+                        <input class="form-control form-control-alternative" [(ngModel)]="jobanalysisData.experience"  type="text" [ngModelOptions]="{standalone: true}">
+                    </div>
+                    <div class="form-group">
+                        <label  class="form-control-label">training</label>
+                        <input class="form-control form-control-alternative" [(ngModel)]="jobanalysisData.training"  type="text" [ngModelOptions]="{standalone: true}">
+                    </div>
+
+
+
+
+
+
+
+
+
+                    <div class="form-group">
+                        <button class="btn btn-success btn-lg btn-block" (click)="updateJobanalysis()">Update Job Analysis</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>

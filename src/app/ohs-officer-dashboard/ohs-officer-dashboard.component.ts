@@ -8,7 +8,7 @@ import {BsModalRef, BsModalService} from 'ngx-bootstrap';
 import {TemplateRef} from '@angular/core';
 import { dev } from '../config/dev';
 import {HttpClient} from '@angular/common/http';
-
+import { IncidentService } from '../shared/incident.service';
 @Component({
   selector: 'app-ohs-officer-dashboard',
   templateUrl: './ohs-officer-dashboard.component.html',
@@ -35,9 +35,10 @@ export class OhsOfficerDashboardComponent implements OnInit {
   Workpermit: any = [];
   Inductionchecklist: any = [];
   Toolboxtalk: any = [];
+  Incidents: any = [];
 
   // tslint:disable-next-line:max-line-length
-  constructor(    public JobcardRestApi: JobcardService  , private modalService: BsModalService, private http: HttpClient, public WorkpermitRestApi: WorkPermitService, public InductionchecklistRestApi: InductionChecklistService, public ToolboxRestApi: ToolboxTalkService
+  constructor(   public IncidentRestApi: IncidentService , public JobcardRestApi: JobcardService  , private modalService: BsModalService, private http: HttpClient, public WorkpermitRestApi: WorkPermitService, public InductionchecklistRestApi: InductionChecklistService, public ToolboxRestApi: ToolboxTalkService
   ) {
     this.getAllUsers();
     this.getUser();
@@ -48,6 +49,7 @@ export class OhsOfficerDashboardComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.loadIncidents();
     this.loadWorkPermit();
     this.loadJobcards();
     this.loadInductionchecklists();
@@ -91,6 +93,12 @@ export class OhsOfficerDashboardComponent implements OnInit {
   loadWorkPermit() {
     return this.WorkpermitRestApi.GetWorkPermit().subscribe((data: {}) => {
       this.Workpermit = data;
+    });
+  }
+  // Get employees list
+  loadIncidents() {
+    return this.IncidentRestApi.GetIncidents().subscribe((data: {}) => {
+      this.Incidents = data;
     });
   }
 

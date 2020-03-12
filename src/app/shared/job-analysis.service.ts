@@ -46,7 +46,7 @@ export class JobAnalysisService {
 
   // GET
   GetJobAnalysiss(): Observable<JobAnalysis> {
-    return this.http.get<JobAnalysis>(this.baseurl + '/api/job_analysis/')
+    return this.http.get<JobAnalysis>(this.baseurl + '/api/job_analysis')
         .pipe(
             retry(1),
             catchError(this.errorHandl)

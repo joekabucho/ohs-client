@@ -264,3 +264,53 @@
     </div>
 </div>
 </div>
+<div class="row" *ngIf="Incidents.length !== 0">
+    <div class="col-lg-3 col-md-3" *ngFor="let incident of Incidents">
+        <div class="card">
+            <div class="card-header mt-2">
+                <div class="float-left">
+                    <i class="ni ni-button-power d-inline text-success mr-1"> </i>
+                    <p class="d-inline">Id:{{incident._id}} </p>
+                </div>
+                <div class="float-right">
+                    <div class="dropdown" dropdown>
+                        <button
+                                aria-expanded="false"
+                                class="btn btn-link btn-sm"
+                                data-toggle="dropdown"
+                                dropdownToggle
+                                type="button"
+                        >
+                            <i class="ni ni-settings-gear-65"> </i>
+                        </button>
+                        <div
+                                class="dropdown-menu dropdown-menu-right"
+                                *dropdownMenu
+                                x-placement="bottom-end"
+                        >
+                            <a class="dropdown-item" href="javascript:;" [routerLink]="['/list-incident']">
+                                view all
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body text-center p-4">
+
+                <h4 class="card-title mt-3 mb-0">Incidents</h4>
+                <p class="card-description">
+                    {{incident.production_loss}}
+                </p>
+                <p class="card-description">
+                    {{incident.date_time_reported}}
+                </p>
+                <p class="card-description">
+                    {{incident.worker_job_title}}
+                </p>
+
+
+            </div>
+        </div>
+    </div>
+</div>
