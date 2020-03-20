@@ -11,7 +11,7 @@ import { retry, catchError } from 'rxjs/operators';
 export class JobcardService {
 
   // Define API
-  apiURL = '';
+  apiURL = 'http://54.93.236.71:8000';
 
   constructor(private http: HttpClient) { }
 

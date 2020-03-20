@@ -105,7 +105,7 @@ export class RegisterpageComponent implements  OnInit, OnDestroy {
                         this.router.navigateByUrl( 'pm-dashboard');
                     }
                   if (data.role === 'ohs_officer') {
-                        this.router.navigateByUrl('ohs');
+                        this.router.navigateByUrl('ohs-dashboard');
                     }
                   if (data.role === 'noc_officer') {
                         this.router.navigateByUrl('noc-dashboard');
