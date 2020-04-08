@@ -11,7 +11,8 @@ import { retry, catchError } from 'rxjs/operators';
 export class JobcardService {
 
   // Define API
-  apiURL = 'http://54.93.236.71:8000';
+  apiURL = 'http://13.59.82.69:8000';
+  base_path = 'http://13.59.82.69:8000/api/jobcard';
 
   constructor(private http: HttpClient) { }
 
@@ -52,6 +53,14 @@ export class JobcardService {
             retry(1),
             catchError(this.handleError)
         );
+  }
+  createItem(item): Observable<Jobcard> {
+    return this.http
+      .post<Jobcard>(this.base_path, JSON.stringify(item), this.httpOptions)
+      .pipe(
+        retry(2),
+        catchError(this.handleError)
+      )
   }
 
   // HttpClient API put() method => Update employee

@@ -13,7 +13,8 @@ import { retry, catchError } from 'rxjs/operators';
 export class IncidentService {
 
   // Base url
-  baseurl = 'http://54.93.236.71:8000';
+  baseurl = 'http://13.59.82.69:8000';
+  base_path = 'http://13.59.82.69:8000/api/incident';
 
   constructor(private http: HttpClient) { }
 
@@ -31,6 +32,14 @@ export class IncidentService {
             retry(1),
             catchError(this.errorHandl)
         );
+  }
+  createItem(item): Observable<Incident> {
+    return this.http
+      .post<Incident>(this.base_path, JSON.stringify(item), this.httpOptions)
+      .pipe(
+        retry(2),
+        catchError(this.errorHandl)
+      )
   }
 
   // GET

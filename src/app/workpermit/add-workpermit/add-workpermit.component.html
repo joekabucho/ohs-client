@@ -10,43 +10,43 @@
 
                 <div class="form-group">
                     <label  class="form-control-label">Created By</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="workpermitDetails.created_by"  type="text" [ngModelOptions]="{standalone: true}">
+                    <input class="form-control form-control-alternative" [(ngModel)]="data.created_by"  type="text" [ngModelOptions]="{standalone: true}">
                 </div>
                 <div class="form-group">
                     <label  class="form-control-label">Approved By</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="workpermitDetails.approver_by"  type="text" [ngModelOptions]="{standalone: true}">
+                    <input class="form-control form-control-alternative" [(ngModel)]="data.approver_by"  type="text" [ngModelOptions]="{standalone: true}">
                 </div>
                 <div class="form-group">
                     <label  class="form-control-label">Ammendments</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="workpermitDetails.ammendments"  type="text" [ngModelOptions]="{standalone: true}">
+                    <input class="form-control form-control-alternative" [(ngModel)]="data.ammendments"  type="text" [ngModelOptions]="{standalone: true}">
                 </div>
                 <div class="form-group">
                     <label  class="form-control-label">Issued By</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="workpermitDetails.issued_by"  type="text" [ngModelOptions]="{standalone: true}">
+                    <input class="form-control form-control-alternative" [(ngModel)]="data.issued_by"  type="text" [ngModelOptions]="{standalone: true}">
                 </div>
                 <div class="form-group">
                     <label  class="form-control-label">Site Name</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="workpermitDetails.site_name"  type="text" [ngModelOptions]="{standalone: true}">
+                    <input class="form-control form-control-alternative" [(ngModel)]="data.site_name"  type="text" [ngModelOptions]="{standalone: true}">
                 </div>
                 <div class="form-group">
                     <label  class="form-control-label">Project</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="workpermitDetails.project"  type="text" [ngModelOptions]="{standalone: true}">
+                    <input class="form-control form-control-alternative" [(ngModel)]="data.project"  type="text" [ngModelOptions]="{standalone: true}">
                 </div>
                 <div class="form-group">
                     <label  class="form-control-label">Technician</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="workpermitDetails.Technician"  type="text" [ngModelOptions]="{standalone: true}">
+                    <input class="form-control form-control-alternative" [(ngModel)]="data.Technician"  type="text" [ngModelOptions]="{standalone: true}">
                 </div>
                 <div class="form-group">
                     <label  class="form-control-label">Comments</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="workpermitDetails.comments"  type="text" [ngModelOptions]="{standalone: true}">
+                    <input class="form-control form-control-alternative" [(ngModel)]="data.comments"  type="text" [ngModelOptions]="{standalone: true}">
                 </div>
                 <div class="form-group">
                     <label  class="form-control-label">Valid From</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="workpermitDetails.valid_from"  type="date" [ngModelOptions]="{standalone: true}">
+                    <input class="form-control form-control-alternative" [(ngModel)]="data.valid_from"  type="date" [ngModelOptions]="{standalone: true}">
                 </div>
                 <div class="form-group">
                     <label  class="form-control-label">Valid To</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="workpermitDetails.valid_to"  type="date" [ngModelOptions]="{standalone: true}">
+                    <input class="form-control form-control-alternative" [(ngModel)]="data.valid_to"  type="date" [ngModelOptions]="{standalone: true}">
                 </div>
                 <div class="form-group mb-3"  [ngClass]="{ 'focused': focus === true }">
                     <div class="input-group input-group-alternative">
@@ -61,7 +61,7 @@
                                 [ngModelOptions]="{standalone: true}"
                                 type="text" (blur)="focus = false"
                                 (focus)="focus = true"
-                                [(ngModel)]="workpermitDetails.issue_to"
+                                [(ngModel)]="data.issue_to"
                         >
                             <option *ngFor="let user of users" [value]="user._id">{{user.name}} who is a {{user.role}}</option>
                         </select>
@@ -69,7 +69,7 @@
                 </div>
 
                 <div class="form-group">
-                    <button class="btn btn-success btn-lg btn-block" (click)="addWorkPermit()">Create Work Permit</button>
+                    <button class="btn btn-success btn-lg btn-block" (click)="submitForm()">Create Work Permit</button>
                 </div>
             </form>
         </div>

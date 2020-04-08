@@ -1,6 +1,8 @@
 import {Component, Input, OnInit} from '@angular/core';
 import { Router } from '@angular/router';
 import {WorkPermitService} from '../../shared/work-permit.service';
+import {WorkPermit} from '../../shared/work-permit';
+
 import { dev } from '../../config/dev';
 import {HttpClient} from '@angular/common/http';
 
@@ -23,11 +25,13 @@ export class AddWorkpermitComponent implements OnInit {
   profile: any;
   url = dev.connect;
   // tslint:disable-next-line:max-line-length
-  @Input() workpermitDetails = { created_by  : '', approver_by  : '', ammendments: '', issued_by: '', site_name: '', project: '', Technician: '', comments: '', valid_from: '', valid_to: '',issue_to:'' }
+  data: WorkPermit
+
 
   constructor(public WorkpermitRestApi: WorkPermitService,
               public router: Router,
               private http: HttpClient)  {
+                this.data = new WorkPermit();
     this.getAllUsers();
     this.getUser();
   }
@@ -36,11 +40,14 @@ export class AddWorkpermitComponent implements OnInit {
     const navbar = document.getElementById('navbar-main');
     navbar.classList.add('bg-primary');
   }
-addWorkPermit() {
-  this.WorkpermitRestApi.CreateWorkPermit(this.workpermitDetails).subscribe((data: {}) => {
-    this.router.navigate(['/list-workpermit']);
-  });
-}
+
+  submitForm() {
+    this.WorkpermitRestApi.createItem(this.data).subscribe((response) => {
+      this.router.navigate(['/list-workpermit']);
+    });
+ 
+  }
+
   getAllUsers() {
     this.http.get(this.url + '/api/user/getAll').subscribe((data) => {
       this.users = data;

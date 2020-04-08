@@ -11,7 +11,8 @@ import { retry, catchError } from 'rxjs/operators';
 export class WorkPermitService {
 
     // Base url
-    baseurl = 'http://54.93.236.71:8000';
+    baseurl = 'http://13.59.82.69:8000';
+    base_path = 'http://13.59.82.69:8000/api/work_permit';
 
     constructor(private http: HttpClient) { }
 
@@ -30,6 +31,14 @@ export class WorkPermitService {
                 catchError(this.errorHandl)
             );
     }
+    createItem(item): Observable<WorkPermit> {
+        return this.http
+          .post<WorkPermit>(this.base_path, JSON.stringify(item), this.httpOptions)
+          .pipe(
+            retry(2),
+            catchError(this.errorHandl)
+          )
+      }
 
     // GET
     // tslint:disable-next-line:variable-name

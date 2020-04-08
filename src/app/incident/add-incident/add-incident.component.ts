@@ -5,6 +5,7 @@ import { IncidentService } from '../../shared/incident.service';
 import { Router } from '@angular/router';
 import { dev } from '../../config/dev';
 import {HttpClient} from '@angular/common/http';
+import {Incident} from '../../shared/incident';
 
 
 @Component({
@@ -27,9 +28,10 @@ export class AddIncidentComponent implements OnInit {
   users: any;
   profile: any;
   url = dev.connect;
+  data: Incident
+
 
   // tslint:disable-next-line:max-line-length
-  @Input() incidentDetails = { id: '', createdAt: '', serious_injury : '', serious_incident: '', first_aid: '', medical_aid: '', potential_serious: '', property_damage: '', production_loss: '', date_time_reported: '', worker_job_title: '', date_of_incident: '', first_aider: '', supervisor: '', another_worker: '', ohs_committee_member: '', ohs_representative: '', employer: '', prime_contractor: '', other_person: ''};
 
   constructor(
       public restApi: IncidentService,
@@ -38,6 +40,7 @@ export class AddIncidentComponent implements OnInit {
   ) {
     this.getAllUsers();
     this.getUser();
+    this.data = new Incident();
   }
 
   ngOnInit() {
@@ -45,13 +48,19 @@ export class AddIncidentComponent implements OnInit {
     navbar.classList.add('bg-primary');
   }
 
-  addIncident() {
-    const formData: FormData = new FormData();
-    this.restApi.createIncident(this.incidentDetails).subscribe((data: {}) => {
+  // addIncident() {
+  //   const formData: FormData = new FormData();
+  //   this.restApi.createIncident(this.incidentDetails).subscribe((data: {}) => {
+  //     this.router.navigate(['/list-incident']);
+  //   });
+  //   return this.http
+  //       .post(this.url + '/api/files', formData);
+  // }
+  submitForm() {
+    this.restApi.createItem(this.data).subscribe((response) => {
       this.router.navigate(['/list-incident']);
     });
-    return this.http
-        .post(this.url + '/api/files', formData);
+ 
   }
   getAllUsers() {
     this.http.get(this.url + '/api/user/getAll').subscribe((data) => {

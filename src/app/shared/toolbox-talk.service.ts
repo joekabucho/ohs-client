@@ -11,7 +11,9 @@ import { retry, catchError } from 'rxjs/operators';
 export class ToolboxTalkService {
 
     // Base url
-    baseurl = 'http://54.93.236.71:8000';
+    baseurl = 'http://13.59.82.69:8000';
+    base_path = 'http://13.59.82.69:8000/api/toolbox_talk';
+
 
     constructor(private http: HttpClient) { }
 
@@ -23,13 +25,22 @@ export class ToolboxTalkService {
     };
 
     // POST
-    CreateToolboxTalk(data): Observable<ToolboxTalk> {
-        return this.http.post<ToolboxTalk>(this.baseurl + '/api/toolbox_talk/', JSON.stringify(data), this.httpOptions)
-            .pipe(
-                retry(1),
-                catchError(this.errorHandl)
-            );
-    }
+    // CreateToolboxTalk(data): Observable<ToolboxTalk> {
+    //     return this.http.post<ToolboxTalk>(this.baseurl + '/api/toolbox_talk/', JSON.stringify(data), this.httpOptions)
+    //         .pipe(
+    //             retry(1),
+    //             catchError(this.errorHandl)
+    //         );
+    // }
+
+    createItem(item): Observable<ToolboxTalk> {
+        return this.http
+          .post<ToolboxTalk>(this.base_path, JSON.stringify(item), this.httpOptions)
+          .pipe(
+            retry(2),
+            catchError(this.errorHandl)
+          )
+      }
 
     // GET
     GetToolboxTalks(id): Observable<ToolboxTalk> {
