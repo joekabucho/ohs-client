@@ -5,6 +5,8 @@ import {WorkPermit} from '../../shared/work-permit';
 
 import { dev } from '../../config/dev';
 import {HttpClient} from '@angular/common/http';
+import { JobcardService } from '../../shared/jobcard.service';
+
 
 @Component({
   selector: 'app-add-workpermit',
@@ -26,10 +28,12 @@ export class AddWorkpermitComponent implements OnInit {
   url = dev.connect;
   // tslint:disable-next-line:max-line-length
   data: WorkPermit
+  Jobcard: any = [];
 
 
   constructor(public WorkpermitRestApi: WorkPermitService,
               public router: Router,
+              public JobcardRestApi: JobcardService,
               private http: HttpClient)  {
                 this.data = new WorkPermit();
     this.getAllUsers();
@@ -39,6 +43,7 @@ export class AddWorkpermitComponent implements OnInit {
   ngOnInit() {
     const navbar = document.getElementById('navbar-main');
     navbar.classList.add('bg-primary');
+    this.loadJobcards();
   }
 
   submitForm() {
@@ -55,6 +60,11 @@ export class AddWorkpermitComponent implements OnInit {
   }
   getUser() {
     this.profile = localStorage.getItem('profile');
+  }
+  loadJobcards() {
+    return this.JobcardRestApi.getJobcard().subscribe((data: {}) => {
+      this.Jobcard = data;
+    });
   }
 
 }

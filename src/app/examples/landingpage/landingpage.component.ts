@@ -1,6 +1,8 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { dev } from '../../config/dev';
+import { JobcardService } from '../../shared/jobcard.service';
+
 
 @Component({
   selector: 'app-landingpage',
@@ -24,9 +26,13 @@ export class LandingpageComponent implements OnInit, OnDestroy {
   users: any;
   profile: any;
 
+  Jobcard: any = [];
+
   url = dev.connect;
 
-  constructor(private http: HttpClient) {
+  constructor(   public JobcardRestApi: JobcardService  ,private http: HttpClient) {
+    this.loadJobcards();
+
     this.getAllUsers();
     this.getUser();
   }
@@ -73,5 +79,10 @@ export class LandingpageComponent implements OnInit, OnDestroy {
   }
   getUser(){
    this.profile = localStorage.getItem('profile');
+  }
+  loadJobcards() {
+    return this.JobcardRestApi.getJobcard().subscribe((data: {}) => {
+      this.Jobcard = data;
+    });
   }
 }

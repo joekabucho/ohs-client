@@ -9,20 +9,50 @@
             <form>
 
                 <div class="form-group">
-                    <label  class="form-control-label">Location</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="data.location"  type="text" [ngModelOptions]="{standalone: true}">
+                
+                    <label style="padding-top: 10px">Location: </label >
+                        <select class="form-control" id="category"  [(ngModel)]="data.location"
+                                [ngModelOptions]="{standalone: true}"
+                                type="text" (blur)="focus = false"
+                                (focus)="focus = true"
+                        >
+                            <option *ngFor="let card of Jobcard" [value]="card.location_name">{{card.location_name}}</option>
+                        </select>
                 </div>
                 <div class="form-group" >
-                    <label  class="form-control-label">Manager</label>
-                    <input class="form-control form-control-alternative" type="text" [(ngModel)]="data.manager"  [ngModelOptions]="{standalone: true}">
+    
+                    <label style="padding-top: 10px">Manager: </label >
+                        <select class="form-control" id="category"
+                                [ngModelOptions]="{standalone: true}"
+                                type="text" (blur)="focus = false"
+                                (focus)="focus = true"
+                                [(ngModel)]="data.manager"
+                        >
+                            <option   *ngFor="let user of users" [value]="user.name">{{user.name}}</option>
+                        </select>
                 </div>
                 <div class="form-group">
-                    <label class="form-control-label">Position</label>
-                    <input class="form-control form-control-alternative" type="text" [(ngModel)]="data.position" [ngModelOptions]="{standalone: true}">
+            
+                    <label style="padding-top: 10px">Position: </label >
+                        <select class="form-control" id="category"
+                                [ngModelOptions]="{standalone: true}"
+                                type="text" (blur)="focus = false"
+                                (focus)="focus = true"
+                                [(ngModel)]="data.position"
+                        >
+                            <option   *ngFor="let user of users" [value]="user.name">{{user.name}} who is a {{user.role}}</option>
+                        </select>
                 </div>
                 <div class="form-group">
-                    <label class="form-control-label">Work Place</label>
-                    <input class="form-control form-control-alternative" type="text" [(ngModel)]="data.workplace" [ngModelOptions]="{standalone: true}">
+                
+                    <label style="padding-top: 10px">Work Place: </label >
+                        <select class="form-control" id="category"  [(ngModel)]="data.workplace"
+                                [ngModelOptions]="{standalone: true}"
+                                type="text" (blur)="focus = false"
+                                (focus)="focus = true"
+                        >
+                            <option *ngFor="let card of Jobcard" [value]="card.name">{{card.name}}</option>
+                        </select>
                 </div>
                 <div class="custom-control custom-checkbox">
                     <h3>Tick if yes</h3>

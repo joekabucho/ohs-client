@@ -57,8 +57,20 @@
                     <input class="form-control form-control-alternative" type="text"  [(ngModel)]="data.controlled_risk_levels" [ngModelOptions]="{standalone: true}">
                 </div>
                 <div class="form-group">
-                    <label  class="form-control-label">status</label>
-                    <input class="form-control form-control-alternative" type="text" [(ngModel)]="data.status" [ngModelOptions]="{standalone: true}">
+    
+                    <label style="padding-top: 10px">status: </label >
+                        <select class="form-control" id="category"
+                                [ngModelOptions]="{standalone: true}"
+                                type="text" (blur)="focus = false"
+                                (focus)="focus = true"
+                                [(ngModel)]="data.status"
+                        >
+                            <option>draft</option>
+                            <option>pending</option>
+                            <option>ready for issue</option>
+                            <option>issued</option>
+                            <option>discarded</option>
+                        </select>
                 </div>
                 <div class="form-group">
                     <label  class="form-control-label">Amount Invoiced</label>

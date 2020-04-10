@@ -13,12 +13,26 @@
                 <div class="custom-control custom-checkbox">
                     <h3>Job Analysis</h3>
                 <div class="form-group">
-                    <label  class="form-control-label">job title</label>
-                    <input class="form-control form-control-alternative" [(ngModel)]="data.job_title"  type="text" [ngModelOptions]="{standalone: true}">
+                
+                    <label style="padding-top: 10px">job title: </label >
+                        <select class="form-control" id="category"  [(ngModel)]="data.job_title"
+                                [ngModelOptions]="{standalone: true}"
+                                type="text" (blur)="focus = false"
+                                (focus)="focus = true"
+                        >
+                            <option *ngFor="let card of Jobcard" [value]="card.name">{{card.name}}</option>
+                        </select>
                 </div>
                     <div class="form-group">
-                        <label  class="form-control-label">location</label>
-                        <input class="form-control form-control-alternative" [(ngModel)]="data.location"  type="text" [ngModelOptions]="{standalone: true}">
+                      
+                        <label style="padding-top: 10px">location: </label >
+                            <select class="form-control" id="category"  [(ngModel)]="data.location"
+                                    [ngModelOptions]="{standalone: true}"
+                                    type="text" (blur)="focus = false"
+                                    (focus)="focus = true"
+                            >
+                                <option *ngFor="let card of Jobcard" [value]="card.location_name">{{card.location_name}}</option>
+                            </select>
                     </div>
                     <div class="form-group">
                         <label  class="form-control-label">summary</label>

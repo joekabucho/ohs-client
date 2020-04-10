@@ -7,6 +7,8 @@ import { Router } from '@angular/router';
 import { dev } from '../../config/dev';
 import {HttpClient} from '@angular/common/http';
 import {JobAnalysis} from '../../shared/job-analysis';
+import { JobcardService } from '../../shared/jobcard.service';
+
 
 
 @Component({
@@ -30,11 +32,14 @@ export class AddJobanalysisComponent implements OnInit {
     url = dev.connect;
     data: JobAnalysis
 
+  Jobcard: any = [];
+
 
     // tslint:disable-next-line:max-line-length
 
     constructor(
         public restApi: JobAnalysisService,
+        public JobcardRestApi: JobcardService  ,
         public router: Router,
         private http: HttpClient
     ) {
@@ -46,6 +51,7 @@ export class AddJobanalysisComponent implements OnInit {
     ngOnInit() {
         const navbar = document.getElementById('navbar-main');
         navbar.classList.add('bg-primary');
+        this.loadJobcards();
     }
 
     // addJobanalysis() {
@@ -71,5 +77,10 @@ export class AddJobanalysisComponent implements OnInit {
     getUser() {
         this.profile = localStorage.getItem('profile');
     }
+    loadJobcards() {
+        return this.JobcardRestApi.getJobcard().subscribe((data: {}) => {
+          this.Jobcard = data;
+        });
+      }
 
 }
