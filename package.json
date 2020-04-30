@@ -29,7 +29,7 @@
     "datatables.net-dt": "^1.10.20",
     "flatpickr": "4.5.7",
     "headroom.js": "0.10.3",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "ngx-bootstrap": "5.2.0",
     "ngx-chips": "^2.1.0",
     "ngx-toastr": "^11.3.2",
