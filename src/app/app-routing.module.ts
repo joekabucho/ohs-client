@@ -16,6 +16,7 @@ import { ChatpageComponent } from './examples/chatpage/chatpage.component';
 import { CheckoutpageComponent } from './examples/checkoutpage/checkoutpage.component';
 import { ContactusComponent } from './examples/contactus/contactus.component';
 import { EcommerceComponent } from './examples/ecommerce/ecommerce.component';
+import { DashboardComponent } from './examples/dashboard/dashboard.component';
 import { ErrorComponent } from './examples/error/error.component';
 import { InvoicepageComponent } from './examples/invoicepage/invoicepage.component';
 import { LoginpageComponent } from './examples/loginpage/loginpage.component';
@@ -52,7 +53,7 @@ const routes: Routes = [
   { path: 'index', component: IndexComponent },
   { path: 'presentation', component: PresentationComponent },
   { path: 'sections', component: SectionsComponent },
-
+  { path: 'dashboard', component: DashboardComponent },
   { path: 'profile-page', component: ProfilepageComponent },
   { path: 'register-page', component: RegisterpageComponent },
   { path: 'landing-page', component: LandingpageComponent },

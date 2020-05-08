@@ -3,9 +3,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; 
 import { NgModule } from '@angular/core';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { RouterModule } from '@angular/router';
-import { CommonModule } from '@angular/common';
+import { CommonModule,LocationStrategy, HashLocationStrategy  } from '@angular/common';
 
-import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+
+import { PerfectScrollbarModule } from 'ngx-perfect-scrollbar';
+import { PERFECT_SCROLLBAR_CONFIG } from 'ngx-perfect-scrollbar';
+import { PerfectScrollbarConfigInterface } from 'ngx-perfect-scrollbar';
+
+const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
+  suppressScrollX: true
+};
+
 import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
@@ -78,6 +86,22 @@ import { ListJobanalysisComponent } from './job-analysis/list-jobanalysis/list-j
 import { AddIncidentComponent } from './incident/add-incident/add-incident.component';
 import { ListIncidentComponent } from './incident/list-incident/list-incident.component';
 import { EditIncidentComponent } from './incident/edit-incident/edit-incident.component';
+import { DashboardComponent } from './examples/dashboard/dashboard.component';
+import { BrowserModule } from '@angular/platform-browser';
+
+
+import {
+  AppAsideModule,
+  AppBreadcrumbModule,
+  AppHeaderModule,
+  AppFooterModule,
+  AppSidebarModule,
+} from '@coreui/angular';
+
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { ChartsModule } from 'ng2-charts';
+
+
 
 
 @NgModule({
@@ -130,7 +154,8 @@ import { EditIncidentComponent } from './incident/edit-incident/edit-incident.co
     ListJobanalysisComponent,
     AddIncidentComponent,
     ListIncidentComponent,
-    EditIncidentComponent
+    EditIncidentComponent,
+    DashboardComponent
   ],
     imports: [
         CommonModule,
@@ -139,6 +164,18 @@ import { EditIncidentComponent } from './incident/edit-incident/edit-incident.co
         RouterModule,
         BrowserAnimationsModule,
         AppRoutingModule,
+        BrowserModule,
+        BrowserAnimationsModule,
+        AppRoutingModule,
+        AppAsideModule,
+        AppBreadcrumbModule.forRoot(),
+        AppFooterModule,
+        AppHeaderModule,
+        AppSidebarModule,
+        PerfectScrollbarModule,
+        BsDropdownModule.forRoot(),
+        TabsModule.forRoot(),
+        ChartsModule,
         //NotificationService,
         BsDropdownModule.forRoot(),
         ProgressbarModule.forRoot(),
@@ -162,7 +199,7 @@ import { EditIncidentComponent } from './incident/edit-incident/edit-incident.co
         ReactiveFormsModule,
         DataTablesModule,
     ],
-  providers: [ToolboxTalkService, InductionChecklistService, JobcardService, WorkPermitService],
+  providers: [ToolboxTalkService, InductionChecklistService, JobcardService, WorkPermitService,],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
