@@ -35,8 +35,10 @@
               "src/assets/scss/argon-design-system.scss",
               "node_modules/datatables.net-dt/css/jquery.dataTables.css"
             ],
-            "scripts": [    "node_modules/jquery/dist/jquery.js",
-              "node_modules/datatables.net/js/jquery.dataTables.js" ],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/datatables.net/js/jquery.dataTables.js"
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {
@@ -145,5 +147,8 @@
       }
     }
   },
-  "defaultProject": "argon-design-system-pro-angular"
+  "defaultProject": "argon-design-system-pro-angular",
+  "cli": {
+    "analytics": "c16dbaad-4461-40b9-998f-d443d40f8273"
+  }
 }

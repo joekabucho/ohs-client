@@ -6,4 +6,3 @@ export class Detection {
     // tslint:disable-next-line:variable-name
     person_without_ppe: number ;
 }
-

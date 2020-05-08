@@ -3,17 +3,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; 
 import { NgModule } from '@angular/core';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { RouterModule } from '@angular/router';
-import { CommonModule,LocationStrategy, HashLocationStrategy  } from '@angular/common';
+import { CommonModule } from '@angular/common';
 
-
-import { PerfectScrollbarModule } from 'ngx-perfect-scrollbar';
-import { PERFECT_SCROLLBAR_CONFIG } from 'ngx-perfect-scrollbar';
-import { PerfectScrollbarConfigInterface } from 'ngx-perfect-scrollbar';
-
-const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
-  suppressScrollX: true
-};
-
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
@@ -87,21 +79,6 @@ import { AddIncidentComponent } from './incident/add-incident/add-incident.compo
 import { ListIncidentComponent } from './incident/list-incident/list-incident.component';
 import { EditIncidentComponent } from './incident/edit-incident/edit-incident.component';
 import { DashboardComponent } from './examples/dashboard/dashboard.component';
-import { BrowserModule } from '@angular/platform-browser';
-
-
-import {
-  AppAsideModule,
-  AppBreadcrumbModule,
-  AppHeaderModule,
-  AppFooterModule,
-  AppSidebarModule,
-} from '@coreui/angular';
-
-import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
-import { ChartsModule } from 'ng2-charts';
-
-
 
 
 @NgModule({
@@ -164,18 +141,6 @@ import { ChartsModule } from 'ng2-charts';
         RouterModule,
         BrowserAnimationsModule,
         AppRoutingModule,
-        BrowserModule,
-        BrowserAnimationsModule,
-        AppRoutingModule,
-        AppAsideModule,
-        AppBreadcrumbModule.forRoot(),
-        AppFooterModule,
-        AppHeaderModule,
-        AppSidebarModule,
-        PerfectScrollbarModule,
-        BsDropdownModule.forRoot(),
-        TabsModule.forRoot(),
-        ChartsModule,
         //NotificationService,
         BsDropdownModule.forRoot(),
         ProgressbarModule.forRoot(),
@@ -199,7 +164,7 @@ import { ChartsModule } from 'ng2-charts';
         ReactiveFormsModule,
         DataTablesModule,
     ],
-  providers: [ToolboxTalkService, InductionChecklistService, JobcardService, WorkPermitService,],
+  providers: [ToolboxTalkService, InductionChecklistService, JobcardService, WorkPermitService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
