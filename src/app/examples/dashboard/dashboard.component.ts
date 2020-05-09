@@ -92,32 +92,32 @@ export class DashboardComponent implements OnInit {
   }
   loadJobcard() {
     return this.jobcardService.getJobcard().subscribe((data: {}) => {
-      this.Jobanalysis = data;
+      this.Jobcard = data;
     });
   }
   loadIncident() {
     return this.incidentService.GetIncidents().subscribe((data: {}) => {
-      this.Jobanalysis = data;
+      this.Incidents = data;
     });
   }
   loadInductionChecklist() {
     return this.inductionChecklistService.GetInductionChecklist().subscribe((data: {}) => {
-      this.Jobanalysis = data;
+      this.Inductionchecklist = data;
     });
   }
   loadDetection() {
     return this.detectionService.GetDetections().subscribe((data: {}) => {
-      this.Jobanalysis = data;
+      this.Detection = data;
     });
   }
   loadWorkpermit() {
     return this.workPermitService.GetWorkPermit().subscribe((data: {}) => {
-      this.Jobanalysis = data;
+      this.Workpermit = data;
     });
   }
   loadToolboxtalkks() {
     return this.toolboxTalkService.GetToolboxTalk().subscribe((data: {}) => {
-      this.Jobanalysis = data;
+      this.Toolboxtalk = data;
     });
   }
   getAllUsers() {
