@@ -12,6 +12,8 @@ import { DataTablesModule } from 'angular-datatables';
 import {BrowserModule} from '@angular/platform-browser';
 
 
+
+
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
@@ -60,7 +62,21 @@ export class DashboardComponent implements OnInit {
   Inductionchecklist: any = [];
   Toolboxtalk: any = [];
 
+  public barChartOptions = {
+    scaleShowVerticalLines: false,
+    responsive: true
+  };
+  public barChartLabels = ['2006', '2007', '2008', '2009', '2010', '2011', '2012'];
+  public barChartType = 'bar';
+  public barChartLegend = true;
+  public barChartData = [
+    {data: [65, 59, 80, 81, 56, 55, 40], label: 'Series A'},
+    {data: [28, 48, 40, 19, 86, 27, 90], label: 'Series B'}
+  ];
 
+  public doughnutChartLabels = ['Sales Q1', 'Sales Q2', 'Sales Q3', 'Sales Q4'];
+  public doughnutChartData = [120, 150, 180, 90];
+  public doughnutChartType = 'doughnut';
   ngOnInit() {
     this.loadJobanalysis();
     this.loadDetection();
@@ -69,10 +85,10 @@ export class DashboardComponent implements OnInit {
     this.loadJobcard();
     this.loadToolboxtalkks();
     this.loadWorkpermit();
-    const body = document.getElementsByTagName('body')[0];
-    body.classList.add('presentation-page');
-    const navbar = document.getElementById('navbar-main');
-    navbar.classList.add('bg-primary');
+    // const body = document.getElementsByTagName('body')[0];
+    // body.classList.add('presentation-page');
+    // const navbar = document.getElementById('navbar-main');
+    // navbar.classList.add('bg-primary');
     this.dtOptions = {
       pagingType: 'full_numbers'
     };
@@ -82,7 +98,7 @@ export class DashboardComponent implements OnInit {
     const body = document.getElementsByTagName('body')[0];
     body.classList.remove('presentation-page');
     const navbar = document.getElementById('navbar-main');
-    navbar.classList.remove('bg-primary');
+    navbar.classList.remove('bg-danger');
   }
   // Get employees list
   loadJobanalysis() {

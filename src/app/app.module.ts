@@ -21,6 +21,7 @@ import { TimepickerModule } from 'ngx-bootstrap/timepicker';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PresentationModule } from './presentation/presentation.module';
+import { ChartsModule } from 'ng2-charts';
 
 import { IndexComponent } from './index/index.component';
 import { SectionsComponent } from './sections/sections.component';
@@ -149,6 +150,7 @@ import { DashboardComponent } from './examples/dashboard/dashboard.component';
         PopoverModule.forRoot(),
         CollapseModule.forRoot(),
         TagInputModule,
+        ChartsModule,
         PresentationModule,
         TabsModule.forRoot(),
         PaginationModule.forRoot(),
