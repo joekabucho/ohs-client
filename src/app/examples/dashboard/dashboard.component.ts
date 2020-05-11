@@ -52,6 +52,7 @@ export class DashboardComponent implements OnInit {
   users: any;
   profile: any;
   url = dev.connect;
+ 
 
 
   Jobanalysis: any = [];
@@ -61,21 +62,30 @@ export class DashboardComponent implements OnInit {
   Workpermit: any = [];
   Inductionchecklist: any = [];
   Toolboxtalk: any = [];
+  workpermitNumber: any;
 
   public barChartOptions = {
     scaleShowVerticalLines: false,
     responsive: true
   };
+
+  public lineChartLabels = ['2006', '2007', '2008', '2009', '2010', '2011', '2012'];
+  public lineChartType = 'line';
+  public lineChartLegend = true;
+  public lineChartData = [
+    {data: [65, 59, 80, 81, 56, 55, 40], label: 'Number of incidents'}
+  ];
+
   public barChartLabels = ['2006', '2007', '2008', '2009', '2010', '2011', '2012'];
   public barChartType = 'bar';
   public barChartLegend = true;
   public barChartData = [
-    {data: [65, 59, 80, 81, 56, 55, 40], label: 'Series A'},
-    {data: [28, 48, 40, 19, 86, 27, 90], label: 'Series B'}
+    {data: [65, 59, 80, 81, 56, 55, 40], label: 'people detected with PPE'},
+    {data: [28, 48, 40, 19, 86, 27, 90], label: 'people detected without PPE'}
   ];
 
-  public doughnutChartLabels = ['Sales Q1', 'Sales Q2', 'Sales Q3', 'Sales Q4'];
-  public doughnutChartData = [120, 150, 180, 90];
+  public doughnutChartLabels = ['Jobcards', 'Work Permit'];
+  public doughnutChartData = [120, 150 ];
   public doughnutChartType = 'doughnut';
   ngOnInit() {
     this.loadJobanalysis();
@@ -126,6 +136,8 @@ export class DashboardComponent implements OnInit {
       this.Detection = data;
     });
   }
+
+
   loadWorkpermit() {
     return this.workPermitService.GetWorkPermit().subscribe((data: {}) => {
       this.Workpermit = data;
@@ -143,6 +155,20 @@ export class DashboardComponent implements OnInit {
   }
   getUser() {
     this.profile = localStorage.getItem('profile');
+  }
+
+  get totalWorkpermitRows(): number {
+    return this.Workpermit.length;
+  }
+
+  get totalJobcardRows(): number {
+    return this.Jobcard.length;
+  }
+  get totalJobanalysisRows(): number {
+    return this.Jobanalysis.length;
+  }
+  get totalToolboxRows(): number {
+    return this.Toolboxtalk.length;
   }
 
 

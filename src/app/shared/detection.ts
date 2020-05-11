@@ -2,7 +2,7 @@ export class Detection {
     id: string;
     createdAt: Date;
     // tslint:disable-next-line:variable-name
-    person_with_ppe: number ;
+    person_with_helmet: number ;
     // tslint:disable-next-line:variable-name
-    person_without_ppe: number ;
+    person_without_helmet: number ;
 }
