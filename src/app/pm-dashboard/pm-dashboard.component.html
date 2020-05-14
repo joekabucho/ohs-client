@@ -1,94 +1,5 @@
 <header class="header-1">
-    <nav class="navbar navbar-expand-lg bg-default navbar-absolute">
-        <div class="container">
-            <a class="navbar-brand text-white" href="javascript:;">
-                Argon
-            </a>
-            <button
-                    aria-controls="navbar-header-1"
-                    aria-label="Toggle navigation"
-                    class="navbar-toggler"
-                    [attr.aria-expanded]="!isCollapsed"
-                    (click)="isCollapsed = !isCollapsed"
-                    id="navbar-header-1"
-                    type="button"
-            >
-                <span class="navbar-toggler-icon"> </span>
-            </button>
-            <div
-                    class="navbar-collapse"
-                    [isAnimated]="true"
-                    [collapse]="isCollapsed"
-                    id="navbar-header-1"
-            >
-                <div class="navbar-collapse-header">
-                    <div class="row">
-                        <div class="col-6 collapse-brand">
-                            <a  [routerLink]="['/index']">
-                                <img src="assets/img/brand/blue.png" />
-                            </a>
-                        </div>
-                        <div class="col-6 collapse-close">
-                            <button
-                                    aria-controls="navbar-header-1"
-                                    aria-label="Toggle navigation"
-                                    class="navbar-toggler"
-                                    [attr.aria-expanded]="!isCollapsed"
-                                    (click)="isCollapsed = !isCollapsed"
-                                    id="navbar-header-1"
-                                    type="button"
-                            >
-                                <span> </span> <span> </span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="javascript:;">
-                            Home
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="javascript:;">
-                            About Us
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="javascript:;">
-                            Contact Us
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav navbar-nav">
-                    <li class="nav-item">
-                        <a
-                                class="nav-link text-white"
-                                href="https://twitter.com/CreativeTim"
-                        >
-                            <i class="fab fa-twitter"> </i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a
-                                class="nav-link text-white"
-                                href="https://www.facebook.com/CreativeTim"
-                        >
-                            <i class="fab fa-facebook-square"> </i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a
-                                class="nav-link text-white"
-                                href="https://www.instagram.com/CreativeTimOfficial"
-                        >
-                            <i class="fab fa-instagram"> </i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+
     <div class="page-header">
         <div
                 class="page-header-image"
@@ -106,14 +17,19 @@
                     <br />
 
                     <div class="buttons">
-                        <a class="btn btn-danger" href="javascript:;"> Make job  </a>
+                        <a class="btn btn-danger" href="javascript:;" [routerLink]="['./add-jobanalysis']"> Make job Analysis </a>
+                    </div>
+                    <br>
+                    <div class="buttons">
+                        <a class="btn btn-danger" href="javascript:;" [routerLink]="['/dashboard']"> Analytics </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </header>
-<div class="col-lg-4">
+<div class="row">
+<div class="col-lg-4" *ngFor="let job of Jobanalysis">
     <div class="card card-lift--hover shadow border-0">
         <div class="card-body py-5">
             <div
@@ -125,15 +41,33 @@
                 Job Analysis
             </h6>
             <p class="description mt-3">
-                Because I'm here to follow my dreams and inspire other
-                people to follow their dreams, too. That's what I'm
-                here for.
+                {{job.job_title}}
+                    <br>
+                {{job.location}}
+                    <br>
+                {{job.summary}}
+                    <br>
+                {{job.working_condition}}
+                    <br>
+                {{job.job_duties}}
+                    <br>
+                {{job.machine_used}}
+                    <br>
+                {{job.hazards}}
+                    <br>
+                {{job.qualifications}}
+                    <br>
+                {{job.experience}}
+                    <br>
+                {{job.training}}
+                    <br>
             </p>
             <a class="btn btn-primary mt-4" href="#">
                 Learn more
             </a>
         </div>
     </div>
+</div>
 </div>
 <div class="row" >
 <div class="col-lg-3" *ngFor="let jobcard of Jobcard">

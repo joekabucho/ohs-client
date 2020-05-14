@@ -1,3 +1,8 @@
+<br>
+<br>
+<br>
+<br>
+<br>
 <div class="project-2 my-5">
     <div class="container">
       <div class="row">
@@ -105,13 +110,8 @@
  
     </div>
     <div class="card-body">
-    <h4 class="card-title">Incident reported</h4>
-    <canvas baseChart
-              [datasets]="lineChartData"
-              [labels]="lineChartLabels"
-              [options]="barChartOptions"
-              [legend]="lineChartLegend"
-              [chartType]="lineChartType"></canvas>
+    <h4 class="card-title">Amounts Invoiced For Jobs</h4>
+    <canvas id="canvasline"></canvas>  
            
             </div>
    
@@ -123,24 +123,11 @@
 
     <div class="card text-center">
         <div class="card-header card-header-rose">
-        <ul class="nav nav-tabs">
-        <li class="nav-item">
-        <a class="nav-link active" href="javascript:;">Active</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="javascript:;">Link</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link disabled" href="javascript:;">Disabled</a>
-        </li>
-        </ul>
+   
         </div>
         <div class="card-body">
         <h4 class="card-title">Jobcard vs workpermits</h4>
-        <canvas baseChart
-        [data]="doughnutChartData"
-        [labels]="doughnutChartLabels"
-        [chartType]="doughnutChartType"></canvas>
+        <canvas id="piecanvas"></canvas>  
         
         </div>
         </div>
@@ -148,22 +135,13 @@
   </div>
 
         <div class="card card-nav-tabs text-center">
-            <div class="card-header card-header-primary">
-            Featured
-            </div>
+       
             <div class="card-body">
             <h4 class="card-title">Image recognition analytics</h4>
-            <canvas baseChart
-              [datasets]="barChartData"
-              [labels]="barChartLabels"
-              [options]="barChartOptions"
-              [legend]="barChartLegend"
-              [chartType]="barChartType"></canvas>
+            <canvas id="canvasbar">{{ barchart }}</canvas>  
            
             </div>
-            <div class="card-footer text-muted">
-            2 days ago
-            </div>
+         
             </div>
 
             <div class="row">
@@ -243,5 +221,6 @@
                     </div>
                 </div>
                     </div>
+                    
 
 

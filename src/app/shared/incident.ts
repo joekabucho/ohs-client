@@ -1,5 +1,6 @@
 export class Incident {
-    id: string;
+        // tslint:disable-next-line:variable-name
+    _id: string;
     createdAt: Date;
     // tslint:disable-next-line:variable-name
     serious_injury: boolean ;

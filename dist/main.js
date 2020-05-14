@@ -1,5 +1,301 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
 
+/***/ "./node_modules/moment/locale sync recursive ^\\.\\/.*$":
+/*!**************************************************!*\
+  !*** ./node_modules/moment/locale sync ^\.\/.*$ ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./af": "./node_modules/moment/locale/af.js",
+	"./af.js": "./node_modules/moment/locale/af.js",
+	"./ar": "./node_modules/moment/locale/ar.js",
+	"./ar-dz": "./node_modules/moment/locale/ar-dz.js",
+	"./ar-dz.js": "./node_modules/moment/locale/ar-dz.js",
+	"./ar-kw": "./node_modules/moment/locale/ar-kw.js",
+	"./ar-kw.js": "./node_modules/moment/locale/ar-kw.js",
+	"./ar-ly": "./node_modules/moment/locale/ar-ly.js",
+	"./ar-ly.js": "./node_modules/moment/locale/ar-ly.js",
+	"./ar-ma": "./node_modules/moment/locale/ar-ma.js",
+	"./ar-ma.js": "./node_modules/moment/locale/ar-ma.js",
+	"./ar-sa": "./node_modules/moment/locale/ar-sa.js",
+	"./ar-sa.js": "./node_modules/moment/locale/ar-sa.js",
+	"./ar-tn": "./node_modules/moment/locale/ar-tn.js",
+	"./ar-tn.js": "./node_modules/moment/locale/ar-tn.js",
+	"./ar.js": "./node_modules/moment/locale/ar.js",
+	"./az": "./node_modules/moment/locale/az.js",
+	"./az.js": "./node_modules/moment/locale/az.js",
+	"./be": "./node_modules/moment/locale/be.js",
+	"./be.js": "./node_modules/moment/locale/be.js",
+	"./bg": "./node_modules/moment/locale/bg.js",
+	"./bg.js": "./node_modules/moment/locale/bg.js",
+	"./bm": "./node_modules/moment/locale/bm.js",
+	"./bm.js": "./node_modules/moment/locale/bm.js",
+	"./bn": "./node_modules/moment/locale/bn.js",
+	"./bn.js": "./node_modules/moment/locale/bn.js",
+	"./bo": "./node_modules/moment/locale/bo.js",
+	"./bo.js": "./node_modules/moment/locale/bo.js",
+	"./br": "./node_modules/moment/locale/br.js",
+	"./br.js": "./node_modules/moment/locale/br.js",
+	"./bs": "./node_modules/moment/locale/bs.js",
+	"./bs.js": "./node_modules/moment/locale/bs.js",
+	"./ca": "./node_modules/moment/locale/ca.js",
+	"./ca.js": "./node_modules/moment/locale/ca.js",
+	"./cs": "./node_modules/moment/locale/cs.js",
+	"./cs.js": "./node_modules/moment/locale/cs.js",
+	"./cv": "./node_modules/moment/locale/cv.js",
+	"./cv.js": "./node_modules/moment/locale/cv.js",
+	"./cy": "./node_modules/moment/locale/cy.js",
+	"./cy.js": "./node_modules/moment/locale/cy.js",
+	"./da": "./node_modules/moment/locale/da.js",
+	"./da.js": "./node_modules/moment/locale/da.js",
+	"./de": "./node_modules/moment/locale/de.js",
+	"./de-at": "./node_modules/moment/locale/de-at.js",
+	"./de-at.js": "./node_modules/moment/locale/de-at.js",
+	"./de-ch": "./node_modules/moment/locale/de-ch.js",
+	"./de-ch.js": "./node_modules/moment/locale/de-ch.js",
+	"./de.js": "./node_modules/moment/locale/de.js",
+	"./dv": "./node_modules/moment/locale/dv.js",
+	"./dv.js": "./node_modules/moment/locale/dv.js",
+	"./el": "./node_modules/moment/locale/el.js",
+	"./el.js": "./node_modules/moment/locale/el.js",
+	"./en-au": "./node_modules/moment/locale/en-au.js",
+	"./en-au.js": "./node_modules/moment/locale/en-au.js",
+	"./en-ca": "./node_modules/moment/locale/en-ca.js",
+	"./en-ca.js": "./node_modules/moment/locale/en-ca.js",
+	"./en-gb": "./node_modules/moment/locale/en-gb.js",
+	"./en-gb.js": "./node_modules/moment/locale/en-gb.js",
+	"./en-ie": "./node_modules/moment/locale/en-ie.js",
+	"./en-ie.js": "./node_modules/moment/locale/en-ie.js",
+	"./en-il": "./node_modules/moment/locale/en-il.js",
+	"./en-il.js": "./node_modules/moment/locale/en-il.js",
+	"./en-in": "./node_modules/moment/locale/en-in.js",
+	"./en-in.js": "./node_modules/moment/locale/en-in.js",
+	"./en-nz": "./node_modules/moment/locale/en-nz.js",
+	"./en-nz.js": "./node_modules/moment/locale/en-nz.js",
+	"./en-sg": "./node_modules/moment/locale/en-sg.js",
+	"./en-sg.js": "./node_modules/moment/locale/en-sg.js",
+	"./eo": "./node_modules/moment/locale/eo.js",
+	"./eo.js": "./node_modules/moment/locale/eo.js",
+	"./es": "./node_modules/moment/locale/es.js",
+	"./es-do": "./node_modules/moment/locale/es-do.js",
+	"./es-do.js": "./node_modules/moment/locale/es-do.js",
+	"./es-us": "./node_modules/moment/locale/es-us.js",
+	"./es-us.js": "./node_modules/moment/locale/es-us.js",
+	"./es.js": "./node_modules/moment/locale/es.js",
+	"./et": "./node_modules/moment/locale/et.js",
+	"./et.js": "./node_modules/moment/locale/et.js",
+	"./eu": "./node_modules/moment/locale/eu.js",
+	"./eu.js": "./node_modules/moment/locale/eu.js",
+	"./fa": "./node_modules/moment/locale/fa.js",
+	"./fa.js": "./node_modules/moment/locale/fa.js",
+	"./fi": "./node_modules/moment/locale/fi.js",
+	"./fi.js": "./node_modules/moment/locale/fi.js",
+	"./fil": "./node_modules/moment/locale/fil.js",
+	"./fil.js": "./node_modules/moment/locale/fil.js",
+	"./fo": "./node_modules/moment/locale/fo.js",
+	"./fo.js": "./node_modules/moment/locale/fo.js",
+	"./fr": "./node_modules/moment/locale/fr.js",
+	"./fr-ca": "./node_modules/moment/locale/fr-ca.js",
+	"./fr-ca.js": "./node_modules/moment/locale/fr-ca.js",
+	"./fr-ch": "./node_modules/moment/locale/fr-ch.js",
+	"./fr-ch.js": "./node_modules/moment/locale/fr-ch.js",
+	"./fr.js": "./node_modules/moment/locale/fr.js",
+	"./fy": "./node_modules/moment/locale/fy.js",
+	"./fy.js": "./node_modules/moment/locale/fy.js",
+	"./ga": "./node_modules/moment/locale/ga.js",
+	"./ga.js": "./node_modules/moment/locale/ga.js",
+	"./gd": "./node_modules/moment/locale/gd.js",
+	"./gd.js": "./node_modules/moment/locale/gd.js",
+	"./gl": "./node_modules/moment/locale/gl.js",
+	"./gl.js": "./node_modules/moment/locale/gl.js",
+	"./gom-deva": "./node_modules/moment/locale/gom-deva.js",
+	"./gom-deva.js": "./node_modules/moment/locale/gom-deva.js",
+	"./gom-latn": "./node_modules/moment/locale/gom-latn.js",
+	"./gom-latn.js": "./node_modules/moment/locale/gom-latn.js",
+	"./gu": "./node_modules/moment/locale/gu.js",
+	"./gu.js": "./node_modules/moment/locale/gu.js",
+	"./he": "./node_modules/moment/locale/he.js",
+	"./he.js": "./node_modules/moment/locale/he.js",
+	"./hi": "./node_modules/moment/locale/hi.js",
+	"./hi.js": "./node_modules/moment/locale/hi.js",
+	"./hr": "./node_modules/moment/locale/hr.js",
+	"./hr.js": "./node_modules/moment/locale/hr.js",
+	"./hu": "./node_modules/moment/locale/hu.js",
+	"./hu.js": "./node_modules/moment/locale/hu.js",
+	"./hy-am": "./node_modules/moment/locale/hy-am.js",
+	"./hy-am.js": "./node_modules/moment/locale/hy-am.js",
+	"./id": "./node_modules/moment/locale/id.js",
+	"./id.js": "./node_modules/moment/locale/id.js",
+	"./is": "./node_modules/moment/locale/is.js",
+	"./is.js": "./node_modules/moment/locale/is.js",
+	"./it": "./node_modules/moment/locale/it.js",
+	"./it-ch": "./node_modules/moment/locale/it-ch.js",
+	"./it-ch.js": "./node_modules/moment/locale/it-ch.js",
+	"./it.js": "./node_modules/moment/locale/it.js",
+	"./ja": "./node_modules/moment/locale/ja.js",
+	"./ja.js": "./node_modules/moment/locale/ja.js",
+	"./jv": "./node_modules/moment/locale/jv.js",
+	"./jv.js": "./node_modules/moment/locale/jv.js",
+	"./ka": "./node_modules/moment/locale/ka.js",
+	"./ka.js": "./node_modules/moment/locale/ka.js",
+	"./kk": "./node_modules/moment/locale/kk.js",
+	"./kk.js": "./node_modules/moment/locale/kk.js",
+	"./km": "./node_modules/moment/locale/km.js",
+	"./km.js": "./node_modules/moment/locale/km.js",
+	"./kn": "./node_modules/moment/locale/kn.js",
+	"./kn.js": "./node_modules/moment/locale/kn.js",
+	"./ko": "./node_modules/moment/locale/ko.js",
+	"./ko.js": "./node_modules/moment/locale/ko.js",
+	"./ku": "./node_modules/moment/locale/ku.js",
+	"./ku.js": "./node_modules/moment/locale/ku.js",
+	"./ky": "./node_modules/moment/locale/ky.js",
+	"./ky.js": "./node_modules/moment/locale/ky.js",
+	"./lb": "./node_modules/moment/locale/lb.js",
+	"./lb.js": "./node_modules/moment/locale/lb.js",
+	"./lo": "./node_modules/moment/locale/lo.js",
+	"./lo.js": "./node_modules/moment/locale/lo.js",
+	"./lt": "./node_modules/moment/locale/lt.js",
+	"./lt.js": "./node_modules/moment/locale/lt.js",
+	"./lv": "./node_modules/moment/locale/lv.js",
+	"./lv.js": "./node_modules/moment/locale/lv.js",
+	"./me": "./node_modules/moment/locale/me.js",
+	"./me.js": "./node_modules/moment/locale/me.js",
+	"./mi": "./node_modules/moment/locale/mi.js",
+	"./mi.js": "./node_modules/moment/locale/mi.js",
+	"./mk": "./node_modules/moment/locale/mk.js",
+	"./mk.js": "./node_modules/moment/locale/mk.js",
+	"./ml": "./node_modules/moment/locale/ml.js",
+	"./ml.js": "./node_modules/moment/locale/ml.js",
+	"./mn": "./node_modules/moment/locale/mn.js",
+	"./mn.js": "./node_modules/moment/locale/mn.js",
+	"./mr": "./node_modules/moment/locale/mr.js",
+	"./mr.js": "./node_modules/moment/locale/mr.js",
+	"./ms": "./node_modules/moment/locale/ms.js",
+	"./ms-my": "./node_modules/moment/locale/ms-my.js",
+	"./ms-my.js": "./node_modules/moment/locale/ms-my.js",
+	"./ms.js": "./node_modules/moment/locale/ms.js",
+	"./mt": "./node_modules/moment/locale/mt.js",
+	"./mt.js": "./node_modules/moment/locale/mt.js",
+	"./my": "./node_modules/moment/locale/my.js",
+	"./my.js": "./node_modules/moment/locale/my.js",
+	"./nb": "./node_modules/moment/locale/nb.js",
+	"./nb.js": "./node_modules/moment/locale/nb.js",
+	"./ne": "./node_modules/moment/locale/ne.js",
+	"./ne.js": "./node_modules/moment/locale/ne.js",
+	"./nl": "./node_modules/moment/locale/nl.js",
+	"./nl-be": "./node_modules/moment/locale/nl-be.js",
+	"./nl-be.js": "./node_modules/moment/locale/nl-be.js",
+	"./nl.js": "./node_modules/moment/locale/nl.js",
+	"./nn": "./node_modules/moment/locale/nn.js",
+	"./nn.js": "./node_modules/moment/locale/nn.js",
+	"./oc-lnc": "./node_modules/moment/locale/oc-lnc.js",
+	"./oc-lnc.js": "./node_modules/moment/locale/oc-lnc.js",
+	"./pa-in": "./node_modules/moment/locale/pa-in.js",
+	"./pa-in.js": "./node_modules/moment/locale/pa-in.js",
+	"./pl": "./node_modules/moment/locale/pl.js",
+	"./pl.js": "./node_modules/moment/locale/pl.js",
+	"./pt": "./node_modules/moment/locale/pt.js",
+	"./pt-br": "./node_modules/moment/locale/pt-br.js",
+	"./pt-br.js": "./node_modules/moment/locale/pt-br.js",
+	"./pt.js": "./node_modules/moment/locale/pt.js",
+	"./ro": "./node_modules/moment/locale/ro.js",
+	"./ro.js": "./node_modules/moment/locale/ro.js",
+	"./ru": "./node_modules/moment/locale/ru.js",
+	"./ru.js": "./node_modules/moment/locale/ru.js",
+	"./sd": "./node_modules/moment/locale/sd.js",
+	"./sd.js": "./node_modules/moment/locale/sd.js",
+	"./se": "./node_modules/moment/locale/se.js",
+	"./se.js": "./node_modules/moment/locale/se.js",
+	"./si": "./node_modules/moment/locale/si.js",
+	"./si.js": "./node_modules/moment/locale/si.js",
+	"./sk": "./node_modules/moment/locale/sk.js",
+	"./sk.js": "./node_modules/moment/locale/sk.js",
+	"./sl": "./node_modules/moment/locale/sl.js",
+	"./sl.js": "./node_modules/moment/locale/sl.js",
+	"./sq": "./node_modules/moment/locale/sq.js",
+	"./sq.js": "./node_modules/moment/locale/sq.js",
+	"./sr": "./node_modules/moment/locale/sr.js",
+	"./sr-cyrl": "./node_modules/moment/locale/sr-cyrl.js",
+	"./sr-cyrl.js": "./node_modules/moment/locale/sr-cyrl.js",
+	"./sr.js": "./node_modules/moment/locale/sr.js",
+	"./ss": "./node_modules/moment/locale/ss.js",
+	"./ss.js": "./node_modules/moment/locale/ss.js",
+	"./sv": "./node_modules/moment/locale/sv.js",
+	"./sv.js": "./node_modules/moment/locale/sv.js",
+	"./sw": "./node_modules/moment/locale/sw.js",
+	"./sw.js": "./node_modules/moment/locale/sw.js",
+	"./ta": "./node_modules/moment/locale/ta.js",
+	"./ta.js": "./node_modules/moment/locale/ta.js",
+	"./te": "./node_modules/moment/locale/te.js",
+	"./te.js": "./node_modules/moment/locale/te.js",
+	"./tet": "./node_modules/moment/locale/tet.js",
+	"./tet.js": "./node_modules/moment/locale/tet.js",
+	"./tg": "./node_modules/moment/locale/tg.js",
+	"./tg.js": "./node_modules/moment/locale/tg.js",
+	"./th": "./node_modules/moment/locale/th.js",
+	"./th.js": "./node_modules/moment/locale/th.js",
+	"./tl-ph": "./node_modules/moment/locale/tl-ph.js",
+	"./tl-ph.js": "./node_modules/moment/locale/tl-ph.js",
+	"./tlh": "./node_modules/moment/locale/tlh.js",
+	"./tlh.js": "./node_modules/moment/locale/tlh.js",
+	"./tr": "./node_modules/moment/locale/tr.js",
+	"./tr.js": "./node_modules/moment/locale/tr.js",
+	"./tzl": "./node_modules/moment/locale/tzl.js",
+	"./tzl.js": "./node_modules/moment/locale/tzl.js",
+	"./tzm": "./node_modules/moment/locale/tzm.js",
+	"./tzm-latn": "./node_modules/moment/locale/tzm-latn.js",
+	"./tzm-latn.js": "./node_modules/moment/locale/tzm-latn.js",
+	"./tzm.js": "./node_modules/moment/locale/tzm.js",
+	"./ug-cn": "./node_modules/moment/locale/ug-cn.js",
+	"./ug-cn.js": "./node_modules/moment/locale/ug-cn.js",
+	"./uk": "./node_modules/moment/locale/uk.js",
+	"./uk.js": "./node_modules/moment/locale/uk.js",
+	"./ur": "./node_modules/moment/locale/ur.js",
+	"./ur.js": "./node_modules/moment/locale/ur.js",
+	"./uz": "./node_modules/moment/locale/uz.js",
+	"./uz-latn": "./node_modules/moment/locale/uz-latn.js",
+	"./uz-latn.js": "./node_modules/moment/locale/uz-latn.js",
+	"./uz.js": "./node_modules/moment/locale/uz.js",
+	"./vi": "./node_modules/moment/locale/vi.js",
+	"./vi.js": "./node_modules/moment/locale/vi.js",
+	"./x-pseudo": "./node_modules/moment/locale/x-pseudo.js",
+	"./x-pseudo.js": "./node_modules/moment/locale/x-pseudo.js",
+	"./yo": "./node_modules/moment/locale/yo.js",
+	"./yo.js": "./node_modules/moment/locale/yo.js",
+	"./zh-cn": "./node_modules/moment/locale/zh-cn.js",
+	"./zh-cn.js": "./node_modules/moment/locale/zh-cn.js",
+	"./zh-hk": "./node_modules/moment/locale/zh-hk.js",
+	"./zh-hk.js": "./node_modules/moment/locale/zh-hk.js",
+	"./zh-mo": "./node_modules/moment/locale/zh-mo.js",
+	"./zh-mo.js": "./node_modules/moment/locale/zh-mo.js",
+	"./zh-tw": "./node_modules/moment/locale/zh-tw.js",
+	"./zh-tw.js": "./node_modules/moment/locale/zh-tw.js"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./node_modules/moment/locale sync recursive ^\\.\\/.*$";
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html":
 /*!**************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html ***!
@@ -35,7 +331,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<nav\n  class=\"navbar navbar-main navbar-expand-lg navbar-dark headroom\"\n  id=\"navbar-main\"\n>\n  <div class=\"container\">\n    <a class=\"navbar-brand mr-lg-5\" [routerLink]=\"['/index']\">\n      <img src=\"assets/img/brand/adylogo.jpeg\" id=\"brand-logo\"/>\n    </a>\n    <button\n      aria-controls=\"navbar_global\"\n      aria-label=\"Toggle navigation\"\n      class=\"navbar-toggler\"\n      [attr.aria-expanded]=\"!isCollapsed\"\n      (click)=\"isCollapsed = !isCollapsed\"\n      id=\"navbar_global\"\n      type=\"button\"\n    >\n      <span class=\"navbar-toggler-icon\"> </span>\n    </button>\n    <div\n      class=\"navbar-collapse\"\n      [isAnimated]=\"true\"\n      [collapse]=\"isCollapsed\"\n      id=\"navbar_global\"\n    >\n      <div class=\"navbar-collapse-header\">\n        <div class=\"row\">\n          <div class=\"col-6 collapse-brand\">\n            <a [routerLink]=\"['/index']\">\n              <img src=\"assets/img/brand/blue.png\" />\n            </a>\n          </div>\n          <div class=\"col-6 collapse-close\">\n            <button\n              aria-controls=\"navbar_global\"\n              aria-label=\"Toggle navigation\"\n              class=\"navbar-toggler\"\n              [attr.aria-expanded]=\"!isCollapsed\"\n              (click)=\"isCollapsed = !isCollapsed\"\n              id=\"navbar_global\"\n              type=\"button\"\n            >\n              <span> </span> <span> </span>\n            </button>\n          </div>\n        </div>\n      </div>\n\n      <!--Start of comment -->\n      \n      <ul class=\"navbar-nav navbar-nav-hover align-items-lg-center ml-lg-auto\" *ngIf=\"mobileView()\">\n        <li class=\"nav-item dropdown\" dropdown>\n          <a\n            class=\"nav-link\"\n            data-toggle=\"dropdown\"\n            dropdownToggle\n            href=\"javascript:;\"\n            role=\"button\"\n          >\n            <i class=\"ni ni-ui-04 d-lg-none\"> </i>\n            <span class=\"nav-link-inner--text\"> Elements </span>\n          </a>\n          <div class=\"dropdown-menu dropdown-menu-xl\" *dropdownMenu >\n            <div class=\"dropdown-menu-inner\">\n              <a class=\"media d-flex align-items-center\" [routerLink]=\"['/index']\">\n                <div\n                  class=\"icon icon-shape bg-gradient-primary rounded-circle text-white\"\n                >\n                  <i class=\"ni ni-spaceship\"> </i>\n                </div>\n                <div class=\"media-body ml-3\">\n                  <h6 class=\"heading text-primary mb-md-1\">Elements</h6>\n                  <p class=\"description d-none d-md-inline-block mb-0\">\n                    Learn how to use compiling Scss, change brand colors and\n                    more.\n                  </p>\n                </div>\n              </a>\n              <a\n                class=\"media d-flex align-items-center\"\n                [routerLink]=\"['/presentation']\"\n              >\n                <div\n                  class=\"icon icon-shape bg-gradient-warning rounded-circle text-white\"\n                >\n                  <i class=\"ni ni-palette\"> </i>\n                </div>\n                <div class=\"media-body ml-3\">\n                  <h6 class=\"heading text-primary mb-md-1\">Presentation</h6>\n                  <p class=\"description d-none d-md-inline-block mb-0\">\n                    Learn more about colors, typography, icons and the grid\n                    system we used for .\n                  </p>\n                </div>\n              </a>\n            </div>\n            <div class=\"dropdown-menu-footer\">\n              <a\n                class=\"dropdown-item\"\n                href=\"https://demos.creative-tim.com/argon-design-system-pro-angular/documentation/overview\"\n              >\n                <i class=\"ni ni-atom\"> </i> Getting Started\n              </a>\n              <a\n                class=\"dropdown-item\"\n                href=\"https://demos.creative-tim.com/argon-design-system-pro-angular/documentation/colors\"\n              >\n                <i class=\"ni ni-ui-04\"> </i> Foundation\n              </a>\n              <a\n                class=\"dropdown-item\"\n                href=\"https://demos.creative-tim.com/argon-design-system-pro-angular/documentation/alerts\"\n              >\n                <i class=\"ni ni-archive-2\"> </i> Components\n              </a>\n            </div>\n          </div>\n        </li>\n        <li class=\"nav-item dropdown\" dropdown>\n          <a\n            class=\"nav-link\"\n            data-toggle=\"dropdown\"\n            dropdownToggle\n            href=\"javascript:;\"\n            role=\"button\"\n          >\n            <i class=\"ni ni-app d-lg-none\"> </i>\n            <span class=\"nav-link-inner--text\"> Design Blocks </span>\n          </a>\n          <div\n            aria-labelledby=\"navbarDropdownMenuLink\"\n            class=\"dropdown-menu\"\n            *dropdownMenu\n          >\n            <a class=\"dropdown-item\" [routerLink]=\"['sections']\"\n            [fragment]=\"'headers'\">\n              <i class=\"ni ni-album-2 text-info\"> </i> Headers\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['sections']\"\n            [fragment]=\"'features'\">\n              <i class=\"ni ni-settings text-danger\"> </i> Features\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['sections']\"\n            [fragment]=\"'blogs'\">\n              <i class=\"ni ni-align-left-2 text-primary\"> </i> Blogs\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['sections']\"\n            [fragment]=\"'teams'\">\n              <i class=\"ni ni-user-run text-danger\"> </i> Teams\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['sections']\"\n            [fragment]=\"'projects'\">\n              <i class=\"ni ni-paper-diploma text-purple\"> </i> Projects\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['sections']\"\n            [fragment]=\"'pricing'\">\n              <i class=\"ni ni-money-coins text-pink\"> </i> Pricing\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['sections']\"\n            [fragment]=\"'testimonials'\">\n              <i class=\"ni ni-chat-round text-muted\"> </i> Testimonials\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['sections']\"\n            [fragment]=\"'contactus'\">\n              <i class=\"ni ni-mobile-button text-success\"> </i> Contact Us\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['sections']\"\n            [fragment]=\"'tables'\">\n              <i class=\"ni ni-chart-bar-32 text-default\"> </i> Tables\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['sections']\"\n            [fragment]=\"'accordion'\">\n              <i class=\"ni ni-collection text-yellow\"> </i> Accordion\n            </a>\n          </div>\n        </li>\n        <li class=\"nav-item dropdown\" dropdown>\n          <a\n            class=\"nav-link\"\n            data-toggle=\"dropdown\"\n            href=\"javascript:;\"\n            dropdownToggle\n            role=\"button\"\n          >\n            <i class=\"ni ni-single-copy-04 d-lg-none\"> </i>\n            <span class=\"nav-link-inner--text\"> Examples </span>\n          </a>\n          <div\n            aria-labelledby=\"navbarDropdownMenuLink\"\n            class=\"dropdown-menu\"\n            *dropdownMenu\n          >\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/about-us']\">\n              <i class=\"ni ni-tie-bow text-warning\"> </i> About-us\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/blog-post']\">\n              <i class=\"ni ni-align-center text-info\"> </i> Blog Post\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/blog-posts']\">\n              <i class=\"ni ni-chart-bar-32 text-yellow\"> </i> Blog Posts\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/contact-us']\">\n              <i class=\"ni ni-square-pin text-danger\"> </i> Contact Us\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/landing-page']\">\n              <i class=\"ni ni-planet text-purple\"> </i> Landing Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/pricing-page']\">\n              <i class=\"ni ni-money-coins text-success\"> </i> Pricing\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/ecommerce']\">\n              <i class=\"ni ni-box-2 text-pink\"> </i> Ecommerce Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/product-page']\">\n              <i class=\"ni ni-bag-17 text-primary\"> </i> Product Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/profile-page']\">\n              <i class=\"ni ni-circle-08 text-info\"> </i> Profile Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/error']\">\n              <i class=\"ni ni-button-power text-warning\"> </i> 404 Error Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/500-error']\">\n              <i class=\"ni ni-ungroup text-yellow\"> </i> 500 Error Page\n            </a>\n          </div>\n        </li>\n        <li class=\"nav-item dropdown\" dropdown>\n          <a\n            class=\"nav-link\"\n            data-toggle=\"dropdown\"\n            href=\"javascript:;\"\n            dropdownToggle\n            role=\"button\"\n          >\n            <i class=\"ni ni-tablet-button d-lg-none\"> </i>\n            <span class=\"nav-link-inner--text\"> App Pages </span>\n          </a>\n          <div\n            aria-labelledby=\"navbarDropdownMenuLink\"\n            class=\"dropdown-menu\"\n            *dropdownMenu\n          >\n            <a class=\"dropdown-item\"  [routerLink]=\"['/examples/account-settings']\">\n              <i class=\"ni ni-lock-circle-open text-muted\"> </i> Account\n              Settings\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/login-page']\">\n              <i class=\"ni ni-tv-2 text-danger\"> </i> Login Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/register-page']\">\n              <i class=\"ni ni-air-baloon text-pink\"> </i> Register Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/reset-page']\">\n              <i class=\"ni ni-atom text-info\"> </i> Reset Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/invoice-page']\">\n              <i class=\"ni ni-bullet-list-67 text-success\"> </i> Invoice Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/checkout-page']\">\n              <i class=\"ni ni-basket text-orange\"> </i> Checkout Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/chat-page']\">\n              <i class=\"ni ni-chat-round text-primary\"> </i> Chat Page\n            </a>\n          </div>\n        </li>\n      </ul>\n      <ul class=\"navbar-nav navbar-nav-hover align-items-lg-center ml-lg-auto\" *ngIf=\"!mobileView()\">\n        <li class=\"nav-item dropdown\">\n          <a\n            class=\"nav-link\"\n            data-toggle=\"dropdown\"\n            href=\"javascript:;\"\n            role=\"button\"\n          >\n            <i class=\"ni ni-ui-04 d-lg-none\"> </i>\n            <span class=\"nav-link-inner--text\"> Elements </span>\n          </a>\n          <div class=\"dropdown-menu dropdown-menu-xl\">\n            <div class=\"dropdown-menu-inner\">\n              <a class=\"media d-flex align-items-center\" [routerLink]=\"['/index']\">\n                <div\n                  class=\"icon icon-shape bg-gradient-primary rounded-circle text-white\"\n                >\n                  <i class=\"ni ni-spaceship\"> </i>\n                </div>\n                <div class=\"media-body ml-3\">\n                  <h6 class=\"heading text-primary mb-md-1\">Elements</h6>\n                  <p class=\"description d-none d-md-inline-block mb-0\">\n                    Learn how to use compiling Scss, change brand colors and\n                    more.\n                  </p>\n                </div>\n              </a>\n              <a\n                class=\"media d-flex align-items-center\"\n                [routerLink]=\"['/presentation']\"\n              >\n                <div\n                  class=\"icon icon-shape bg-gradient-warning rounded-circle text-white\"\n                >\n                  <i class=\"ni ni-palette\"> </i>\n                </div>\n                <div class=\"media-body ml-3\">\n                  <h6 class=\"heading text-primary mb-md-1\">Presentation</h6>\n                  <p class=\"description d-none d-md-inline-block mb-0\">\n                    Learn more about colors, typography, icons and the grid\n                    system we used for .\n                  </p>\n                </div>\n              </a>\n            </div>\n            <div class=\"dropdown-menu-footer\">\n              <a\n                class=\"dropdown-item\"\n                href=\"https://demos.creative-tim.com/argon-design-system-pro-angular/documentation/overview\"\n              >\n                <i class=\"ni ni-atom\"> </i> Getting Started\n              </a>\n              <a\n                class=\"dropdown-item\"\n                href=\"https://demos.creative-tim.com/argon-design-system-pro-angular/documentation/colors\"\n              >\n                <i class=\"ni ni-ui-04\"> </i> Foundation\n              </a>\n              <a\n                class=\"dropdown-item\"\n                href=\"https://demos.creative-tim.com/argon-design-system-pro-angular/documentation/alerts\"\n              >\n                <i class=\"ni ni-archive-2\"> </i> Components\n              </a>\n            </div>\n          </div>\n        </li>\n        <li class=\"nav-item dropdown\">\n          <a\n            class=\"nav-link\"\n            data-toggle=\"dropdown\"\n            href=\"javascript:;\"\n            role=\"button\"\n          >\n            <i class=\"ni ni-app d-lg-none\"> </i>\n            <span class=\"nav-link-inner--text\"> Design Blocks </span>\n          </a>\n          <div\n            aria-labelledby=\"navbarDropdownMenuLink\"\n            class=\"dropdown-menu\"\n          >\n            <a class=\"dropdown-item\" [routerLink]=\"['sections']\"\n            [fragment]=\"'headers'\">\n              <i class=\"ni ni-album-2 text-info\"> </i> Headers\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['sections']\"\n            [fragment]=\"'features'\">\n              <i class=\"ni ni-settings text-danger\"> </i> Features\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['sections']\"\n            [fragment]=\"'blogs'\">\n              <i class=\"ni ni-align-left-2 text-primary\"> </i> Blogs\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['sections']\"\n            [fragment]=\"'teams'\">\n              <i class=\"ni ni-user-run text-danger\"> </i> Teams\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['sections']\"\n            [fragment]=\"'projects'\">\n              <i class=\"ni ni-paper-diploma text-purple\"> </i> Projects\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['sections']\"\n            [fragment]=\"'pricing'\">\n              <i class=\"ni ni-money-coins text-pink\"> </i> Pricing\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['sections']\"\n            [fragment]=\"'testimonials'\">\n              <i class=\"ni ni-chat-round text-muted\"> </i> Testimonials\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['sections']\"\n            [fragment]=\"'contactus'\">\n              <i class=\"ni ni-mobile-button text-success\"> </i> Contact Us\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['sections']\"\n            [fragment]=\"'tables'\">\n              <i class=\"ni ni-chart-bar-32 text-default\"> </i> Tables\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['sections']\"\n            [fragment]=\"'accordion'\">\n              <i class=\"ni ni-collection text-yellow\"> </i> Accordion\n            </a>\n          </div>\n        </li>\n        <li class=\"nav-item dropdown\">\n          <a\n            class=\"nav-link\"\n            data-toggle=\"dropdown\"\n            href=\"javascript:;\"\n            role=\"button\"\n          >\n            <i class=\"ni ni-single-copy-04 d-lg-none\"> </i>\n            <span class=\"nav-link-inner--text\"> Examples </span>\n          </a>\n          <div\n            aria-labelledby=\"navbarDropdownMenuLink\"\n            class=\"dropdown-menu\"\n          >\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/about-us']\">\n              <i class=\"ni ni-tie-bow text-warning\"> </i> About-us\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/blog-post']\">\n              <i class=\"ni ni-align-center text-info\"> </i> Blog Post\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/blog-posts']\">\n              <i class=\"ni ni-chart-bar-32 text-yellow\"> </i> Blog Posts\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/contact-us']\">\n              <i class=\"ni ni-square-pin text-danger\"> </i> Contact Us\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/landing-page']\">\n              <i class=\"ni ni-planet text-purple\"> </i> Landing Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/pricing-page']\">\n              <i class=\"ni ni-money-coins text-success\"> </i> Pricing\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/ecommerce']\">\n              <i class=\"ni ni-box-2 text-pink\"> </i> Ecommerce Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/product-page']\">\n              <i class=\"ni ni-bag-17 text-primary\"> </i> Product Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/profile-page']\">\n              <i class=\"ni ni-circle-08 text-info\"> </i> Profile Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/error']\">\n              <i class=\"ni ni-button-power text-warning\"> </i> 404 Error Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/500-error']\">\n              <i class=\"ni ni-ungroup text-yellow\"> </i> 500 Error Page\n            </a>\n          </div>\n        </li>\n        <li class=\"nav-item dropdown\">\n          <a\n            class=\"nav-link\"\n            data-toggle=\"dropdown\"\n            href=\"javascript:;\"\n            role=\"button\"\n          >\n            <i class=\"ni ni-tablet-button d-lg-none\"> </i>\n            <span class=\"nav-link-inner--text\"> App Pages </span>\n          </a>\n          <div\n            aria-labelledby=\"navbarDropdownMenuLink\"\n            class=\"dropdown-menu\"\n          >\n            <a class=\"dropdown-item\"  [routerLink]=\"['/examples/account-settings']\">\n              <i class=\"ni ni-lock-circle-open text-muted\"> </i> Account\n              Settings\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/login-page']\">\n              <i class=\"ni ni-tv-2 text-danger\"> </i> Login Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/register-page']\">\n              <i class=\"ni ni-air-baloon text-pink\"> </i> Register Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/reset-page']\">\n              <i class=\"ni ni-atom text-info\"> </i> Reset Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/invoice-page']\">\n              <i class=\"ni ni-bullet-list-67 text-success\"> </i> Invoice Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/checkout-page']\">\n              <i class=\"ni ni-basket text-orange\"> </i> Checkout Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/chat-page']\">\n              <i class=\"ni ni-chat-round text-primary\"> </i> Chat Page\n            </a>\n          </div>\n        </li>\n        <a\n        class=\"nav-link\"\n        data-toggle=\"dropdown\"\n        href=\"javascript:;\"\n        role=\"button\"\n        (click)=\"checkout()\" >\n        <i class=\"ni ni-single-copy-04 d-lg-none\"> </i>\n        <span class=\"nav-link-inner--text\">CheckOut </span>\n      </a>\n      </ul>\n\n   <!-- End of comment-->\n      \n    </div>\n  </div>\n</nav>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<nav\n  class=\"navbar navbar-main navbar-expand-lg navbar-dark headroom\"\n  id=\"navbar-main\"\n>\n  <div class=\"container\">\n    \n      <img src=\"assets/img/brand/blue.png\" id=\"brand-logo\"/>\n  \n    <button\n      aria-controls=\"navbar_global\"\n      aria-label=\"Toggle navigation\"\n      class=\"navbar-toggler\"\n      [attr.aria-expanded]=\"!isCollapsed\"\n      (click)=\"isCollapsed = !isCollapsed\"\n      id=\"navbar_global\"\n      type=\"button\"\n    >\n      <span class=\"navbar-toggler-icon\"> </span>\n    </button>\n    <div\n      class=\"navbar-collapse\"\n      [isAnimated]=\"true\"\n      [collapse]=\"isCollapsed\"\n      id=\"navbar_global\"\n    >\n      <div class=\"navbar-collapse-header\">\n        <div class=\"row\">\n          <div class=\"col-6 collapse-brand\">\n              <img src=\"assets/img/brand/blue.png\" />\n          \n          </div>\n          <div class=\"col-6 collapse-close\">\n            <button\n              aria-controls=\"navbar_global\"\n              aria-label=\"Toggle navigation\"\n              class=\"navbar-toggler\"\n              [attr.aria-expanded]=\"!isCollapsed\"\n              (click)=\"isCollapsed = !isCollapsed\"\n              id=\"navbar_global\"\n              type=\"button\"\n            >\n              <span> </span> <span> </span>\n            </button>\n          </div>\n        </div>\n      </div>\n\n      <!--Start of comment -->\n      \n      <ul class=\"navbar-nav navbar-nav-hover align-items-lg-center ml-lg-auto\" *ngIf=\"mobileView()\">\n   \n        <li class=\"nav-item dropdown\" dropdown>\n          <a\n            class=\"nav-link\"\n            data-toggle=\"dropdown\"\n            href=\"javascript:;\"\n            dropdownToggle\n            role=\"button\"\n          >\n            <i class=\"ni ni-single-copy-04 d-lg-none\"> </i>\n            <span class=\"nav-link-inner--text\"> Examples </span>\n          </a>\n          <div\n            aria-labelledby=\"navbarDropdownMenuLink\"\n            class=\"dropdown-menu\"\n            *dropdownMenu\n          >\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/about-us']\">\n              <i class=\"ni ni-tie-bow text-warning\"> </i> About-us\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/blog-post']\">\n              <i class=\"ni ni-align-center text-info\"> </i> Blog Post\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/blog-posts']\">\n              <i class=\"ni ni-chart-bar-32 text-yellow\"> </i> Blog Posts\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/contact-us']\">\n              <i class=\"ni ni-square-pin text-danger\"> </i> Contact Us\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/landing-page']\">\n              <i class=\"ni ni-planet text-purple\"> </i> Landing Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/pricing-page']\">\n              <i class=\"ni ni-money-coins text-success\"> </i> Pricing\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/ecommerce']\">\n              <i class=\"ni ni-box-2 text-pink\"> </i> Ecommerce Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/product-page']\">\n              <i class=\"ni ni-bag-17 text-primary\"> </i> Product Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/profile-page']\">\n              <i class=\"ni ni-circle-08 text-info\"> </i> Profile Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/error']\">\n              <i class=\"ni ni-button-power text-warning\"> </i> 404 Error Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/500-error']\">\n              <i class=\"ni ni-ungroup text-yellow\"> </i> 500 Error Page\n            </a>\n          </div>\n        </li>\n        <li class=\"nav-item dropdown\" dropdown>\n          <a\n            class=\"nav-link\"\n            data-toggle=\"dropdown\"\n            href=\"javascript:;\"\n            dropdownToggle\n            role=\"button\"\n          >\n            <i class=\"ni ni-tablet-button d-lg-none\"> </i>\n            <span class=\"nav-link-inner--text\"> App Pages </span>\n          </a>\n          <div\n            aria-labelledby=\"navbarDropdownMenuLink\"\n            class=\"dropdown-menu\"\n            *dropdownMenu\n          >\n            <a class=\"dropdown-item\"  [routerLink]=\"['/examples/account-settings']\">\n              <i class=\"ni ni-lock-circle-open text-muted\"> </i> Account\n              Settings\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/login-page']\">\n              <i class=\"ni ni-tv-2 text-danger\"> </i> Login Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/register-page']\">\n              <i class=\"ni ni-air-baloon text-pink\"> </i> Register Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/reset-page']\">\n              <i class=\"ni ni-atom text-info\"> </i> Reset Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/invoice-page']\">\n              <i class=\"ni ni-bullet-list-67 text-success\"> </i> Invoice Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/checkout-page']\">\n              <i class=\"ni ni-basket text-orange\"> </i> Checkout Page\n            </a>\n            <a class=\"dropdown-item\" [routerLink]=\"['/examples/chat-page']\">\n              <i class=\"ni ni-chat-round text-primary\"> </i> Chat Page\n            </a>\n          </div>\n        </li>\n      </ul>\n      <ul class=\"navbar-nav navbar-nav-hover align-items-lg-center ml-lg-auto\" *ngIf=\"!mobileView()\">\n     \n        <a\n        class=\"nav-link\"\n        data-toggle=\"dropdown\"\n        href=\"javascript:;\"\n        role=\"button\"\n        (click)=\"checkout()\" >\n        <i class=\"ni ni-single-copy-04 d-lg-none\"> </i>\n        <span class=\"nav-link-inner--text\" [routerLink]=\"['register-page']\">Log Out </span>\n      </a>\n      </ul>\n\n   <!-- End of comment-->\n      \n    </div>\n  </div>\n</nav>\n");
 
 /***/ }),
 
@@ -156,6 +452,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/examples/dashboard/dashboard.component.html":
+/*!***************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/examples/dashboard/dashboard.component.html ***!
+  \***************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<br>\n<br>\n<br>\n<br>\n<br>\n<div class=\"project-2 my-5\">\n    <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-lg-3 col-md-6\">\n          <div class=\"card card-project\">\n            <a href=\"javascript:;\">\n              <div\n                class=\"icon icon-lg icon-shape icon-shape-primary shadow rounded-circle mx-auto\"\n              >\n                <i class=\"ni ni-favourite-28\"> </i>\n              </div>\n            </a>\n            <div class=\"card-body\">\n              <h4 class=\"card-title mt-3\">work permits created</h4>\n              <h2>\n                {{totalWorkpermitRows}}\n              </h2>\n              <div class=\"card-footer\">\n                <button class=\"btn btn-link text-primary\" type=\"button\">\n                  <i class=\"ni ni-glasses-2\"> </i> Check more\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"col-lg-3 col-md-6\">\n          <div class=\"card card-project\">\n            <a href=\"javascript:;\">\n              <div\n                class=\"icon icon-lg icon-shape icon-shape-success shadow rounded-circle mx-auto\"\n              >\n                <i class=\"ni ni-books\"> </i>\n              </div>\n            </a>\n            <div class=\"card-body\">\n              <h4 class=\"card-title mt-3\">Jobcards created </h4>\n              <h2>\n                {{totalJobcardRows}}\n              </h2>\n              <div class=\"card-footer\">\n                <button class=\"btn btn-link text-success\" type=\"button\">\n                  <i class=\"ni ni-key-25\"> </i> Find a opportunity\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"col-lg-3 col-md-6\">\n          <div class=\"card card-project\">\n            <a href=\"javascript:;\">\n              <div\n                class=\"icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mx-auto\"\n              >\n                <i class=\"ni ni-trophy\"> </i>\n              </div>\n            </a>\n            <div class=\"card-body\">\n              <h4 class=\"card-title mt-3\">Job analysis created</h4>\n              <h2>\n                {{totalJobanalysisRows}}\n              </h2>\n              <div class=\"card-footer\">\n                <button class=\"btn btn-link text-warning\" type=\"button\">\n                  <i class=\"ni ni-notification-70\"> </i> Check more\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"col-lg-3 col-md-6\">\n            <div class=\"card card-project\">\n              <a href=\"javascript:;\">\n                <div\n                  class=\"icon icon-lg icon-shape icon-shape-secondary shadow rounded-circle mx-auto\"\n                >\n                  <i class=\"ni ni-favourite-28\"> </i>\n                </div>\n              </a>\n              <div class=\"card-body\">\n                <h4 class=\"card-title mt-3\">Toolbox talks created </h4>\n                <h2>\n                  {{totalToolboxRows}}\n                </h2>\n\n                <div class=\"card-footer\">\n                  <button\n                    class=\"btn btn-link text-secondary\"\n                    type=\"button\"\n                  >\n                    <i class=\"ni ni-glasses-2\"> </i> Check out now\n                  </button>\n                </div>\n              </div>\n            </div>\n          </div>\n      </div>\n      <br />\n    </div>\n  </div>\n\n<div class=\"row\">\n    <div class=\"col-lg-6 col-md-6\">\n  <div class=\"card text-center\">\n    <div class=\"card-header card-header-rose\">\n \n    </div>\n    <div class=\"card-body\">\n    <h4 class=\"card-title\">Amounts Invoiced For Jobs</h4>\n    <canvas id=\"canvasline\"></canvas>  \n           \n            </div>\n   \n    </div>\n    </div>\n    \n  \n    <div class=\"col-lg-6 col-md-6\">\n\n    <div class=\"card text-center\">\n        <div class=\"card-header card-header-rose\">\n   \n        </div>\n        <div class=\"card-body\">\n        <h4 class=\"card-title\">Jobcard vs workpermits</h4>\n        <canvas id=\"piecanvas\"></canvas>  \n        \n        </div>\n        </div>\n    </div>\n  </div>\n\n        <div class=\"card card-nav-tabs text-center\">\n       \n            <div class=\"card-body\">\n            <h4 class=\"card-title\">Image recognition analytics</h4>\n            <canvas id=\"canvasbar\">{{ barchart }}</canvas>  \n           \n            </div>\n         \n            </div>\n\n            <div class=\"row\">\n                <div class=\"col-lg-6 col-md-6\">\n              <div class=\"card text-center\">\n                <div class=\"card-header card-header-rose\">\n               \n                </div>\n                <div class=\"card-body\">\n                <h4 class=\"card-title\">PPE realtime data</h4>\n                <table class=\"table\">\n                    <thead>\n                    <tr>\n                        <th class=\"text-center\">#</th>\n                        <th>Date</th>\n                        <th>people with ppe detected</th>\n                        <th>people without ppe detected</th>\n                      \n                    </tr>\n                    </thead>\n                    <tbody>\n                      <ng-container *ngFor=\"let detections of Detection | slice:-10; let i=index;\">\n\n                      <tr *ngIf=\"i<11\">\n                        <td>{{i+1}}</td>\n                        <td>{{detections.createdAt}}</td>\n                        <td>{{detections.person_with_helmet}}</td>\n                        <td>{{detections.person_without_helmet}}</td>\n                       \n          \n                        </tr>\n                        </ng-container>\n                    </tbody>\n                  \n                  \n                    </table>\n               \n                </div>\n                </div>\n                </div>\n              \n                <div class=\"col-lg-6 col-md-6\">\n            \n                <div class=\"card text-center\">\n                    <div class=\"card-header card-header-rose\">\n          \n                    </div>\n                    <div class=\"card-body\">\n                    <h4 class=\"card-title\">User info</h4>\n                    <table class=\"table\">\n                        <thead>\n                        <tr>\n                            <th class=\"text-center\">#</th>\n                            <th>Name</th>\n                            <th>Role</th>\n                            <th>Email</th>\n                            <th>Department</th>\n                       \n                        </tr>\n                        </thead>\n                        <tbody>\n                      \n                          <tr *ngFor=\"let userss of users; let i=index;\">\n                            <td>{{i+1}}</td>\n                            <td>{{userss.name}}</td>\n                            <td>{{userss.email}}</td>\n                            <td>{{userss.role}}</td>\n                            <td>{{userss.department}}</td>\n              \n                            <td>\n                        </tr>\n            \n                        </tbody>\n                        </table>\n                    \n                    </div>\n                    </div>\n                </div>\n                    </div>\n                    \n\n\n");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/examples/ecommerce/ecommerce.component.html":
 /*!***************************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/examples/ecommerce/ecommerce.component.html ***!
@@ -204,7 +513,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n<div class=\"wrapper\">\n  <header class=\"header-4 skew-separator\">\n    <div class=\"header-wrapper\">\n      <nav class=\"navbar navbar-expand-lg navbar-transparent\">\n        <div class=\"container\">\n          <div class=\"navbar-translate\">\n            <a class=\"navbar-brand text-white\" href=\"javascript:;\">\n           Adiy\n            </a>\n            <button\n              aria-controls=\"navbarSupportedContent\"\n              aria-label=\"Toggle navigation\"\n              class=\"navbar-toggler\"\n              [attr.aria-expanded]=\"!isCollapsed\"\n              (click)=\"isCollapsed = !isCollapsed\"\n              id=\"example-header-4\"\n              type=\"button\"\n            >\n              <span class=\"navbar-toggler-icon\"> </span>\n            </button>\n          </div>\n          <div\n            class=\"navbar-collapse\"\n            [isAnimated]=\"true\"\n            [collapse]=\"isCollapsed\"\n            id=\"example-header-4\"\n          >\n            <div class=\"navbar-collapse-header\">\n              <div class=\"row\">\n                <div class=\"col-6 collapse-brand\">\n                  <a> Adiy <span>  </span> </a>\n                </div>\n                <div class=\"col-6 collapse-close text-right\">\n                  <button\n                    aria-controls=\"navigation-index\"\n                    aria-label=\"Toggle navigation\"\n                    class=\"navbar-toggler\"\n                    [attr.aria-expanded]=\"!isCollapsed\"\n                    (click)=\"isCollapsed = !isCollapsed\"\n                    id=\"example-header-4\"\n                    type=\"button\"\n                  >\n                    <span> </span> <span> </span>\n                  </button>\n                </div>\n              </div>\n            </div>\n            <ul class=\"navbar-nav mx-auto\">\n              <li class=\"nav-item\">\n                <a class=\"nav-link\" href=\"javascript:;\"> Home </a>\n              </li>\n              <li class=\"nav-item\">\n                <a class=\"nav-link\" href=\"javascript:;\"> About Us </a>\n              </li>\n              <li class=\"nav-item\">\n                <a class=\"nav-link\" href=\"javascript:;\"> Products </a>\n              </li>\n              <li class=\"nav-item\">\n                <a class=\"nav-link\" href=\"javascript:;\"> Contact Us </a>\n              </li>\n            </ul>\n            <ul class=\"nav navbar-nav navbar-right\">\n              <li class=\"nav-item\">\n                <a class=\"nav-link\" href=\"https://twitter.com/CreativeTim\">\n                  <i class=\"fab fa-twitter\"> </i>\n                </a>\n              </li>\n              <li class=\"nav-item\">\n                <a\n                  class=\"nav-link\"\n                  href=\"https://www.facebook.com/CreativeTim\"\n                >\n                  <i class=\"fab fa-facebook-square\"> </i>\n                </a>\n              </li>\n              <li class=\"nav-item\">\n                <a\n                  class=\"nav-link\"\n                  href=\"https://www.instagram.com/CreativeTimOfficial\"\n                >\n                  <i class=\"fab fa-instagram\"> </i>\n                </a>\n              </li>\n            </ul>\n          </div>\n        </div>\n      </nav>\n\n    </div>\n  </header>\n\n\n  <div class=\"section section-cards bg-secondary\">\n    <div class=\"container\">\n      <h2 class=\"mb-5\">\n        <span>Provide verification image</span>\n      </h2>\n\n\n      <div>\n\n        <div class=\"form-group\">\n          <div class=\"\">\n            <div class=\"card card-pricing card-background\" style=\"background-image: url('./assets/img/ill/pricing_bg.svg\" data-background=\"image\" style=\"width: 100%\" data-icon=\"big-icon\">\n              <div class=\"card-header bg-transparent\">\n                <h2 class=\"text-black\">Upload Image</h2>\n          </div>\n          <div style=\"margin-left: 20px; margin-right: 20px\">\n          <div class=\"form-group mb-3\"  [ngClass]=\"{ 'focused': focus === true }\">\n                <div class=\"input-group input-group-alternative\">\n                <div class=\"input-group-prepend\">\n                <span class=\"input-group-text\">\n                      <i class=\"ni ni-circle-08\"> </i>\n              </span>\n          </div> \n          <input\n          [(ngModel)]=\"file\"\n          [ngModelOptions]=\"{standalone: true}\"\n          class=\"form-control\"\n          type=\"file\"\n          id=\"file\"\n          (change)=\"handleFileInput($event.target.files)\">\n\n          </div>\n          </div>\n\n          \n          <div class=\"form-group mb-3\"  [ngClass]=\"{ 'focused': focus === true }\">\n            <div class=\"input-group input-group-alternative\">\n              <div class=\"input-group-prepend\">\n                <span class=\"input-group-text\">\n                  <i class=\"ni ni-circle-08\"> </i>\n                </span>\n              </div>\n             \n                <label style=\"padding-top: 10px\">Upload For: </label >\n                <select class=\"form-control\" id=\"category\"  [(ngModel)]=\"user\"\n                [ngModelOptions]=\"{standalone: true}\"\n                type=\"text\" (blur)=\"focus = false\"\n                (focus)=\"focus = true\"\n                >\n                    <option *ngFor=\"let user of users\" [value]=\"user._id\">{{user.name}}</option>\n                </select>\n            </div>\n          </div>\n\n          <div class=\"form-group mb-3\"  [ngClass]=\"{ 'focused': focus === true }\">\n            <div class=\"input-group input-group-alternative\">\n              <div class=\"input-group-prepend\">\n                <span class=\"input-group-text\">\n                  <i class=\"ni ni-circle-08\"> </i>\n                </span>\n              </div>\n              <input\n               [(ngModel)]=\"amount\"\n               [ngModelOptions]=\"{standalone: true}\"\n               class=\"form-control\"\n               placeholder=\"number\"\n               type=\"text\" (blur)=\"focus = false\"\n               (focus)=\"focus = true\" />\n            </div>\n          </div>\n\n          <div class=\"form-group mb-3\"  [ngClass]=\"{ 'focused': focus === true }\">\n            <div class=\"input-group input-group-alternative\">\n              <div class=\"input-group-prepend\">\n                <span class=\"input-group-text\">\n                  <i class=\"ni ni-circle-08\"> </i>\n                </span>\n              </div>\n              <input\n               [(ngModel)]=\"filename\"\n               [ngModelOptions]=\"{standalone: true}\"\n               class=\"form-control\"\n               placeholder=\"Image Name\"\n               type=\"text\" (blur)=\"focus = false\"\n               (focus)=\"focus = true\" />\n            </div>\n          </div>\n          </div>\n          <button class=\"btn btn-primary\" id=\"signup\" (click)=\"upload()\" style=\"width: 140px; margin-left: 40%; margin-bottom: 10px;\">Upload</button>\n\n        </div>\n    </div>\n  </div>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("\n<div class=\"wrapper\">\n  <header class=\"header-4 skew-separator\">\n    <div class=\"header-wrapper\">\n      <nav class=\"navbar navbar-expand-lg navbar-transparent\">\n        <div class=\"container\">\n          <div class=\"navbar-translate\">\n            <a class=\"navbar-brand text-white\" href=\"javascript:;\">\n           Adiy\n            </a>\n            <button\n              aria-controls=\"navbarSupportedContent\"\n              aria-label=\"Toggle navigation\"\n              class=\"navbar-toggler\"\n              [attr.aria-expanded]=\"!isCollapsed\"\n              (click)=\"isCollapsed = !isCollapsed\"\n              id=\"example-header-4\"\n              type=\"button\"\n            >\n              <span class=\"navbar-toggler-icon\"> </span>\n            </button>\n          </div>\n          <div\n            class=\"navbar-collapse\"\n            [isAnimated]=\"true\"\n            [collapse]=\"isCollapsed\"\n            id=\"example-header-4\"\n          >\n            <div class=\"navbar-collapse-header\">\n              <div class=\"row\">\n                <div class=\"col-6 collapse-brand\">\n                  <a> Adiy <span>  </span> </a>\n                </div>\n                <div class=\"col-6 collapse-close text-right\">\n                  <button\n                    aria-controls=\"navigation-index\"\n                    aria-label=\"Toggle navigation\"\n                    class=\"navbar-toggler\"\n                    [attr.aria-expanded]=\"!isCollapsed\"\n                    (click)=\"isCollapsed = !isCollapsed\"\n                    id=\"example-header-4\"\n                    type=\"button\"\n                  >\n                    <span> </span> <span> </span>\n                  </button>\n                </div>\n              </div>\n            </div>\n            <ul class=\"navbar-nav mx-auto\">\n              <li class=\"nav-item\">\n                <a class=\"nav-link\" href=\"javascript:;\"> Home </a>\n              </li>\n              <li class=\"nav-item\">\n                <a class=\"nav-link\" href=\"javascript:;\"> About Us </a>\n              </li>\n              <li class=\"nav-item\">\n                <a class=\"nav-link\" href=\"javascript:;\"> Products </a>\n              </li>\n              <li class=\"nav-item\">\n                <a class=\"nav-link\" href=\"javascript:;\"> Contact Us </a>\n              </li>\n            </ul>\n            <ul class=\"nav navbar-nav navbar-right\">\n              <li class=\"nav-item\">\n                <a class=\"nav-link\" href=\"https://twitter.com/CreativeTim\">\n                  <i class=\"fab fa-twitter\"> </i>\n                </a>\n              </li>\n              <li class=\"nav-item\">\n                <a\n                  class=\"nav-link\"\n                  href=\"https://www.facebook.com/CreativeTim\"\n                >\n                  <i class=\"fab fa-facebook-square\"> </i>\n                </a>\n              </li>\n              <li class=\"nav-item\">\n                <a\n                  class=\"nav-link\"\n                  href=\"https://www.instagram.com/CreativeTimOfficial\"\n                >\n                  <i class=\"fab fa-instagram\"> </i>\n                </a>\n              </li>\n            </ul>\n          </div>\n        </div>\n      </nav>\n\n    </div>\n  </header>\n\n\n  <div class=\"section section-cards bg-secondary\">\n    <div class=\"container\">\n      <h2 class=\"mb-5\">\n        <span>Provide verification image</span>\n      </h2>\n\n\n      <div>\n\n        <div class=\"form-group\">\n          <div class=\"\">\n            <div class=\"card card-pricing card-background\" style=\"background-image: url('./assets/img/ill/pricing_bg.svg\" data-background=\"image\" style=\"width: 100%\" data-icon=\"big-icon\">\n              <div class=\"card-header bg-transparent\">\n                <h2 class=\"text-black\">Upload Image</h2>\n          </div>\n          <div style=\"margin-left: 20px; margin-right: 20px\">\n          <div class=\"form-group mb-3\"  [ngClass]=\"{ 'focused': focus === true }\">\n                <div class=\"input-group input-group-alternative\">\n                <div class=\"input-group-prepend\">\n                <span class=\"input-group-text\">\n                      <i class=\"ni ni-circle-08\"> </i>\n              </span>\n          </div> \n          <input\n          [(ngModel)]=\"file\"\n          [ngModelOptions]=\"{standalone: true}\"\n          class=\"form-control\"\n          type=\"file\"\n          id=\"file\"\n          (change)=\"handleFileInput($event.target.files)\">\n\n          </div>\n          </div>\n\n          \n          <div class=\"form-group mb-3\"  [ngClass]=\"{ 'focused': focus === true }\">\n            <div class=\"input-group input-group-alternative\">\n              <div class=\"input-group-prepend\">\n                <span class=\"input-group-text\">\n                  <i class=\"ni ni-circle-08\"> </i>\n                </span>\n              </div>\n             \n                <label style=\"padding-top: 10px\">Upload For: </label >\n                <select class=\"form-control\" id=\"category\"  [(ngModel)]=\"user\"\n                [ngModelOptions]=\"{standalone: true}\"\n                type=\"text\" (blur)=\"focus = false\"\n                (focus)=\"focus = true\"\n                >\n                    <option *ngFor=\"let user of users\" [value]=\"user._id\">{{user.name}}</option>\n                </select>\n            </div>\n          </div>\n\n          <div class=\"form-group mb-3\"  [ngClass]=\"{ 'focused': focus === true }\">\n            <div class=\"input-group input-group-alternative\">\n              <div class=\"input-group-prepend\">\n                <span class=\"input-group-text\">\n                  <i class=\"ni ni-circle-08\"> </i>\n                </span>\n              </div>\n              <input\n               [(ngModel)]=\"amount\"\n               [ngModelOptions]=\"{standalone: true}\"\n               class=\"form-control\"\n               placeholder=\"number\"\n               type=\"text\" (blur)=\"focus = false\"\n               (focus)=\"focus = true\" />\n            </div>\n          </div>\n\n          <div class=\"form-group mb-3\"  [ngClass]=\"{ 'focused': focus === true }\">\n            <div class=\"input-group input-group-alternative\">\n              <div class=\"input-group-prepend\">\n                <span class=\"input-group-text\">\n                  <i class=\"ni ni-circle-08\"> </i>\n                </span>\n              </div>\n               <label style=\"padding-top: 10px\">site name: </label >\n                <select class=\"form-control\" id=\"category\"  [(ngModel)]=\"filename\"\n                        [ngModelOptions]=\"{standalone: true}\"\n                        type=\"text\" (blur)=\"focus = false\"\n                        (focus)=\"focus = true\"\n                >\n                    <option *ngFor=\"let card of Jobcard\" [value]=\"card.name\">{{card.name}}</option>\n                </select>\n            </div>\n          </div>\n          </div>\n          <button class=\"btn btn-primary\" id=\"signup\" (click)=\"upload()\" style=\"width: 140px; margin-left: 40%; margin-bottom: 10px;\">Upload</button>\n\n        </div>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -347,7 +656,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container wrapper wrapper2\">\n    <div class=\"row\">\n\n        <!-- Form -->\n        <div class=\"col-md-12\">\n            <h3>Add Induction Checklist</h3>\n            <h3>Add Induction Checklist</h3>\n            <h3>Add Induction Checklist</h3>\n            <form>\n\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">Location</label>\n                    <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.location\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\" >\n                    <label  class=\"form-control-label\">Manager</label>\n                    <input class=\"form-control form-control-alternative\" type=\"text\" [(ngModel)]=\"data.manager\"  [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label class=\"form-control-label\">Position</label>\n                    <input class=\"form-control form-control-alternative\" type=\"text\" [(ngModel)]=\"data.position\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label class=\"form-control-label\">Work Place</label>\n                    <input class=\"form-control form-control-alternative\" type=\"text\" [(ngModel)]=\"data.workplace\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"custom-control custom-checkbox\">\n                    <h3>Tick if yes</h3>\n                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"customCheck1\" [(ngModel)]=\"data.competencies\" [ngModelOptions]=\"{standalone: true}\">\n                    <label class=\"custom-control-label\" for=\"customCheck1\">have you checked the competencies and qualification of the inductees</label>\n                </div>\n                <div class=\"custom-control custom-checkbox\">\n                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"customCheck2\" [(ngModel)]=\"data.permits\" [ngModelOptions]=\"{standalone: true}\">\n                    <label class=\"custom-control-label\" for=\"customCheck2\">Have inductees signed on and added proof of permits and qualifications</label>\n                </div>\n                <div class=\"custom-control custom-checkbox\">\n                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"customCheck3\" [(ngModel)]=\"data.reporting_incidents\" [ngModelOptions]=\"{standalone: true}\">\n                    <label class=\"custom-control-label\" for=\"customCheck3\">Have you discussed and clearly stated the procedures for reporting incidents injuries and hazards</label>\n                </div>\n                <div class=\"custom-control custom-checkbox\">\n                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"customCheck4\" [(ngModel)]=\"data.workplace_safety\" [ngModelOptions]=\"{standalone: true}\">\n                    <label class=\"custom-control-label\" for=\"customCheck4\">Have you discussed the workplace safety rules</label>\n                </div>\n                <div class=\"custom-control custom-checkbox\">\n                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"customCheck5\" [(ngModel)]=\"data.safe_work_method\" [ngModelOptions]=\"{standalone: true}\">\n                    <label class=\"custom-control-label\" for=\"customCheck5\">Has the person(s) been taken through relevant safe work method statement for the tasks to be performed</label>\n                </div>\n                <div class=\"custom-control custom-checkbox\">\n                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"customCheck6\" [(ngModel)]=\"data.specialised_equipment\" [ngModelOptions]=\"{standalone: true}\">\n                    <label class=\"custom-control-label\" for=\"customCheck6\">Is specialized equipment required to have been trained to use the equipment</label>\n                </div>\n                <div class=\"custom-control custom-checkbox\">\n                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"customCheck7\" [(ngModel)]=\"data.ppe_equipment\" [ngModelOptions]=\"{standalone: true}\">\n                    <label class=\"custom-control-label\" for=\"customCheck7\">Do people have correct PPE equipment e.g hard hat ,safety glasses,safety boots, long sleeved shirts,high visibility vests?</label>\n                </div>\n                <div class=\"custom-control custom-checkbox\">\n                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"customCheck8\" [(ngModel)]=\"data.assembly_points\" [ngModelOptions]=\"{standalone: true}\">\n                    <label class=\"custom-control-label\" for=\"customCheck8\">Have you shown people assembly point in case of an emergecy</label>\n                </div>\n                <div class=\"custom-control custom-checkbox\">\n                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"customCheck9\" [(ngModel)]=\"data.medical_facility\" [ngModelOptions]=\"{standalone: true}\">\n                    <label class=\"custom-control-label\" for=\"customCheck9\">Have you shown people what to do in an emergency and closest medical facility?</label>\n                </div>\n                <div class=\"custom-control custom-checkbox\">\n                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"customCheck10\" [(ngModel)]=\"data.emergency_services\" [ngModelOptions]=\"{standalone: true}\">\n                    <label class=\"custom-control-label\" for=\"customCheck10\">Do the staff have a way to contact emergecy services?</label>\n                </div>\n                <div class=\"custom-control custom-checkbox\">\n                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"customCheck11\" [(ngModel)]=\"data.emergency_communication\" [ngModelOptions]=\"{standalone: true}\">\n                    <label class=\"custom-control-label\" for=\"customCheck11\">Have you shown the person what to do in an emergency situation and identified the location and provision of emergency communication?</label>\n                </div>\n                <div class=\"custom-control custom-checkbox\">\n                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"customCheck12\" [(ngModel)]=\"data.firefighting\" [ngModelOptions]=\"{standalone: true}\">\n                    <label class=\"custom-control-label\" for=\"customCheck12\">Have you shown the person where all relevant firefighting equipment is located?</label>\n                </div>\n\n\n\n\n\n                <div class=\"form-group\">\n                    <button class=\"btn btn-success btn-lg btn-block\" (click)=\"submitForm()\">Create Induction Checklist</button>\n                </div>\n            </form>\n        </div>\n\n    </div>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container wrapper wrapper2\">\n    <div class=\"row\">\n\n        <!-- Form -->\n        <div class=\"col-md-12\">\n            <h3>Add Induction Checklist</h3>\n            <h3>Add Induction Checklist</h3>\n            <h3>Add Induction Checklist</h3>\n            <form>\n\n                <div class=\"form-group\">\n                \n                    <label style=\"padding-top: 10px\">Location: </label >\n                        <select class=\"form-control\" id=\"category\"  [(ngModel)]=\"data.location\"\n                                [ngModelOptions]=\"{standalone: true}\"\n                                type=\"text\" (blur)=\"focus = false\"\n                                (focus)=\"focus = true\"\n                        >\n                            <option *ngFor=\"let card of Jobcard\" [value]=\"card.location_name\">{{card.location_name}}</option>\n                        </select>\n                </div>\n                <div class=\"form-group\" >\n    \n                    <label style=\"padding-top: 10px\">Manager: </label >\n                        <select class=\"form-control\" id=\"category\"\n                                [ngModelOptions]=\"{standalone: true}\"\n                                type=\"text\" (blur)=\"focus = false\"\n                                (focus)=\"focus = true\"\n                                [(ngModel)]=\"data.manager\"\n                        >\n                            <option   *ngFor=\"let user of users\" [value]=\"user.name\">{{user.name}}</option>\n                        </select>\n                </div>\n                <div class=\"form-group\">\n            \n                    <label style=\"padding-top: 10px\">Position: </label >\n                        <select class=\"form-control\" id=\"category\"\n                                [ngModelOptions]=\"{standalone: true}\"\n                                type=\"text\" (blur)=\"focus = false\"\n                                (focus)=\"focus = true\"\n                                [(ngModel)]=\"data.position\"\n                        >\n                            <option   *ngFor=\"let user of users\" [value]=\"user.name\">{{user.name}} who is a {{user.role}}</option>\n                        </select>\n                </div>\n                <div class=\"form-group\">\n                \n                    <label style=\"padding-top: 10px\">Work Place: </label >\n                        <select class=\"form-control\" id=\"category\"  [(ngModel)]=\"data.workplace\"\n                                [ngModelOptions]=\"{standalone: true}\"\n                                type=\"text\" (blur)=\"focus = false\"\n                                (focus)=\"focus = true\"\n                        >\n                            <option *ngFor=\"let card of Jobcard\" [value]=\"card.name\">{{card.name}}</option>\n                        </select>\n                </div>\n                <div class=\"custom-control custom-checkbox\">\n                    <h3>Tick if yes</h3>\n                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"customCheck1\" [(ngModel)]=\"data.competencies\" [ngModelOptions]=\"{standalone: true}\">\n                    <label class=\"custom-control-label\" for=\"customCheck1\">have you checked the competencies and qualification of the inductees</label>\n                </div>\n                <div class=\"custom-control custom-checkbox\">\n                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"customCheck2\" [(ngModel)]=\"data.permits\" [ngModelOptions]=\"{standalone: true}\">\n                    <label class=\"custom-control-label\" for=\"customCheck2\">Have inductees signed on and added proof of permits and qualifications</label>\n                </div>\n                <div class=\"custom-control custom-checkbox\">\n                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"customCheck3\" [(ngModel)]=\"data.reporting_incidents\" [ngModelOptions]=\"{standalone: true}\">\n                    <label class=\"custom-control-label\" for=\"customCheck3\">Have you discussed and clearly stated the procedures for reporting incidents injuries and hazards</label>\n                </div>\n                <div class=\"custom-control custom-checkbox\">\n                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"customCheck4\" [(ngModel)]=\"data.workplace_safety\" [ngModelOptions]=\"{standalone: true}\">\n                    <label class=\"custom-control-label\" for=\"customCheck4\">Have you discussed the workplace safety rules</label>\n                </div>\n                <div class=\"custom-control custom-checkbox\">\n                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"customCheck5\" [(ngModel)]=\"data.safe_work_method\" [ngModelOptions]=\"{standalone: true}\">\n                    <label class=\"custom-control-label\" for=\"customCheck5\">Has the person(s) been taken through relevant safe work method statement for the tasks to be performed</label>\n                </div>\n                <div class=\"custom-control custom-checkbox\">\n                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"customCheck6\" [(ngModel)]=\"data.specialised_equipment\" [ngModelOptions]=\"{standalone: true}\">\n                    <label class=\"custom-control-label\" for=\"customCheck6\">Is specialized equipment required to have been trained to use the equipment</label>\n                </div>\n                <div class=\"custom-control custom-checkbox\">\n                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"customCheck7\" [(ngModel)]=\"data.ppe_equipment\" [ngModelOptions]=\"{standalone: true}\">\n                    <label class=\"custom-control-label\" for=\"customCheck7\">Do people have correct PPE equipment e.g hard hat ,safety glasses,safety boots, long sleeved shirts,high visibility vests?</label>\n                </div>\n                <div class=\"custom-control custom-checkbox\">\n                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"customCheck8\" [(ngModel)]=\"data.assembly_points\" [ngModelOptions]=\"{standalone: true}\">\n                    <label class=\"custom-control-label\" for=\"customCheck8\">Have you shown people assembly point in case of an emergecy</label>\n                </div>\n                <div class=\"custom-control custom-checkbox\">\n                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"customCheck9\" [(ngModel)]=\"data.medical_facility\" [ngModelOptions]=\"{standalone: true}\">\n                    <label class=\"custom-control-label\" for=\"customCheck9\">Have you shown people what to do in an emergency and closest medical facility?</label>\n                </div>\n                <div class=\"custom-control custom-checkbox\">\n                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"customCheck10\" [(ngModel)]=\"data.emergency_services\" [ngModelOptions]=\"{standalone: true}\">\n                    <label class=\"custom-control-label\" for=\"customCheck10\">Do the staff have a way to contact emergecy services?</label>\n                </div>\n                <div class=\"custom-control custom-checkbox\">\n                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"customCheck11\" [(ngModel)]=\"data.emergency_communication\" [ngModelOptions]=\"{standalone: true}\">\n                    <label class=\"custom-control-label\" for=\"customCheck11\">Have you shown the person what to do in an emergency situation and identified the location and provision of emergency communication?</label>\n                </div>\n                <div class=\"custom-control custom-checkbox\">\n                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"customCheck12\" [(ngModel)]=\"data.firefighting\" [ngModelOptions]=\"{standalone: true}\">\n                    <label class=\"custom-control-label\" for=\"customCheck12\">Have you shown the person where all relevant firefighting equipment is located?</label>\n                </div>\n\n\n\n\n\n                <div class=\"form-group\">\n                    <button class=\"btn btn-success btn-lg btn-block\" (click)=\"submitForm()\">Create Induction Checklist</button>\n                </div>\n            </form>\n        </div>\n\n    </div>\n</div>\n");
 
 /***/ }),
 
@@ -386,7 +695,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container wrapper wrapper2\">\n    <div class=\"row\">\n\n        <!-- Form -->\n        <div class=\"col-md-12\">\n            <h3>Add Job Analysis</h3>\n            <h3>Add Job Analysis</h3>\n            <h3>Add Job Analysis </h3>\n            <form>\n\n\n\n                <div class=\"custom-control custom-checkbox\">\n                    <h3>Job Analysis</h3>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">job title</label>\n                    <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.job_title\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                    <div class=\"form-group\">\n                        <label  class=\"form-control-label\">location</label>\n                        <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.location\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                    </div>\n                    <div class=\"form-group\">\n                        <label  class=\"form-control-label\">summary</label>\n                        <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.summary\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                    </div>\n                    <div class=\"form-group\">\n                        <label  class=\"form-control-label\">working condition</label>\n                        <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.working_condition\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                    </div>\n                    <div class=\"form-group\">\n                        <label  class=\"form-control-label\">job duties</label>\n                        <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.job_duties\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                    </div>\n                    <div class=\"form-group\">\n                        <label  class=\"form-control-label\">machine used</label>\n                        <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.machine_used\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                    </div>\n                    <div class=\"form-group\">\n                        <label  class=\"form-control-label\">hazards</label>\n                        <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.hazards\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                    </div>\n                    <div class=\"form-group\">\n                        <label  class=\"form-control-label\">qualifications</label>\n                        <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.qualifications\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                    </div>\n                    <div class=\"form-group\">\n                        <label  class=\"form-control-label\">experience</label>\n                        <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.experience\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                    </div>\n                    <div class=\"form-group\">\n                        <label  class=\"form-control-label\">training</label>\n                        <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.training\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                    </div>\n\n\n\n\n\n\n\n\n                <div class=\"form-group\">\n                    <button class=\"btn btn-success btn-lg btn-block\" (click)=\"submitForm()\">Add Job Analysis</button>\n                </div>\n                </div>\n            </form>\n        </div>\n\n    </div>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container wrapper wrapper2\">\n    <div class=\"row\">\n\n        <!-- Form -->\n        <div class=\"col-md-12\">\n            <h3>Add Job Analysis</h3>\n            <h3>Add Job Analysis</h3>\n            <h3>Add Job Analysis </h3>\n            <form>\n\n\n\n                <div class=\"custom-control custom-checkbox\">\n                    <h3>Job Analysis</h3>\n                <div class=\"form-group\">\n                \n                    <label style=\"padding-top: 10px\">job title: </label >\n                        <select class=\"form-control\" id=\"category\"  [(ngModel)]=\"data.job_title\"\n                                [ngModelOptions]=\"{standalone: true}\"\n                                type=\"text\" (blur)=\"focus = false\"\n                                (focus)=\"focus = true\"\n                        >\n                            <option *ngFor=\"let card of Jobcard\" [value]=\"card.name\">{{card.name}}</option>\n                        </select>\n                </div>\n                    <div class=\"form-group\">\n                      \n                        <label style=\"padding-top: 10px\">location: </label >\n                            <select class=\"form-control\" id=\"category\"  [(ngModel)]=\"data.location\"\n                                    [ngModelOptions]=\"{standalone: true}\"\n                                    type=\"text\" (blur)=\"focus = false\"\n                                    (focus)=\"focus = true\"\n                            >\n                                <option *ngFor=\"let card of Jobcard\" [value]=\"card.location_name\">{{card.location_name}}</option>\n                            </select>\n                    </div>\n                    <div class=\"form-group\">\n                        <label  class=\"form-control-label\">summary</label>\n                        <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.summary\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                    </div>\n                    <div class=\"form-group\">\n                        <label  class=\"form-control-label\">working condition</label>\n                        <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.working_condition\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                    </div>\n                    <div class=\"form-group\">\n                        <label  class=\"form-control-label\">job duties</label>\n                        <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.job_duties\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                    </div>\n                    <div class=\"form-group\">\n                        <label  class=\"form-control-label\">machine used</label>\n                        <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.machine_used\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                    </div>\n                    <div class=\"form-group\">\n                        <label  class=\"form-control-label\">hazards</label>\n                        <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.hazards\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                    </div>\n                    <div class=\"form-group\">\n                        <label  class=\"form-control-label\">qualifications</label>\n                        <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.qualifications\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                    </div>\n                    <div class=\"form-group\">\n                        <label  class=\"form-control-label\">experience</label>\n                        <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.experience\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                    </div>\n                    <div class=\"form-group\">\n                        <label  class=\"form-control-label\">training</label>\n                        <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.training\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                    </div>\n\n\n\n\n\n\n\n\n                <div class=\"form-group\">\n                    <button class=\"btn btn-success btn-lg btn-block\" (click)=\"submitForm()\">Add Job Analysis</button>\n                </div>\n                </div>\n            </form>\n        </div>\n\n    </div>\n</div>\n");
 
 /***/ }),
 
@@ -425,7 +734,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container wrapper wrapper2\">\n    <div class=\"row\">\n\n        <!-- Form -->\n        <div class=\"col-md-12\" >\n            <h3>Add Jobcard</h3>\n            <h3>Add Jobcard</h3>\n            <h3>Add Jobcard</h3>\n            <form>\n                <h3>Site Jobcard</h3>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\"> Site Name</label>\n                    <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.name\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\" >\n                    <label  class=\"form-control-label\">Customer</label>\n                    <input class=\"form-control form-control-alternative\" type=\"text\" [(ngModel)]=\"data.customer\"  [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label class=\"form-control-label\">Starting Date</label>\n                    <input class=\"form-control form-control-alternative\" type=\"date\" [(ngModel)]=\"data.starting_date\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">End Date</label>\n                    <input class=\"form-control form-control-alternative\" type=\"date\"  [(ngModel)]=\"data.end_date\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">Workorder number</label>\n                    <input class=\"form-control form-control-alternative\" type=\"number\"  [(ngModel)]=\"data.workorder_number\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label class=\"form-control-label\">location name</label>\n                    <input class=\"form-control form-control-alternative\" type=\"text\"  [(ngModel)]=\"data.location_name\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label class=\"form-control-label\">job description</label>\n                    <textarea class=\"form-control form-control-alternative\" type=\"text\" [(ngModel)]=\"data.job_description\" [ngModelOptions]=\"{standalone: true}\"></textarea>\n                </div>\n                <div class=\"form-group\">\n                    <label class=\"form-control-label\">job steps</label>\n                    <textarea class=\"form-control form-control-alternative\" type=\"text\" [(ngModel)]=\"data.job_steps\" [ngModelOptions]=\"{standalone: true}\"></textarea>\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">hazards</label>\n                    <input class=\"form-control form-control-alternative\" type=\"text\"  [(ngModel)]=\"data.hazards\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">uncontrollable risk level</label>\n                    <input class=\"form-control form-control-alternative\" type=\"text\"  [(ngModel)]=\"data.uncontainable_risks\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">control measures</label>\n                    <input class=\"form-control form-control-alternative\" type=\"text\"  [(ngModel)]=\"data.control_measures\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">controlled risk levels</label>\n                    <input class=\"form-control form-control-alternative\" type=\"text\"  [(ngModel)]=\"data.controlled_risk_levels\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">status</label>\n                    <input class=\"form-control form-control-alternative\" type=\"text\" [(ngModel)]=\"data.status\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">Amount Invoiced</label>\n                    <input class=\"form-control form-control-alternative\" type=\"number\" [(ngModel)]=\"data.amount_invoiced\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group mb-3 \"  [ngClass]=\"{ 'focused': focus === true }\">\n                    <div class=\"input-group input-group-alternative\">\n                        <div class=\"input-group-prepend\">\n                <span class=\"input-group-text\">\n                  <i class=\"ni ni-circle-08\"> </i>\n                </span>\n                        </div>\n\n                        <label style=\"padding-top: 10px\">Send To: </label >\n                        <select class=\"form-control\" id=\"category\"\n                                [ngModelOptions]=\"{standalone: true}\"\n                                type=\"text\" (blur)=\"focus = false\"\n                                (focus)=\"focus = true\"\n                                [(ngModel)]=\"data.issue_to\"\n                        >\n                            <option   *ngFor=\"let user of users\" [value]=\"user._id\">{{user.name}} who is a {{user.role}}</option>\n                        </select>\n                    </div>\n                </div>\n                <div class=\"form-group\">\n                    <button class=\"btn btn-success btn-lg btn-block\" (click)=\"submitForm()\">Create Jobcard</button>\n                </div>\n            </form>\n        </div>\n\n    </div>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container wrapper wrapper2\">\n    <div class=\"row\">\n\n        <!-- Form -->\n        <div class=\"col-md-12\" >\n            <h3>Add Jobcard</h3>\n            <h3>Add Jobcard</h3>\n            <h3>Add Jobcard</h3>\n            <form>\n                <h3>Site Jobcard</h3>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\"> Site Name</label>\n                    <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.name\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\" >\n                    <label  class=\"form-control-label\">Customer</label>\n                    <input class=\"form-control form-control-alternative\" type=\"text\" [(ngModel)]=\"data.customer\"  [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label class=\"form-control-label\">Starting Date</label>\n                    <input class=\"form-control form-control-alternative\" type=\"date\" [(ngModel)]=\"data.starting_date\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">End Date</label>\n                    <input class=\"form-control form-control-alternative\" type=\"date\"  [(ngModel)]=\"data.end_date\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">Workorder number</label>\n                    <input class=\"form-control form-control-alternative\" type=\"number\"  [(ngModel)]=\"data.workorder_number\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label class=\"form-control-label\">location name</label>\n                    <input class=\"form-control form-control-alternative\" type=\"text\"  [(ngModel)]=\"data.location_name\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label class=\"form-control-label\">job description</label>\n                    <textarea class=\"form-control form-control-alternative\" type=\"text\" [(ngModel)]=\"data.job_description\" [ngModelOptions]=\"{standalone: true}\"></textarea>\n                </div>\n                <div class=\"form-group\">\n                    <label class=\"form-control-label\">job steps</label>\n                    <textarea class=\"form-control form-control-alternative\" type=\"text\" [(ngModel)]=\"data.job_steps\" [ngModelOptions]=\"{standalone: true}\"></textarea>\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">hazards</label>\n                    <input class=\"form-control form-control-alternative\" type=\"text\"  [(ngModel)]=\"data.hazards\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">uncontrollable risk level</label>\n                    <input class=\"form-control form-control-alternative\" type=\"text\"  [(ngModel)]=\"data.uncontainable_risks\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">control measures</label>\n                    <input class=\"form-control form-control-alternative\" type=\"text\"  [(ngModel)]=\"data.control_measures\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">controlled risk levels</label>\n                    <input class=\"form-control form-control-alternative\" type=\"text\"  [(ngModel)]=\"data.controlled_risk_levels\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n    \n                    <label style=\"padding-top: 10px\">status: </label >\n                        <select class=\"form-control\" id=\"category\"\n                                [ngModelOptions]=\"{standalone: true}\"\n                                type=\"text\" (blur)=\"focus = false\"\n                                (focus)=\"focus = true\"\n                                [(ngModel)]=\"data.status\"\n                        >\n                            <option>draft</option>\n                            <option>pending</option>\n                            <option>ready for issue</option>\n                            <option>issued</option>\n                            <option>discarded</option>\n                        </select>\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">Amount Invoiced</label>\n                    <input class=\"form-control form-control-alternative\" type=\"number\" [(ngModel)]=\"data.amount_invoiced\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group mb-3 \"  [ngClass]=\"{ 'focused': focus === true }\">\n                    <div class=\"input-group input-group-alternative\">\n                        <div class=\"input-group-prepend\">\n                <span class=\"input-group-text\">\n                  <i class=\"ni ni-circle-08\"> </i>\n                </span>\n                        </div>\n\n                        <label style=\"padding-top: 10px\">Send To: </label >\n                        <select class=\"form-control\" id=\"category\"\n                                [ngModelOptions]=\"{standalone: true}\"\n                                type=\"text\" (blur)=\"focus = false\"\n                                (focus)=\"focus = true\"\n                                [(ngModel)]=\"data.issue_to\"\n                        >\n                            <option   *ngFor=\"let user of users\" [value]=\"user._id\">{{user.name}} who is a {{user.role}}</option>\n                        </select>\n                    </div>\n                </div>\n                <div class=\"form-group\">\n                    <button class=\"btn btn-success btn-lg btn-block\" (click)=\"submitForm()\">Create Jobcard</button>\n                </div>\n            </form>\n        </div>\n\n    </div>\n</div>\n");
 
 /***/ }),
 
@@ -464,7 +773,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<header class=\"header-2 skew-separator\">\n    <nav class=\"navbar navbar-expand-lg bg-white navbar-absolute\">\n        <div class=\"container\">\n            <div class=\"navbar-translate\">\n                <a class=\"navbar-brand\" href=\"javascript:;\">OHS </a>\n                <button\n                        aria-controls=\"navbarSupportedContent\"\n                        aria-label=\"Toggle navigation\"\n                        class=\"navbar-toggler\"\n                        [attr.aria-expanded]=\"!isCollapsed\"\n                        (click)=\"isCollapsed = !isCollapsed\"\n                        id=\"example-header-2\"\n                        type=\"button\"\n                >\n                    <span class=\"navbar-toggler-icon\"> </span>\n                </button>\n            </div>\n            <div\n                    class=\"navbar-collapse\"\n                    [isAnimated]=\"true\"\n                    [collapse]=\"isCollapsed\"\n                    id=\"example-header-2\"\n            >\n                <div class=\"navbar-collapse-header\">\n                    <div class=\"row\">\n                        <div class=\"col-6 collapse-brand\">\n                            <a> Argon <span> PRO </span> </a>\n                        </div>\n                        <div class=\"col-6 collapse-close text-right\">\n                            <button\n                                    aria-controls=\"navigation-index\"\n                                    aria-label=\"Toggle navigation\"\n                                    class=\"navbar-toggler\"\n                                    [attr.aria-expanded]=\"!isCollapsed\"\n                                    (click)=\"isCollapsed = !isCollapsed\"\n                                    id=\"example-header-2\"\n                                    type=\"button\"\n                            >\n                                <span> </span> <span> </span>\n                            </button>\n                        </div>\n                    </div>\n                </div>\n                <ul class=\"navbar-nav mx-auto\">\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link\" href=\"javascript:;\"> Home </a>\n                    </li>\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link\" href=\"javascript:;\"> About Us </a>\n                    </li>\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link\" href=\"javascript:;\"> Products </a>\n                    </li>\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link\" href=\"javascript:;\"> Contact Us </a>\n                    </li>\n                </ul>\n                <ul class=\"nav navbar-nav navbar-right\">\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link\" href=\"https://twitter.com/CreativeTim\">\n                            <i class=\"fab fa-twitter\"> </i>\n                        </a>\n                    </li>\n                    <li class=\"nav-item\">\n                        <a\n                                class=\"nav-link\"\n                                href=\"https://www.facebook.com/CreativeTim\"\n                        >\n                            <i class=\"fab fa-facebook-square\"> </i>\n                        </a>\n                    </li>\n                    <li class=\"nav-item\">\n                        <a\n                                class=\"nav-link\"\n                                href=\"https://www.instagram.com/CreativeTimOfficial\"\n                        >\n                            <i class=\"fab fa-instagram\"> </i>\n                        </a>\n                    </li>\n                </ul>\n            </div>\n        </div>\n    </nav>\n    <div class=\"page-header\">\n        <div\n                class=\"page-header-image\"\n                style=\"background-image: url('assets/img/ill/p8.svg')\"\n        ></div>\n        <div class=\"container pt-300\">\n            <div class=\"row\">\n                <div class=\"col-md-8 mx-auto text-center\">\n                    <h2 class=\"display-2\">Welcome NOC officer to your OHS dashboard</h2>\n                </div>\n            </div>\n            <div class=\"row\">\n                <div class=\"floating-box bg-default\">\n                    <div class=\"box text-center\">\n                        <div\n                                class=\"icon icon-shape bg-success icon-xl rounded-circle text-white\"\n                        >\n                            <i class=\"ni ni-spaceship\"> </i>\n                        </div>\n                    </div>\n                    <h2 class=\"lead text-white p-5\">\n                        Here you will find all job cards created and all induction checklists created that will allow you to approve or decline a work site\n                    </h2>\n                </div>\n            </div>\n        </div>\n    </div>\n</header>\n\n\n\n<div class=\"row\"  *ngIf=\"Inductionchecklist.length !== 0\">\n<div class=\"col-lg-3 col-md-3\"   *ngFor=\"let induction of Inductionchecklist\">\n    <div class=\"card card-project\"  >\n        <a href=\"javascript:;\">\n            <div\n                    class=\"icon icon-lg icon-shape icon-shape-primary shadow rounded-circle mx-auto\"\n            >\n                <i class=\"ni ni-favourite-28\"> </i>\n            </div>\n        </a>\n        <div class=\"card-body\">\n            <h4 class=\"card-title mt-3\">Induction checklist</h4>\n            <p class=\"card-description\">\n               Location: {{induction.location}}\n            </p>\n            <p class=\"card-description\">\n                incident:{{induction.reporting_incidents}}\n            </p>\n            <p class=\"card-description\">\n              equipment: {{induction.specialised_equipment}}\n            </p>\n            <p class=\"card-description\">\n           ppe equip: {{induction.ppe_equipment}}\n            </p>\n            <p class=\"card-description\">\n              firefighting: {{induction.firefighting}}\n            </p>\n            <div class=\"card-footer\">\n                <button class=\"btn btn-link text-primary\" type=\"button\" [routerLink]=\"['/view-induction']\" >\n                    <i class=\"ni ni-glasses-2\"> </i> Check more\n                </button>\n            </div>\n        </div>\n    </div>\n</div>\n</div>\n<div class=\"row\" *ngIf=\"Jobcard.length !== 0\">\n<div class=\"col-lg-3 col-md-3\" *ngFor=\"let jobcard of Jobcard\">\n    <div class=\"card card-project\">\n        <a href=\"javascript:;\">\n            <div\n                    class=\"icon icon-lg icon-shape icon-shape-success shadow rounded-circle mx-auto\"\n            >\n                <i class=\"ni ni-books\"> </i>\n            </div>\n        </a>\n        <div class=\"card-body\">\n            <h4 class=\"card-title mt-3\">Job cards</h4>\n            <p class=\"card-description\">\n              {{jobcard.name}}\n            </p>\n            <p class=\"card-description\">\n              {{jobcard.customer}}\n            </p>\n            <p class=\"card-description\">\n              {{jobcard.location_name}}\n            </p>\n            <p class=\"card-description\">\n              {{jobcard.job_description}}\n            </p>\n            <p class=\"card-description\">\n              {{jobcard.hazards}}\n            </p>\n            <div class=\"card-footer\">\n                <button class=\"btn btn-link text-success\" type=\"button\" [routerLink]=\"['/view-jobcard']\">\n                    <i class=\"ni ni-key-25\"> </i> View more\n                </button>\n            </div>\n        </div>\n    </div>\n</div>\n</div>\n<div class=\"row\" *ngIf=\"Toolboxtalk.length !== 0\">\n<div class=\"col-lg-3 col-md-3\" *ngFor=\"let toolbox of Toolboxtalk\">\n    <div class=\"card card-project\">\n        <a href=\"javascript:;\">\n            <div\n                    class=\"icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mx-auto\"\n            >\n                <i class=\"ni ni-trophy\"> </i>\n            </div>\n        </a>\n        <div class=\"card-body\">\n            <h4 class=\"card-title mt-3\">Toolbox talks</h4>\n            <p class=\"card-description\">\n                {{toolbox.resource_plan}}\n            </p>\n            <p class=\"card-description\">\n               {{toolbox.necessary_proc}}\n            </p>\n            <p class=\"card-description\">\n               {{toolbox.gov_monitor}}\n            </p>\n            <p class=\"card-description\">\n               {{toolbox.h2s_training}}\n            </p>\n            <p class=\"card-description\">\n               {{toolbox.hard_hat}}\n            </p>\n\n            <div class=\"card-footer\">\n                <button class=\"btn btn-link text-warning\" type=\"button\" [routerLink]=\"['/view-toolbox']\" >\n                    <i class=\"ni ni-notification-70\"> </i> Check more\n                </button>\n            </div>\n        </div>\n    </div>\n</div>\n</div>\n\n\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<header class=\"header-2 skew-separator\">\n    <nav class=\"navbar navbar-expand-lg bg-white navbar-absolute\">\n        <div class=\"container\">\n            <div class=\"navbar-translate\">\n                <a class=\"navbar-brand\" href=\"javascript:;\">OHS </a>\n                <button\n                        aria-controls=\"navbarSupportedContent\"\n                        aria-label=\"Toggle navigation\"\n                        class=\"navbar-toggler\"\n                        [attr.aria-expanded]=\"!isCollapsed\"\n                        (click)=\"isCollapsed = !isCollapsed\"\n                        id=\"example-header-2\"\n                        type=\"button\"\n                >\n                    <span class=\"navbar-toggler-icon\"> </span>\n                </button>\n            </div>\n            <div\n                    class=\"navbar-collapse\"\n                    [isAnimated]=\"true\"\n                    [collapse]=\"isCollapsed\"\n                    id=\"example-header-2\"\n            >\n                <div class=\"navbar-collapse-header\">\n                    <div class=\"row\">\n                        <div class=\"col-6 collapse-brand\">\n                            <a> Argon <span> PRO </span> </a>\n                        </div>\n                        <div class=\"col-6 collapse-close text-right\">\n                            <button\n                                    aria-controls=\"navigation-index\"\n                                    aria-label=\"Toggle navigation\"\n                                    class=\"navbar-toggler\"\n                                    [attr.aria-expanded]=\"!isCollapsed\"\n                                    (click)=\"isCollapsed = !isCollapsed\"\n                                    id=\"example-header-2\"\n                                    type=\"button\"\n                            >\n                                <span> </span> <span> </span>\n                            </button>\n                        </div>\n                    </div>\n                </div>\n                <ul class=\"navbar-nav mx-auto\">\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link\" href=\"javascript:;\"> Home </a>\n                    </li>\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link\" href=\"javascript:;\"> About Us </a>\n                    </li>\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link\" href=\"javascript:;\"> Products </a>\n                    </li>\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link\" href=\"javascript:;\"> Contact Us </a>\n                    </li>\n                </ul>\n                <ul class=\"nav navbar-nav navbar-right\">\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link\" href=\"https://twitter.com/CreativeTim\">\n                            <i class=\"fab fa-twitter\"> </i>\n                        </a>\n                    </li>\n                    <li class=\"nav-item\">\n                        <a\n                                class=\"nav-link\"\n                                href=\"https://www.facebook.com/CreativeTim\"\n                        >\n                            <i class=\"fab fa-facebook-square\"> </i>\n                        </a>\n                    </li>\n                    <li class=\"nav-item\">\n                        <a\n                                class=\"nav-link\"\n                                href=\"https://www.instagram.com/CreativeTimOfficial\"\n                        >\n                            <i class=\"fab fa-instagram\"> </i>\n                        </a>\n                    </li>\n                </ul>\n            </div>\n        </div>\n    </nav>\n    <div class=\"page-header\">\n        <div\n                class=\"page-header-image\"\n                style=\"background-image: url('assets/img/ill/p8.svg')\"\n        ></div>\n        <div class=\"container pt-300\">\n            <div class=\"row\">\n                <div class=\"col-md-8 mx-auto text-center\">\n                    <h2 class=\"display-2\">Welcome NOC officer to your OHS dashboard</h2>\n                </div>\n            </div>\n            <div class=\"buttons col-md-8 mx-auto text-center\">\n                <a class=\"btn btn-success\" style=\"align-items: center;\" href=\"javascript:;\" [routerLink]=\"['/dashboard']\"> View Analytics </a>\n            </div>\n            <div class=\"row\">\n                <div class=\"floating-box bg-default\">\n                    <div class=\"box text-center\">\n                        <div\n                                class=\"icon icon-shape bg-success icon-xl rounded-circle text-white\"\n                        >\n                            <i class=\"ni ni-spaceship\"> </i>\n                        </div>\n                    </div>\n                    <h2 class=\"lead text-white p-5\">\n                        Here you will find all job cards created and all induction checklists created that will allow you to approve or decline a work site\n                    </h2>\n                </div>\n            </div>\n        </div>\n    </div>\n</header>\n\n\n\n<div class=\"row\"  *ngIf=\"Inductionchecklist.length !== 0\">\n<div class=\"col-lg-3 col-md-3\"   *ngFor=\"let induction of Inductionchecklist\">\n    <div class=\"card card-project\"  >\n        <a href=\"javascript:;\">\n            <div\n                    class=\"icon icon-lg icon-shape icon-shape-primary shadow rounded-circle mx-auto\"\n            >\n                <i class=\"ni ni-favourite-28\"> </i>\n            </div>\n        </a>\n        <div class=\"card-body\">\n            <h4 class=\"card-title mt-3\">Induction checklist</h4>\n            <p class=\"card-description\">\n               Location: {{induction.location}}\n            </p>\n            <p class=\"card-description\">\n                incident:{{induction.reporting_incidents}}\n            </p>\n            <p class=\"card-description\">\n              equipment: {{induction.specialised_equipment}}\n            </p>\n            <p class=\"card-description\">\n           ppe equip: {{induction.ppe_equipment}}\n            </p>\n            <p class=\"card-description\">\n              firefighting: {{induction.firefighting}}\n            </p>\n            <div class=\"card-footer\">\n                <button class=\"btn btn-link text-primary\" type=\"button\" [routerLink]=\"['/view-induction']\" >\n                    <i class=\"ni ni-glasses-2\"> </i> Check more\n                </button>\n            </div>\n        </div>\n    </div>\n</div>\n</div>\n<div class=\"row\" *ngIf=\"Jobcard.length !== 0\">\n<div class=\"col-lg-3 col-md-3\" *ngFor=\"let jobcard of Jobcard\">\n    <div class=\"card card-project\">\n        <a href=\"javascript:;\">\n            <div\n                    class=\"icon icon-lg icon-shape icon-shape-success shadow rounded-circle mx-auto\"\n            >\n                <i class=\"ni ni-books\"> </i>\n            </div>\n        </a>\n        <div class=\"card-body\">\n            <h4 class=\"card-title mt-3\">Job cards</h4>\n            <p class=\"card-description\">\n              {{jobcard.name}}\n            </p>\n            <p class=\"card-description\">\n              {{jobcard.customer}}\n            </p>\n            <p class=\"card-description\">\n              {{jobcard.location_name}}\n            </p>\n            <p class=\"card-description\">\n              {{jobcard.job_description}}\n            </p>\n            <p class=\"card-description\">\n              {{jobcard.hazards}}\n            </p>\n            <div class=\"card-footer\">\n                <button class=\"btn btn-link text-success\" type=\"button\" [routerLink]=\"['/view-jobcard']\">\n                    <i class=\"ni ni-key-25\"> </i> View more\n                </button>\n            </div>\n        </div>\n    </div>\n</div>\n</div>\n<div class=\"row\" *ngIf=\"Toolboxtalk.length !== 0\">\n<div class=\"col-lg-3 col-md-3\" *ngFor=\"let toolbox of Toolboxtalk\">\n    <div class=\"card card-project\">\n        <a href=\"javascript:;\">\n            <div\n                    class=\"icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mx-auto\"\n            >\n                <i class=\"ni ni-trophy\"> </i>\n            </div>\n        </a>\n        <div class=\"card-body\">\n            <h4 class=\"card-title mt-3\">Toolbox talks</h4>\n            <p class=\"card-description\">\n                {{toolbox.resource_plan}}\n            </p>\n            <p class=\"card-description\">\n               {{toolbox.necessary_proc}}\n            </p>\n            <p class=\"card-description\">\n               {{toolbox.gov_monitor}}\n            </p>\n            <p class=\"card-description\">\n               {{toolbox.h2s_training}}\n            </p>\n            <p class=\"card-description\">\n               {{toolbox.hard_hat}}\n            </p>\n\n            <div class=\"card-footer\">\n                <button class=\"btn btn-link text-warning\" type=\"button\" [routerLink]=\"['/view-toolbox']\" >\n                    <i class=\"ni ni-notification-70\"> </i> Check more\n                </button>\n            </div>\n        </div>\n    </div>\n</div>\n</div>\n\n\n");
 
 /***/ }),
 
@@ -477,7 +786,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<header class=\"header-4 skew-separator\">\n    <div class=\"header-wrapper\">\n        <nav class=\"navbar navbar-expand-lg navbar-transparent\">\n            <div class=\"container\">\n                <div class=\"navbar-translate\">\n                    <a class=\"navbar-brand text-white\" href=\"javascript:;\">\n                        OHS\n                    </a>\n                    <button\n                            aria-controls=\"navbarSupportedContent\"\n                            aria-label=\"Toggle navigation\"\n                            class=\"navbar-toggler\"\n                            [attr.aria-expanded]=\"!isCollapsed\"\n                            (click)=\"isCollapsed = !isCollapsed\"\n                            type=\"button\"\n                    >\n                        <span class=\"navbar-toggler-icon\"> </span>\n                    </button>\n                </div>\n                <div\n                        class=\"navbar-collapse\"\n                        [isAnimated]=\"true\"\n                        [collapse]=\"isCollapsed\"\n                >\n                    <div class=\"navbar-collapse-header\">\n                        <div class=\"row\">\n                            <div class=\"col-6 collapse-brand\">\n                                <a> Argon <span> PRO </span> </a>\n                            </div>\n                            <div class=\"col-6 collapse-close text-right\">\n                                <button\n                                        aria-controls=\"navigation-index\"\n                                        aria-label=\"Toggle navigation\"\n                                        class=\"navbar-toggler\"\n                                        [attr.aria-expanded]=\"!isCollapsed\"\n                                        (click)=\"isCollapsed = !isCollapsed\"\n                                        id=\"example-header-4\"\n                                        type=\"button\"\n                                >\n                                    <span> </span> <span> </span>\n                                </button>\n                            </div>\n                        </div>\n                    </div>\n                    <ul class=\"navbar-nav mx-auto\">\n                        <li class=\"nav-item\">\n                            <a class=\"nav-link\" href=\"javascript:;\"> Home </a>\n                        </li>\n                        <li class=\"nav-item\">\n                            <a class=\"nav-link\" href=\"javascript:;\"> About Us </a>\n                        </li>\n                        <li class=\"nav-item\">\n                            <a class=\"nav-link\" href=\"javascript:;\"> Products </a>\n                        </li>\n                        <li class=\"nav-item\">\n                            <a class=\"nav-link\" href=\"javascript:;\"> Contact Us </a>\n                        </li>\n                    </ul>\n                    <ul class=\"nav navbar-nav navbar-right\">\n                        <li class=\"nav-item\">\n                            <a\n                                    class=\"nav-link\"\n                                    href=\"https://twitter.com/CreativeTim\"\n                            >\n                                <i class=\"fab fa-twitter\"> </i>\n                            </a>\n                        </li>\n                        <li class=\"nav-item\">\n                            <a\n                                    class=\"nav-link\"\n                                    href=\"https://www.facebook.com/CreativeTim\"\n                            >\n                                <i class=\"fab fa-facebook-square\"> </i>\n                            </a>\n                        </li>\n                        <li class=\"nav-item\">\n                            <a\n                                    class=\"nav-link\"\n                                    href=\"https://www.instagram.com/CreativeTimOfficial\"\n                            >\n                                <i class=\"fab fa-instagram\"> </i>\n                            </a>\n                        </li>\n                    </ul>\n                </div>\n            </div>\n        </nav>\n        <div class=\"page-header header-video\">\n            <div class=\"overlay\"></div>\n            <video\n                    autoplay=\"autoplay\"\n                    loop=\"loop\"\n                    muted=\"muted\"\n                    playsinline=\"playsinline\"\n            >\n                <source\n                        src=\"https://www.oberlo.com/wp-content/uploads/2018/10/1.-Pixabay.mp4\"\n                        type=\"video/mp4\"\n                />\n            </video>\n            <div class=\"container text-center\">\n                <div class=\"row\">\n                    <div class=\"col-lg-7 mx-auto\">\n                        <h1 class=\"video-text\">OHS officer dashboard</h1>\n                        <h1 class=\"display-3 text-white\">\n                            You can view job cards and create work permits\n                        </h1>\n                        <a\n                                class=\"btn btn-warning btn-icon mt-3 mb-sm-0\"\n                                href=\"https://www.creative-tim.com/product/argon-design-system-pro\"\n                        >\n                  <span class=\"btn-inner--icon\">\n                    <i class=\"ni ni-button-play\"> </i>\n                  </span>\n                            <span class=\"btn-inner--text\" [routerLink]=\"['/add-workpermit']\"> Make work permit</span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</header>\n\n\n\n<div class=\"row\" *ngIf=\"Jobcard.length !== 0\">\n<div class=\"col-md-3\" *ngFor=\"let jobcard of Jobcard\">\n    <div class=\"info info-hover-warning\">\n        <div\n                class=\"icon icon-shape bg-warning shadow rounded-circle text-primary\"\n        >\n            <i class=\"ni ni-satisfied text-white\"> </i>\n        </div>\n        <h5 class=\"info-title\">Jobcards</h5>\n        <p class=\"description opacity-8\">\n            It becomes harder for us to give others a hand. We get\n            our heart broken by people we love.\n        </p>\n        <p class=\"description opacity-8\">\n            {{jobcard.name}}\n        </p>\n        <p class=\"description opacity-8\">\n            {{jobcard.customer}}\n        </p>\n        <p class=\"description opacity-8\">\n            {{jobcard.location_name}}\n        </p>\n        <p class=\"description opacity-8\">\n            {{jobcard.job_description}}\n        </p>\n        <p class=\"description opacity-8\">\n            {{jobcard.hazards}}\n        </p>\n        <div class=\"card-footer\">\n            <button class=\"btn btn-link text-success\" type=\"button\" [routerLink]=\"['/view-jobcard']\">\n                <i class=\"ni ni-key-25\"> </i> View more\n            </button>\n        </div>\n    </div>\n</div>\n</div>\n<div class=\"row\" *ngIf=\"Workpermit.length !== 0\">\n    <div class=\"col-md-3\" *ngFor=\"let workpermit of Workpermit\">\n    <div class=\"info info-hover-info\">\n        <div\n                class=\"icon icon-shape bg-info shadow rounded-circle text-primary\"\n        >\n            <i class=\"ni ni-palette text-white\"> </i>\n        </div>\n        <h5 class=\"info-title\">workpermits</h5>\n        <p class=\"description opacity-8\">\n        {{workpermit.approver_by}}\n        </p>\n        <p class=\"description opacity-8\">\n        {{workpermit.issued_by}}\n        </p>\n        <p class=\"description opacity-8\">\n        {{workpermit.site_name}}\n        </p>\n        <p class=\"description opacity-8\">\n        {{workpermit.project}}\n        </p>\n        <p class=\"description opacity-8\">\n        {{workpermit.Technician}}\n        </p>\n        <div class=\"card-footer\">\n            <button class=\"btn btn-link text-warning\" type=\"button\" [routerLink]=\"['/view-workpermit']\" >\n                <i class=\"ni ni-notification-70\"> </i> Check more\n            </button>\n        </div>\n    </div>\n</div>\n</div>\n<div class=\"row\"  *ngIf=\"Inductionchecklist.length !== 0\">\n<div class=\"col-md-3\" *ngFor=\"let induction of Inductionchecklist\">\n    <div class=\"info info-hover-danger\">\n        <div\n                class=\"icon icon-shape bg-danger shadow rounded-circle text-primary\"\n        >\n            <i class=\"ni ni-user-run text-white\"> </i>\n        </div>\n        <h5 class=\"info-title\">Induction checklists</h5>\n        <p class=\"description opacity-8\">\n            We're not always in the position that we want to be at.\n            We're constantly growing.\n        </p>\n        <p class=\"description opacity-8\">\n            Location: {{induction.location}}\n        </p>\n        <p class=\"description opacity-8\">\n            incident:{{induction.reporting_incidents}}\n        </p>\n        <p class=\"description opacity-8\">\n            equipment: {{induction.specialised_equipment}}\n        </p>\n        <p class=\"description opacity-8\">\n            ppe equip: {{induction.ppe_equipment}}\n        </p>\n        <p class=\"description opacity-8\">\n            firefighting: {{induction.firefighting}}\n        </p>\n        <div class=\"card-footer\">\n            <button class=\"btn btn-link text-primary\" type=\"button\" [routerLink]=\"['/view-induction']\" >\n                <i class=\"ni ni-glasses-2\"> </i> Check more\n            </button>\n        </div>\n    </div>\n</div>\n</div>\n<div class=\"row\" *ngIf=\"Toolboxtalk.length !== 0\">\n<div class=\"col-md-3\"  *ngFor=\"let toolbox of Toolboxtalk\">\n    <div class=\"info info-hover-success\">\n        <div\n                class=\"icon icon-shape bg-success shadow rounded-circle text-primary\"\n        >\n            <i class=\"ni ni-glasses-2 text-white\"> </i>\n        </div>\n        <h5 class=\"info-title\">toolbox talks</h5>\n        <p class=\"description opacity-8\">\n            When we lose family over time. What else could rust the\n            heart more over time? Blackgold.\n        </p>\n        <p class=\"description opacity-8\">\n            {{toolbox.resource_plan}}\n        </p>\n        <p class=\"description opacity-8\">\n            {{toolbox.necessary_proc}}\n        </p>\n        <p class=\"description opacity-8\">\n            {{toolbox.gov_monitor}}\n        </p>\n        <p class=\"description opacity-8\">\n            {{toolbox.h2s_training}}\n        </p>\n        <p class=\"description opacity-8\">\n            {{toolbox.hard_hat}}\n        </p>\n\n        <div class=\"card-footer\">\n            <button class=\"btn btn-link text-warning\" type=\"button\" [routerLink]=\"['/view-toolbox']\" >\n                <i class=\"ni ni-notification-70\"> </i> Check more\n            </button>\n        </div>\n    </div>\n</div>\n</div>\n<div class=\"row\" *ngIf=\"Incidents.length !== 0\">\n    <div class=\"col-lg-3 col-md-3\" *ngFor=\"let incident of Incidents\">\n        <div class=\"card\">\n            <div class=\"card-header mt-2\">\n                <div class=\"float-left\">\n                    <i class=\"ni ni-button-power d-inline text-success mr-1\"> </i>\n                    <p class=\"d-inline\">Id:{{incident._id}} </p>\n                </div>\n                <div class=\"float-right\">\n                    <div class=\"dropdown\" dropdown>\n                        <button\n                                aria-expanded=\"false\"\n                                class=\"btn btn-link btn-sm\"\n                                data-toggle=\"dropdown\"\n                                dropdownToggle\n                                type=\"button\"\n                        >\n                            <i class=\"ni ni-settings-gear-65\"> </i>\n                        </button>\n                        <div\n                                class=\"dropdown-menu dropdown-menu-right\"\n                                *dropdownMenu\n                                x-placement=\"bottom-end\"\n                        >\n                            <a class=\"dropdown-item\" href=\"javascript:;\" [routerLink]=\"['/list-incident']\">\n                                view all\n                            </a>\n\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card-body text-center p-4\">\n\n                <h4 class=\"card-title mt-3 mb-0\">Incidents</h4>\n                <p class=\"card-description\">\n                    {{incident.production_loss}}\n                </p>\n                <p class=\"card-description\">\n                    {{incident.date_time_reported}}\n                </p>\n                <p class=\"card-description\">\n                    {{incident.worker_job_title}}\n                </p>\n\n\n            </div>\n        </div>\n    </div>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<header class=\"header-4 skew-separator\">\n    <div class=\"header-wrapper\">\n        <nav class=\"navbar navbar-expand-lg navbar-transparent\">\n            <div class=\"container\">\n                <div class=\"navbar-translate\">\n                    <a class=\"navbar-brand text-white\" href=\"javascript:;\">\n                        OHS\n                    </a>\n                    <button\n                            aria-controls=\"navbarSupportedContent\"\n                            aria-label=\"Toggle navigation\"\n                            class=\"navbar-toggler\"\n                            [attr.aria-expanded]=\"!isCollapsed\"\n                            (click)=\"isCollapsed = !isCollapsed\"\n                            type=\"button\"\n                    >\n                        <span class=\"navbar-toggler-icon\"> </span>\n                    </button>\n                </div>\n                <div\n                        class=\"navbar-collapse\"\n                        [isAnimated]=\"true\"\n                        [collapse]=\"isCollapsed\"\n                >\n                    <div class=\"navbar-collapse-header\">\n                        <div class=\"row\">\n                            <div class=\"col-6 collapse-brand\">\n                                <a> Argon <span> PRO </span> </a>\n                            </div>\n                            <div class=\"col-6 collapse-close text-right\">\n                                <button\n                                        aria-controls=\"navigation-index\"\n                                        aria-label=\"Toggle navigation\"\n                                        class=\"navbar-toggler\"\n                                        [attr.aria-expanded]=\"!isCollapsed\"\n                                        (click)=\"isCollapsed = !isCollapsed\"\n                                        id=\"example-header-4\"\n                                        type=\"button\"\n                                >\n                                    <span> </span> <span> </span>\n                                </button>\n                            </div>\n                        </div>\n                    </div>\n                    <ul class=\"navbar-nav mx-auto\">\n                        <li class=\"nav-item\">\n                            <a class=\"nav-link\" href=\"javascript:;\"> Home </a>\n                        </li>\n                        <li class=\"nav-item\">\n                            <a class=\"nav-link\" href=\"javascript:;\"> About Us </a>\n                        </li>\n                        <li class=\"nav-item\">\n                            <a class=\"nav-link\" href=\"javascript:;\"> Products </a>\n                        </li>\n                        <li class=\"nav-item\">\n                            <a class=\"nav-link\" href=\"javascript:;\"> Contact Us </a>\n                        </li>\n                    </ul>\n                    <ul class=\"nav navbar-nav navbar-right\">\n                        <li class=\"nav-item\">\n                            <a\n                                    class=\"nav-link\"\n                                    href=\"https://twitter.com/CreativeTim\"\n                            >\n                                <i class=\"fab fa-twitter\"> </i>\n                            </a>\n                        </li>\n                        <li class=\"nav-item\">\n                            <a\n                                    class=\"nav-link\"\n                                    href=\"https://www.facebook.com/CreativeTim\"\n                            >\n                                <i class=\"fab fa-facebook-square\"> </i>\n                            </a>\n                        </li>\n                        <li class=\"nav-item\">\n                            <a\n                                    class=\"nav-link\"\n                                    href=\"https://www.instagram.com/CreativeTimOfficial\"\n                            >\n                                <i class=\"fab fa-instagram\"> </i>\n                            </a>\n                        </li>\n                    </ul>\n                </div>\n            </div>\n        </nav>\n        <div class=\"page-header header-video\">\n            <div class=\"overlay\"></div>\n            <video\n                    autoplay=\"autoplay\"\n                    loop=\"loop\"\n                    muted=\"muted\"\n                    playsinline=\"playsinline\"\n            >\n                <source\n                        src=\"https://www.oberlo.com/wp-content/uploads/2018/10/1.-Pixabay.mp4\"\n                        type=\"video/mp4\"\n                />\n            </video>\n            <div class=\"container text-center\">\n                <div class=\"row\">\n                    <div class=\"col-lg-7 mx-auto\">\n                        <h1 class=\"video-text\">OHS officer dashboard</h1>\n                        <h1 class=\"display-3 text-white\">\n                            You can view job cards and create work permits\n                        </h1>\n                        <a\n                                class=\"btn btn-warning btn-icon mt-3 mb-sm-0\"\n                                \n                        >\n                  <span class=\"btn-inner--icon\">\n                    <i class=\"ni ni-button-play\"> </i>\n                  </span>\n                            <span class=\"btn-inner--text\" [routerLink]=\"['/add-workpermit']\"> Make work permit</span>\n                        </a>\n                        <a\n                        class=\"btn btn-warning btn-icon mt-3 mb-sm-0\"\n                        \n                >\n          <span class=\"btn-inner--icon\">\n            <i class=\"ni ni-button-play\"> </i>\n          </span>\n                    <span class=\"btn-inner--text\" [routerLink]=\"['/dashboard']\"> Analysis</span>\n                </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</header>\n\n\n\n<div class=\"row\" *ngIf=\"Jobcard.length !== 0\">\n<div class=\"col-md-3\" *ngFor=\"let jobcard of Jobcard\">\n    <div class=\"info info-hover-warning\">\n        <div\n                class=\"icon icon-shape bg-warning shadow rounded-circle text-primary\"\n        >\n            <i class=\"ni ni-satisfied text-white\"> </i>\n        </div>\n        <h5 class=\"info-title\">Jobcards</h5>\n        <p class=\"description opacity-8\">\n            It becomes harder for us to give others a hand. We get\n            our heart broken by people we love.\n        </p>\n        <p class=\"description opacity-8\">\n            {{jobcard.name}}\n        </p>\n        <p class=\"description opacity-8\">\n            {{jobcard.customer}}\n        </p>\n        <p class=\"description opacity-8\">\n            {{jobcard.location_name}}\n        </p>\n        <p class=\"description opacity-8\">\n            {{jobcard.job_description}}\n        </p>\n        <p class=\"description opacity-8\">\n            {{jobcard.hazards}}\n        </p>\n        <div class=\"card-footer\">\n            <button class=\"btn btn-link text-success\" type=\"button\" [routerLink]=\"['/view-jobcard']\">\n                <i class=\"ni ni-key-25\"> </i> View more\n            </button>\n        </div>\n    </div>\n</div>\n</div>\n<div class=\"row\" *ngIf=\"Workpermit.length !== 0\">\n    <div class=\"col-md-3\" *ngFor=\"let workpermit of Workpermit\">\n    <div class=\"info info-hover-info\">\n        <div\n                class=\"icon icon-shape bg-info shadow rounded-circle text-primary\"\n        >\n            <i class=\"ni ni-palette text-white\"> </i>\n        </div>\n        <h5 class=\"info-title\">workpermits</h5>\n        <p class=\"description opacity-8\">\n        {{workpermit.approver_by}}\n        </p>\n        <p class=\"description opacity-8\">\n        {{workpermit.issued_by}}\n        </p>\n        <p class=\"description opacity-8\">\n        {{workpermit.site_name}}\n        </p>\n        <p class=\"description opacity-8\">\n        {{workpermit.project}}\n        </p>\n        <p class=\"description opacity-8\">\n        {{workpermit.Technician}}\n        </p>\n        <div class=\"card-footer\">\n            <button class=\"btn btn-link text-warning\" type=\"button\" [routerLink]=\"['/view-workpermit']\" >\n                <i class=\"ni ni-notification-70\"> </i> Check more\n            </button>\n        </div>\n    </div>\n</div>\n</div>\n<div class=\"row\"  *ngIf=\"Inductionchecklist.length !== 0\">\n<div class=\"col-md-3\" *ngFor=\"let induction of Inductionchecklist\">\n    <div class=\"info info-hover-danger\">\n        <div\n                class=\"icon icon-shape bg-danger shadow rounded-circle text-primary\"\n        >\n            <i class=\"ni ni-user-run text-white\"> </i>\n        </div>\n        <h5 class=\"info-title\">Induction checklists</h5>\n        <p class=\"description opacity-8\">\n            We're not always in the position that we want to be at.\n            We're constantly growing.\n        </p>\n        <p class=\"description opacity-8\">\n            Location: {{induction.location}}\n        </p>\n        <p class=\"description opacity-8\">\n            incident:{{induction.reporting_incidents}}\n        </p>\n        <p class=\"description opacity-8\">\n            equipment: {{induction.specialised_equipment}}\n        </p>\n        <p class=\"description opacity-8\">\n            ppe equip: {{induction.ppe_equipment}}\n        </p>\n        <p class=\"description opacity-8\">\n            firefighting: {{induction.firefighting}}\n        </p>\n        <div class=\"card-footer\">\n            <button class=\"btn btn-link text-primary\" type=\"button\" [routerLink]=\"['/view-induction']\" >\n                <i class=\"ni ni-glasses-2\"> </i> Check more\n            </button>\n        </div>\n    </div>\n</div>\n</div>\n<div class=\"row\" *ngIf=\"Toolboxtalk.length !== 0\">\n<div class=\"col-md-3\"  *ngFor=\"let toolbox of Toolboxtalk\">\n    <div class=\"info info-hover-success\">\n        <div\n                class=\"icon icon-shape bg-success shadow rounded-circle text-primary\"\n        >\n            <i class=\"ni ni-glasses-2 text-white\"> </i>\n        </div>\n        <h5 class=\"info-title\">toolbox talks</h5>\n        <p class=\"description opacity-8\">\n            When we lose family over time. What else could rust the\n            heart more over time? Blackgold.\n        </p>\n        <p class=\"description opacity-8\">\n            {{toolbox.resource_plan}}\n        </p>\n        <p class=\"description opacity-8\">\n            {{toolbox.necessary_proc}}\n        </p>\n        <p class=\"description opacity-8\">\n            {{toolbox.gov_monitor}}\n        </p>\n        <p class=\"description opacity-8\">\n            {{toolbox.h2s_training}}\n        </p>\n        <p class=\"description opacity-8\">\n            {{toolbox.hard_hat}}\n        </p>\n\n        <div class=\"card-footer\">\n            <button class=\"btn btn-link text-warning\" type=\"button\" [routerLink]=\"['/view-toolbox']\" >\n                <i class=\"ni ni-notification-70\"> </i> Check more\n            </button>\n        </div>\n    </div>\n</div>\n</div>\n<div class=\"row\" *ngIf=\"Incidents.length !== 0\">\n    <div class=\"col-lg-3 col-md-3\" *ngFor=\"let incident of Incidents\">\n        <div class=\"card\">\n            <div class=\"card-header mt-2\">\n                <div class=\"float-left\">\n                    <i class=\"ni ni-button-power d-inline text-success mr-1\"> </i>\n                    <p class=\"d-inline\">Id:{{incident._id}} </p>\n                </div>\n                <div class=\"float-right\">\n                    <div class=\"dropdown\" dropdown>\n                        <button\n                                aria-expanded=\"false\"\n                                class=\"btn btn-link btn-sm\"\n                                data-toggle=\"dropdown\"\n                                dropdownToggle\n                                type=\"button\"\n                        >\n                            <i class=\"ni ni-settings-gear-65\"> </i>\n                        </button>\n                        <div\n                                class=\"dropdown-menu dropdown-menu-right\"\n                                *dropdownMenu\n                                x-placement=\"bottom-end\"\n                        >\n                            <a class=\"dropdown-item\" href=\"javascript:;\" [routerLink]=\"['/list-incident']\">\n                                view all\n                            </a>\n\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card-body text-center p-4\">\n\n                <h4 class=\"card-title mt-3 mb-0\">Incidents</h4>\n                <p class=\"card-description\">\n                    {{incident.production_loss}}\n                </p>\n                <p class=\"card-description\">\n                    {{incident.date_time_reported}}\n                </p>\n                <p class=\"card-description\">\n                    {{incident.worker_job_title}}\n                </p>\n\n\n            </div>\n        </div>\n    </div>\n</div>\n");
 
 /***/ }),
 
@@ -490,7 +799,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<header class=\"header-1\">\n    <nav class=\"navbar navbar-expand-lg bg-default navbar-absolute\">\n        <div class=\"container\">\n            <a class=\"navbar-brand text-white\" href=\"javascript:;\">\n                Argon\n            </a>\n            <button\n                    aria-controls=\"navbar-header-1\"\n                    aria-label=\"Toggle navigation\"\n                    class=\"navbar-toggler\"\n                    [attr.aria-expanded]=\"!isCollapsed\"\n                    (click)=\"isCollapsed = !isCollapsed\"\n                    id=\"navbar-header-1\"\n                    type=\"button\"\n            >\n                <span class=\"navbar-toggler-icon\"> </span>\n            </button>\n            <div\n                    class=\"navbar-collapse\"\n                    [isAnimated]=\"true\"\n                    [collapse]=\"isCollapsed\"\n                    id=\"navbar-header-1\"\n            >\n                <div class=\"navbar-collapse-header\">\n                    <div class=\"row\">\n                        <div class=\"col-6 collapse-brand\">\n                            <a  [routerLink]=\"['/index']\">\n                                <img src=\"assets/img/brand/blue.png\" />\n                            </a>\n                        </div>\n                        <div class=\"col-6 collapse-close\">\n                            <button\n                                    aria-controls=\"navbar-header-1\"\n                                    aria-label=\"Toggle navigation\"\n                                    class=\"navbar-toggler\"\n                                    [attr.aria-expanded]=\"!isCollapsed\"\n                                    (click)=\"isCollapsed = !isCollapsed\"\n                                    id=\"navbar-header-1\"\n                                    type=\"button\"\n                            >\n                                <span> </span> <span> </span>\n                            </button>\n                        </div>\n                    </div>\n                </div>\n                <ul class=\"navbar-nav mx-auto\">\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link text-white\" href=\"javascript:;\">\n                            Home\n                        </a>\n                    </li>\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link text-white\" href=\"javascript:;\">\n                            About Us\n                        </a>\n                    </li>\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link text-white\" href=\"javascript:;\">\n                            Contact Us\n                        </a>\n                    </li>\n                </ul>\n                <ul class=\"nav navbar-nav\">\n                    <li class=\"nav-item\">\n                        <a\n                                class=\"nav-link text-white\"\n                                href=\"https://twitter.com/CreativeTim\"\n                        >\n                            <i class=\"fab fa-twitter\"> </i>\n                        </a>\n                    </li>\n                    <li class=\"nav-item\">\n                        <a\n                                class=\"nav-link text-white\"\n                                href=\"https://www.facebook.com/CreativeTim\"\n                        >\n                            <i class=\"fab fa-facebook-square\"> </i>\n                        </a>\n                    </li>\n                    <li class=\"nav-item\">\n                        <a\n                                class=\"nav-link text-white\"\n                                href=\"https://www.instagram.com/CreativeTimOfficial\"\n                        >\n                            <i class=\"fab fa-instagram\"> </i>\n                        </a>\n                    </li>\n                </ul>\n            </div>\n        </div>\n    </nav>\n    <div class=\"page-header\">\n        <div\n                class=\"page-header-image\"\n                style=\"background-image: url('assets/img/ill/p2.svg')\"\n        ></div>\n        <div class=\"container\">\n            <div class=\"row\">\n                <div\n                        class=\"col-lg-5 col-md-7 mr-auto text-left d-flex justify-content-center flex-column\"\n                >\n                    <h3 class=\"display-3\">OHS PM dashboard</h3>\n                    <p class=\"lead mt-0\">\n                        Welcome to your Project manager dashboard here you can make job analysis and also view all job cards\n                    </p>\n                    <br />\n\n                    <div class=\"buttons\">\n                        <a class=\"btn btn-danger\" href=\"javascript:;\"> Make job  </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</header>\n<div class=\"col-lg-4\">\n    <div class=\"card card-lift--hover shadow border-0\">\n        <div class=\"card-body py-5\">\n            <div\n                    class=\"icon icon-shape icon-shape-primary rounded-circle mb-4\"\n            >\n                <i class=\"ni ni-check-bold\"> </i>\n            </div>\n            <h6 class=\"text-primary text-uppercase\">\n                Job Analysis\n            </h6>\n            <p class=\"description mt-3\">\n                Because I'm here to follow my dreams and inspire other\n                people to follow their dreams, too. That's what I'm\n                here for.\n            </p>\n            <a class=\"btn btn-primary mt-4\" href=\"#\">\n                Learn more\n            </a>\n        </div>\n    </div>\n</div>\n<div class=\"row\" >\n<div class=\"col-lg-3\" *ngFor=\"let jobcard of Jobcard\">\n    <div class=\"card card-lift--hover shadow border-0\">\n        <div class=\"card-body py-5\">\n            <div\n                    class=\"icon icon-shape icon-shape-success rounded-circle mb-4\"\n            >\n                <i class=\"ni ni-istanbul\"> </i>\n            </div>\n            <h6 class=\"text-success text-uppercase\">\n                Jobcards\n            </h6>\n            <p class=\"description mt-3\">\n                {{jobcard.name}}\n            </p>\n            <p class=\"description mt-3\">\n            {{jobcard.customer}}\n            </p>\n            <p class=\"description mt-3\">\n                {{jobcard.location_name}}\n            </p>\n            <p class=\"description mt-3\">\n                {{jobcard.status}}\n            </p>\n            <p class=\"description mt-3\">\n                {{jobcard.amount_invoiced}}\n            </p>\n            <p class=\"description mt-3\">\n                {{jobcard.hazards}}\n            </p>\n            <a class=\"btn btn-success mt-4\" [routerLink]=\"['/view-jobcard']\">\n              View All\n            </a>\n        </div>\n    </div>\n</div>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<header class=\"header-1\">\n\n    <div class=\"page-header\">\n        <div\n                class=\"page-header-image\"\n                style=\"background-image: url('assets/img/ill/p2.svg')\"\n        ></div>\n        <div class=\"container\">\n            <div class=\"row\">\n                <div\n                        class=\"col-lg-5 col-md-7 mr-auto text-left d-flex justify-content-center flex-column\"\n                >\n                    <h3 class=\"display-3\">OHS PM dashboard</h3>\n                    <p class=\"lead mt-0\">\n                        Welcome to your Project manager dashboard here you can make job analysis and also view all job cards\n                    </p>\n                    <br />\n\n                    <div class=\"buttons\">\n                        <a class=\"btn btn-danger\" href=\"javascript:;\" [routerLink]=\"['./add-jobanalysis']\"> Make job Analysis </a>\n                    </div>\n                    <br>\n                    <div class=\"buttons\">\n                        <a class=\"btn btn-danger\" href=\"javascript:;\" [routerLink]=\"['/dashboard']\"> Analytics </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</header>\n<div class=\"row\">\n<div class=\"col-lg-4\" *ngFor=\"let job of Jobanalysis\">\n    <div class=\"card card-lift--hover shadow border-0\">\n        <div class=\"card-body py-5\">\n            <div\n                    class=\"icon icon-shape icon-shape-primary rounded-circle mb-4\"\n            >\n                <i class=\"ni ni-check-bold\"> </i>\n            </div>\n            <h6 class=\"text-primary text-uppercase\">\n                Job Analysis\n            </h6>\n            <p class=\"description mt-3\">\n                {{job.job_title}}\n                    <br>\n                {{job.location}}\n                    <br>\n                {{job.summary}}\n                    <br>\n                {{job.working_condition}}\n                    <br>\n                {{job.job_duties}}\n                    <br>\n                {{job.machine_used}}\n                    <br>\n                {{job.hazards}}\n                    <br>\n                {{job.qualifications}}\n                    <br>\n                {{job.experience}}\n                    <br>\n                {{job.training}}\n                    <br>\n            </p>\n            <a class=\"btn btn-primary mt-4\" href=\"#\">\n                Learn more\n            </a>\n        </div>\n    </div>\n</div>\n</div>\n<div class=\"row\" >\n<div class=\"col-lg-3\" *ngFor=\"let jobcard of Jobcard\">\n    <div class=\"card card-lift--hover shadow border-0\">\n        <div class=\"card-body py-5\">\n            <div\n                    class=\"icon icon-shape icon-shape-success rounded-circle mb-4\"\n            >\n                <i class=\"ni ni-istanbul\"> </i>\n            </div>\n            <h6 class=\"text-success text-uppercase\">\n                Jobcards\n            </h6>\n            <p class=\"description mt-3\">\n                {{jobcard.name}}\n            </p>\n            <p class=\"description mt-3\">\n            {{jobcard.customer}}\n            </p>\n            <p class=\"description mt-3\">\n                {{jobcard.location_name}}\n            </p>\n            <p class=\"description mt-3\">\n                {{jobcard.status}}\n            </p>\n            <p class=\"description mt-3\">\n                {{jobcard.amount_invoiced}}\n            </p>\n            <p class=\"description mt-3\">\n                {{jobcard.hazards}}\n            </p>\n            <a class=\"btn btn-success mt-4\" [routerLink]=\"['/view-jobcard']\">\n              View All\n            </a>\n        </div>\n    </div>\n</div>\n</div>\n");
 
 /***/ }),
 
@@ -620,7 +929,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container wrapper wrapper2\">\n    <div class=\"row\">\n\n        <!-- Form -->\n        <div class=\"col-md-12\">\n            <h3>Add WorkPermit</h3>\n            <h3>Add WorkPermit</h3>\n            <h3>Add WorkPermit</h3>\n            <form>\n\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">Created By</label>\n                    <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.created_by\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">Approved By</label>\n                    <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.approver_by\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">Ammendments</label>\n                    <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.ammendments\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">Issued By</label>\n                    <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.issued_by\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">Site Name</label>\n                    <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.site_name\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">Project</label>\n                    <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.project\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">Technician</label>\n                    <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.Technician\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">Comments</label>\n                    <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.comments\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">Valid From</label>\n                    <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.valid_from\"  type=\"date\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">Valid To</label>\n                    <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.valid_to\"  type=\"date\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group mb-3\"  [ngClass]=\"{ 'focused': focus === true }\">\n                    <div class=\"input-group input-group-alternative\">\n                        <div class=\"input-group-prepend\">\n                <span class=\"input-group-text\">\n                  <i class=\"ni ni-circle-08\"> </i>\n                </span>\n                        </div>\n\n                        <label style=\"padding-top: 10px\">Send To: </label >\n                        <select class=\"form-control\" id=\"category\"\n                                [ngModelOptions]=\"{standalone: true}\"\n                                type=\"text\" (blur)=\"focus = false\"\n                                (focus)=\"focus = true\"\n                                [(ngModel)]=\"data.issue_to\"\n                        >\n                            <option *ngFor=\"let user of users\" [value]=\"user._id\">{{user.name}} who is a {{user.role}}</option>\n                        </select>\n                    </div>\n                </div>\n\n                <div class=\"form-group\">\n                    <button class=\"btn btn-success btn-lg btn-block\" (click)=\"submitForm()\">Create Work Permit</button>\n                </div>\n            </form>\n        </div>\n\n    </div>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container wrapper wrapper2\">\n    <div class=\"row\">\n\n        <!-- Form -->\n        <div class=\"col-md-12\">\n            <h3>Add WorkPermit</h3>\n            <h3>Add WorkPermit</h3>\n            <h3>Add WorkPermit</h3>\n            <form>\n\n                <div class=\"form-group\">\n                  \n                    <label style=\"padding-top: 10px\">Created By: </label >\n                        <select class=\"form-control\" id=\"category\"\n                                [ngModelOptions]=\"{standalone: true}\"\n                                type=\"text\" (blur)=\"focus = false\"\n                                (focus)=\"focus = true\"\n                                [(ngModel)]=\"data.created_by\"\n                        >\n                            <option   *ngFor=\"let user of users\" [value]=\"user.name\">{{user.name}}</option>\n                        </select>\n                </div>\n                <div class=\"form-group\">\n                \n                    <label style=\"padding-top: 10px\">Approved By: </label >\n                        <select class=\"form-control\" id=\"category\"\n                                [ngModelOptions]=\"{standalone: true}\"\n                                type=\"text\" (blur)=\"focus = false\"\n                                (focus)=\"focus = true\"\n                                [(ngModel)]=\"data.approver_by\"\n                        >\n                            <option   *ngFor=\"let user of users\" [value]=\"user.name\">{{user.name}}</option>\n                        </select>\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">Ammendments</label>\n                    <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.ammendments\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                \n                    <label style=\"padding-top: 10px\">Issued By: </label >\n                        <select class=\"form-control\" id=\"category\"\n                                [ngModelOptions]=\"{standalone: true}\"\n                                type=\"text\" (blur)=\"focus = false\"\n                                (focus)=\"focus = true\"\n                                [(ngModel)]=\"data.issued_by\"\n                        >\n                            <option   *ngFor=\"let user of users\" [value]=\"user.name\">{{user.name}}</option>\n                        </select>\n                </div>\n                <div class=\"form-group\">\n                \n\n                    <label style=\"padding-top: 10px\">Site Name: </label >\n                        <select class=\"form-control\" id=\"category\"\n                                [ngModelOptions]=\"{standalone: true}\"\n                                type=\"text\" (blur)=\"focus = false\"\n                                (focus)=\"focus = true\"\n                                [(ngModel)]=\"data.site_name\"\n                        >\n                            <option   *ngFor=\"let card of Jobcard\" [value]=\"card.name\">{{card.name}}</option>\n                        </select>\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">Project</label>\n                    <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.project\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">Technician</label>\n                    <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.Technician\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                    <label style=\"padding-top: 10px\">Technician: </label >\n                        <select class=\"form-control\" id=\"category\"\n                                [ngModelOptions]=\"{standalone: true}\"\n                                type=\"text\" (blur)=\"focus = false\"\n                                (focus)=\"focus = true\"\n                                [(ngModel)]=\"data.Technician\"\n                        >\n                            <option   *ngFor=\"let user of users\" [value]=\"user.name\">{{user.name}}</option>\n                        </select>\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">Comments</label>\n                    <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.comments\"  type=\"text\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">Valid From</label>\n                    <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.valid_from\"  type=\"date\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group\">\n                    <label  class=\"form-control-label\">Valid To</label>\n                    <input class=\"form-control form-control-alternative\" [(ngModel)]=\"data.valid_to\"  type=\"date\" [ngModelOptions]=\"{standalone: true}\">\n                </div>\n                <div class=\"form-group mb-3\"  [ngClass]=\"{ 'focused': focus === true }\">\n                    <div class=\"input-group input-group-alternative\">\n                        <div class=\"input-group-prepend\">\n                <span class=\"input-group-text\">\n                  <i class=\"ni ni-circle-08\"> </i>\n                </span>\n                        </div>\n\n                        <label style=\"padding-top: 10px\">Send To: </label >\n                        <select class=\"form-control\" id=\"category\"\n                                [ngModelOptions]=\"{standalone: true}\"\n                                type=\"text\" (blur)=\"focus = false\"\n                                (focus)=\"focus = true\"\n                                [(ngModel)]=\"data.issue_to\"\n                        >\n                            <option *ngFor=\"let user of users\" [value]=\"user._id\">{{user.name}} who is a {{user.role}}</option>\n                        </select>\n                    </div>\n                </div>\n\n                <div class=\"form-group\">\n                    <button class=\"btn btn-success btn-lg btn-block\" (click)=\"submitForm()\">Create Work Permit</button>\n                </div>\n            </form>\n        </div>\n\n    </div>\n</div>\n");
 
 /***/ }),
 
@@ -930,37 +1239,39 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _examples_checkoutpage_checkoutpage_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./examples/checkoutpage/checkoutpage.component */ "./src/app/examples/checkoutpage/checkoutpage.component.ts");
 /* harmony import */ var _examples_contactus_contactus_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./examples/contactus/contactus.component */ "./src/app/examples/contactus/contactus.component.ts");
 /* harmony import */ var _examples_ecommerce_ecommerce_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./examples/ecommerce/ecommerce.component */ "./src/app/examples/ecommerce/ecommerce.component.ts");
-/* harmony import */ var _examples_error_error_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./examples/error/error.component */ "./src/app/examples/error/error.component.ts");
-/* harmony import */ var _examples_invoicepage_invoicepage_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./examples/invoicepage/invoicepage.component */ "./src/app/examples/invoicepage/invoicepage.component.ts");
-/* harmony import */ var _examples_loginpage_loginpage_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./examples/loginpage/loginpage.component */ "./src/app/examples/loginpage/loginpage.component.ts");
-/* harmony import */ var _examples_pricingpage_pricingpage_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./examples/pricingpage/pricingpage.component */ "./src/app/examples/pricingpage/pricingpage.component.ts");
-/* harmony import */ var _examples_productpage_productpage_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./examples/productpage/productpage.component */ "./src/app/examples/productpage/productpage.component.ts");
-/* harmony import */ var _examples_resetpage_resetpage_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./examples/resetpage/resetpage.component */ "./src/app/examples/resetpage/resetpage.component.ts");
-/* harmony import */ var _jobcard_add_jobcard_add_jobcard_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./jobcard/add-jobcard/add-jobcard.component */ "./src/app/jobcard/add-jobcard/add-jobcard.component.ts");
-/* harmony import */ var _jobcard_list_jobcard_list_jobcard_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./jobcard/list-jobcard/list-jobcard.component */ "./src/app/jobcard/list-jobcard/list-jobcard.component.ts");
-/* harmony import */ var _jobcard_edit_jobcard_edit_jobcard_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./jobcard/edit-jobcard/edit-jobcard.component */ "./src/app/jobcard/edit-jobcard/edit-jobcard.component.ts");
-/* harmony import */ var _workpermit_add_workpermit_add_workpermit_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./workpermit/add-workpermit/add-workpermit.component */ "./src/app/workpermit/add-workpermit/add-workpermit.component.ts");
-/* harmony import */ var _workpermit_edit_workpermit_edit_workpermit_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./workpermit/edit-workpermit/edit-workpermit.component */ "./src/app/workpermit/edit-workpermit/edit-workpermit.component.ts");
-/* harmony import */ var _workpermit_list_workpermit_list_workpermit_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./workpermit/list-workpermit/list-workpermit.component */ "./src/app/workpermit/list-workpermit/list-workpermit.component.ts");
-/* harmony import */ var _inductionchecklist_add_inductionchecklist_add_inductionchecklist_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./inductionchecklist/add-inductionchecklist/add-inductionchecklist.component */ "./src/app/inductionchecklist/add-inductionchecklist/add-inductionchecklist.component.ts");
-/* harmony import */ var _inductionchecklist_edit_inductionchecklist_edit_inductionchecklist_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./inductionchecklist/edit-inductionchecklist/edit-inductionchecklist.component */ "./src/app/inductionchecklist/edit-inductionchecklist/edit-inductionchecklist.component.ts");
-/* harmony import */ var _inductionchecklist_list_inductionchecklist_list_inductionchecklist_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./inductionchecklist/list-inductionchecklist/list-inductionchecklist.component */ "./src/app/inductionchecklist/list-inductionchecklist/list-inductionchecklist.component.ts");
-/* harmony import */ var _toolboxtalk_add_toolboxtalk_add_toolboxtalk_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./toolboxtalk/add-toolboxtalk/add-toolboxtalk.component */ "./src/app/toolboxtalk/add-toolboxtalk/add-toolboxtalk.component.ts");
-/* harmony import */ var _toolboxtalk_edit_toolboxtalk_edit_toolboxtalk_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./toolboxtalk/edit-toolboxtalk/edit-toolboxtalk.component */ "./src/app/toolboxtalk/edit-toolboxtalk/edit-toolboxtalk.component.ts");
-/* harmony import */ var _toolboxtalk_list_toolboxtalk_list_toolboxtalk_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./toolboxtalk/list-toolboxtalk/list-toolboxtalk.component */ "./src/app/toolboxtalk/list-toolboxtalk/list-toolboxtalk.component.ts");
-/* harmony import */ var _pm_dashboard_pm_dashboard_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./pm-dashboard/pm-dashboard.component */ "./src/app/pm-dashboard/pm-dashboard.component.ts");
-/* harmony import */ var _ohs_officer_dashboard_ohs_officer_dashboard_component__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./ohs-officer-dashboard/ohs-officer-dashboard.component */ "./src/app/ohs-officer-dashboard/ohs-officer-dashboard.component.ts");
-/* harmony import */ var _view_jobcard_view_jobcard_component__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./view-jobcard/view-jobcard.component */ "./src/app/view-jobcard/view-jobcard.component.ts");
-/* harmony import */ var _view_induction_view_induction_component__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./view-induction/view-induction.component */ "./src/app/view-induction/view-induction.component.ts");
-/* harmony import */ var _view_toolbox_view_toolbox_component__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./view-toolbox/view-toolbox.component */ "./src/app/view-toolbox/view-toolbox.component.ts");
-/* harmony import */ var _view_workpermits_view_workpermits_component__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./view-workpermits/view-workpermits.component */ "./src/app/view-workpermits/view-workpermits.component.ts");
-/* harmony import */ var _noc_dashboard_noc_dashboard_component__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./noc-dashboard/noc-dashboard.component */ "./src/app/noc-dashboard/noc-dashboard.component.ts");
-/* harmony import */ var _incident_add_incident_add_incident_component__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./incident/add-incident/add-incident.component */ "./src/app/incident/add-incident/add-incident.component.ts");
-/* harmony import */ var _incident_edit_incident_edit_incident_component__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ./incident/edit-incident/edit-incident.component */ "./src/app/incident/edit-incident/edit-incident.component.ts");
-/* harmony import */ var _incident_list_incident_list_incident_component__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./incident/list-incident/list-incident.component */ "./src/app/incident/list-incident/list-incident.component.ts");
-/* harmony import */ var _job_analysis_add_jobanalysis_add_jobanalysis_component__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ./job-analysis/add-jobanalysis/add-jobanalysis.component */ "./src/app/job-analysis/add-jobanalysis/add-jobanalysis.component.ts");
-/* harmony import */ var _job_analysis_list_jobanalysis_list_jobanalysis_component__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ./job-analysis/list-jobanalysis/list-jobanalysis.component */ "./src/app/job-analysis/list-jobanalysis/list-jobanalysis.component.ts");
-/* harmony import */ var _job_analysis_edit_jobanalysis_edit_jobanalysis_component__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ./job-analysis/edit-jobanalysis/edit-jobanalysis.component */ "./src/app/job-analysis/edit-jobanalysis/edit-jobanalysis.component.ts");
+/* harmony import */ var _examples_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./examples/dashboard/dashboard.component */ "./src/app/examples/dashboard/dashboard.component.ts");
+/* harmony import */ var _examples_error_error_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./examples/error/error.component */ "./src/app/examples/error/error.component.ts");
+/* harmony import */ var _examples_invoicepage_invoicepage_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./examples/invoicepage/invoicepage.component */ "./src/app/examples/invoicepage/invoicepage.component.ts");
+/* harmony import */ var _examples_loginpage_loginpage_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./examples/loginpage/loginpage.component */ "./src/app/examples/loginpage/loginpage.component.ts");
+/* harmony import */ var _examples_pricingpage_pricingpage_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./examples/pricingpage/pricingpage.component */ "./src/app/examples/pricingpage/pricingpage.component.ts");
+/* harmony import */ var _examples_productpage_productpage_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./examples/productpage/productpage.component */ "./src/app/examples/productpage/productpage.component.ts");
+/* harmony import */ var _examples_resetpage_resetpage_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./examples/resetpage/resetpage.component */ "./src/app/examples/resetpage/resetpage.component.ts");
+/* harmony import */ var _jobcard_add_jobcard_add_jobcard_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./jobcard/add-jobcard/add-jobcard.component */ "./src/app/jobcard/add-jobcard/add-jobcard.component.ts");
+/* harmony import */ var _jobcard_list_jobcard_list_jobcard_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./jobcard/list-jobcard/list-jobcard.component */ "./src/app/jobcard/list-jobcard/list-jobcard.component.ts");
+/* harmony import */ var _jobcard_edit_jobcard_edit_jobcard_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./jobcard/edit-jobcard/edit-jobcard.component */ "./src/app/jobcard/edit-jobcard/edit-jobcard.component.ts");
+/* harmony import */ var _workpermit_add_workpermit_add_workpermit_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./workpermit/add-workpermit/add-workpermit.component */ "./src/app/workpermit/add-workpermit/add-workpermit.component.ts");
+/* harmony import */ var _workpermit_edit_workpermit_edit_workpermit_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./workpermit/edit-workpermit/edit-workpermit.component */ "./src/app/workpermit/edit-workpermit/edit-workpermit.component.ts");
+/* harmony import */ var _workpermit_list_workpermit_list_workpermit_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./workpermit/list-workpermit/list-workpermit.component */ "./src/app/workpermit/list-workpermit/list-workpermit.component.ts");
+/* harmony import */ var _inductionchecklist_add_inductionchecklist_add_inductionchecklist_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./inductionchecklist/add-inductionchecklist/add-inductionchecklist.component */ "./src/app/inductionchecklist/add-inductionchecklist/add-inductionchecklist.component.ts");
+/* harmony import */ var _inductionchecklist_edit_inductionchecklist_edit_inductionchecklist_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./inductionchecklist/edit-inductionchecklist/edit-inductionchecklist.component */ "./src/app/inductionchecklist/edit-inductionchecklist/edit-inductionchecklist.component.ts");
+/* harmony import */ var _inductionchecklist_list_inductionchecklist_list_inductionchecklist_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./inductionchecklist/list-inductionchecklist/list-inductionchecklist.component */ "./src/app/inductionchecklist/list-inductionchecklist/list-inductionchecklist.component.ts");
+/* harmony import */ var _toolboxtalk_add_toolboxtalk_add_toolboxtalk_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./toolboxtalk/add-toolboxtalk/add-toolboxtalk.component */ "./src/app/toolboxtalk/add-toolboxtalk/add-toolboxtalk.component.ts");
+/* harmony import */ var _toolboxtalk_edit_toolboxtalk_edit_toolboxtalk_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./toolboxtalk/edit-toolboxtalk/edit-toolboxtalk.component */ "./src/app/toolboxtalk/edit-toolboxtalk/edit-toolboxtalk.component.ts");
+/* harmony import */ var _toolboxtalk_list_toolboxtalk_list_toolboxtalk_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./toolboxtalk/list-toolboxtalk/list-toolboxtalk.component */ "./src/app/toolboxtalk/list-toolboxtalk/list-toolboxtalk.component.ts");
+/* harmony import */ var _pm_dashboard_pm_dashboard_component__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./pm-dashboard/pm-dashboard.component */ "./src/app/pm-dashboard/pm-dashboard.component.ts");
+/* harmony import */ var _ohs_officer_dashboard_ohs_officer_dashboard_component__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./ohs-officer-dashboard/ohs-officer-dashboard.component */ "./src/app/ohs-officer-dashboard/ohs-officer-dashboard.component.ts");
+/* harmony import */ var _view_jobcard_view_jobcard_component__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./view-jobcard/view-jobcard.component */ "./src/app/view-jobcard/view-jobcard.component.ts");
+/* harmony import */ var _view_induction_view_induction_component__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./view-induction/view-induction.component */ "./src/app/view-induction/view-induction.component.ts");
+/* harmony import */ var _view_toolbox_view_toolbox_component__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./view-toolbox/view-toolbox.component */ "./src/app/view-toolbox/view-toolbox.component.ts");
+/* harmony import */ var _view_workpermits_view_workpermits_component__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./view-workpermits/view-workpermits.component */ "./src/app/view-workpermits/view-workpermits.component.ts");
+/* harmony import */ var _noc_dashboard_noc_dashboard_component__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./noc-dashboard/noc-dashboard.component */ "./src/app/noc-dashboard/noc-dashboard.component.ts");
+/* harmony import */ var _incident_add_incident_add_incident_component__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ./incident/add-incident/add-incident.component */ "./src/app/incident/add-incident/add-incident.component.ts");
+/* harmony import */ var _incident_edit_incident_edit_incident_component__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./incident/edit-incident/edit-incident.component */ "./src/app/incident/edit-incident/edit-incident.component.ts");
+/* harmony import */ var _incident_list_incident_list_incident_component__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ./incident/list-incident/list-incident.component */ "./src/app/incident/list-incident/list-incident.component.ts");
+/* harmony import */ var _job_analysis_add_jobanalysis_add_jobanalysis_component__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ./job-analysis/add-jobanalysis/add-jobanalysis.component */ "./src/app/job-analysis/add-jobanalysis/add-jobanalysis.component.ts");
+/* harmony import */ var _job_analysis_list_jobanalysis_list_jobanalysis_component__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ./job-analysis/list-jobanalysis/list-jobanalysis.component */ "./src/app/job-analysis/list-jobanalysis/list-jobanalysis.component.ts");
+/* harmony import */ var _job_analysis_edit_jobanalysis_edit_jobanalysis_component__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ./job-analysis/edit-jobanalysis/edit-jobanalysis.component */ "./src/app/job-analysis/edit-jobanalysis/edit-jobanalysis.component.ts");
+
 
 
 
@@ -1015,6 +1326,7 @@ var routes = [
     { path: 'index', component: _index_index_component__WEBPACK_IMPORTED_MODULE_3__["IndexComponent"] },
     { path: 'presentation', component: _presentation_presentation_component__WEBPACK_IMPORTED_MODULE_4__["PresentationComponent"] },
     { path: 'sections', component: _sections_sections_component__WEBPACK_IMPORTED_MODULE_5__["SectionsComponent"] },
+    { path: 'dashboard', component: _examples_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_18__["DashboardComponent"] },
     { path: 'profile-page', component: _examples_profilepage_profilepage_component__WEBPACK_IMPORTED_MODULE_6__["ProfilepageComponent"] },
     { path: 'register-page', component: _examples_registerpage_registerpage_component__WEBPACK_IMPORTED_MODULE_7__["RegisterpageComponent"] },
     { path: 'landing-page', component: _examples_landingpage_landingpage_component__WEBPACK_IMPORTED_MODULE_8__["LandingpageComponent"] },
@@ -1027,37 +1339,37 @@ var routes = [
     { path: 'checkout-page', component: _examples_checkoutpage_checkoutpage_component__WEBPACK_IMPORTED_MODULE_15__["CheckoutpageComponent"] },
     { path: 'contact-us', component: _examples_contactus_contactus_component__WEBPACK_IMPORTED_MODULE_16__["ContactusComponent"] },
     { path: 'ecommerce', component: _examples_ecommerce_ecommerce_component__WEBPACK_IMPORTED_MODULE_17__["EcommerceComponent"] },
-    { path: 'error', component: _examples_error_error_component__WEBPACK_IMPORTED_MODULE_18__["ErrorComponent"] },
-    { path: 'invoice-page', component: _examples_invoicepage_invoicepage_component__WEBPACK_IMPORTED_MODULE_19__["InvoicepageComponent"] },
-    { path: 'login-page', component: _examples_loginpage_loginpage_component__WEBPACK_IMPORTED_MODULE_20__["LoginpageComponent"] },
-    { path: 'pricing-page', component: _examples_pricingpage_pricingpage_component__WEBPACK_IMPORTED_MODULE_21__["PricingpageComponent"] },
-    { path: 'product-page', component: _examples_productpage_productpage_component__WEBPACK_IMPORTED_MODULE_22__["ProductpageComponent"] },
-    { path: 'reset-page', component: _examples_resetpage_resetpage_component__WEBPACK_IMPORTED_MODULE_23__["ResetpageComponent"] },
-    { path: 'add-toolbox-talk', component: _toolboxtalk_add_toolboxtalk_add_toolboxtalk_component__WEBPACK_IMPORTED_MODULE_33__["AddToolboxtalkComponent"] },
-    { path: 'edit-toolbox-talk', component: _toolboxtalk_edit_toolboxtalk_edit_toolboxtalk_component__WEBPACK_IMPORTED_MODULE_34__["EditToolboxtalkComponent"] },
-    { path: 'list-toolbox-talk', component: _toolboxtalk_list_toolboxtalk_list_toolboxtalk_component__WEBPACK_IMPORTED_MODULE_35__["ListToolboxtalkComponent"] },
-    { path: 'add-induction-checklist', component: _inductionchecklist_add_inductionchecklist_add_inductionchecklist_component__WEBPACK_IMPORTED_MODULE_30__["AddInductionchecklistComponent"] },
-    { path: 'edit-induction-checklist', component: _inductionchecklist_edit_inductionchecklist_edit_inductionchecklist_component__WEBPACK_IMPORTED_MODULE_31__["EditInductionchecklistComponent"] },
-    { path: 'list-induction-checklist', component: _inductionchecklist_list_inductionchecklist_list_inductionchecklist_component__WEBPACK_IMPORTED_MODULE_32__["ListInductionchecklistComponent"] },
-    { path: 'add-workpermit', component: _workpermit_add_workpermit_add_workpermit_component__WEBPACK_IMPORTED_MODULE_27__["AddWorkpermitComponent"] },
-    { path: 'edit-workpermit', component: _workpermit_edit_workpermit_edit_workpermit_component__WEBPACK_IMPORTED_MODULE_28__["EditWorkpermitComponent"] },
-    { path: 'list-workpermit', component: _workpermit_list_workpermit_list_workpermit_component__WEBPACK_IMPORTED_MODULE_29__["ListWorkpermitComponent"] },
-    { path: 'add-jobcard', component: _jobcard_add_jobcard_add_jobcard_component__WEBPACK_IMPORTED_MODULE_24__["AddJobcardComponent"] },
-    { path: 'edit-jobcard', component: _jobcard_edit_jobcard_edit_jobcard_component__WEBPACK_IMPORTED_MODULE_26__["EditJobcardComponent"] },
-    { path: 'list-jobcard', component: _jobcard_list_jobcard_list_jobcard_component__WEBPACK_IMPORTED_MODULE_25__["ListJobcardComponent"] },
-    { path: 'pm-dashboard', component: _pm_dashboard_pm_dashboard_component__WEBPACK_IMPORTED_MODULE_36__["PmDashboardComponent"] },
-    { path: 'ohs-dashboard', component: _ohs_officer_dashboard_ohs_officer_dashboard_component__WEBPACK_IMPORTED_MODULE_37__["OhsOfficerDashboardComponent"] },
-    { path: 'view-jobcard', component: _view_jobcard_view_jobcard_component__WEBPACK_IMPORTED_MODULE_38__["ViewJobcardComponent"] },
-    { path: 'view-induction', component: _view_induction_view_induction_component__WEBPACK_IMPORTED_MODULE_39__["ViewInductionComponent"] },
-    { path: 'view-toolbox', component: _view_toolbox_view_toolbox_component__WEBPACK_IMPORTED_MODULE_40__["ViewToolboxComponent"] },
-    { path: 'noc-dashboard', component: _noc_dashboard_noc_dashboard_component__WEBPACK_IMPORTED_MODULE_42__["NocDashboardComponent"] },
-    { path: 'view-workpermit', component: _view_workpermits_view_workpermits_component__WEBPACK_IMPORTED_MODULE_41__["ViewWorkpermitsComponent"] },
-    { path: 'add-jobanalysis', component: _job_analysis_add_jobanalysis_add_jobanalysis_component__WEBPACK_IMPORTED_MODULE_46__["AddJobanalysisComponent"] },
-    { path: 'add-incident', component: _incident_add_incident_add_incident_component__WEBPACK_IMPORTED_MODULE_43__["AddIncidentComponent"] },
-    { path: 'list-jobanalysis', component: _job_analysis_list_jobanalysis_list_jobanalysis_component__WEBPACK_IMPORTED_MODULE_47__["ListJobanalysisComponent"] },
-    { path: 'list-incident', component: _incident_list_incident_list_incident_component__WEBPACK_IMPORTED_MODULE_45__["ListIncidentComponent"] },
-    { path: 'edit-jobanalysis\'', component: _job_analysis_edit_jobanalysis_edit_jobanalysis_component__WEBPACK_IMPORTED_MODULE_48__["EditJobanalysisComponent"] },
-    { path: 'list-incident', component: _incident_edit_incident_edit_incident_component__WEBPACK_IMPORTED_MODULE_44__["EditIncidentComponent"] },
+    { path: 'error', component: _examples_error_error_component__WEBPACK_IMPORTED_MODULE_19__["ErrorComponent"] },
+    { path: 'invoice-page', component: _examples_invoicepage_invoicepage_component__WEBPACK_IMPORTED_MODULE_20__["InvoicepageComponent"] },
+    { path: 'login-page', component: _examples_loginpage_loginpage_component__WEBPACK_IMPORTED_MODULE_21__["LoginpageComponent"] },
+    { path: 'pricing-page', component: _examples_pricingpage_pricingpage_component__WEBPACK_IMPORTED_MODULE_22__["PricingpageComponent"] },
+    { path: 'product-page', component: _examples_productpage_productpage_component__WEBPACK_IMPORTED_MODULE_23__["ProductpageComponent"] },
+    { path: 'reset-page', component: _examples_resetpage_resetpage_component__WEBPACK_IMPORTED_MODULE_24__["ResetpageComponent"] },
+    { path: 'add-toolbox-talk', component: _toolboxtalk_add_toolboxtalk_add_toolboxtalk_component__WEBPACK_IMPORTED_MODULE_34__["AddToolboxtalkComponent"] },
+    { path: 'edit-toolbox-talk', component: _toolboxtalk_edit_toolboxtalk_edit_toolboxtalk_component__WEBPACK_IMPORTED_MODULE_35__["EditToolboxtalkComponent"] },
+    { path: 'list-toolbox-talk', component: _toolboxtalk_list_toolboxtalk_list_toolboxtalk_component__WEBPACK_IMPORTED_MODULE_36__["ListToolboxtalkComponent"] },
+    { path: 'add-induction-checklist', component: _inductionchecklist_add_inductionchecklist_add_inductionchecklist_component__WEBPACK_IMPORTED_MODULE_31__["AddInductionchecklistComponent"] },
+    { path: 'edit-induction-checklist', component: _inductionchecklist_edit_inductionchecklist_edit_inductionchecklist_component__WEBPACK_IMPORTED_MODULE_32__["EditInductionchecklistComponent"] },
+    { path: 'list-induction-checklist', component: _inductionchecklist_list_inductionchecklist_list_inductionchecklist_component__WEBPACK_IMPORTED_MODULE_33__["ListInductionchecklistComponent"] },
+    { path: 'add-workpermit', component: _workpermit_add_workpermit_add_workpermit_component__WEBPACK_IMPORTED_MODULE_28__["AddWorkpermitComponent"] },
+    { path: 'edit-workpermit', component: _workpermit_edit_workpermit_edit_workpermit_component__WEBPACK_IMPORTED_MODULE_29__["EditWorkpermitComponent"] },
+    { path: 'list-workpermit', component: _workpermit_list_workpermit_list_workpermit_component__WEBPACK_IMPORTED_MODULE_30__["ListWorkpermitComponent"] },
+    { path: 'add-jobcard', component: _jobcard_add_jobcard_add_jobcard_component__WEBPACK_IMPORTED_MODULE_25__["AddJobcardComponent"] },
+    { path: 'edit-jobcard', component: _jobcard_edit_jobcard_edit_jobcard_component__WEBPACK_IMPORTED_MODULE_27__["EditJobcardComponent"] },
+    { path: 'list-jobcard', component: _jobcard_list_jobcard_list_jobcard_component__WEBPACK_IMPORTED_MODULE_26__["ListJobcardComponent"] },
+    { path: 'pm-dashboard', component: _pm_dashboard_pm_dashboard_component__WEBPACK_IMPORTED_MODULE_37__["PmDashboardComponent"] },
+    { path: 'ohs-dashboard', component: _ohs_officer_dashboard_ohs_officer_dashboard_component__WEBPACK_IMPORTED_MODULE_38__["OhsOfficerDashboardComponent"] },
+    { path: 'view-jobcard', component: _view_jobcard_view_jobcard_component__WEBPACK_IMPORTED_MODULE_39__["ViewJobcardComponent"] },
+    { path: 'view-induction', component: _view_induction_view_induction_component__WEBPACK_IMPORTED_MODULE_40__["ViewInductionComponent"] },
+    { path: 'view-toolbox', component: _view_toolbox_view_toolbox_component__WEBPACK_IMPORTED_MODULE_41__["ViewToolboxComponent"] },
+    { path: 'noc-dashboard', component: _noc_dashboard_noc_dashboard_component__WEBPACK_IMPORTED_MODULE_43__["NocDashboardComponent"] },
+    { path: 'view-workpermit', component: _view_workpermits_view_workpermits_component__WEBPACK_IMPORTED_MODULE_42__["ViewWorkpermitsComponent"] },
+    { path: 'add-jobanalysis', component: _job_analysis_add_jobanalysis_add_jobanalysis_component__WEBPACK_IMPORTED_MODULE_47__["AddJobanalysisComponent"] },
+    { path: 'add-incident', component: _incident_add_incident_add_incident_component__WEBPACK_IMPORTED_MODULE_44__["AddIncidentComponent"] },
+    { path: 'list-jobanalysis', component: _job_analysis_list_jobanalysis_list_jobanalysis_component__WEBPACK_IMPORTED_MODULE_48__["ListJobanalysisComponent"] },
+    { path: 'list-incident', component: _incident_list_incident_list_incident_component__WEBPACK_IMPORTED_MODULE_46__["ListIncidentComponent"] },
+    { path: 'edit-jobanalysis\'', component: _job_analysis_edit_jobanalysis_edit_jobanalysis_component__WEBPACK_IMPORTED_MODULE_49__["EditJobanalysisComponent"] },
+    { path: 'list-incident', component: _incident_edit_incident_edit_incident_component__WEBPACK_IMPORTED_MODULE_45__["EditIncidentComponent"] },
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
@@ -1175,64 +1487,68 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
 /* harmony import */ var _presentation_presentation_module__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./presentation/presentation.module */ "./src/app/presentation/presentation.module.ts");
-/* harmony import */ var _index_index_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./index/index.component */ "./src/app/index/index.component.ts");
-/* harmony import */ var _sections_sections_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./sections/sections.component */ "./src/app/sections/sections.component.ts");
-/* harmony import */ var _examples_profilepage_profilepage_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./examples/profilepage/profilepage.component */ "./src/app/examples/profilepage/profilepage.component.ts");
-/* harmony import */ var _examples_registerpage_registerpage_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./examples/registerpage/registerpage.component */ "./src/app/examples/registerpage/registerpage.component.ts");
-/* harmony import */ var _examples_landingpage_landingpage_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./examples/landingpage/landingpage.component */ "./src/app/examples/landingpage/landingpage.component.ts");
-/* harmony import */ var _examples_aboutus_aboutus_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./examples/aboutus/aboutus.component */ "./src/app/examples/aboutus/aboutus.component.ts");
-/* harmony import */ var _examples_500error_500error_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./examples/500error/500error.component */ "./src/app/examples/500error/500error.component.ts");
-/* harmony import */ var _examples_accountsettings_accountsettings_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./examples/accountsettings/accountsettings.component */ "./src/app/examples/accountsettings/accountsettings.component.ts");
-/* harmony import */ var _examples_blogpost_blogpost_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./examples/blogpost/blogpost.component */ "./src/app/examples/blogpost/blogpost.component.ts");
-/* harmony import */ var _examples_blogposts_blogposts_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./examples/blogposts/blogposts.component */ "./src/app/examples/blogposts/blogposts.component.ts");
-/* harmony import */ var _examples_chatpage_chatpage_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./examples/chatpage/chatpage.component */ "./src/app/examples/chatpage/chatpage.component.ts");
-/* harmony import */ var _examples_checkoutpage_checkoutpage_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./examples/checkoutpage/checkoutpage.component */ "./src/app/examples/checkoutpage/checkoutpage.component.ts");
-/* harmony import */ var _examples_contactus_contactus_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./examples/contactus/contactus.component */ "./src/app/examples/contactus/contactus.component.ts");
-/* harmony import */ var _examples_ecommerce_ecommerce_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./examples/ecommerce/ecommerce.component */ "./src/app/examples/ecommerce/ecommerce.component.ts");
-/* harmony import */ var _examples_error_error_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./examples/error/error.component */ "./src/app/examples/error/error.component.ts");
-/* harmony import */ var _examples_invoicepage_invoicepage_component__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./examples/invoicepage/invoicepage.component */ "./src/app/examples/invoicepage/invoicepage.component.ts");
-/* harmony import */ var _examples_loginpage_loginpage_component__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./examples/loginpage/loginpage.component */ "./src/app/examples/loginpage/loginpage.component.ts");
-/* harmony import */ var _examples_pricingpage_pricingpage_component__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./examples/pricingpage/pricingpage.component */ "./src/app/examples/pricingpage/pricingpage.component.ts");
-/* harmony import */ var _examples_productpage_productpage_component__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./examples/productpage/productpage.component */ "./src/app/examples/productpage/productpage.component.ts");
-/* harmony import */ var _examples_resetpage_resetpage_component__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./examples/resetpage/resetpage.component */ "./src/app/examples/resetpage/resetpage.component.ts");
-/* harmony import */ var _components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./components/navbar/navbar.component */ "./src/app/components/navbar/navbar.component.ts");
-/* harmony import */ var _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./components/footer/footer.component */ "./src/app/components/footer/footer.component.ts");
-/* harmony import */ var _components_picture_upload_picture_upload_component__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ./components/picture-upload/picture-upload.component */ "./src/app/components/picture-upload/picture-upload.component.ts");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm5/ngx-toastr.js");
-/* harmony import */ var _app_shared_jobcard_service__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ../app/shared/jobcard.service */ "./src/app/shared/jobcard.service.ts");
-/* harmony import */ var _app_shared_work_permit_service__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ../app/shared/work-permit.service */ "./src/app/shared/work-permit.service.ts");
-/* harmony import */ var _app_shared_induction_checklist_service__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ../app/shared/induction-checklist.service */ "./src/app/shared/induction-checklist.service.ts");
-/* harmony import */ var _app_shared_toolbox_talk_service__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ../app/shared/toolbox-talk.service */ "./src/app/shared/toolbox-talk.service.ts");
-/* harmony import */ var _jobcard_add_jobcard_add_jobcard_component__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ./jobcard/add-jobcard/add-jobcard.component */ "./src/app/jobcard/add-jobcard/add-jobcard.component.ts");
-/* harmony import */ var _jobcard_list_jobcard_list_jobcard_component__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! ./jobcard/list-jobcard/list-jobcard.component */ "./src/app/jobcard/list-jobcard/list-jobcard.component.ts");
-/* harmony import */ var _jobcard_edit_jobcard_edit_jobcard_component__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! ./jobcard/edit-jobcard/edit-jobcard.component */ "./src/app/jobcard/edit-jobcard/edit-jobcard.component.ts");
-/* harmony import */ var _workpermit_add_workpermit_add_workpermit_component__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! ./workpermit/add-workpermit/add-workpermit.component */ "./src/app/workpermit/add-workpermit/add-workpermit.component.ts");
-/* harmony import */ var _workpermit_list_workpermit_list_workpermit_component__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(/*! ./workpermit/list-workpermit/list-workpermit.component */ "./src/app/workpermit/list-workpermit/list-workpermit.component.ts");
-/* harmony import */ var _workpermit_edit_workpermit_edit_workpermit_component__WEBPACK_IMPORTED_MODULE_56__ = __webpack_require__(/*! ./workpermit/edit-workpermit/edit-workpermit.component */ "./src/app/workpermit/edit-workpermit/edit-workpermit.component.ts");
-/* harmony import */ var _inductionchecklist_add_inductionchecklist_add_inductionchecklist_component__WEBPACK_IMPORTED_MODULE_57__ = __webpack_require__(/*! ./inductionchecklist/add-inductionchecklist/add-inductionchecklist.component */ "./src/app/inductionchecklist/add-inductionchecklist/add-inductionchecklist.component.ts");
-/* harmony import */ var _inductionchecklist_edit_inductionchecklist_edit_inductionchecklist_component__WEBPACK_IMPORTED_MODULE_58__ = __webpack_require__(/*! ./inductionchecklist/edit-inductionchecklist/edit-inductionchecklist.component */ "./src/app/inductionchecklist/edit-inductionchecklist/edit-inductionchecklist.component.ts");
-/* harmony import */ var _inductionchecklist_list_inductionchecklist_list_inductionchecklist_component__WEBPACK_IMPORTED_MODULE_59__ = __webpack_require__(/*! ./inductionchecklist/list-inductionchecklist/list-inductionchecklist.component */ "./src/app/inductionchecklist/list-inductionchecklist/list-inductionchecklist.component.ts");
-/* harmony import */ var _toolboxtalk_add_toolboxtalk_add_toolboxtalk_component__WEBPACK_IMPORTED_MODULE_60__ = __webpack_require__(/*! ./toolboxtalk/add-toolboxtalk/add-toolboxtalk.component */ "./src/app/toolboxtalk/add-toolboxtalk/add-toolboxtalk.component.ts");
-/* harmony import */ var _toolboxtalk_list_toolboxtalk_list_toolboxtalk_component__WEBPACK_IMPORTED_MODULE_61__ = __webpack_require__(/*! ./toolboxtalk/list-toolboxtalk/list-toolboxtalk.component */ "./src/app/toolboxtalk/list-toolboxtalk/list-toolboxtalk.component.ts");
-/* harmony import */ var _toolboxtalk_edit_toolboxtalk_edit_toolboxtalk_component__WEBPACK_IMPORTED_MODULE_62__ = __webpack_require__(/*! ./toolboxtalk/edit-toolboxtalk/edit-toolboxtalk.component */ "./src/app/toolboxtalk/edit-toolboxtalk/edit-toolboxtalk.component.ts");
-/* harmony import */ var _pm_dashboard_pm_dashboard_component__WEBPACK_IMPORTED_MODULE_63__ = __webpack_require__(/*! ./pm-dashboard/pm-dashboard.component */ "./src/app/pm-dashboard/pm-dashboard.component.ts");
-/* harmony import */ var _ohs_officer_dashboard_ohs_officer_dashboard_component__WEBPACK_IMPORTED_MODULE_64__ = __webpack_require__(/*! ./ohs-officer-dashboard/ohs-officer-dashboard.component */ "./src/app/ohs-officer-dashboard/ohs-officer-dashboard.component.ts");
-/* harmony import */ var _view_jobcard_view_jobcard_component__WEBPACK_IMPORTED_MODULE_65__ = __webpack_require__(/*! ./view-jobcard/view-jobcard.component */ "./src/app/view-jobcard/view-jobcard.component.ts");
-/* harmony import */ var _view_induction_view_induction_component__WEBPACK_IMPORTED_MODULE_66__ = __webpack_require__(/*! ./view-induction/view-induction.component */ "./src/app/view-induction/view-induction.component.ts");
-/* harmony import */ var _view_workpermits_view_workpermits_component__WEBPACK_IMPORTED_MODULE_67__ = __webpack_require__(/*! ./view-workpermits/view-workpermits.component */ "./src/app/view-workpermits/view-workpermits.component.ts");
-/* harmony import */ var _noc_dashboard_noc_dashboard_component__WEBPACK_IMPORTED_MODULE_68__ = __webpack_require__(/*! ./noc-dashboard/noc-dashboard.component */ "./src/app/noc-dashboard/noc-dashboard.component.ts");
-/* harmony import */ var _view_toolbox_view_toolbox_component__WEBPACK_IMPORTED_MODULE_69__ = __webpack_require__(/*! ./view-toolbox/view-toolbox.component */ "./src/app/view-toolbox/view-toolbox.component.ts");
-/* harmony import */ var angular_datatables__WEBPACK_IMPORTED_MODULE_70__ = __webpack_require__(/*! angular-datatables */ "./node_modules/angular-datatables/index.js");
-/* harmony import */ var _job_analysis_add_jobanalysis_add_jobanalysis_component__WEBPACK_IMPORTED_MODULE_71__ = __webpack_require__(/*! ./job-analysis/add-jobanalysis/add-jobanalysis.component */ "./src/app/job-analysis/add-jobanalysis/add-jobanalysis.component.ts");
-/* harmony import */ var _job_analysis_edit_jobanalysis_edit_jobanalysis_component__WEBPACK_IMPORTED_MODULE_72__ = __webpack_require__(/*! ./job-analysis/edit-jobanalysis/edit-jobanalysis.component */ "./src/app/job-analysis/edit-jobanalysis/edit-jobanalysis.component.ts");
-/* harmony import */ var _job_analysis_list_jobanalysis_list_jobanalysis_component__WEBPACK_IMPORTED_MODULE_73__ = __webpack_require__(/*! ./job-analysis/list-jobanalysis/list-jobanalysis.component */ "./src/app/job-analysis/list-jobanalysis/list-jobanalysis.component.ts");
-/* harmony import */ var _incident_add_incident_add_incident_component__WEBPACK_IMPORTED_MODULE_74__ = __webpack_require__(/*! ./incident/add-incident/add-incident.component */ "./src/app/incident/add-incident/add-incident.component.ts");
-/* harmony import */ var _incident_list_incident_list_incident_component__WEBPACK_IMPORTED_MODULE_75__ = __webpack_require__(/*! ./incident/list-incident/list-incident.component */ "./src/app/incident/list-incident/list-incident.component.ts");
-/* harmony import */ var _incident_edit_incident_edit_incident_component__WEBPACK_IMPORTED_MODULE_76__ = __webpack_require__(/*! ./incident/edit-incident/edit-incident.component */ "./src/app/incident/edit-incident/edit-incident.component.ts");
+/* harmony import */ var ng2_charts__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ng2-charts */ "./node_modules/ng2-charts/fesm5/ng2-charts.js");
+/* harmony import */ var _index_index_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./index/index.component */ "./src/app/index/index.component.ts");
+/* harmony import */ var _sections_sections_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./sections/sections.component */ "./src/app/sections/sections.component.ts");
+/* harmony import */ var _examples_profilepage_profilepage_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./examples/profilepage/profilepage.component */ "./src/app/examples/profilepage/profilepage.component.ts");
+/* harmony import */ var _examples_registerpage_registerpage_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./examples/registerpage/registerpage.component */ "./src/app/examples/registerpage/registerpage.component.ts");
+/* harmony import */ var _examples_landingpage_landingpage_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./examples/landingpage/landingpage.component */ "./src/app/examples/landingpage/landingpage.component.ts");
+/* harmony import */ var _examples_aboutus_aboutus_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./examples/aboutus/aboutus.component */ "./src/app/examples/aboutus/aboutus.component.ts");
+/* harmony import */ var _examples_500error_500error_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./examples/500error/500error.component */ "./src/app/examples/500error/500error.component.ts");
+/* harmony import */ var _examples_accountsettings_accountsettings_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./examples/accountsettings/accountsettings.component */ "./src/app/examples/accountsettings/accountsettings.component.ts");
+/* harmony import */ var _examples_blogpost_blogpost_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./examples/blogpost/blogpost.component */ "./src/app/examples/blogpost/blogpost.component.ts");
+/* harmony import */ var _examples_blogposts_blogposts_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./examples/blogposts/blogposts.component */ "./src/app/examples/blogposts/blogposts.component.ts");
+/* harmony import */ var _examples_chatpage_chatpage_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./examples/chatpage/chatpage.component */ "./src/app/examples/chatpage/chatpage.component.ts");
+/* harmony import */ var _examples_checkoutpage_checkoutpage_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./examples/checkoutpage/checkoutpage.component */ "./src/app/examples/checkoutpage/checkoutpage.component.ts");
+/* harmony import */ var _examples_contactus_contactus_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./examples/contactus/contactus.component */ "./src/app/examples/contactus/contactus.component.ts");
+/* harmony import */ var _examples_ecommerce_ecommerce_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./examples/ecommerce/ecommerce.component */ "./src/app/examples/ecommerce/ecommerce.component.ts");
+/* harmony import */ var _examples_error_error_component__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./examples/error/error.component */ "./src/app/examples/error/error.component.ts");
+/* harmony import */ var _examples_invoicepage_invoicepage_component__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./examples/invoicepage/invoicepage.component */ "./src/app/examples/invoicepage/invoicepage.component.ts");
+/* harmony import */ var _examples_loginpage_loginpage_component__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./examples/loginpage/loginpage.component */ "./src/app/examples/loginpage/loginpage.component.ts");
+/* harmony import */ var _examples_pricingpage_pricingpage_component__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./examples/pricingpage/pricingpage.component */ "./src/app/examples/pricingpage/pricingpage.component.ts");
+/* harmony import */ var _examples_productpage_productpage_component__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./examples/productpage/productpage.component */ "./src/app/examples/productpage/productpage.component.ts");
+/* harmony import */ var _examples_resetpage_resetpage_component__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./examples/resetpage/resetpage.component */ "./src/app/examples/resetpage/resetpage.component.ts");
+/* harmony import */ var _components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./components/navbar/navbar.component */ "./src/app/components/navbar/navbar.component.ts");
+/* harmony import */ var _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ./components/footer/footer.component */ "./src/app/components/footer/footer.component.ts");
+/* harmony import */ var _components_picture_upload_picture_upload_component__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./components/picture-upload/picture-upload.component */ "./src/app/components/picture-upload/picture-upload.component.ts");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ngx-toastr */ "./node_modules/ngx-toastr/fesm5/ngx-toastr.js");
+/* harmony import */ var _app_shared_jobcard_service__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ../app/shared/jobcard.service */ "./src/app/shared/jobcard.service.ts");
+/* harmony import */ var _app_shared_work_permit_service__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ../app/shared/work-permit.service */ "./src/app/shared/work-permit.service.ts");
+/* harmony import */ var _app_shared_induction_checklist_service__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ../app/shared/induction-checklist.service */ "./src/app/shared/induction-checklist.service.ts");
+/* harmony import */ var _app_shared_toolbox_talk_service__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ../app/shared/toolbox-talk.service */ "./src/app/shared/toolbox-talk.service.ts");
+/* harmony import */ var _jobcard_add_jobcard_add_jobcard_component__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! ./jobcard/add-jobcard/add-jobcard.component */ "./src/app/jobcard/add-jobcard/add-jobcard.component.ts");
+/* harmony import */ var _jobcard_list_jobcard_list_jobcard_component__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! ./jobcard/list-jobcard/list-jobcard.component */ "./src/app/jobcard/list-jobcard/list-jobcard.component.ts");
+/* harmony import */ var _jobcard_edit_jobcard_edit_jobcard_component__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! ./jobcard/edit-jobcard/edit-jobcard.component */ "./src/app/jobcard/edit-jobcard/edit-jobcard.component.ts");
+/* harmony import */ var _workpermit_add_workpermit_add_workpermit_component__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(/*! ./workpermit/add-workpermit/add-workpermit.component */ "./src/app/workpermit/add-workpermit/add-workpermit.component.ts");
+/* harmony import */ var _workpermit_list_workpermit_list_workpermit_component__WEBPACK_IMPORTED_MODULE_56__ = __webpack_require__(/*! ./workpermit/list-workpermit/list-workpermit.component */ "./src/app/workpermit/list-workpermit/list-workpermit.component.ts");
+/* harmony import */ var _workpermit_edit_workpermit_edit_workpermit_component__WEBPACK_IMPORTED_MODULE_57__ = __webpack_require__(/*! ./workpermit/edit-workpermit/edit-workpermit.component */ "./src/app/workpermit/edit-workpermit/edit-workpermit.component.ts");
+/* harmony import */ var _inductionchecklist_add_inductionchecklist_add_inductionchecklist_component__WEBPACK_IMPORTED_MODULE_58__ = __webpack_require__(/*! ./inductionchecklist/add-inductionchecklist/add-inductionchecklist.component */ "./src/app/inductionchecklist/add-inductionchecklist/add-inductionchecklist.component.ts");
+/* harmony import */ var _inductionchecklist_edit_inductionchecklist_edit_inductionchecklist_component__WEBPACK_IMPORTED_MODULE_59__ = __webpack_require__(/*! ./inductionchecklist/edit-inductionchecklist/edit-inductionchecklist.component */ "./src/app/inductionchecklist/edit-inductionchecklist/edit-inductionchecklist.component.ts");
+/* harmony import */ var _inductionchecklist_list_inductionchecklist_list_inductionchecklist_component__WEBPACK_IMPORTED_MODULE_60__ = __webpack_require__(/*! ./inductionchecklist/list-inductionchecklist/list-inductionchecklist.component */ "./src/app/inductionchecklist/list-inductionchecklist/list-inductionchecklist.component.ts");
+/* harmony import */ var _toolboxtalk_add_toolboxtalk_add_toolboxtalk_component__WEBPACK_IMPORTED_MODULE_61__ = __webpack_require__(/*! ./toolboxtalk/add-toolboxtalk/add-toolboxtalk.component */ "./src/app/toolboxtalk/add-toolboxtalk/add-toolboxtalk.component.ts");
+/* harmony import */ var _toolboxtalk_list_toolboxtalk_list_toolboxtalk_component__WEBPACK_IMPORTED_MODULE_62__ = __webpack_require__(/*! ./toolboxtalk/list-toolboxtalk/list-toolboxtalk.component */ "./src/app/toolboxtalk/list-toolboxtalk/list-toolboxtalk.component.ts");
+/* harmony import */ var _toolboxtalk_edit_toolboxtalk_edit_toolboxtalk_component__WEBPACK_IMPORTED_MODULE_63__ = __webpack_require__(/*! ./toolboxtalk/edit-toolboxtalk/edit-toolboxtalk.component */ "./src/app/toolboxtalk/edit-toolboxtalk/edit-toolboxtalk.component.ts");
+/* harmony import */ var _pm_dashboard_pm_dashboard_component__WEBPACK_IMPORTED_MODULE_64__ = __webpack_require__(/*! ./pm-dashboard/pm-dashboard.component */ "./src/app/pm-dashboard/pm-dashboard.component.ts");
+/* harmony import */ var _ohs_officer_dashboard_ohs_officer_dashboard_component__WEBPACK_IMPORTED_MODULE_65__ = __webpack_require__(/*! ./ohs-officer-dashboard/ohs-officer-dashboard.component */ "./src/app/ohs-officer-dashboard/ohs-officer-dashboard.component.ts");
+/* harmony import */ var _view_jobcard_view_jobcard_component__WEBPACK_IMPORTED_MODULE_66__ = __webpack_require__(/*! ./view-jobcard/view-jobcard.component */ "./src/app/view-jobcard/view-jobcard.component.ts");
+/* harmony import */ var _view_induction_view_induction_component__WEBPACK_IMPORTED_MODULE_67__ = __webpack_require__(/*! ./view-induction/view-induction.component */ "./src/app/view-induction/view-induction.component.ts");
+/* harmony import */ var _view_workpermits_view_workpermits_component__WEBPACK_IMPORTED_MODULE_68__ = __webpack_require__(/*! ./view-workpermits/view-workpermits.component */ "./src/app/view-workpermits/view-workpermits.component.ts");
+/* harmony import */ var _noc_dashboard_noc_dashboard_component__WEBPACK_IMPORTED_MODULE_69__ = __webpack_require__(/*! ./noc-dashboard/noc-dashboard.component */ "./src/app/noc-dashboard/noc-dashboard.component.ts");
+/* harmony import */ var _view_toolbox_view_toolbox_component__WEBPACK_IMPORTED_MODULE_70__ = __webpack_require__(/*! ./view-toolbox/view-toolbox.component */ "./src/app/view-toolbox/view-toolbox.component.ts");
+/* harmony import */ var angular_datatables__WEBPACK_IMPORTED_MODULE_71__ = __webpack_require__(/*! angular-datatables */ "./node_modules/angular-datatables/index.js");
+/* harmony import */ var _job_analysis_add_jobanalysis_add_jobanalysis_component__WEBPACK_IMPORTED_MODULE_72__ = __webpack_require__(/*! ./job-analysis/add-jobanalysis/add-jobanalysis.component */ "./src/app/job-analysis/add-jobanalysis/add-jobanalysis.component.ts");
+/* harmony import */ var _job_analysis_edit_jobanalysis_edit_jobanalysis_component__WEBPACK_IMPORTED_MODULE_73__ = __webpack_require__(/*! ./job-analysis/edit-jobanalysis/edit-jobanalysis.component */ "./src/app/job-analysis/edit-jobanalysis/edit-jobanalysis.component.ts");
+/* harmony import */ var _job_analysis_list_jobanalysis_list_jobanalysis_component__WEBPACK_IMPORTED_MODULE_74__ = __webpack_require__(/*! ./job-analysis/list-jobanalysis/list-jobanalysis.component */ "./src/app/job-analysis/list-jobanalysis/list-jobanalysis.component.ts");
+/* harmony import */ var _incident_add_incident_add_incident_component__WEBPACK_IMPORTED_MODULE_75__ = __webpack_require__(/*! ./incident/add-incident/add-incident.component */ "./src/app/incident/add-incident/add-incident.component.ts");
+/* harmony import */ var _incident_list_incident_list_incident_component__WEBPACK_IMPORTED_MODULE_76__ = __webpack_require__(/*! ./incident/list-incident/list-incident.component */ "./src/app/incident/list-incident/list-incident.component.ts");
+/* harmony import */ var _incident_edit_incident_edit_incident_component__WEBPACK_IMPORTED_MODULE_77__ = __webpack_require__(/*! ./incident/edit-incident/edit-incident.component */ "./src/app/incident/edit-incident/edit-incident.component.ts");
+/* harmony import */ var _examples_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_78__ = __webpack_require__(/*! ./examples/dashboard/dashboard.component */ "./src/app/examples/dashboard/dashboard.component.ts");
 
 
  // this is needed!
+
+
 
 
 
@@ -1314,59 +1630,60 @@ var AppModule = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["NgModule"])({
             declarations: [
                 _app_component__WEBPACK_IMPORTED_MODULE_20__["AppComponent"],
-                _index_index_component__WEBPACK_IMPORTED_MODULE_22__["IndexComponent"],
-                _examples_profilepage_profilepage_component__WEBPACK_IMPORTED_MODULE_24__["ProfilepageComponent"],
-                _examples_registerpage_registerpage_component__WEBPACK_IMPORTED_MODULE_25__["RegisterpageComponent"],
-                _examples_landingpage_landingpage_component__WEBPACK_IMPORTED_MODULE_26__["LandingpageComponent"],
-                _sections_sections_component__WEBPACK_IMPORTED_MODULE_23__["SectionsComponent"],
-                _examples_aboutus_aboutus_component__WEBPACK_IMPORTED_MODULE_27__["AboutusComponent"],
-                _examples_500error_500error_component__WEBPACK_IMPORTED_MODULE_28__["Error500Component"],
-                _examples_accountsettings_accountsettings_component__WEBPACK_IMPORTED_MODULE_29__["AccountsettingsComponent"],
-                _examples_blogpost_blogpost_component__WEBPACK_IMPORTED_MODULE_30__["BlogpostComponent"],
-                _examples_blogposts_blogposts_component__WEBPACK_IMPORTED_MODULE_31__["BlogpostsComponent"],
-                _examples_chatpage_chatpage_component__WEBPACK_IMPORTED_MODULE_32__["ChatpageComponent"],
-                _examples_checkoutpage_checkoutpage_component__WEBPACK_IMPORTED_MODULE_33__["CheckoutpageComponent"],
-                _examples_contactus_contactus_component__WEBPACK_IMPORTED_MODULE_34__["ContactusComponent"],
-                _examples_ecommerce_ecommerce_component__WEBPACK_IMPORTED_MODULE_35__["EcommerceComponent"],
-                _examples_error_error_component__WEBPACK_IMPORTED_MODULE_36__["ErrorComponent"],
-                _examples_invoicepage_invoicepage_component__WEBPACK_IMPORTED_MODULE_37__["InvoicepageComponent"],
-                _examples_loginpage_loginpage_component__WEBPACK_IMPORTED_MODULE_38__["LoginpageComponent"],
-                _examples_pricingpage_pricingpage_component__WEBPACK_IMPORTED_MODULE_39__["PricingpageComponent"],
-                _examples_productpage_productpage_component__WEBPACK_IMPORTED_MODULE_40__["ProductpageComponent"],
-                _examples_resetpage_resetpage_component__WEBPACK_IMPORTED_MODULE_41__["ResetpageComponent"],
-                _components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_42__["NavbarComponent"],
-                _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_43__["FooterComponent"],
-                _components_picture_upload_picture_upload_component__WEBPACK_IMPORTED_MODULE_44__["PictureUploadComponent"],
-                _jobcard_add_jobcard_add_jobcard_component__WEBPACK_IMPORTED_MODULE_51__["AddJobcardComponent"],
-                _jobcard_list_jobcard_list_jobcard_component__WEBPACK_IMPORTED_MODULE_52__["ListJobcardComponent"],
-                _jobcard_edit_jobcard_edit_jobcard_component__WEBPACK_IMPORTED_MODULE_53__["EditJobcardComponent"],
-                _workpermit_add_workpermit_add_workpermit_component__WEBPACK_IMPORTED_MODULE_54__["AddWorkpermitComponent"],
-                _workpermit_list_workpermit_list_workpermit_component__WEBPACK_IMPORTED_MODULE_55__["ListWorkpermitComponent"],
-                _workpermit_edit_workpermit_edit_workpermit_component__WEBPACK_IMPORTED_MODULE_56__["EditWorkpermitComponent"],
-                _inductionchecklist_add_inductionchecklist_add_inductionchecklist_component__WEBPACK_IMPORTED_MODULE_57__["AddInductionchecklistComponent"],
-                _inductionchecklist_edit_inductionchecklist_edit_inductionchecklist_component__WEBPACK_IMPORTED_MODULE_58__["EditInductionchecklistComponent"],
-                _inductionchecklist_list_inductionchecklist_list_inductionchecklist_component__WEBPACK_IMPORTED_MODULE_59__["ListInductionchecklistComponent"],
-                _toolboxtalk_add_toolboxtalk_add_toolboxtalk_component__WEBPACK_IMPORTED_MODULE_60__["AddToolboxtalkComponent"],
-                _toolboxtalk_list_toolboxtalk_list_toolboxtalk_component__WEBPACK_IMPORTED_MODULE_61__["ListToolboxtalkComponent"],
-                _toolboxtalk_edit_toolboxtalk_edit_toolboxtalk_component__WEBPACK_IMPORTED_MODULE_62__["EditToolboxtalkComponent"],
-                _pm_dashboard_pm_dashboard_component__WEBPACK_IMPORTED_MODULE_63__["PmDashboardComponent"],
-                _ohs_officer_dashboard_ohs_officer_dashboard_component__WEBPACK_IMPORTED_MODULE_64__["OhsOfficerDashboardComponent"],
-                _view_jobcard_view_jobcard_component__WEBPACK_IMPORTED_MODULE_65__["ViewJobcardComponent"],
-                _view_induction_view_induction_component__WEBPACK_IMPORTED_MODULE_66__["ViewInductionComponent"],
-                _view_workpermits_view_workpermits_component__WEBPACK_IMPORTED_MODULE_67__["ViewWorkpermitsComponent"],
-                _noc_dashboard_noc_dashboard_component__WEBPACK_IMPORTED_MODULE_68__["NocDashboardComponent"],
-                _view_toolbox_view_toolbox_component__WEBPACK_IMPORTED_MODULE_69__["ViewToolboxComponent"],
-                _job_analysis_add_jobanalysis_add_jobanalysis_component__WEBPACK_IMPORTED_MODULE_71__["AddJobanalysisComponent"],
-                _job_analysis_edit_jobanalysis_edit_jobanalysis_component__WEBPACK_IMPORTED_MODULE_72__["EditJobanalysisComponent"],
-                _job_analysis_list_jobanalysis_list_jobanalysis_component__WEBPACK_IMPORTED_MODULE_73__["ListJobanalysisComponent"],
-                _incident_add_incident_add_incident_component__WEBPACK_IMPORTED_MODULE_74__["AddIncidentComponent"],
-                _incident_list_incident_list_incident_component__WEBPACK_IMPORTED_MODULE_75__["ListIncidentComponent"],
-                _incident_edit_incident_edit_incident_component__WEBPACK_IMPORTED_MODULE_76__["EditIncidentComponent"]
+                _index_index_component__WEBPACK_IMPORTED_MODULE_23__["IndexComponent"],
+                _examples_profilepage_profilepage_component__WEBPACK_IMPORTED_MODULE_25__["ProfilepageComponent"],
+                _examples_registerpage_registerpage_component__WEBPACK_IMPORTED_MODULE_26__["RegisterpageComponent"],
+                _examples_landingpage_landingpage_component__WEBPACK_IMPORTED_MODULE_27__["LandingpageComponent"],
+                _sections_sections_component__WEBPACK_IMPORTED_MODULE_24__["SectionsComponent"],
+                _examples_aboutus_aboutus_component__WEBPACK_IMPORTED_MODULE_28__["AboutusComponent"],
+                _examples_500error_500error_component__WEBPACK_IMPORTED_MODULE_29__["Error500Component"],
+                _examples_accountsettings_accountsettings_component__WEBPACK_IMPORTED_MODULE_30__["AccountsettingsComponent"],
+                _examples_blogpost_blogpost_component__WEBPACK_IMPORTED_MODULE_31__["BlogpostComponent"],
+                _examples_blogposts_blogposts_component__WEBPACK_IMPORTED_MODULE_32__["BlogpostsComponent"],
+                _examples_chatpage_chatpage_component__WEBPACK_IMPORTED_MODULE_33__["ChatpageComponent"],
+                _examples_checkoutpage_checkoutpage_component__WEBPACK_IMPORTED_MODULE_34__["CheckoutpageComponent"],
+                _examples_contactus_contactus_component__WEBPACK_IMPORTED_MODULE_35__["ContactusComponent"],
+                _examples_ecommerce_ecommerce_component__WEBPACK_IMPORTED_MODULE_36__["EcommerceComponent"],
+                _examples_error_error_component__WEBPACK_IMPORTED_MODULE_37__["ErrorComponent"],
+                _examples_invoicepage_invoicepage_component__WEBPACK_IMPORTED_MODULE_38__["InvoicepageComponent"],
+                _examples_loginpage_loginpage_component__WEBPACK_IMPORTED_MODULE_39__["LoginpageComponent"],
+                _examples_pricingpage_pricingpage_component__WEBPACK_IMPORTED_MODULE_40__["PricingpageComponent"],
+                _examples_productpage_productpage_component__WEBPACK_IMPORTED_MODULE_41__["ProductpageComponent"],
+                _examples_resetpage_resetpage_component__WEBPACK_IMPORTED_MODULE_42__["ResetpageComponent"],
+                _components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_43__["NavbarComponent"],
+                _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_44__["FooterComponent"],
+                _components_picture_upload_picture_upload_component__WEBPACK_IMPORTED_MODULE_45__["PictureUploadComponent"],
+                _jobcard_add_jobcard_add_jobcard_component__WEBPACK_IMPORTED_MODULE_52__["AddJobcardComponent"],
+                _jobcard_list_jobcard_list_jobcard_component__WEBPACK_IMPORTED_MODULE_53__["ListJobcardComponent"],
+                _jobcard_edit_jobcard_edit_jobcard_component__WEBPACK_IMPORTED_MODULE_54__["EditJobcardComponent"],
+                _workpermit_add_workpermit_add_workpermit_component__WEBPACK_IMPORTED_MODULE_55__["AddWorkpermitComponent"],
+                _workpermit_list_workpermit_list_workpermit_component__WEBPACK_IMPORTED_MODULE_56__["ListWorkpermitComponent"],
+                _workpermit_edit_workpermit_edit_workpermit_component__WEBPACK_IMPORTED_MODULE_57__["EditWorkpermitComponent"],
+                _inductionchecklist_add_inductionchecklist_add_inductionchecklist_component__WEBPACK_IMPORTED_MODULE_58__["AddInductionchecklistComponent"],
+                _inductionchecklist_edit_inductionchecklist_edit_inductionchecklist_component__WEBPACK_IMPORTED_MODULE_59__["EditInductionchecklistComponent"],
+                _inductionchecklist_list_inductionchecklist_list_inductionchecklist_component__WEBPACK_IMPORTED_MODULE_60__["ListInductionchecklistComponent"],
+                _toolboxtalk_add_toolboxtalk_add_toolboxtalk_component__WEBPACK_IMPORTED_MODULE_61__["AddToolboxtalkComponent"],
+                _toolboxtalk_list_toolboxtalk_list_toolboxtalk_component__WEBPACK_IMPORTED_MODULE_62__["ListToolboxtalkComponent"],
+                _toolboxtalk_edit_toolboxtalk_edit_toolboxtalk_component__WEBPACK_IMPORTED_MODULE_63__["EditToolboxtalkComponent"],
+                _pm_dashboard_pm_dashboard_component__WEBPACK_IMPORTED_MODULE_64__["PmDashboardComponent"],
+                _ohs_officer_dashboard_ohs_officer_dashboard_component__WEBPACK_IMPORTED_MODULE_65__["OhsOfficerDashboardComponent"],
+                _view_jobcard_view_jobcard_component__WEBPACK_IMPORTED_MODULE_66__["ViewJobcardComponent"],
+                _view_induction_view_induction_component__WEBPACK_IMPORTED_MODULE_67__["ViewInductionComponent"],
+                _view_workpermits_view_workpermits_component__WEBPACK_IMPORTED_MODULE_68__["ViewWorkpermitsComponent"],
+                _noc_dashboard_noc_dashboard_component__WEBPACK_IMPORTED_MODULE_69__["NocDashboardComponent"],
+                _view_toolbox_view_toolbox_component__WEBPACK_IMPORTED_MODULE_70__["ViewToolboxComponent"],
+                _job_analysis_add_jobanalysis_add_jobanalysis_component__WEBPACK_IMPORTED_MODULE_72__["AddJobanalysisComponent"],
+                _job_analysis_edit_jobanalysis_edit_jobanalysis_component__WEBPACK_IMPORTED_MODULE_73__["EditJobanalysisComponent"],
+                _job_analysis_list_jobanalysis_list_jobanalysis_component__WEBPACK_IMPORTED_MODULE_74__["ListJobanalysisComponent"],
+                _incident_add_incident_add_incident_component__WEBPACK_IMPORTED_MODULE_75__["AddIncidentComponent"],
+                _incident_list_incident_list_incident_component__WEBPACK_IMPORTED_MODULE_76__["ListIncidentComponent"],
+                _incident_edit_incident_edit_incident_component__WEBPACK_IMPORTED_MODULE_77__["EditIncidentComponent"],
+                _examples_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_78__["DashboardComponent"]
             ],
             imports: [
                 _angular_common__WEBPACK_IMPORTED_MODULE_6__["CommonModule"],
                 _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormsModule"],
-                _angular_common_http__WEBPACK_IMPORTED_MODULE_45__["HttpClientModule"],
+                _angular_common_http__WEBPACK_IMPORTED_MODULE_46__["HttpClientModule"],
                 _angular_router__WEBPACK_IMPORTED_MODULE_5__["RouterModule"],
                 _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_2__["BrowserAnimationsModule"],
                 _app_routing_module__WEBPACK_IMPORTED_MODULE_19__["AppRoutingModule"],
@@ -1378,6 +1695,7 @@ var AppModule = /** @class */ (function () {
                 ngx_bootstrap_popover__WEBPACK_IMPORTED_MODULE_17__["PopoverModule"].forRoot(),
                 ngx_bootstrap_collapse__WEBPACK_IMPORTED_MODULE_10__["CollapseModule"].forRoot(),
                 ngx_chips__WEBPACK_IMPORTED_MODULE_1__["TagInputModule"],
+                ng2_charts__WEBPACK_IMPORTED_MODULE_22__["ChartsModule"],
                 _presentation_presentation_module__WEBPACK_IMPORTED_MODULE_21__["PresentationModule"],
                 ngx_bootstrap_tabs__WEBPACK_IMPORTED_MODULE_11__["TabsModule"].forRoot(),
                 ngx_bootstrap_pagination__WEBPACK_IMPORTED_MODULE_12__["PaginationModule"].forRoot(),
@@ -1385,15 +1703,15 @@ var AppModule = /** @class */ (function () {
                 ngx_bootstrap_datepicker__WEBPACK_IMPORTED_MODULE_14__["BsDatepickerModule"].forRoot(),
                 ngx_bootstrap_carousel__WEBPACK_IMPORTED_MODULE_15__["CarouselModule"].forRoot(),
                 ngx_bootstrap_modal__WEBPACK_IMPORTED_MODULE_16__["ModalModule"].forRoot(),
-                ngx_toastr__WEBPACK_IMPORTED_MODULE_46__["ToastrModule"].forRoot({
+                ngx_toastr__WEBPACK_IMPORTED_MODULE_47__["ToastrModule"].forRoot({
                     timeOut: 1000,
                     positionClass: 'toast-top-right',
                     preventDuplicates: true,
                 }),
                 _angular_forms__WEBPACK_IMPORTED_MODULE_4__["ReactiveFormsModule"],
-                angular_datatables__WEBPACK_IMPORTED_MODULE_70__["DataTablesModule"],
+                angular_datatables__WEBPACK_IMPORTED_MODULE_71__["DataTablesModule"],
             ],
-            providers: [_app_shared_toolbox_talk_service__WEBPACK_IMPORTED_MODULE_50__["ToolboxTalkService"], _app_shared_induction_checklist_service__WEBPACK_IMPORTED_MODULE_49__["InductionChecklistService"], _app_shared_jobcard_service__WEBPACK_IMPORTED_MODULE_47__["JobcardService"], _app_shared_work_permit_service__WEBPACK_IMPORTED_MODULE_48__["WorkPermitService"]],
+            providers: [_app_shared_toolbox_talk_service__WEBPACK_IMPORTED_MODULE_51__["ToolboxTalkService"], _app_shared_induction_checklist_service__WEBPACK_IMPORTED_MODULE_50__["InductionChecklistService"], _app_shared_jobcard_service__WEBPACK_IMPORTED_MODULE_48__["JobcardService"], _app_shared_work_permit_service__WEBPACK_IMPORTED_MODULE_49__["WorkPermitService"]],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_20__["AppComponent"]]
         })
     ], AppModule);
@@ -2187,6 +2505,344 @@ var ContactusComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/examples/dashboard/dashboard.component.scss":
+/*!*************************************************************!*\
+  !*** ./src/app/examples/dashboard/dashboard.component.scss ***!
+  \*************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2V4YW1wbGVzL2Rhc2hib2FyZC9kYXNoYm9hcmQuY29tcG9uZW50LnNjc3MifQ== */");
+
+/***/ }),
+
+/***/ "./src/app/examples/dashboard/dashboard.component.ts":
+/*!***********************************************************!*\
+  !*** ./src/app/examples/dashboard/dashboard.component.ts ***!
+  \***********************************************************/
+/*! exports provided: DashboardComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DashboardComponent", function() { return DashboardComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _config_dev__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../config/dev */ "./src/app/config/dev.ts");
+/* harmony import */ var _shared_jobcard_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../shared/jobcard.service */ "./src/app/shared/jobcard.service.ts");
+/* harmony import */ var _shared_incident_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../shared/incident.service */ "./src/app/shared/incident.service.ts");
+/* harmony import */ var _shared_induction_checklist_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../shared/induction-checklist.service */ "./src/app/shared/induction-checklist.service.ts");
+/* harmony import */ var _shared_job_analysis_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../shared/job-analysis.service */ "./src/app/shared/job-analysis.service.ts");
+/* harmony import */ var _shared_work_permit_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../shared/work-permit.service */ "./src/app/shared/work-permit.service.ts");
+/* harmony import */ var _shared_toolbox_talk_service__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../shared/toolbox-talk.service */ "./src/app/shared/toolbox-talk.service.ts");
+/* harmony import */ var _shared_detection_service__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../shared/detection.service */ "./src/app/shared/detection.service.ts");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var chart_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! chart.js */ "./node_modules/chart.js/dist/Chart.js");
+/* harmony import */ var chart_js__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(chart_js__WEBPACK_IMPORTED_MODULE_11__);
+
+
+
+
+
+
+
+
+
+
+
+
+var DashboardComponent = /** @class */ (function () {
+    function DashboardComponent(jobcardService, jobAnalysisService, incidentService, detectionService, inductionChecklistService, workPermitService, toolboxTalkService, http, httpClient) {
+        this.jobcardService = jobcardService;
+        this.jobAnalysisService = jobAnalysisService;
+        this.incidentService = incidentService;
+        this.detectionService = detectionService;
+        this.inductionChecklistService = inductionChecklistService;
+        this.workPermitService = workPermitService;
+        this.toolboxTalkService = toolboxTalkService;
+        this.http = http;
+        this.httpClient = httpClient;
+        this.radioModel = 'Month';
+        this.dtOptions = {};
+        this.isCollapsed = true;
+        this.url = _config_dev__WEBPACK_IMPORTED_MODULE_2__["dev"].connect;
+        this.jobcardAmountUrl = 'http://13.59.82.69:8000/api/jobcard';
+        this.jobcardAmountDate = [];
+        this.jobcardAmountNumber = [];
+        this.jobcardSiteName = [];
+        this.Linechart = [];
+        this.detectionUrl = 'http://13.59.82.69:8000/api/detection';
+        this.ppeDate = [];
+        this.ppeDetected = [];
+        this.ppeNotDetected = [];
+        this.barchart = [];
+        this.workpermitUrl = 'http://13.59.82.69:8000/api/work_permit';
+        this.jobcardUrl = 'http://13.59.82.69:8000/api/jobcard';
+        this.piechart = [];
+        this.workpermitNumber = [];
+        this.jobcardNumber = [];
+        this.Jobanalysis = [];
+        this.Jobcard = [];
+        this.Incidents = [];
+        this.Detection = [];
+        this.Workpermit = [];
+        this.Inductionchecklist = [];
+        this.Toolboxtalk = [];
+        this.getAllUsers();
+        this.getUser();
+    }
+    DashboardComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.loadJobanalysis();
+        this.loadDetection();
+        this.loadIncident();
+        this.loadInductionChecklist();
+        this.loadJobcard();
+        this.loadToolboxtalkks();
+        this.loadWorkpermit();
+        var body = document.getElementsByTagName('body')[0];
+        body.classList.add('presentation-page');
+        var navbar = document.getElementById('navbar-main');
+        navbar.classList.add('bg-primary');
+        this.dtOptions = {
+            pagingType: 'full_numbers'
+        };
+        this.httpClient.get(this.jobcardAmountUrl).subscribe(function (result) {
+            result.forEach(function (x) {
+                _this.jobcardAmountDate.push(x.starting_date);
+                _this.jobcardAmountNumber.push(x.amount_invoiced);
+                _this.jobcardSiteName.push(x.location_name);
+            });
+            _this.Linechart = new chart_js__WEBPACK_IMPORTED_MODULE_11__["Chart"]('canvasline', {
+                type: 'line',
+                data: {
+                    labels: _this.jobcardAmountDate,
+                    datasets: [
+                        {
+                            data: _this.jobcardAmountNumber,
+                            borderColor: '#3cb371',
+                            backgroundColor: '#0000FF',
+                            label: _this.jobcardSiteName
+                        }
+                    ]
+                },
+                options: {
+                    legend: {
+                        display: false
+                    },
+                    scales: {
+                        xAxes: [{
+                                display: true
+                            }],
+                        yAxes: [{
+                                display: true
+                            }],
+                    }
+                }
+            });
+        });
+        this.http.get(this.detectionUrl).subscribe(function (result) {
+            result.slice(-10, -1).forEach(function (x) {
+                _this.ppeDate.push(x.createdAt);
+                _this.ppeDetected.push(x.person_with_helmet);
+                _this.ppeNotDetected.push(x.person_without_helmet);
+            });
+            _this.barchart = new chart_js__WEBPACK_IMPORTED_MODULE_11__["Chart"]('canvasbar', {
+                type: 'bar',
+                data: {
+                    labels: _this.ppeDate,
+                    datasets: [
+                        {
+                            data: _this.ppeNotDetected,
+                            borderColor: '#3cba9f',
+                            backgroundColor: 'red',
+                            label: 'people without PPE',
+                            fill: true
+                        },
+                        {
+                            data: _this.ppeDetected,
+                            borderColor: '#3cba9f',
+                            backgroundColor: 'blue',
+                            label: 'people with PPE',
+                            fill: true
+                        }
+                    ]
+                },
+                options: {
+                    legend: {
+                        display: false
+                    },
+                    scales: {
+                        xAxes: [{
+                                display: true
+                            }],
+                        yAxes: [{
+                                display: true
+                            }],
+                    }
+                }
+            });
+        });
+        this.httpClient.get(this.workpermitUrl).subscribe(function (workpermitresult) {
+            workpermitresult.forEach(function (x) {
+                _this.workpermitNumber.push(workpermitresult.length);
+            });
+            _this.httpClient.get(_this.jobcardUrl).subscribe(function (jobcardresult) {
+                jobcardresult.forEach(function (y) {
+                    _this.jobcardNumber.push(jobcardresult.length);
+                });
+                _this.piechart = new chart_js__WEBPACK_IMPORTED_MODULE_11__["Chart"]('piecanvas', {
+                    type: 'doughnut',
+                    data: {
+                        labels: ['workpermits', 'jobcards'],
+                        datasets: [
+                            {
+                                data: [_this.workpermitNumber, _this.jobcardNumber],
+                                backgroundColor: ['#f990a7', '#aad2ed'],
+                                fill: true
+                            }
+                        ],
+                    },
+                    options: {
+                        legend: {
+                            display: true
+                        },
+                        scales: {
+                            xAxes: [{
+                                    display: false
+                                }],
+                            yAxes: [{
+                                    display: true
+                                }],
+                        }
+                    }
+                });
+            });
+        });
+    };
+    // generate random values for mainChart
+    DashboardComponent.prototype.ngOnDestroy = function () {
+        var body = document.getElementsByTagName('body')[0];
+        body.classList.remove('presentation-page');
+        var navbar = document.getElementById('navbar-main');
+        navbar.classList.remove('bg-danger');
+    };
+    // Get employees list
+    DashboardComponent.prototype.loadJobanalysis = function () {
+        var _this = this;
+        return this.jobAnalysisService.GetJobAnalysiss().subscribe(function (data) {
+            _this.Jobanalysis = data;
+        });
+    };
+    DashboardComponent.prototype.loadJobcard = function () {
+        var _this = this;
+        return this.jobcardService.getJobcard().subscribe(function (data) {
+            _this.Jobcard = data;
+        });
+    };
+    DashboardComponent.prototype.loadIncident = function () {
+        var _this = this;
+        return this.incidentService.GetIncidents().subscribe(function (data) {
+            _this.Incidents = data;
+        });
+    };
+    DashboardComponent.prototype.loadInductionChecklist = function () {
+        var _this = this;
+        return this.inductionChecklistService.GetInductionChecklist().subscribe(function (data) {
+            _this.Inductionchecklist = data;
+        });
+    };
+    DashboardComponent.prototype.loadDetection = function () {
+        var _this = this;
+        return this.detectionService.GetDetections().subscribe(function (data) {
+            _this.Detection = data;
+        });
+    };
+    DashboardComponent.prototype.loadWorkpermit = function () {
+        var _this = this;
+        return this.workPermitService.GetWorkPermit().subscribe(function (data) {
+            _this.Workpermit = data;
+        });
+    };
+    DashboardComponent.prototype.loadToolboxtalkks = function () {
+        var _this = this;
+        return this.toolboxTalkService.GetToolboxTalk().subscribe(function (data) {
+            _this.Toolboxtalk = data;
+        });
+    };
+    DashboardComponent.prototype.getAllUsers = function () {
+        var _this = this;
+        this.http.get(this.url + '/api/user/getAll').subscribe(function (data) {
+            _this.users = data;
+        });
+    };
+    DashboardComponent.prototype.getUser = function () {
+        this.profile = localStorage.getItem('profile');
+    };
+    Object.defineProperty(DashboardComponent.prototype, "totalWorkpermitRows", {
+        get: function () {
+            return this.Workpermit.length;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(DashboardComponent.prototype, "totalJobcardRows", {
+        get: function () {
+            return this.Jobcard.length;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(DashboardComponent.prototype, "totalJobanalysisRows", {
+        get: function () {
+            return this.Jobanalysis.length;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(DashboardComponent.prototype, "totalToolboxRows", {
+        get: function () {
+            return this.Toolboxtalk.length;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    DashboardComponent.ctorParameters = function () { return [
+        { type: _shared_jobcard_service__WEBPACK_IMPORTED_MODULE_3__["JobcardService"] },
+        { type: _shared_job_analysis_service__WEBPACK_IMPORTED_MODULE_6__["JobAnalysisService"] },
+        { type: _shared_incident_service__WEBPACK_IMPORTED_MODULE_4__["IncidentService"] },
+        { type: _shared_detection_service__WEBPACK_IMPORTED_MODULE_9__["DetectionService"] },
+        { type: _shared_induction_checklist_service__WEBPACK_IMPORTED_MODULE_5__["InductionChecklistService"] },
+        { type: _shared_work_permit_service__WEBPACK_IMPORTED_MODULE_7__["WorkPermitService"] },
+        { type: _shared_toolbox_talk_service__WEBPACK_IMPORTED_MODULE_8__["ToolboxTalkService"] },
+        { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_10__["HttpClient"] },
+        { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_10__["HttpClient"] }
+    ]; };
+    DashboardComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-dashboard',
+            template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./dashboard.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/examples/dashboard/dashboard.component.html")).default,
+            styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./dashboard.component.scss */ "./src/app/examples/dashboard/dashboard.component.scss")).default]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_shared_jobcard_service__WEBPACK_IMPORTED_MODULE_3__["JobcardService"],
+            _shared_job_analysis_service__WEBPACK_IMPORTED_MODULE_6__["JobAnalysisService"],
+            _shared_incident_service__WEBPACK_IMPORTED_MODULE_4__["IncidentService"],
+            _shared_detection_service__WEBPACK_IMPORTED_MODULE_9__["DetectionService"],
+            _shared_induction_checklist_service__WEBPACK_IMPORTED_MODULE_5__["InductionChecklistService"],
+            _shared_work_permit_service__WEBPACK_IMPORTED_MODULE_7__["WorkPermitService"],
+            _shared_toolbox_talk_service__WEBPACK_IMPORTED_MODULE_8__["ToolboxTalkService"],
+            _angular_common_http__WEBPACK_IMPORTED_MODULE_10__["HttpClient"],
+            _angular_common_http__WEBPACK_IMPORTED_MODULE_10__["HttpClient"]])
+    ], DashboardComponent);
+    return DashboardComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/examples/ecommerce/ecommerce.component.ts":
 /*!***********************************************************!*\
   !*** ./src/app/examples/ecommerce/ecommerce.component.ts ***!
@@ -2399,16 +3055,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
 /* harmony import */ var _config_dev__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../config/dev */ "./src/app/config/dev.ts");
+/* harmony import */ var _shared_jobcard_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../shared/jobcard.service */ "./src/app/shared/jobcard.service.ts");
+
 
 
 
 
 var LandingpageComponent = /** @class */ (function () {
-    function LandingpageComponent(http) {
+    function LandingpageComponent(JobcardRestApi, http) {
+        this.JobcardRestApi = JobcardRestApi;
         this.http = http;
         this.isCollapsed = true;
         this.fileToUpload = null;
+        this.Jobcard = [];
         this.url = _config_dev__WEBPACK_IMPORTED_MODULE_3__["dev"].connect;
+        this.loadJobcards();
         this.getAllUsers();
         this.getUser();
     }
@@ -2454,7 +3115,14 @@ var LandingpageComponent = /** @class */ (function () {
     LandingpageComponent.prototype.getUser = function () {
         this.profile = localStorage.getItem('profile');
     };
+    LandingpageComponent.prototype.loadJobcards = function () {
+        var _this = this;
+        return this.JobcardRestApi.getJobcard().subscribe(function (data) {
+            _this.Jobcard = data;
+        });
+    };
     LandingpageComponent.ctorParameters = function () { return [
+        { type: _shared_jobcard_service__WEBPACK_IMPORTED_MODULE_4__["JobcardService"] },
         { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"] }
     ]; };
     LandingpageComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
@@ -2462,7 +3130,7 @@ var LandingpageComponent = /** @class */ (function () {
             selector: 'app-landingpage',
             template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./landingpage.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/examples/landingpage/landingpage.component.html")).default
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"]])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_shared_jobcard_service__WEBPACK_IMPORTED_MODULE_4__["JobcardService"], _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"]])
     ], LandingpageComponent);
     return LandingpageComponent;
 }());
@@ -3435,6 +4103,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 /* harmony import */ var _shared_induction_checklist_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../shared/induction-checklist.service */ "./src/app/shared/induction-checklist.service.ts");
 /* harmony import */ var _shared_induction_checklist__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../shared/induction-checklist */ "./src/app/shared/induction-checklist.ts");
+/* harmony import */ var _shared_jobcard_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../shared/jobcard.service */ "./src/app/shared/jobcard.service.ts");
+/* harmony import */ var _config_dev__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../config/dev */ "./src/app/config/dev.ts");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+
+
+
 
 
 
@@ -3442,14 +4116,21 @@ __webpack_require__.r(__webpack_exports__);
 
 var AddInductionchecklistComponent = /** @class */ (function () {
     // tslint:disable-next-line:max-line-length
-    function AddInductionchecklistComponent(restApi, router) {
+    function AddInductionchecklistComponent(restApi, JobcardRestApi, http, router) {
         this.restApi = restApi;
+        this.JobcardRestApi = JobcardRestApi;
+        this.http = http;
         this.router = router;
+        this.Jobcard = [];
+        this.url = _config_dev__WEBPACK_IMPORTED_MODULE_6__["dev"].connect;
         this.data = new _shared_induction_checklist__WEBPACK_IMPORTED_MODULE_4__["InductionChecklist"]();
+        this.getAllUsers();
+        this.getUser();
     }
     AddInductionchecklistComponent.prototype.ngOnInit = function () {
         var navbar = document.getElementById('navbar-main');
         navbar.classList.add('bg-primary');
+        this.loadJobcards();
     };
     // addInduction() {
     //   this.InductionRestApi.CreateInductionChecklist(this.inductionDetails).subscribe((data: {}) => {
@@ -3462,8 +4143,25 @@ var AddInductionchecklistComponent = /** @class */ (function () {
             _this.router.navigate(['/list-induction-checklist']);
         });
     };
+    AddInductionchecklistComponent.prototype.loadJobcards = function () {
+        var _this = this;
+        return this.JobcardRestApi.getJobcard().subscribe(function (data) {
+            _this.Jobcard = data;
+        });
+    };
+    AddInductionchecklistComponent.prototype.getAllUsers = function () {
+        var _this = this;
+        this.http.get(this.url + '/api/user/getAll').subscribe(function (data) {
+            _this.users = data;
+        });
+    };
+    AddInductionchecklistComponent.prototype.getUser = function () {
+        this.profile = localStorage.getItem('profile');
+    };
     AddInductionchecklistComponent.ctorParameters = function () { return [
         { type: _shared_induction_checklist_service__WEBPACK_IMPORTED_MODULE_3__["InductionChecklistService"] },
+        { type: _shared_jobcard_service__WEBPACK_IMPORTED_MODULE_5__["JobcardService"] },
+        { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_7__["HttpClient"] },
         { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"] }
     ]; };
     AddInductionchecklistComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
@@ -3471,7 +4169,7 @@ var AddInductionchecklistComponent = /** @class */ (function () {
             selector: 'app-add-inductionchecklist',
             template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./add-inductionchecklist.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/inductionchecklist/add-inductionchecklist/add-inductionchecklist.component.html")).default
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_shared_induction_checklist_service__WEBPACK_IMPORTED_MODULE_3__["InductionChecklistService"],
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_shared_induction_checklist_service__WEBPACK_IMPORTED_MODULE_3__["InductionChecklistService"], _shared_jobcard_service__WEBPACK_IMPORTED_MODULE_5__["JobcardService"], _angular_common_http__WEBPACK_IMPORTED_MODULE_7__["HttpClient"],
             _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]])
     ], AddInductionchecklistComponent);
     return AddInductionchecklistComponent;
@@ -3649,6 +4347,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _config_dev__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../config/dev */ "./src/app/config/dev.ts");
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
 /* harmony import */ var _shared_job_analysis__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../shared/job-analysis */ "./src/app/shared/job-analysis.ts");
+/* harmony import */ var _shared_jobcard_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../shared/jobcard.service */ "./src/app/shared/jobcard.service.ts");
+
 
 
 
@@ -3658,12 +4358,14 @@ __webpack_require__.r(__webpack_exports__);
 
 var AddJobanalysisComponent = /** @class */ (function () {
     // tslint:disable-next-line:max-line-length
-    function AddJobanalysisComponent(restApi, router, http) {
+    function AddJobanalysisComponent(restApi, JobcardRestApi, router, http) {
         this.restApi = restApi;
+        this.JobcardRestApi = JobcardRestApi;
         this.router = router;
         this.http = http;
         this.isCollapsed = true;
         this.url = _config_dev__WEBPACK_IMPORTED_MODULE_4__["dev"].connect;
+        this.Jobcard = [];
         this.getAllUsers();
         this.getUser();
         this.data = new _shared_job_analysis__WEBPACK_IMPORTED_MODULE_6__["JobAnalysis"];
@@ -3671,6 +4373,7 @@ var AddJobanalysisComponent = /** @class */ (function () {
     AddJobanalysisComponent.prototype.ngOnInit = function () {
         var navbar = document.getElementById('navbar-main');
         navbar.classList.add('bg-primary');
+        this.loadJobcards();
     };
     // addJobanalysis() {
     //     const formData: FormData = new FormData();
@@ -3695,8 +4398,15 @@ var AddJobanalysisComponent = /** @class */ (function () {
     AddJobanalysisComponent.prototype.getUser = function () {
         this.profile = localStorage.getItem('profile');
     };
+    AddJobanalysisComponent.prototype.loadJobcards = function () {
+        var _this = this;
+        return this.JobcardRestApi.getJobcard().subscribe(function (data) {
+            _this.Jobcard = data;
+        });
+    };
     AddJobanalysisComponent.ctorParameters = function () { return [
         { type: _shared_job_analysis_service__WEBPACK_IMPORTED_MODULE_2__["JobAnalysisService"] },
+        { type: _shared_jobcard_service__WEBPACK_IMPORTED_MODULE_7__["JobcardService"] },
         { type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"] },
         { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_5__["HttpClient"] }
     ]; };
@@ -3707,6 +4417,7 @@ var AddJobanalysisComponent = /** @class */ (function () {
             styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./add-jobanalysis.component.scss */ "./src/app/job-analysis/add-jobanalysis/add-jobanalysis.component.scss")).default]
         }),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_shared_job_analysis_service__WEBPACK_IMPORTED_MODULE_2__["JobAnalysisService"],
+            _shared_jobcard_service__WEBPACK_IMPORTED_MODULE_7__["JobcardService"],
             _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"],
             _angular_common_http__WEBPACK_IMPORTED_MODULE_5__["HttpClient"]])
     ], AddJobanalysisComponent);
@@ -4503,10 +5214,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _shared_jobcard_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../shared/jobcard.service */ "./src/app/shared/jobcard.service.ts");
-/* harmony import */ var _glidejs_glide__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @glidejs/glide */ "./node_modules/@glidejs/glide/dist/glide.esm.js");
-/* harmony import */ var ngx_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-bootstrap */ "./node_modules/ngx-bootstrap/esm5/ngx-bootstrap.js");
-/* harmony import */ var _config_dev__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../config/dev */ "./src/app/config/dev.ts");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _shared_job_analysis_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../shared/job-analysis.service */ "./src/app/shared/job-analysis.service.ts");
+/* harmony import */ var _glidejs_glide__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @glidejs/glide */ "./node_modules/@glidejs/glide/dist/glide.esm.js");
+/* harmony import */ var ngx_bootstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ngx-bootstrap */ "./node_modules/ngx-bootstrap/esm5/ngx-bootstrap.js");
+/* harmony import */ var _config_dev__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../config/dev */ "./src/app/config/dev.ts");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+
 
 
 
@@ -4515,20 +5228,24 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var PmDashboardComponent = /** @class */ (function () {
-    function PmDashboardComponent(JobcardRestApi, modalService, http) {
+    // tslint:disable-next-line: max-line-length
+    function PmDashboardComponent(JobanalysisRestApi, JobcardRestApi, modalService, http) {
+        this.JobanalysisRestApi = JobanalysisRestApi;
         this.JobcardRestApi = JobcardRestApi;
         this.modalService = modalService;
         this.http = http;
         this.isCollapsed = true;
-        this.url = _config_dev__WEBPACK_IMPORTED_MODULE_5__["dev"].connect;
+        this.url = _config_dev__WEBPACK_IMPORTED_MODULE_6__["dev"].connect;
         this.Jobcard = [];
+        this.Jobanalysis = [];
     }
     PmDashboardComponent.prototype.openModal = function (template) {
         this.modalRef = this.modalService.show(template);
     };
     PmDashboardComponent.prototype.ngOnInit = function () {
         this.loadJobcards();
-        new _glidejs_glide__WEBPACK_IMPORTED_MODULE_3__["default"]('.presentation-cards', {
+        this.loadJobanalysis();
+        new _glidejs_glide__WEBPACK_IMPORTED_MODULE_4__["default"]('.presentation-cards', {
             type: 'carousel',
             startAt: 0,
             focusAt: 2,
@@ -4553,10 +5270,17 @@ var PmDashboardComponent = /** @class */ (function () {
             _this.Jobcard = data;
         });
     };
+    PmDashboardComponent.prototype.loadJobanalysis = function () {
+        var _this = this;
+        return this.JobanalysisRestApi.GetJobAnalysiss().subscribe(function (data) {
+            _this.Jobanalysis = data;
+        });
+    };
     PmDashboardComponent.ctorParameters = function () { return [
+        { type: _shared_job_analysis_service__WEBPACK_IMPORTED_MODULE_3__["JobAnalysisService"] },
         { type: _shared_jobcard_service__WEBPACK_IMPORTED_MODULE_2__["JobcardService"] },
-        { type: ngx_bootstrap__WEBPACK_IMPORTED_MODULE_4__["BsModalService"] },
-        { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_6__["HttpClient"] }
+        { type: ngx_bootstrap__WEBPACK_IMPORTED_MODULE_5__["BsModalService"] },
+        { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_7__["HttpClient"] }
     ]; };
     PmDashboardComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -4564,7 +5288,7 @@ var PmDashboardComponent = /** @class */ (function () {
             template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./pm-dashboard.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/pm-dashboard/pm-dashboard.component.html")).default,
             styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./pm-dashboard.component.scss */ "./src/app/pm-dashboard/pm-dashboard.component.scss")).default]
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_shared_jobcard_service__WEBPACK_IMPORTED_MODULE_2__["JobcardService"], ngx_bootstrap__WEBPACK_IMPORTED_MODULE_4__["BsModalService"], _angular_common_http__WEBPACK_IMPORTED_MODULE_6__["HttpClient"]])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_shared_job_analysis_service__WEBPACK_IMPORTED_MODULE_3__["JobAnalysisService"], _shared_jobcard_service__WEBPACK_IMPORTED_MODULE_2__["JobcardService"], ngx_bootstrap__WEBPACK_IMPORTED_MODULE_5__["BsModalService"], _angular_common_http__WEBPACK_IMPORTED_MODULE_7__["HttpClient"]])
     ], PmDashboardComponent);
     return PmDashboardComponent;
 }());
@@ -4902,6 +5626,87 @@ var SectionsComponent = /** @class */ (function () {
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
     ], SectionsComponent);
     return SectionsComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/shared/detection.service.ts":
+/*!*********************************************!*\
+  !*** ./src/app/shared/detection.service.ts ***!
+  \*********************************************/
+/*! exports provided: DetectionService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DetectionService", function() { return DetectionService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+
+
+
+
+
+var DetectionService = /** @class */ (function () {
+    function DetectionService(http) {
+        this.http = http;
+        // Base url
+        this.baseurl = 'http://13.59.82.69:8000';
+        // tslint:disable-next-line:variable-name
+        this.base_path = 'http://13.59.82.69:8000/api/detection';
+        // Http Headers
+        this.httpOptions = {
+            headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
+                'Content-Type': 'application/json'
+            })
+        };
+    }
+    // GET
+    // tslint:disable-next-line:variable-name
+    DetectionService.prototype.GetDetection = function (_id) {
+        return this.http.get(this.baseurl + '/api/detection/' + _id)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["retry"])(1), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["catchError"])(this.errorHandl));
+    };
+    // GET
+    DetectionService.prototype.GetDetections = function () {
+        return this.http.get(this.baseurl + '/api/detection/')
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["retry"])(1), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["catchError"])(this.errorHandl));
+    };
+    // DELETE
+    // tslint:disable-next-line:variable-name
+    DetectionService.prototype.DeleteDetection = function (_id) {
+        return this.http.delete(this.baseurl + '/api/detection/' + _id, this.httpOptions)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["retry"])(1), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["catchError"])(this.errorHandl));
+    };
+    // Error handling
+    DetectionService.prototype.errorHandl = function (error) {
+        var errorMessage = '';
+        if (error.error instanceof ErrorEvent) {
+            // Get client-side error
+            errorMessage = error.error.message;
+        }
+        else {
+            // Get server-side error
+            errorMessage = "Error Code: " + error.status + "\nMessage: " + error.message;
+        }
+        console.log(errorMessage);
+        return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["throwError"])(errorMessage);
+    };
+    DetectionService.ctorParameters = function () { return [
+        { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"] }
+    ]; };
+    DetectionService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+            providedIn: 'root'
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"]])
+    ], DetectionService);
+    return DetectionService;
 }());
 
 
@@ -6196,6 +7001,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _shared_work_permit__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../shared/work-permit */ "./src/app/shared/work-permit.ts");
 /* harmony import */ var _config_dev__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../config/dev */ "./src/app/config/dev.ts");
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _shared_jobcard_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../shared/jobcard.service */ "./src/app/shared/jobcard.service.ts");
+
 
 
 
@@ -6204,12 +7011,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var AddWorkpermitComponent = /** @class */ (function () {
-    function AddWorkpermitComponent(WorkpermitRestApi, router, http) {
+    function AddWorkpermitComponent(WorkpermitRestApi, router, JobcardRestApi, http) {
         this.WorkpermitRestApi = WorkpermitRestApi;
         this.router = router;
+        this.JobcardRestApi = JobcardRestApi;
         this.http = http;
         this.isCollapsed = true;
         this.url = _config_dev__WEBPACK_IMPORTED_MODULE_5__["dev"].connect;
+        this.Jobcard = [];
         this.data = new _shared_work_permit__WEBPACK_IMPORTED_MODULE_4__["WorkPermit"]();
         this.getAllUsers();
         this.getUser();
@@ -6217,6 +7026,7 @@ var AddWorkpermitComponent = /** @class */ (function () {
     AddWorkpermitComponent.prototype.ngOnInit = function () {
         var navbar = document.getElementById('navbar-main');
         navbar.classList.add('bg-primary');
+        this.loadJobcards();
     };
     AddWorkpermitComponent.prototype.submitForm = function () {
         var _this = this;
@@ -6233,9 +7043,16 @@ var AddWorkpermitComponent = /** @class */ (function () {
     AddWorkpermitComponent.prototype.getUser = function () {
         this.profile = localStorage.getItem('profile');
     };
+    AddWorkpermitComponent.prototype.loadJobcards = function () {
+        var _this = this;
+        return this.JobcardRestApi.getJobcard().subscribe(function (data) {
+            _this.Jobcard = data;
+        });
+    };
     AddWorkpermitComponent.ctorParameters = function () { return [
         { type: _shared_work_permit_service__WEBPACK_IMPORTED_MODULE_3__["WorkPermitService"] },
         { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"] },
+        { type: _shared_jobcard_service__WEBPACK_IMPORTED_MODULE_7__["JobcardService"] },
         { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_6__["HttpClient"] }
     ]; };
     AddWorkpermitComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
@@ -6245,6 +7062,7 @@ var AddWorkpermitComponent = /** @class */ (function () {
         }),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_shared_work_permit_service__WEBPACK_IMPORTED_MODULE_3__["WorkPermitService"],
             _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"],
+            _shared_jobcard_service__WEBPACK_IMPORTED_MODULE_7__["JobcardService"],
             _angular_common_http__WEBPACK_IMPORTED_MODULE_6__["HttpClient"]])
     ], AddWorkpermitComponent);
     return AddWorkpermitComponent;

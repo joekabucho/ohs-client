@@ -10,6 +10,13 @@ import { DetectionService } from '../../shared/detection.service';
 import {HttpClient} from '@angular/common/http';
 import { DataTablesModule } from 'angular-datatables';
 import {BrowserModule} from '@angular/platform-browser';
+import { Chart } from 'chart.js';
+import { Detection } from '../../shared/detection';
+import { WorkPermit } from '../../shared/work-permit';
+import { Jobcard } from '../../shared/jobcard';
+
+
+
 
 
 
@@ -30,7 +37,8 @@ export class DashboardComponent implements OnInit {
     private inductionChecklistService: InductionChecklistService,
     private workPermitService: WorkPermitService,
     private toolboxTalkService: ToolboxTalkService,
-    private http: HttpClient
+    private http: HttpClient,
+    private httpClient: HttpClient
   ) {
     this.getAllUsers();
     this.getUser();
@@ -52,7 +60,30 @@ export class DashboardComponent implements OnInit {
   users: any;
   profile: any;
   url = dev.connect;
- 
+
+  jobcardAmountUrl = 'http://13.59.82.69:8000/api/jobcard';
+  jobcardAmountDate: any = [];
+  jobcardAmountNumber: any = [];
+  jobcardSiteName: any = [];
+  Linechart: any = [];
+  jobcardAmountData: Jobcard[];
+
+
+  detectionUrl = 'http://13.59.82.69:8000/api/detection';
+  ppeDate: any = [];
+  ppeDetected: any = [];
+  ppeNotDetected: any = [];
+  barchart: any = [];
+  detectionData: Detection[];
+
+  workpermitUrl = 'http://13.59.82.69:8000/api/work_permit';
+  jobcardUrl = 'http://13.59.82.69:8000/api/jobcard';
+  piechart: any = [];
+  workpermitData: WorkPermit[];
+  jobcardData: Jobcard[];
+  workpermitNumber: any = [];
+  jobcardNumber: any = [];
+
 
 
   Jobanalysis: any = [];
@@ -62,31 +93,8 @@ export class DashboardComponent implements OnInit {
   Workpermit: any = [];
   Inductionchecklist: any = [];
   Toolboxtalk: any = [];
-  workpermitNumber: any;
 
-  public barChartOptions = {
-    scaleShowVerticalLines: false,
-    responsive: true
-  };
 
-  public lineChartLabels = ['2006', '2007', '2008', '2009', '2010', '2011', '2012'];
-  public lineChartType = 'line';
-  public lineChartLegend = true;
-  public lineChartData = [
-    {data: [65, 59, 80, 81, 56, 55, 40], label: 'Number of incidents'}
-  ];
-
-  public barChartLabels = ['2006', '2007', '2008', '2009', '2010', '2011', '2012'];
-  public barChartType = 'bar';
-  public barChartLegend = true;
-  public barChartData = [
-    {data: [65, 59, 80, 81, 56, 55, 40], label: 'people detected with PPE'},
-    {data: [28, 48, 40, 19, 86, 27, 90], label: 'people detected without PPE'}
-  ];
-
-  public doughnutChartLabels = ['Jobcards', 'Work Permit'];
-  public doughnutChartData = [120, 150 ];
-  public doughnutChartType = 'doughnut';
   ngOnInit() {
     this.loadJobanalysis();
     this.loadDetection();
@@ -95,15 +103,133 @@ export class DashboardComponent implements OnInit {
     this.loadJobcard();
     this.loadToolboxtalkks();
     this.loadWorkpermit();
-    // const body = document.getElementsByTagName('body')[0];
-    // body.classList.add('presentation-page');
-    // const navbar = document.getElementById('navbar-main');
-    // navbar.classList.add('bg-primary');
+    const body = document.getElementsByTagName('body')[0];
+    body.classList.add('presentation-page');
+    const navbar = document.getElementById('navbar-main');
+    navbar.classList.add('bg-primary');
     this.dtOptions = {
       pagingType: 'full_numbers'
     };
-      // generate random values for mainChart
+
+    this.httpClient.get(this.jobcardAmountUrl).subscribe((result: Jobcard[]) => {
+      result.forEach(x => {
+        this.jobcardAmountDate.push(x.starting_date);
+        this.jobcardAmountNumber.push(x.amount_invoiced);
+        this.jobcardSiteName.push(x.location_name);
+      });
+
+      this.Linechart = new Chart('canvasline', {
+        type: 'line',
+        data: {
+          labels: this.jobcardAmountDate,
+          datasets: [
+            {
+              data: this.jobcardAmountNumber,
+              borderColor: '#3cb371',
+              backgroundColor: '#0000FF',
+              label: this.jobcardSiteName
+            }
+          ]
+        },
+        options: {
+          legend: {
+            display: false
+          },
+          scales: {
+            xAxes: [{
+              display: true
+            }],
+            yAxes: [{
+              display: true
+            }],
+          }
+        }
+      });
+    });
+
+    this.http.get(this.detectionUrl).subscribe((result: Detection[]) => {
+    result.slice(-10, -1).forEach(x => {
+        this.ppeDate.push(x.createdAt);
+        this.ppeDetected.push(x.person_with_helmet);
+        this.ppeNotDetected.push(x.person_without_helmet);
+      });
+    this.barchart = new Chart('canvasbar', {
+        type: 'bar',
+        data: {
+          labels: this.ppeDate,
+          datasets: [
+            {
+              data: this.ppeNotDetected,
+              borderColor: '#3cba9f',
+              backgroundColor: 'red',
+              label: 'people without PPE',
+              fill: true
+            },
+            {
+              data: this.ppeDetected,
+              borderColor: '#3cba9f',
+              backgroundColor: 'blue',
+              label: 'people with PPE',
+              fill: true
+            }
+          ]
+        },
+        options: {
+          legend: {
+            display: false
+          },
+          scales: {
+            xAxes: [{
+              display: true
+            }],
+            yAxes: [{
+              display: true
+            }],
+          }
+        }
+      });
+    });
+    this.httpClient.get(this.workpermitUrl).subscribe((workpermitresult: WorkPermit[]) => {
+      workpermitresult.forEach(x => {
+        this.workpermitNumber.push(workpermitresult.length);
+      });
+
+      this.httpClient.get(this.jobcardUrl).subscribe((jobcardresult: Jobcard[]) => {
+        jobcardresult.forEach(y => {
+          this.jobcardNumber.push(jobcardresult.length);
+        });
+
+        this.piechart = new Chart('piecanvas', {
+        type: 'doughnut',
+        data: {
+          labels: ['workpermits', 'jobcards'],
+          datasets: [
+            {
+              data: [this.workpermitNumber, this.jobcardNumber],
+              backgroundColor: ['#f990a7', '#aad2ed'],
+              fill: true
+            }
+          ],
+        },
+        options: {
+          legend: {
+            display: true
+          },
+          scales: {
+            xAxes: [{
+              display: false
+            }],
+            yAxes: [{
+              display: true
+            }],
+          }
+        }
+      });
+    });
+  });
   }
+      // generate random values for mainChart
+
   ngOnDestroy() {
     const body = document.getElementsByTagName('body')[0];
     body.classList.remove('presentation-page');

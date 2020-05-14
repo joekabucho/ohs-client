@@ -1,5 +1,6 @@
 import { Component, OnInit} from '@angular/core';
 import { JobcardService } from '../shared/jobcard.service';
+import { JobAnalysisService } from '../shared/job-analysis.service';
 import Glide from '@glidejs/glide';
 import {BsModalRef, BsModalService} from 'ngx-bootstrap';
 import {TemplateRef} from '@angular/core';
@@ -29,8 +30,10 @@ export class PmDashboardComponent implements OnInit {
   modalRef: BsModalRef;
 
   Jobcard: any = [];
+  Jobanalysis: any = [];
 
-  constructor(    public JobcardRestApi: JobcardService  , private modalService: BsModalService, private http: HttpClient
+  // tslint:disable-next-line: max-line-length
+  constructor(    public JobanalysisRestApi: JobAnalysisService , public JobcardRestApi: JobcardService  , private modalService: BsModalService, private http: HttpClient
   ) {
   }
 
@@ -40,6 +43,7 @@ export class PmDashboardComponent implements OnInit {
 
   ngOnInit() {
     this.loadJobcards();
+    this.loadJobanalysis();
     new Glide('.presentation-cards', {
       type: 'carousel',
       startAt: 0,
@@ -63,6 +67,11 @@ export class PmDashboardComponent implements OnInit {
   loadJobcards() {
     return this.JobcardRestApi.getJobcard().subscribe((data: {}) => {
       this.Jobcard = data;
+    });
+  }
+  loadJobanalysis() {
+    return this.JobanalysisRestApi.GetJobAnalysiss().subscribe((data: {}) => {
+      this.Jobanalysis = data;
     });
   }
 
