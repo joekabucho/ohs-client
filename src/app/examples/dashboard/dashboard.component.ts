@@ -7,9 +7,9 @@ import { JobAnalysisService } from '../../shared/job-analysis.service';
 import { WorkPermitService } from '../../shared/work-permit.service';
 import { ToolboxTalkService } from '../../shared/toolbox-talk.service';
 import { DetectionService } from '../../shared/detection.service';
-import {HttpClient} from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import { DataTablesModule } from 'angular-datatables';
-import {BrowserModule} from '@angular/platform-browser';
+import { BrowserModule } from '@angular/platform-browser';
 import { Chart } from 'chart.js';
 import { Detection } from '../../shared/detection';
 import { WorkPermit } from '../../shared/work-permit';
@@ -148,12 +148,12 @@ export class DashboardComponent implements OnInit {
     });
 
     this.http.get(this.detectionUrl).subscribe((result: Detection[]) => {
-    result.slice(-10, -1).forEach(x => {
+      result.slice(-10, -1).forEach(x => {
         this.ppeDate.push(x.createdAt);
         this.ppeDetected.push(x.person_with_helmet);
         this.ppeNotDetected.push(x.person_without_helmet);
       });
-    this.barchart = new Chart('canvasbar', {
+      this.barchart = new Chart('canvasbar', {
         type: 'bar',
         data: {
           labels: this.ppeDate,
@@ -200,35 +200,35 @@ export class DashboardComponent implements OnInit {
         });
 
         this.piechart = new Chart('piecanvas', {
-        type: 'doughnut',
-        data: {
-          labels: ['workpermits', 'jobcards'],
-          datasets: [
-            {
-              data: [this.workpermitNumber, this.jobcardNumber],
-              backgroundColor: ['#f990a7', '#aad2ed'],
-              fill: true
-            }
-          ],
-        },
-        options: {
-          legend: {
-            display: true
+          type: 'doughnut',
+          data: {
+            labels: ['workpermits', 'jobcards'],
+            datasets: [
+              {
+                data: [this.workpermitNumber.length, this.jobcardNumber.length],
+                backgroundColor: ['#f990a7', '#aad2ed'],
+                fill: true
+              }
+            ],
           },
-          scales: {
-            xAxes: [{
-              display: false
-            }],
-            yAxes: [{
+          options: {
+            legend: {
               display: true
-            }],
+            },
+            scales: {
+              xAxes: [{
+                display: false
+              }],
+              yAxes: [{
+                display: true
+              }],
+            }
           }
-        }
+        });
       });
     });
-  });
   }
-      // generate random values for mainChart
+  // generate random values for mainChart
 
   ngOnDestroy() {
     const body = document.getElementsByTagName('body')[0];
