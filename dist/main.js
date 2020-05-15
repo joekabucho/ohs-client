@@ -2699,7 +2699,7 @@ var DashboardComponent = /** @class */ (function () {
                         labels: ['workpermits', 'jobcards'],
                         datasets: [
                             {
-                                data: [_this.workpermitNumber, _this.jobcardNumber],
+                                data: [_this.workpermitNumber.length, _this.jobcardNumber.length],
                                 backgroundColor: ['#f990a7', '#aad2ed'],
                                 fill: true
                             }
